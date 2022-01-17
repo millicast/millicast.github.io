@@ -1,0 +1,5 @@
+<map id="millicast::NdiRenderer" name="millicast::NdiRenderer">
+<area shape="rect" id="node1" title="The NdiRenderer class is used to render video as an ndi source." alt="" coords="12,155,163,181"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="5,80,169,107"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="22,5,153,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MCSource" name="MCSource">
+<area shape="rect" id="node1" title="The Source base class." alt="" coords="177,80,261,107"/>
+<area shape="rect" id="node3" href="$interface_m_c_audio_playback.html" title="The AudioPlayback class." alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node4" href="$interface_m_c_audio_source.html" title="The AudioSource class." alt="" coords="160,155,277,181"/>
+<area shape="rect" id="node5" href="$interface_m_c_video_source.html" title="The VideoSource class." alt="" coords="301,155,419,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="179,5,258,32"/>
+</map>

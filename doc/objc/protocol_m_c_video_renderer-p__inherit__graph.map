@@ -1,0 +1,6 @@
+<map id="&lt;MCVideoRenderer&gt;" name="&lt;MCVideoRenderer&gt;">
+<area shape="rect" id="node1" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="83,80,229,107"/>
+<area shape="rect" id="node3" href="$interface_m_c_ios_video_renderer.html" title="The purpose of this interface is to render video frames in a UI view. (iOS and tvOS)" alt="" coords="5,155,152,181"/>
+<area shape="rect" id="node4" href="$interface_m_c_ndi_renderer.html" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="177,155,293,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="80,5,232,32"/>
+</map>

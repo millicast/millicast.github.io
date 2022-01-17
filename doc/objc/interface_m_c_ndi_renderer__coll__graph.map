@@ -1,0 +1,6 @@
+<map id="MCNdiRenderer" name="MCNdiRenderer">
+<area shape="rect" id="node1" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="55,155,171,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,84,107"/>
+<area shape="rect" id="node3" href="$protocol_m_c_video_renderer-p.html" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="108,80,253,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="105,5,257,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="millicast::AudioControl" name="millicast::AudioControl">
+<area shape="rect" id="node1" title="The AudioControl class." alt="" coords="102,5,255,32"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_audio_playback.html" title="The AudioPlayback class." alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_audio_source.html" title="The AudioSource class." alt="" coords="195,80,347,107"/>
+</map>

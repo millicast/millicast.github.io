@@ -1,0 +1,5 @@
+<map id="millicast::Track" name="millicast::Track">
+<area shape="rect" id="node1" title="The Track class represent a media sources." alt="" coords="106,5,217,32"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_audio_track.html" title="The AudioTrack class." alt="" coords="5,80,149,107"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_video_track.html" title="The VideoTrack class." alt="" coords="173,80,317,107"/>
+</map>

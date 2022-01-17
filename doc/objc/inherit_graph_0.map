@@ -1,0 +1,54 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$protocol_m_c_client-p.html" title="The Client base class." alt="" coords="257,31,351,57"/>
+<area shape="rect" id="node2" href="$interface_m_c_publisher.html" title="The Publisher interface. Its purpose is to publish media to a Millicast stream." alt="" coords="509,56,607,83"/>
+<area shape="rect" id="node3" href="$interface_m_c_subscriber.html" title="The Subscriber class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="505,5,611,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="205,968,403,995"/>
+<area shape="rect" id="node5" href="$protocol_m_c_audio_control-p.html" title="The AudioControl class." alt="" coords="491,968,625,995"/>
+<area shape="rect" id="node6" href="$interface_m_c_audio_playback.html" title="The AudioPlayback class." alt="" coords="740,968,871,995"/>
+<area shape="rect" id="node7" href="$interface_m_c_audio_source.html" title="The AudioSource class." alt="" coords="747,867,864,893"/>
+<area shape="rect" id="node8" title=" " alt="" coords="265,461,343,488"/>
+<area shape="rect" id="node9" href="$interface_m_c_audio_frame.html" title="The AudioFrame interface used to described audio data." alt="" coords="501,259,615,285"/>
+<area shape="rect" id="node10" href="$interface_m_c_cleanup.html" title="Clean and free the memory of dynamic objects." alt="" coords="513,309,603,336"/>
+<area shape="rect" id="node11" href="$interface_m_c_client_options.html" title=" " alt="" coords="497,360,619,387"/>
+<area shape="rect" id="node12" href="$interface_m_c_ios_video_renderer.html" title="The purpose of this interface is to render video frames in a UI view. (iOS and tvOS)" alt="" coords="485,867,631,893"/>
+<area shape="rect" id="node13" href="$interface_m_c_logger.html" title="The logger object. Add your own delegate to receive log messages from the sdk." alt="" coords="517,411,599,437"/>
+<area shape="rect" id="node14" href="$interface_m_c_media.html" title="The Media class is used to manage media sources." alt="" coords="519,461,597,488"/>
+<area shape="rect" id="node15" href="$interface_m_c_ndi_renderer.html" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="500,917,616,944"/>
+<area shape="rect" id="node16" href="$interface_m_c_publisher_credentials.html" title="The Credentials interface represents the credentials needed to be able to connect and publish to a Mi..." alt="" coords="477,563,639,589"/>
+<area shape="rect" id="node17" href="$interface_m_c_source.html" title="The Source base class." alt="" coords="516,816,600,843"/>
+<area shape="rect" id="node19" href="$interface_m_c_source_builder.html" title="The source builder is used to build a source object." alt="" coords="496,512,620,539"/>
+<area shape="rect" id="node23" href="$interface_m_c_stats.html" title=" " alt="" coords="521,613,595,640"/>
+<area shape="rect" id="node38" href="$interface_m_c_stats_report.html" title=" " alt="" coords="501,715,615,741"/>
+<area shape="rect" id="node39" href="$interface_m_c_subscriber_credentials.html" title="The Credentials interface represent the credentials need to be able to connect and subscribe to a Mil..." alt="" coords="473,107,643,133"/>
+<area shape="rect" id="node40" href="$interface_m_c_track.html" title="The Track class represent a media sources." alt="" coords="520,664,596,691"/>
+<area shape="rect" id="node43" href="$interface_m_c_video_capabilities.html" title="The VideoCapabilities struct." alt="" coords="486,157,630,184"/>
+<area shape="rect" id="node44" href="$interface_m_c_video_frame.html" title="The VideoFrame interface used to described a VideoFrame." alt="" coords="501,208,615,235"/>
+<area shape="rect" id="node18" href="$interface_m_c_video_source.html" title="The VideoSource class." alt="" coords="747,816,864,843"/>
+<area shape="rect" id="node20" href="$interface_m_c_audio_playback_builder.html" title=" " alt="" coords="720,360,891,387"/>
+<area shape="rect" id="node21" href="$interface_m_c_audio_source_builder.html" title=" " alt="" coords="727,411,884,437"/>
+<area shape="rect" id="node22" href="$interface_m_c_video_source_builder.html" title=" " alt="" coords="727,461,884,488"/>
+<area shape="rect" id="node24" href="$interface_m_c_codecs_stats.html" title=" " alt="" coords="746,512,865,539"/>
+<area shape="rect" id="node25" href="$interface_m_c_media_source_stats.html" title=" " alt="" coords="730,563,881,589"/>
+<area shape="rect" id="node28" href="$interface_m_c_media_stream_track_stats.html" title=" " alt="" coords="713,613,897,640"/>
+<area shape="rect" id="node31" href="$interface_m_c_rtp_stream_stats.html" title=" " alt="" coords="737,664,874,691"/>
+<area shape="rect" id="node26" href="$interface_m_c_audio_source_stats.html" title=" " alt="" coords="967,487,1115,513"/>
+<area shape="rect" id="node27" href="$interface_m_c_video_source_stats.html" title=" " alt="" coords="967,537,1115,564"/>
+<area shape="rect" id="node29" href="$interface_m_c_audio_stream_track_stats.html" title=" " alt="" coords="950,588,1133,615"/>
+<area shape="rect" id="node30" href="$interface_m_c_video_stream_track_stats.html" title=" " alt="" coords="950,639,1133,665"/>
+<area shape="rect" id="node32" href="$interface_m_c_received_rtp_stream_stats.html" title=" " alt="" coords="945,689,1137,716"/>
+<area shape="rect" id="node35" href="$interface_m_c_sent_rtp_stream_stats.html" title=" " alt="" coords="959,748,1123,775"/>
+<area shape="rect" id="node33" href="$interface_m_c_inbound_rtp_stream_stats.html" title=" " alt="" coords="1198,631,1381,657"/>
+<area shape="rect" id="node34" href="$interface_m_c_remote_inbound_rtp_stream_stats.html" title=" " alt="" coords="1190,682,1389,723"/>
+<area shape="rect" id="node36" href="$interface_m_c_outbound_rtp_stream_stats.html" title=" " alt="" coords="1193,748,1386,775"/>
+<area shape="rect" id="node37" href="$interface_m_c_remote_outbound_rtp_stream_stats.html" title=" " alt="" coords="1185,799,1393,841"/>
+<area shape="rect" id="node41" href="$interface_m_c_audio_track.html" title="The AudioTrack class." alt="" coords="751,765,860,792"/>
+<area shape="rect" id="node42" href="$interface_m_c_video_track.html" title="The VideoTrack class." alt="" coords="751,715,860,741"/>
+<area shape="rect" id="node45" title=" " alt="" coords="257,1069,351,1096"/>
+<area shape="rect" id="node46" href="$protocol_m_c_ios_video_renderer_delegate-p.html" title=" " alt="" coords="451,1019,665,1045"/>
+<area shape="rect" id="node47" href="$protocol_m_c_logger_delegate-p.html" title="The delegate to receive log message from the sdk." alt="" coords="483,1120,633,1147"/>
+<area shape="rect" id="node48" href="$protocol_playback_source-p.html" title=" " alt="" coords="491,1069,625,1096"/>
+<area shape="rect" id="node49" title=" " alt="" coords="5,765,157,792"/>
+<area shape="rect" id="node50" href="$protocol_capture_source-p.html" title=" " alt="" coords="495,765,621,792"/>
+<area shape="rect" id="node51" href="$protocol_m_c_audio_renderer-p.html" title="The AudioRenderer protocol inherits this if you want to render audio in a specific way in your applic..." alt="" coords="231,411,377,437"/>
+<area shape="rect" id="node52" href="$protocol_m_c_video_renderer-p.html" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="231,867,377,893"/>
+</map>

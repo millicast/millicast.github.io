@@ -1,0 +1,4 @@
+<map id="MCLogger" name="MCLogger">
+<area shape="rect" id="node1" title="The logger object. Add your own delegate to receive log messages from the sdk." alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="7,5,86,32"/>
+</map>

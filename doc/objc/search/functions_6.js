@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['get_3a_0',['get:',['../interface_m_c_stats_report.html#a77f4e6d0b5ef7065eaca5322fb517881',1,'MCStatsReport']]],
+  ['get_5ftype_1',['get_type',['../interface_m_c_codecs_stats.html#af9fcc5e05558ae49d21ab14839e2179d',1,'MCCodecsStats::get_type()'],['../interface_m_c_received_rtp_stream_stats.html#aa8400041ddcad94a39ea4b866f0c555b',1,'MCReceivedRtpStreamStats::get_type()'],['../interface_m_c_inbound_rtp_stream_stats.html#ad42b47318ae04cdfe20a853648dbc218',1,'MCInboundRtpStreamStats::get_type()'],['../interface_m_c_sent_rtp_stream_stats.html#a53d7e483863b044712dbb07bc65a33ff',1,'MCSentRtpStreamStats::get_type()'],['../interface_m_c_outbound_rtp_stream_stats.html#a106fcfd20a8fcfed237863d9719449b0',1,'MCOutboundRtpStreamStats::get_type()'],['../interface_m_c_remote_outbound_rtp_stream_stats.html#a8da01aa2f308fa726e98b39b9d9b8705',1,'MCRemoteOutboundRtpStreamStats::get_type()'],['../interface_m_c_remote_inbound_rtp_stream_stats.html#a2fecae7e148c743a1006d056b3b8943b',1,'MCRemoteInboundRtpStreamStats::get_type()'],['../interface_m_c_media_stream_track_stats.html#a7a6590778b427eb2ce5e4e62e73bc83f',1,'MCMediaStreamTrackStats::get_type()'],['../interface_m_c_video_stream_track_stats.html#a25b90e733d63fcdc48a46597afa99f47',1,'MCVideoStreamTrackStats::get_type()'],['../interface_m_c_audio_stream_track_stats.html#a7555f238fcbe9b5915c373b49ee47113',1,'MCAudioStreamTrackStats::get_type()'],['../interface_m_c_media_source_stats.html#a97080ae9b88ca4b2e86f5a5f3239f156',1,'MCMediaSourceStats::get_type()'],['../interface_m_c_video_source_stats.html#ab26f6718ff03745bea7bfa4459a96d1e',1,'MCVideoSourceStats::get_type()'],['../interface_m_c_audio_source_stats.html#af4805ac6f54152578d916f07989eea5d',1,'MCAudioSourceStats::get_type()']]],
+  ['getaudiosources_2',['getAudioSources',['../interface_m_c_media.html#ac10ecd46c58eba023aa26279c7e48cc3',1,'MCMedia']]],
+  ['getcapabilities_3',['getCapabilities',['../interface_m_c_video_source.html#aef843008f249abb834631fff445dd0d0',1,'MCVideoSource']]],
+  ['getcredentials_4',['getCredentials',['../interface_m_c_publisher.html#a608c00a31d0669ce4c58a21aab7818e2',1,'MCPublisher::getCredentials()'],['../interface_m_c_subscriber.html#a2f54cba3a4ac851b92bd363e16e654df',1,'MCSubscriber::getCredentials()']]],
+  ['getheight_5',['getHeight',['../interface_m_c_ios_video_renderer.html#a31a45f90bfbea47c7e7d3a28bc9396c1',1,'MCIosVideoRenderer']]],
+  ['geti420buffer_6',['getI420Buffer',['../interface_m_c_video_frame.html#ac1ad48550d8dfc4941b8a79847e26eb0',1,'MCVideoFrame']]],
+  ['getid_7',['getId',['../interface_m_c_track.html#a41ccd6e5db16024865a2e2a184315be1',1,'MCTrack']]],
+  ['getname_8',['getName',['../interface_m_c_source.html#a9e0a88479f63d76aba51dd5683167bd4',1,'MCSource']]],
+  ['getplaybackdevices_9',['getPlaybackDevices',['../interface_m_c_media.html#a1c0b09930a9288d8d1c929e0a871b390',1,'MCMedia']]],
+  ['getrgbbuffer_10',['getRgbBuffer',['../interface_m_c_video_frame.html#a3a7df7bea20645196c07e20298119eed',1,'MCVideoFrame']]],
+  ['getstatsoftype_3a_11',['getStatsOfType:',['../interface_m_c_stats_report.html#a6b5097fbfd9884021479560a2431b496',1,'MCStatsReport']]],
+  ['getsupportedaudiocodecs_12',['getSupportedAudioCodecs',['../interface_m_c_media.html#a433140f93adf5148c1d9168e10e8884f',1,'MCMedia']]],
+  ['getsupportedvideocodecs_13',['getSupportedVideoCodecs',['../interface_m_c_media.html#ad8508d464f77a6ff706707ce53ce9a76',1,'MCMedia']]],
+  ['gettype_14',['getType',['../interface_m_c_source.html#aeff1847cb45ca454573f1b726c0b544e',1,'MCSource']]],
+  ['gettypeasstring_15',['getTypeAsString',['../interface_m_c_source.html#a9ce239618d1d6518da3f8ecfb8716aad',1,'MCSource']]],
+  ['getuniqueid_16',['getUniqueId',['../interface_m_c_source.html#a35c67f76ccc0f79aa54ff95308004ce7',1,'MCSource']]],
+  ['getvideosources_17',['getVideoSources',['../interface_m_c_media.html#a4fe8bb0ab6ff1947285e270e55d48572',1,'MCMedia']]],
+  ['getview_18',['getView',['../interface_m_c_ios_video_renderer.html#ac7fd83b38f735378f407c9efe441e0b3',1,'MCIosVideoRenderer']]],
+  ['getvolume_19',['getVolume',['../protocol_m_c_audio_control-p.html#a8ba209bde5ae7e5e948306c93faad226',1,'MCAudioControl-p']]],
+  ['getwidth_20',['getWidth',['../interface_m_c_ios_video_renderer.html#ab506164aa6885d51179aa946e23bc411',1,'MCIosVideoRenderer']]]
+];
