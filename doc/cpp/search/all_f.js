@@ -17,6 +17,7 @@ var searchData=
   ['operator_2d_3e_14',['operator-&gt;',['../classmillicast_1_1_stats_report_1_1const__iterator.html#a3e931d54d4b45255a01862ff9b30c26a',1,'millicast::StatsReport::const_iterator']]],
   ['operator_3d_3d_15',['operator==',['../classmillicast_1_1_stats_report_1_1const__iterator.html#ab83159a96b019c67a31a3c7d48b1cf1b',1,'millicast::StatsReport::const_iterator']]],
   ['option_16',['Option',['../structmillicast_1_1_client_1_1_option.html',1,'millicast::Client::Option'],['../structmillicast_1_1_publisher_1_1_option.html',1,'millicast::Publisher::Option']]],
-  ['outbound_5frtp_17',['OUTBOUND_RTP',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19eba54274f81461f02db52007fec6b545697',1,'millicast::rtcstats']]],
-  ['outboundrtpstream_18',['OutboundRtpStream',['../structmillicast_1_1rtcstats_1_1_outbound_rtp_stream.html',1,'millicast::rtcstats']]]
+  ['opus_5fcodec_5fname_17',['OPUS_CODEC_NAME',['../namespacemillicast_1_1_codec.html#a531afa143a28d8b6e629b0ffa4e80619',1,'millicast::Codec']]],
+  ['outbound_5frtp_18',['OUTBOUND_RTP',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19eba54274f81461f02db52007fec6b545697',1,'millicast::rtcstats']]],
+  ['outboundrtpstream_19',['OutboundRtpStream',['../structmillicast_1_1rtcstats_1_1_outbound_rtp_stream.html',1,'millicast::rtcstats']]]
 ];

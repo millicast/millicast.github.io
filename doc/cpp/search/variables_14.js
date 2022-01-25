@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['width_0',['width',['../classmillicast_1_1_video_capabilities.html#acc8a786ffba27b78c83b9cecd4a65831',1,'millicast::VideoCapabilities::width()'],['../structmillicast_1_1rtcstats_1_1_video_stream_track.html#abbe00b543f3fbf04b47f2511da9a983b',1,'millicast::rtcstats::VideoStreamTrack::width()'],['../structmillicast_1_1rtcstats_1_1_video_source.html#a55e0aee4c4ca6f3b892099ce00b08bc3',1,'millicast::rtcstats::VideoSource::width()']]],
-  ['ws_5furl_1',['ws_url',['../structmillicast_1_1_client_1_1_json_data.html#aed00835f3390b08447b387d3a29011e3',1,'millicast::Client::JsonData']]]
+  ['video_0',['video',['../structmillicast_1_1_publisher_1_1_option.html#afc5a066d5a11d32879c9f1b1b9ab9dc2',1,'millicast::Publisher::Option']]],
+  ['video_5fstandard_1',['video_standard',['../classmillicast_1_1_video_capabilities.html#a8fc8c3ba42111bd827f45a666cc09e79',1,'millicast::VideoCapabilities']]],
+  ['vp8_5fcodec_5fname_2',['VP8_CODEC_NAME',['../namespacemillicast_1_1_codec.html#ad41c956f49cb13b74f02002e777637d1',1,'millicast::Codec']]],
+  ['vp9_5fcodec_5fname_3',['VP9_CODEC_NAME',['../namespacemillicast_1_1_codec.html#a92553449951ae6eb7d56498c3618d648',1,'millicast::Codec']]]
 ];

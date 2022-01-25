@@ -16,5 +16,6 @@ var searchData=
   ['audiorenderer_13',['AudioRenderer',['../classmillicast_1_1_audio_renderer.html#a078696660516cb00b0437a1bdd61fcd1',1,'millicast::AudioRenderer::AudioRenderer()'],['../classmillicast_1_1_audio_renderer.html',1,'millicast::AudioRenderer']]],
   ['audiosource_14',['AudioSource',['../classmillicast_1_1_audio_source.html#a59f2983ccd65ff90c0ad2f76d3030f2a',1,'millicast::AudioSource::AudioSource()'],['../classmillicast_1_1_audio_source.html',1,'millicast::AudioSource'],['../structmillicast_1_1rtcstats_1_1_audio_source.html',1,'millicast::rtcstats::AudioSource']]],
   ['audiostreamtrack_15',['AudioStreamTrack',['../structmillicast_1_1rtcstats_1_1_audio_stream_track.html',1,'millicast::rtcstats']]],
-  ['audiotrack_16',['AudioTrack',['../classmillicast_1_1_audio_track.html#a273c63bd3074f915022e25ebbf5a98b5',1,'millicast::AudioTrack::AudioTrack()'],['../classmillicast_1_1_audio_track.html',1,'millicast::AudioTrack']]]
+  ['audiotrack_16',['AudioTrack',['../classmillicast_1_1_audio_track.html#a273c63bd3074f915022e25ebbf5a98b5',1,'millicast::AudioTrack::AudioTrack()'],['../classmillicast_1_1_audio_track.html',1,'millicast::AudioTrack']]],
+  ['av1_5fcodec_5fname_17',['AV1_CODEC_NAME',['../namespacemillicast_1_1_codec.html#a831331db825a2cc4cf0e9bf96bddf6da',1,'millicast::Codec']]]
 ];

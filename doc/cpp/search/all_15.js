@@ -12,5 +12,7 @@ var searchData=
   ['videotrack_9',['VideoTrack',['../classmillicast_1_1_video_track.html',1,'millicast::VideoTrack'],['../classmillicast_1_1_video_track.html#a2209104339f9a235467658cc215fe470',1,'millicast::VideoTrack::VideoTrack()']]],
   ['videotype_10',['VideoType',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2a',1,'millicast']]],
   ['viewer_11',['Viewer',['../classmillicast_1_1_viewer.html',1,'millicast::Viewer'],['../classmillicast_1_1_viewer.html#ab60a9054cbff5b99248046bc83f64d92',1,'millicast::Viewer::Viewer()']]],
-  ['viewer_2eh_12',['viewer.h',['../viewer_8h.html',1,'']]]
+  ['viewer_2eh_12',['viewer.h',['../viewer_8h.html',1,'']]],
+  ['vp8_5fcodec_5fname_13',['VP8_CODEC_NAME',['../namespacemillicast_1_1_codec.html#ad41c956f49cb13b74f02002e777637d1',1,'millicast::Codec']]],
+  ['vp9_5fcodec_5fname_14',['VP9_CODEC_NAME',['../namespacemillicast_1_1_codec.html#a92553449951ae6eb7d56498c3618d648',1,'millicast::Codec']]]
 ];

@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['remote_5fid_0',['remote_id',['../structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html#ae34defba1e3211dcfd96b9d5d523bbae',1,'millicast::rtcstats::InboundRtpStream::remote_id()'],['../structmillicast_1_1rtcstats_1_1_outbound_rtp_stream.html#a42bc3005d00921150034ba58b8c50f9b',1,'millicast::rtcstats::OutboundRtpStream::remote_id()']]],
-  ['remote_5ftimestamp_1',['remote_timestamp',['../structmillicast_1_1rtcstats_1_1_remote_outbound_rtp_stream.html#aadc9e236bb300fb202e9e45cfb639105',1,'millicast::rtcstats::RemoteOutboundRtpStream']]],
-  ['round_5ftrip_5ftime_2',['round_trip_time',['../structmillicast_1_1rtcstats_1_1_remote_inbound_rtp_stream.html#a9c3bf05a0ac042e92e3c0666b00c09c5',1,'millicast::rtcstats::RemoteInboundRtpStream']]]
+  ['packets_5fdiscarded_0',['packets_discarded',['../structmillicast_1_1rtcstats_1_1_received_rtp_stream.html#ac861965043cef14597109a8aa396dd8b',1,'millicast::rtcstats::ReceivedRtpStream']]],
+  ['packets_5flost_1',['packets_lost',['../structmillicast_1_1rtcstats_1_1_received_rtp_stream.html#a6fbb2fdeaafff592be2986d9f1c0c09d',1,'millicast::rtcstats::ReceivedRtpStream']]],
+  ['packets_5freceived_2',['packets_received',['../structmillicast_1_1rtcstats_1_1_received_rtp_stream.html#a622f573e6dcc5f78f1d0781cc3c1d592',1,'millicast::rtcstats::ReceivedRtpStream']]],
+  ['packets_5fsent_3',['packets_sent',['../structmillicast_1_1rtcstats_1_1_sent_rtp_stream.html#aed27f16e2c66f2ed82bce19e6c410be9',1,'millicast::rtcstats::SentRtpStream']]],
+  ['payload_5ftype_4',['payload_type',['../structmillicast_1_1rtcstats_1_1_codecs.html#acf00a2093e958ccd1779326097235949',1,'millicast::rtcstats::Codecs']]],
+  ['pinned_5fsource_5fid_5',['pinned_source_id',['../structmillicast_1_1_client_1_1_option.html#a0b9c563caa6fd2e29b1c0a026f024d04',1,'millicast::Client::Option']]]
 ];
