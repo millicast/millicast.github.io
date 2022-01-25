@@ -76,8 +76,9 @@ var searchData=
   ['media_5fsource_5fid_73',['media_source_id',['../interface_m_c_media_stream_track_stats.html#ae460b4850707ff135441018c01ae3816',1,'MCMediaStreamTrackStats']]],
   ['media_5ftrack_74',['MEDIA_TRACK',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11ad25ec8dc6136b0b74736a36112971ac4',1,'stats.h']]],
   ['millicast_5fapi_75',['MILLICAST_API',['../exports_8h.html#aa97c98cff55858c98aa2585e225b1158',1,'exports.h']]],
-  ['mime_5ftype_76',['mime_type',['../interface_m_c_codecs_stats.html#a5fd7697dfb30a513080ffc9bb6a0b9a3',1,'MCCodecsStats']]],
-  ['mjpeg_77',['MJPEG',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90aad8b9ea01d1d0cd13818a95dffd585c7',1,'capabilities.h']]],
-  ['multiplexedaudiotrack_78',['multiplexedAudioTrack',['../interface_m_c_client_options.html#abdcf63893058d69b0429eef35baa4b5e',1,'MCClientOptions']]],
-  ['mute_3a_79',['mute:',['../protocol_m_c_audio_control-p.html#a10b84fc2eb4ff28da69ff94092d08ab8',1,'MCAudioControl-p']]]
+  ['millicastsdk_2eh_76',['MillicastSDK.h',['../_millicast_s_d_k_8h.html',1,'']]],
+  ['mime_5ftype_77',['mime_type',['../interface_m_c_codecs_stats.html#a5fd7697dfb30a513080ffc9bb6a0b9a3',1,'MCCodecsStats']]],
+  ['mjpeg_78',['MJPEG',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90aad8b9ea01d1d0cd13818a95dffd585c7',1,'capabilities.h']]],
+  ['multiplexedaudiotrack_79',['multiplexedAudioTrack',['../interface_m_c_client_options.html#abdcf63893058d69b0429eef35baa4b5e',1,'MCClientOptions']]],
+  ['mute_3a_80',['mute:',['../protocol_m_c_audio_control-p.html#a10b84fc2eb4ff28da69ff94092d08ab8',1,'MCAudioControl-p']]]
 ];
