@@ -6,7 +6,8 @@ var searchData=
   ['enable_5fstats_3',['enable_stats',['../classmillicast_1_1_client.html#a6ef59e5e85d54302cf15b0c06a98f353',1,'millicast::Client']]],
   ['encode_4',['ENCODE',['../structmillicast_1_1rtcstats_1_1_codecs.html#af899855f0f9a61a893399e9a2a302765a72dc6108320c037328c864dd6bef1f05',1,'millicast::rtcstats::Codecs']]],
   ['encoder_5fimplementation_5',['encoder_implementation',['../structmillicast_1_1rtcstats_1_1_outbound_rtp_stream.html#a3f1bc745fc29a831006dca9dcde0f59f',1,'millicast::rtcstats::OutboundRtpStream']]],
-  ['end_6',['end',['../classmillicast_1_1_stats_report.html#aa4b3483b60e8e9358df10f318e6201ec',1,'millicast::StatsReport']]],
-  ['excluded_5fsource_5fid_7',['excluded_source_id',['../structmillicast_1_1_client_1_1_option.html#a2b03bcf1d3d9f18660841d44b481adb0',1,'millicast::Client::Option']]],
-  ['exports_2eh_8',['exports.h',['../exports_8h.html',1,'']]]
+  ['encoding_5fid_6',['encoding_id',['../structmillicast_1_1_viewer_1_1_layer_data.html#aca96933e73f5d07acf8185026a07142c',1,'millicast::Viewer::LayerData']]],
+  ['end_7',['end',['../classmillicast_1_1_stats_report.html#aa4b3483b60e8e9358df10f318e6201ec',1,'millicast::StatsReport']]],
+  ['excluded_5fsource_5fid_8',['excluded_source_id',['../structmillicast_1_1_viewer_1_1_option.html#a3952717ab167f1067b579d377ed9612a',1,'millicast::Viewer::Option']]],
+  ['exports_2eh_9',['exports.h',['../exports_8h.html',1,'']]]
 ];

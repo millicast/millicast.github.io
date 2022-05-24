@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['degradationpreferences_0',['DegradationPreferences',['../namespacemillicast.html#a1f4a37c3aa6bf62c4aff9f2da4d24dc3',1,'millicast']]]
+  ['contenthint_0',['ContentHint',['../classmillicast_1_1_video_track.html#ab6ef1cbb1408803db5fd7a2b63b8b5e5',1,'millicast::VideoTrack']]]
 ];

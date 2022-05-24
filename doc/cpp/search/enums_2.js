@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['scalabilitymode_0',['ScalabilityMode',['../namespacemillicast.html#a3167efde11adb089493f904c86a13f65',1,'millicast']]]
+  ['loglevel_0',['LogLevel',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c',1,'millicast']]]
 ];
