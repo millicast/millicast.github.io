@@ -8,6 +8,7 @@ var searchData=
   ['enablesvcwithmode_3a_5',['enableSvcWithMode:',['../interface_m_c_publisher.html#ac024c171b8234a52c75f39f7070744bd',1,'MCPublisher']]],
   ['encode_6',['ENCODE',['../stats_8h.html#a894c0499b007fb72c9d2eb3ae633be40a461c9de854d68995ea040c24cb0f749f',1,'stats.h']]],
   ['encoder_5fimplementation_7',['encoder_implementation',['../interface_m_c_outbound_rtp_stream_stats.html#a011b48af79a1093bbbd8f1aba87e7c0a',1,'MCOutboundRtpStreamStats']]],
-  ['excludedsourceid_8',['excludedSourceId',['../interface_m_c_client_options.html#a83522073c38bde716945ed730438f10f',1,'MCClientOptions']]],
-  ['exports_2eh_9',['exports.h',['../exports_8h.html',1,'']]]
+  ['encodingid_8',['encodingId',['../interface_m_c_layer_data.html#a8d16fdf7d167d4f1ab5f5e2fdd2a6b78',1,'MCLayerData']]],
+  ['excludedsourceid_9',['excludedSourceId',['../interface_m_c_client_options.html#a83522073c38bde716945ed730438f10f',1,'MCClientOptions']]],
+  ['exports_2eh_10',['exports.h',['../exports_8h.html',1,'']]]
 ];
