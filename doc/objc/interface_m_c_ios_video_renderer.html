@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.3.0</span>
    </div>
   </td>
  </tr>
@@ -99,6 +99,8 @@ Collaboration diagram for MCIosVideoRenderer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
+<tr class="memitem:a830afc060a13cf42488f9994f4acc6b4"><td class="memItemLeft" align="right" valign="top">(instancetype)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_ios_video_renderer.html#a830afc060a13cf42488f9994f4acc6b4">initWithColorRangeExpansion:</a></td></tr>
+<tr class="separator:a830afc060a13cf42488f9994f4acc6b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7fd83b38f735378f407c9efe441e0b3"><td class="memItemLeft" align="right" valign="top">(UIView *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_ios_video_renderer.html#ac7fd83b38f735378f407c9efe441e0b3">getView</a></td></tr>
 <tr class="separator:ac7fd83b38f735378f407c9efe441e0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab506164aa6885d51179aa946e23bc411"><td class="memItemLeft" align="right" valign="top">(float)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_ios_video_renderer.html#ab506164aa6885d51179aa946e23bc411">getWidth</a></td></tr>
@@ -120,6 +122,8 @@ Properties</h2></td></tr>
 <tr class="separator:a35cd35dca315389d1ee940acff76c7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8645ac15be5c97dc3cab5bceaca4320a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_ios_video_renderer.html#a8645ac15be5c97dc3cab5bceaca4320a">height</a><code> [implementation]</code></td></tr>
 <tr class="separator:a8645ac15be5c97dc3cab5bceaca4320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab700dbea179644083b29a2328d5304c"><td class="memItemLeft" align="right" valign="top">BOOL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_ios_video_renderer.html#aab700dbea179644083b29a2328d5304c">colorRangeExpansion</a><code> [implementation]</code></td></tr>
+<tr class="separator:aab700dbea179644083b29a2328d5304c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The purpose of this interface is to render video frames in a UI view. (iOS and tvOS) </p>
@@ -178,7 +182,48 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a830afc060a13cf42488f9994f4acc6b4" name="a830afc060a13cf42488f9994f4acc6b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a830afc060a13cf42488f9994f4acc6b4">&#9670;&nbsp;</a></span>initWithColorRangeExpansion:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (instancetype) initWithColorRangeExpansion: </td>
+          <td></td>
+          <td class="paramtype">(BOOL)&#160;</td>
+          <td class="paramname"><em>enable</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p >Initialize with the option of expanding limited color range to full range upon rendering. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="aab700dbea179644083b29a2328d5304c" name="aab700dbea179644083b29a2328d5304c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab700dbea179644083b29a2328d5304c">&#9670;&nbsp;</a></span>colorRangeExpansion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) colorRangeExpansion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">read</span><span class="mlabel">write</span><span class="mlabel">atomic</span><span class="mlabel">implementation</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1908101674685935bf8f460e24a19587" name="a1908101674685935bf8f460e24a19587"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1908101674685935bf8f460e24a19587">&#9670;&nbsp;</a></span>delegate</h2>
 

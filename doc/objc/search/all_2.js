@@ -12,9 +12,10 @@ var searchData=
   ['codec_9',['CODEC',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a3b1d027ef0c7749664aa744ad5e4f937',1,'stats.h']]],
   ['codec_5fid_10',['codec_id',['../interface_m_c_rtp_stream_stats.html#a07dd8c708e7e61d0d828e567e7b86fb8',1,'MCRtpStreamStats']]],
   ['codec_5ftype_11',['codec_type',['../interface_m_c_codecs_stats.html#a152d6ea159842911425334a8a36fe4e9',1,'MCCodecsStats']]],
-  ['connect_12',['connect',['../protocol_m_c_client-p.html#af165188549127f4493904fa7c0ccac61',1,'MCClient-p']]],
-  ['connectwithdata_3ajwt_3a_13',['connectWithData:jwt:',['../protocol_m_c_client-p.html#ac19ca1cc471f97bff0fda52246489acb',1,'MCClient-p']]],
-  ['cpp_5ftrack_14',['cpp_track',['../interface_m_c_track.html#af4c3f3d8880823d3ef272e7ebe72ea72',1,'MCTrack']]],
-  ['cppframe_15',['cppFrame',['../interface_m_c_audio_frame.html#a82762f281a1a3530cc739c7e9a38a5cb',1,'MCAudioFrame::cppFrame()'],['../interface_m_c_video_frame.html#a72ecc8a22621d66d8b80238bfe1b73db',1,'MCVideoFrame::cppFrame()']]],
-  ['create_16',['create',['../interface_m_c_publisher.html#adedbb3e36e61605f0fd22a95e628b2be',1,'MCPublisher::create()'],['../interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9',1,'MCNdiRenderer::create()'],['../interface_m_c_subscriber.html#a5c5bc921ce759b63fcc68d7a5ace9dcd',1,'MCSubscriber::create()']]]
+  ['colorrangeexpansion_12',['colorRangeExpansion',['../interface_m_c_ios_video_renderer.html#aab700dbea179644083b29a2328d5304c',1,'MCIosVideoRenderer']]],
+  ['connect_13',['connect',['../protocol_m_c_client-p.html#af165188549127f4493904fa7c0ccac61',1,'MCClient-p']]],
+  ['connectwithdata_3ajwt_3a_14',['connectWithData:jwt:',['../protocol_m_c_client-p.html#ac19ca1cc471f97bff0fda52246489acb',1,'MCClient-p']]],
+  ['cpp_5ftrack_15',['cpp_track',['../interface_m_c_track.html#af4c3f3d8880823d3ef272e7ebe72ea72',1,'MCTrack']]],
+  ['cppframe_16',['cppFrame',['../interface_m_c_audio_frame.html#a82762f281a1a3530cc739c7e9a38a5cb',1,'MCAudioFrame::cppFrame()'],['../interface_m_c_video_frame.html#a72ecc8a22621d66d8b80238bfe1b73db',1,'MCVideoFrame::cppFrame()']]],
+  ['create_17',['create',['../interface_m_c_publisher.html#adedbb3e36e61605f0fd22a95e628b2be',1,'MCPublisher::create()'],['../interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9',1,'MCNdiRenderer::create()'],['../interface_m_c_subscriber.html#a5c5bc921ce759b63fcc68d7a5ace9dcd',1,'MCSubscriber::create()']]]
 ];

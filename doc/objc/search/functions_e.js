@@ -15,8 +15,9 @@ var searchData=
   ['setvolume_3a_12',['setVolume:',['../protocol_m_c_audio_control-p.html#a6d6eb97fb2601561e89b05a5f655bd8a',1,'MCAudioControl-p::setVolume:()'],['../interface_m_c_audio_track.html#a6d2500cc92a345bc8c422789e9dc04df',1,'MCAudioTrack::setVolume:()']]],
   ['size_13',['size',['../interface_m_c_stats_report.html#a97fd8df027224f606b172431c17f8a6e',1,'MCStatsReport']]],
   ['sizei420_14',['sizeI420',['../interface_m_c_video_frame.html#a09b763700760523a5511ae84005991f0',1,'MCVideoFrame']]],
-  ['sizergb_15',['sizeRgb',['../interface_m_c_video_frame.html#aa6c6e2f1800c9284bb1b6d47894e3743',1,'MCVideoFrame']]],
-  ['startcapture_16',['startCapture',['../protocol_capture_source-p.html#abc18d838383389401191c9cbc3145d9f',1,'CaptureSource-p::startCapture()'],['../interface_m_c_audio_source.html#ad8f05d42cf43f2e9b8f450bd0e32f37b',1,'MCAudioSource::startCapture()']]],
-  ['stopcapture_17',['stopCapture',['../protocol_capture_source-p.html#a6a0ed6c182aecbc5e0a5840d69e5fa27',1,'CaptureSource-p::stopCapture()'],['../interface_m_c_audio_source.html#ae5aedc601e7983c093d2fc5c0d62a8b2',1,'MCAudioSource::stopCapture()']]],
-  ['subscribe_18',['subscribe',['../interface_m_c_subscriber.html#ab1e7a41782c71b021509a54e315e1853',1,'MCSubscriber']]]
+  ['sizei444_15',['sizeI444',['../interface_m_c_video_frame.html#ad733ca6bfcd1325a0c85e9531d1089ba',1,'MCVideoFrame']]],
+  ['sizergb_16',['sizeRgb',['../interface_m_c_video_frame.html#aa6c6e2f1800c9284bb1b6d47894e3743',1,'MCVideoFrame']]],
+  ['startcapture_17',['startCapture',['../protocol_capture_source-p.html#abc18d838383389401191c9cbc3145d9f',1,'CaptureSource-p::startCapture()'],['../interface_m_c_audio_source.html#ad8f05d42cf43f2e9b8f450bd0e32f37b',1,'MCAudioSource::startCapture()']]],
+  ['stopcapture_18',['stopCapture',['../protocol_capture_source-p.html#a6a0ed6c182aecbc5e0a5840d69e5fa27',1,'CaptureSource-p::stopCapture()'],['../interface_m_c_audio_source.html#ae5aedc601e7983c093d2fc5c0d62a8b2',1,'MCAudioSource::stopCapture()']]],
+  ['subscribe_19',['subscribe',['../interface_m_c_subscriber.html#ab1e7a41782c71b021509a54e315e1853',1,'MCSubscriber']]]
 ];
