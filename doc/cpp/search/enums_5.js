@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['videotype_0',['VideoType',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2a',1,'millicast']]]
+  ['rangeid_0',['RangeID',['../namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13',1,'millicast']]]
 ];

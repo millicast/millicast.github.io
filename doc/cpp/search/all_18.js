@@ -8,7 +8,7 @@ var searchData=
   ['_7edecklinkrenderer_5',['~DeckLinkRenderer',['../classmillicast_1_1_deck_link_renderer.html#a7b0bdb01bf3ea9791f6ebb3ad65f493d',1,'millicast::DeckLinkRenderer']]],
   ['_7elistener_6',['~Listener',['../structmillicast_1_1_client_1_1_listener.html#a4af625d8449cd9f9cbc6b2dd6e5e65d5',1,'millicast::Client::Listener']]],
   ['_7endirenderer_7',['~NdiRenderer',['../classmillicast_1_1_ndi_renderer.html#ab3a1593b467550bc23d25cb1ee41c5ff',1,'millicast::NdiRenderer']]],
-  ['_7epublisher_8',['~Publisher',['../classmillicast_1_1_publisher.html#a3e4780fbf162017632fe46ef0ec0ff42',1,'millicast::Publisher']]],
+  ['_7epublisher_8',['~Publisher',['../classmillicast_1_1_publisher.html#a3116434f5ecee5aae643c733875a9fc5',1,'millicast::Publisher']]],
   ['_7erenderer_9',['~Renderer',['../classmillicast_1_1_renderer.html#a8fa1b19d7650a0fbdc019c4af65e1883',1,'millicast::Renderer']]],
   ['_7esource_10',['~Source',['../classmillicast_1_1_source.html#aac606cd46e583cc06a2b94af9fd17e12',1,'millicast::Source']]],
   ['_7estatsreport_11',['~StatsReport',['../classmillicast_1_1_stats_report.html#a253efcbb510044e3be9ef7ca3b473f22',1,'millicast::StatsReport']]],
@@ -17,5 +17,5 @@ var searchData=
   ['_7evideorenderer_14',['~VideoRenderer',['../classmillicast_1_1_video_renderer.html#ac8a82168903fb02fab383a1f6608fc86',1,'millicast::VideoRenderer']]],
   ['_7evideosource_15',['~VideoSource',['../classmillicast_1_1_video_source.html#a03a616ae1db0895467a3f944cb75adb3',1,'millicast::VideoSource']]],
   ['_7evideotrack_16',['~VideoTrack',['../classmillicast_1_1_video_track.html#a170056141717822e02a1d0268d22a421',1,'millicast::VideoTrack']]],
-  ['_7eviewer_17',['~Viewer',['../classmillicast_1_1_viewer.html#a485910a10309ece7f5e674c3a741f9a8',1,'millicast::Viewer']]]
+  ['_7eviewer_17',['~Viewer',['../classmillicast_1_1_viewer.html#ac0c46c0bbbfaa4dd4b17be4ac5bc3c0b',1,'millicast::Viewer']]]
 ];

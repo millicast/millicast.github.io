@@ -1,5 +1,15 @@
 var searchData=
 [
-  ['ndi_0',['NDI',['../classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6a69385d003b591001dc31e2b51ef43c82',1,'millicast::Source']]],
-  ['none_1',['NONE',['../classmillicast_1_1_video_track.html#ab6ef1cbb1408803db5fd7a2b63b8b5e5ab50339a10e1de285ac99d4c3990b8693',1,'millicast::VideoTrack']]]
+  ['maintain_5fframerate_0',['MAINTAIN_FRAMERATE',['../namespacemillicast.html#a1f4a37c3aa6bf62c4aff9f2da4d24dc3a3ee3d08aeee5c27f5333a35e88cbec1b',1,'millicast']]],
+  ['maintain_5fresolution_1',['MAINTAIN_RESOLUTION',['../namespacemillicast.html#a1f4a37c3aa6bf62c4aff9f2da4d24dc3af591116a4ac54f4eedc41852a98fc7ec',1,'millicast']]],
+  ['mc_5fdebug_2',['MC_DEBUG',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02cadfe5b7c2b9844e5a7584372c324e2731',1,'millicast']]],
+  ['mc_5ferror_3',['MC_ERROR',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02ca234573dc87333c7d22069967d9a1e3f2',1,'millicast']]],
+  ['mc_5ffatal_4',['MC_FATAL',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02ca78df49f6b56077ed2b14045ce813efbb',1,'millicast']]],
+  ['mc_5flog_5',['MC_LOG',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02cac3cd2cd7ad528ad399021b082a2d426e',1,'millicast']]],
+  ['mc_5fwarning_6',['MC_WARNING',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02ca03d0bf76ea281cad8859ee7f10d302b5',1,'millicast']]],
+  ['media_5fsource_7',['MEDIA_SOURCE',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebacdd7cff80c36c215a765c925b8d8b7d3',1,'millicast::rtcstats']]],
+  ['media_5ftrack_8',['MEDIA_TRACK',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19eba57e308a879578b7caa137cdc4d11301b',1,'millicast::rtcstats']]],
+  ['mic_9',['MIC',['../classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6a9a321fcd051ed290173210220d9a12a5',1,'millicast::Source']]],
+  ['mjpeg_10',['MJPEG',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa0a5417ce14732e9bdb402be642ebe9ea',1,'millicast']]],
+  ['monitor_11',['MONITOR',['../classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6aff3e179b3cc64393841107ccba0d6e48',1,'millicast::Source']]]
 ];

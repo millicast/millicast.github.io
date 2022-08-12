@@ -9,7 +9,7 @@ var searchData=
   ['on_5fpublishing_6',['on_publishing',['../structmillicast_1_1_publisher_1_1_listener.html#ad381cbdcc2f33611d7260ae4d2d65cd1',1,'millicast::Publisher::Listener']]],
   ['on_5fpublishing_5ferror_7',['on_publishing_error',['../structmillicast_1_1_publisher_1_1_listener.html#a19aa637193a648c9f2f83cfbe18a6751',1,'millicast::Publisher::Listener']]],
   ['on_5fsignaling_5ferror_8',['on_signaling_error',['../structmillicast_1_1_client_1_1_listener.html#a33329bba01a4a515d10c972cdda58998',1,'millicast::Client::Listener']]],
-  ['on_5fstats_5freport_9',['on_stats_report',['../structmillicast_1_1_client_1_1_listener.html#a15e0f598a3bd13d01f55b3317732a4e9',1,'millicast::Client::Listener']]],
+  ['on_5fstats_5freport_9',['on_stats_report',['../structmillicast_1_1_client_1_1_listener.html#aa36eb3fbc60eafb349f8d03c73166741',1,'millicast::Client::Listener']]],
   ['on_5fstopped_10',['on_stopped',['../structmillicast_1_1_viewer_1_1_listener.html#a9fbdc243bbce8dece1400c365e603408',1,'millicast::Viewer::Listener']]],
   ['on_5fsubscribed_11',['on_subscribed',['../structmillicast_1_1_viewer_1_1_listener.html#a786a2d98dfd6d6bb5896b6d4902b7ba1',1,'millicast::Viewer::Listener']]],
   ['on_5fsubscribed_5ferror_12',['on_subscribed_error',['../structmillicast_1_1_viewer_1_1_listener.html#ab9f81c3ffda2bf2a0d00ea0aa1718e55',1,'millicast::Viewer::Listener']]],

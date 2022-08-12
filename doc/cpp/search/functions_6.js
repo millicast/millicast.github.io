@@ -3,7 +3,7 @@ var searchData=
   ['get_0',['get',['../classmillicast_1_1_stats_report.html#a6fec5807818caa1a7bbd267017ed2df1',1,'millicast::StatsReport']]],
   ['get_5fas_1',['get_as',['../classmillicast_1_1_stats_report.html#a5f3fde5d7ba95a73b146354e036d65d5',1,'millicast::StatsReport']]],
   ['get_5faudio_5fsources_2',['get_audio_sources',['../classmillicast_1_1_media.html#aae1b36d4d55891f98d4ab56460afe122',1,'millicast::Media']]],
-  ['get_5fbuffer_3',['get_buffer',['../classmillicast_1_1_video_frame.html#a5a602433af40d7d445333d024fdfcf0d',1,'millicast::VideoFrame']]],
+  ['get_5fbuffer_3',['get_buffer',['../classmillicast_1_1_video_frame.html#a5a602433af40d7d445333d024fdfcf0d',1,'millicast::VideoFrame::get_buffer(uint8_t *buffer) const'],['../classmillicast_1_1_video_frame.html#aae9193f6d02f1c4e32882e820805fa88',1,'millicast::VideoFrame::get_buffer(uint16_t *buffer) const']]],
   ['get_5fcredentials_4',['get_credentials',['../classmillicast_1_1_publisher.html#ae77c022f6ab08fe82c4ade8d5171176c',1,'millicast::Publisher::get_credentials()'],['../classmillicast_1_1_viewer.html#a49a0564af52b52c423e00607c3fd1dd1',1,'millicast::Viewer::get_credentials()']]],
   ['get_5fdecklink_5fdevices_5',['get_decklink_devices',['../classmillicast_1_1_deck_link_renderer.html#ad875bedd44d2cae0719c44140ef67b46',1,'millicast::DeckLinkRenderer']]],
   ['get_5fmid_6',['get_mid',['../classmillicast_1_1_client.html#ac91177bd19fc3a3bb2be72cbe7551882',1,'millicast::Client']]],

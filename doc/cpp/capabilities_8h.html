@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.3.0</span>
    </div>
   </td>
  </tr>
@@ -116,21 +116,98 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a3e878ddbbd034e20ba1b96575ac0fd2a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2a">millicast::VideoType</a> { <br />
 &#160;&#160;<a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa696b031073e74bf2cb98e5ef201d4aa3">millicast::UNKNOWN</a>
 , <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aacd1ea458818d68e388b9356fd528d67a">millicast::I420</a>
-, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aab08f0cb36474118c5bbc03b3a172a778">millicast::IYUV</a>
+, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aaf96e364a4f1aa0fa680eef169d895134">millicast::I444</a>
+, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa1ba737986e1232bd5888fb00dcd57ace">millicast::I210</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aab08f0cb36474118c5bbc03b3a172a778">millicast::IYUV</a>
 , <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa08415b81fed4feed7d982c9919ac08ee">millicast::RGB24</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aae192297ecf3602fabbec5f0a38ede758">millicast::ARGB</a>
+, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aae192297ecf3602fabbec5f0a38ede758">millicast::ARGB</a>
 , <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa3b73e4d15701467ed72f157ffaff680a">millicast::RGB565</a>
-, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aac4ae1e9efde614ab49c73b35107eefe1">millicast::YUY2</a>
-, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa99dc3162295b639b401fe354d5059f52">millicast::YV12</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa87261c567c007f283e17a5fc8c259296">millicast::UYVY</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aac4ae1e9efde614ab49c73b35107eefe1">millicast::YUY2</a>
+, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa99dc3162295b639b401fe354d5059f52">millicast::YV12</a>
+, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa87261c567c007f283e17a5fc8c259296">millicast::UYVY</a>
 , <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa0a5417ce14732e9bdb402be642ebe9ea">millicast::MJPEG</a>
-, <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa5a1fe3c61c9e2fd6dbbc823589f6e697">millicast::BGRA</a>
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa5a1fe3c61c9e2fd6dbbc823589f6e697">millicast::BGRA</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a3e878ddbbd034e20ba1b96575ac0fd2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The VideoType enum represent the pixel format used for video frames.  <a href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2a">More...</a><br /></td></tr>
 <tr class="separator:a3e878ddbbd034e20ba1b96575ac0fd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954f641e1cba44b7b09f91bc8a87ddeb"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeb">millicast::PrimaryID</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba28e5643978b0beecce56950e500cb83f">millicast::kBT709</a> = 1
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba8536661e94a42d4d95dcb9058b9936b5">millicast::kUnspecified</a> = 2
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba0cc37fea4f6b1511a798adb3b4c21fee">millicast::kBT470M</a> = 4
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba6300b13b959500ab137acb4a6480a596">millicast::kBT470BG</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba320b6e1694df8e76bf31cefca4cad98b">millicast::kSMPTE170M</a> = 6
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba0fe6d65a6fd9292206f0f01722c48cfd">millicast::kSMPTE240M</a> = 7
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddebac0bc6b4d5b7b2b9cd4afe9b8642cd3a8">millicast::kFILM</a> = 8
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba21b6f54575e0b16fcbf0af0fe49341b0">millicast::kBT2020</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba14701595a2cab86cccf5137a9853db47">millicast::kSMPTEST428</a> = 10
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba09acd81c784beef9b86ad5b66bbe7e58">millicast::kSMPTEST431</a> = 11
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddebaa0bece90fe301ce1f80f0a332e5db71a">millicast::kSMPTEST432</a> = 12
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba9a49c06a7ec13888014735d0827ba230">millicast::kJEDECP22</a> = 22
+<br />
+ }</td></tr>
+<tr class="memdesc:a954f641e1cba44b7b09f91bc8a87ddeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The PrimaryID enum represents the standard of image parameters used for video frames.  <a href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeb">More...</a><br /></td></tr>
+<tr class="separator:a954f641e1cba44b7b09f91bc8a87ddeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b121eb3756290a964c7f50f3108949"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949">millicast::TransferID</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a28e5643978b0beecce56950e500cb83f">millicast::kBT709</a> = 1
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a8536661e94a42d4d95dcb9058b9936b5">millicast::kUnspecified</a> = 2
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a106829d4d2954709dd39e2a2a6cd261a">millicast::kGAMMA22</a> = 4
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a215cc4c723582920d499b7f21da3ebdd">millicast::kGAMMA28</a> = 5
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a320b6e1694df8e76bf31cefca4cad98b">millicast::kSMPTE170M</a> = 6
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a0fe6d65a6fd9292206f0f01722c48cfd">millicast::kSMPTE240M</a> = 7
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949afd0bda8f85b35011bdcde415691fc36f">millicast::kLINEAR</a> = 8
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ac2df88e31e9306e3242dacf91bc392e3">millicast::kLOG</a> = 9
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ad0142723dc61440d7ccbde509107e348">millicast::kLOG_SQRT</a> = 10
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a83d3a37541f298c42a95e9cb88607f38">millicast::kIEC61966_2_4</a> = 11
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a9e39034d23d0cba0ee9cf6a786ebb20f">millicast::kBT1361_ECG</a> = 12
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a2e094c4d18e031f336389c261b1fa316">millicast::kIEC61966_2_1</a> = 13
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a247ef905922cc08942e94b9d0a5abfbf">millicast::kBT2020_10</a> = 14
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ad9359d4a68c3c2c758471e28acc347e6">millicast::kBT2020_12</a> = 15
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949aa1605120f54de0c9fd7dd125c16eb788">millicast::kSMPTEST2084</a> = 16
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a14701595a2cab86cccf5137a9853db47">millicast::kSMPTEST428</a> = 17
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a90e6666dec14e34a6983232530f33253">millicast::kARIB_STD_B67</a> = 18
+<br />
+ }</td></tr>
+<tr class="memdesc:a55b121eb3756290a964c7f50f3108949"><td class="mdescLeft">&#160;</td><td class="mdescRight">The TransferID enum represents the transfer function used for video frames.  <a href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949">More...</a><br /></td></tr>
+<tr class="separator:a55b121eb3756290a964c7f50f3108949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf55de9876ae016fa23b2fe69888cd0b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0b">millicast::MatrixID</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba6e94255c2d60c849b6f24ad631bb2613">millicast::kRGB</a> = 0
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba28e5643978b0beecce56950e500cb83f">millicast::kBT709</a> = 1
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba8536661e94a42d4d95dcb9058b9936b5">millicast::kUnspecified</a> = 2
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba2efdadc2b9082b349c0d56d450eb3245">millicast::kFCC</a> = 4
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba6300b13b959500ab137acb4a6480a596">millicast::kBT470BG</a> = 5
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba320b6e1694df8e76bf31cefca4cad98b">millicast::kSMPTE170M</a> = 6
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba0fe6d65a6fd9292206f0f01722c48cfd">millicast::kSMPTE240M</a> = 7
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba6a42f931b6fab59123cfb55efcd3ef5f">millicast::kYCOCG</a> = 8
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0baf007e589a2e769c96d62c9cc687a5c02">millicast::kBT2020_NCL</a> = 9
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba751070110fc4a3b1822191ca622af1b3">millicast::kBT2020_CL</a> = 10
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0bae0778d95774a9d3ce82d2d5827a7c0e0">millicast::kSMPTE2085</a> = 11
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba58dfeac5d1195afda67d69e60a3d319c">millicast::kCDNCLS</a> = 12
+, <br />
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba5c1d8c0d1c3383857ffcf36bedf3b505">millicast::kCDCLS</a> = 13
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0bafb592b93e0b364ec6bedaabfe91747b9">millicast::kBT2100_ICTCP</a> = 14
+<br />
+ }</td></tr>
+<tr class="memdesc:adf55de9876ae016fa23b2fe69888cd0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The MatrixID enum represents the color matrix to use for conversion between color spaces.  <a href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0b">More...</a><br /></td></tr>
+<tr class="separator:adf55de9876ae016fa23b2fe69888cd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abecb53f5eaa9afab8ae2eb4900342f13"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13">millicast::RangeID</a> { <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13ab10913c938482a8aa4ba85b7a1116cb4">millicast::kInvalid</a> = 0
+, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13af842b9d7c6733e37e7a26b70bcf28c5b">millicast::kLimited</a> = 1
+, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13aa60924e124da4d51bd4dc74c8f85b158">millicast::kFull</a> = 2
+, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13aa7ea8a43e8e126169ef4f1fff8cb33af">millicast::kDerived</a> = 3
+ }</td></tr>
+<tr class="memdesc:abecb53f5eaa9afab8ae2eb4900342f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The RangeID enum represents the color range values.  <a href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13">More...</a><br /></td></tr>
+<tr class="separator:abecb53f5eaa9afab8ae2eb4900342f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
