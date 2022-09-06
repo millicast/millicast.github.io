@@ -1,5 +1,5 @@
 <map id="MCProjectionData" name="MCProjectionData">
-<area shape="rect" id="node1" title="The projection data is used to project a video/audio track into a specific transceiver...." alt="" coords="5,171,135,197"/>
-<area shape="rect" id="node2" title=" " alt="" coords="25,5,104,32"/>
-<area shape="rect" id="node3" href="$interface_m_c_layer_data.html" title="The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ..." alt="" coords="87,81,189,108"/>
+<area shape="rect" id="node1" title="The projection data is used to project a video/audio track into a specific transceiver...." alt="" coords="5,168,135,193"/>
+<area shape="rect" id="node2" title=" " alt="" coords="25,5,104,31"/>
+<area shape="rect" id="node3" href="$interface_m_c_layer_data.html" title="The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ..." alt="" coords="87,80,189,105"/>
 </map>
