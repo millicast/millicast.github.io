@@ -1,5 +1,5 @@
 <map id="millicast::AudioSource" name="millicast::AudioSource">
-<area shape="rect" id="node1" title="The AudioSource class." alt="" coords="69,80,221,107"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="5,5,124,32"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_audio_control.html" title="The AudioControl class." alt="" coords="148,5,301,32"/>
+<area shape="rect" id="node1" title="The AudioSource class." alt="" coords="69,79,221,104"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="5,5,124,31"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_audio_control.html" title="The AudioControl class." alt="" coords="148,5,301,31"/>
 </map>

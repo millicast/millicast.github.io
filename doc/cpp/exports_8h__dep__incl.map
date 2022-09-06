@@ -1,13 +1,13 @@
 <map id="api/millicast&#45;sdk/exports.h" name="api/millicast&#45;sdk/exports.h">
-<area shape="rect" id="node1" title=" " alt="" coords="392,5,567,32"/>
-<area shape="rect" id="node2" href="$capabilities_8h.html" title=" " alt="" coords="83,87,279,114"/>
-<area shape="rect" id="node6" href="$client_8h.html" title=" " alt="" coords="405,169,567,196"/>
-<area shape="rect" id="node9" href="$mc__logging_8h.html" title=" " alt="" coords="303,80,442,121"/>
-<area shape="rect" id="node10" href="$stats_8h.html" title=" " alt="" coords="517,87,677,114"/>
-<area shape="rect" id="node11" href="$track_8h.html" title=" " alt="" coords="701,87,861,114"/>
-<area shape="rect" id="node3" href="$renderer_8h.html" title=" " alt="" coords="5,244,183,271"/>
-<area shape="rect" id="node4" href="$source_8h.html" title=" " alt="" coords="154,169,325,196"/>
-<area shape="rect" id="node5" href="$media_8h.html" title=" " alt="" coords="207,244,373,271"/>
-<area shape="rect" id="node7" href="$publisher_8h.html" title=" " alt="" coords="397,244,580,271"/>
-<area shape="rect" id="node8" href="$viewer_8h.html" title=" " alt="" coords="605,244,773,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="392,5,567,31"/>
+<area shape="rect" id="node2" href="$capabilities_8h.html" title=" " alt="" coords="83,86,279,111"/>
+<area shape="rect" id="node6" href="$client_8h.html" title=" " alt="" coords="405,167,567,192"/>
+<area shape="rect" id="node9" href="$mc__logging_8h.html" title=" " alt="" coords="303,79,442,119"/>
+<area shape="rect" id="node10" href="$stats_8h.html" title=" " alt="" coords="517,86,677,111"/>
+<area shape="rect" id="node11" href="$track_8h.html" title=" " alt="" coords="701,86,861,111"/>
+<area shape="rect" id="node3" href="$renderer_8h.html" title=" " alt="" coords="5,240,183,265"/>
+<area shape="rect" id="node4" href="$source_8h.html" title=" " alt="" coords="154,167,325,192"/>
+<area shape="rect" id="node5" href="$media_8h.html" title=" " alt="" coords="207,240,373,265"/>
+<area shape="rect" id="node7" href="$publisher_8h.html" title=" " alt="" coords="397,240,580,265"/>
+<area shape="rect" id="node8" href="$viewer_8h.html" title=" " alt="" coords="605,240,773,265"/>
 </map>

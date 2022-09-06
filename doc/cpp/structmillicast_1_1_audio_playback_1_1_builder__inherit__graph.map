@@ -1,4 +1,4 @@
 <map id="millicast::AudioPlayback::Builder" name="millicast::AudioPlayback::Builder">
-<area shape="rect" id="node1" title="The Builder struct to build an AudioPlayback." alt="" coords="5,95,171,136"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_source_1_1_source_builder.html" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." alt="" coords="21,5,155,47"/>
+<area shape="rect" id="node1" title="The Builder struct to build an AudioPlayback." alt="" coords="5,93,171,133"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1_source_1_1_source_builder.html" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." alt="" coords="21,5,155,45"/>
 </map>

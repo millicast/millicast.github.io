@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmillicast_1_1_audio_control.html" title="The AudioControl class." alt="" coords="5,5,159,32"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_audio_playback.html" title="The AudioPlayback class." alt="" coords="207,56,372,83"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_audio_source.html" title="The AudioSource class." alt="" coords="213,5,365,32"/>
-<area shape="rect" id="node4" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="23,56,141,83"/>
-<area shape="rect" id="node5" href="$classmillicast_1_1_video_source.html" title="The VideoSource class." alt="" coords="213,107,365,133"/>
+<area shape="rect" id="node1" href="$classmillicast_1_1_audio_control.html" title="The AudioControl class." alt="" coords="5,5,159,31"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_audio_playback.html" title="The AudioPlayback class." alt="" coords="207,55,372,80"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_audio_source.html" title="The AudioSource class." alt="" coords="213,5,365,31"/>
+<area shape="rect" id="node4" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="23,55,141,80"/>
+<area shape="rect" id="node5" href="$classmillicast_1_1_video_source.html" title="The VideoSource class." alt="" coords="213,104,365,129"/>
 </map>

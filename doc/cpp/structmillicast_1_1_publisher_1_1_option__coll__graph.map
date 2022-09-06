@@ -1,4 +1,4 @@
 <map id="millicast::Publisher::Option" name="millicast::Publisher::Option">
-<area shape="rect" id="node1" title="Option specific to the publisher." alt="" coords="5,95,137,136"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_client_1_1_option.html" title="The Option struct allows to setup the millicast connection." alt="" coords="11,5,131,47"/>
+<area shape="rect" id="node1" title="Option specific to the publisher." alt="" coords="5,93,137,133"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1_client_1_1_option.html" title="The Option struct allows to setup the millicast connection." alt="" coords="11,5,131,45"/>
 </map>

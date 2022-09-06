@@ -1,4 +1,4 @@
 <map id="millicast::Publisher::Listener" name="millicast::Publisher::Listener">
-<area shape="rect" id="node1" title="The Listener struct for the Publisher class. It adds the publishing event on top of the Client listen..." alt="" coords="5,95,137,136"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_client_1_1_listener.html" title="The Client Listener struct which contains methods that will be called on specific events from a Clien..." alt="" coords="11,5,131,47"/>
+<area shape="rect" id="node1" title="The Listener struct for the Publisher class. It adds the publishing event on top of the Client listen..." alt="" coords="5,93,137,133"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1_client_1_1_listener.html" title="The Client Listener struct which contains methods that will be called on specific events from a Clien..." alt="" coords="11,5,131,45"/>
 </map>
