@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.3.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.0</span>
    </div>
   </td>
  </tr>
@@ -82,16 +82,18 @@ $(function() {
 <div class="textblock"><code>#import &lt;<a class="el" href="mc__logging_8h_source.html">MillicastSDK/mc_logging.h</a>&gt;</code><br />
 <code>#import &lt;<a class="el" href="capabilities_8h_source.html">MillicastSDK/capabilities.h</a>&gt;</code><br />
 <code>#import &lt;<a class="el" href="exports_8h_source.html">MillicastSDK/exports.h</a>&gt;</code><br />
+<code>#import &lt;<a class="el" href="frames_8h_source.html">MillicastSDK/frames.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for source.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="source_8h__incl.png" border="0" usemap="#aobjc_2_millicast_s_d_k_2source_8h" alt=""/></div>
 <map name="aobjc_2_millicast_s_d_k_2source_8h" id="aobjc_2_millicast_s_d_k_2source_8h">
-<area shape="rect" title=" " alt="" coords="131,5,311,31"/>
+<area shape="rect" title=" " alt="" coords="157,5,337,31"/>
 <area shape="rect" href="mc__logging_8h.html" title=" " alt="" coords="5,79,184,104"/>
-<area shape="rect" href="exports_8h.html" title=" " alt="" coords="155,152,311,177"/>
-<area shape="rect" href="capabilities_8h.html" title=" " alt="" coords="259,79,437,104"/>
-<area shape="rect" title=" " alt="" coords="34,152,131,177"/>
+<area shape="rect" href="exports_8h.html" title=" " alt="" coords="143,225,299,251"/>
+<area shape="rect" href="capabilities_8h.html" title=" " alt="" coords="259,152,437,177"/>
+<area shape="rect" href="frames_8h.html" title=" " alt="" coords="310,79,463,104"/>
+<area shape="rect" title=" " alt="" coords="35,152,133,177"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -137,6 +139,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_playback_builder.html">MCAudioPlaybackBuilder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_custom_source.html">MCCustomSource</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_custom_source_builder.html">MCCustomSourceBuilder</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -148,7 +154,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="source_8h.html#af2aee4010a651e3013763b8bde1bf44da4738b9189334875a495621b9b34ed3e8">MC_NDI</a>
 , <a class="el" href="source_8h.html#af2aee4010a651e3013763b8bde1bf44dac541382bf13dffdde64abb3eb5d2785b">MC_DECKLINK</a>
-, <a class="el" href="source_8h.html#af2aee4010a651e3013763b8bde1bf44dad177f5cb535b442ac1c636d12d8fefe5">MC_FILE</a>
+, <a class="el" href="source_8h.html#af2aee4010a651e3013763b8bde1bf44daef3a7426f18f3b6ff51fc7b5b4c8068b">MC_CUSTOM</a>
 <br />
  }</td></tr>
 <tr class="memdesc:af2aee4010a651e3013763b8bde1bf44d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Source type.  <a href="source_8h.html#af2aee4010a651e3013763b8bde1bf44d">More...</a><br /></td></tr>
@@ -185,8 +191,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44dac541382bf13dffdde64abb3eb5d2785b" name="af2aee4010a651e3013763b8bde1bf44dac541382bf13dffdde64abb3eb5d2785b"></a>MC_DECKLINK&#160;</td><td class="fielddoc"><p >DeckLink devices sources (input and output) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44dad177f5cb535b442ac1c636d12d8fefe5" name="af2aee4010a651e3013763b8bde1bf44dad177f5cb535b442ac1c636d12d8fefe5"></a>MC_FILE&#160;</td><td class="fielddoc"><p >Capture from a file, supported only for 5.1 audio </p>
-</td></tr>
+<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44daef3a7426f18f3b6ff51fc7b5b4c8068b" name="af2aee4010a651e3013763b8bde1bf44daef3a7426f18f3b6ff51fc7b5b4c8068b"></a>MC_CUSTOM&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

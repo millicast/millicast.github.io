@@ -1,8 +1,9 @@
 <map id="objc/MillicastSDK/capabilities.h" name="objc/MillicastSDK/capabilities.h">
-<area shape="rect" id="node1" title=" " alt="" coords="11,5,218,31"/>
-<area shape="rect" id="node2" href="$_millicast_s_d_k_8h.html" title=" " alt="" coords="68,225,246,265"/>
-<area shape="rect" id="node3" href="$renderer_8h.html" title=" " alt="" coords="21,79,208,104"/>
-<area shape="rect" id="node5" href="$source_8h.html" title=" " alt="" coords="232,79,412,104"/>
-<area shape="rect" id="node4" href="$track_8h.html" title=" " alt="" coords="72,152,242,177"/>
-<area shape="rect" id="node6" href="$media_8h.html" title=" " alt="" coords="317,152,493,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="89,5,295,31"/>
+<area shape="rect" id="node2" href="$_millicast_s_d_k_8h.html" title=" " alt="" coords="47,299,225,339"/>
+<area shape="rect" id="node3" href="$frames_8h.html" title=" " alt="" coords="37,79,219,104"/>
+<area shape="rect" id="node4" href="$renderer_8h.html" title=" " alt="" coords="61,152,248,177"/>
+<area shape="rect" id="node6" href="$source_8h.html" title=" " alt="" coords="273,152,453,177"/>
+<area shape="rect" id="node5" href="$track_8h.html" title=" " alt="" coords="112,225,283,251"/>
+<area shape="rect" id="node7" href="$media_8h.html" title=" " alt="" coords="357,225,533,251"/>
 </map>

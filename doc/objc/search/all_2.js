@@ -15,7 +15,8 @@ var searchData=
   ['colorrangeexpansion_12',['colorRangeExpansion',['../interface_m_c_ios_video_renderer.html#aab700dbea179644083b29a2328d5304c',1,'MCIosVideoRenderer']]],
   ['connect_13',['connect',['../protocol_m_c_client-p.html#af165188549127f4493904fa7c0ccac61',1,'MCClient-p']]],
   ['connectwithdata_3ajwt_3a_14',['connectWithData:jwt:',['../protocol_m_c_client-p.html#ac19ca1cc471f97bff0fda52246489acb',1,'MCClient-p']]],
-  ['cpp_5ftrack_15',['cpp_track',['../interface_m_c_track.html#af4c3f3d8880823d3ef272e7ebe72ea72',1,'MCTrack']]],
-  ['cppframe_16',['cppFrame',['../interface_m_c_audio_frame.html#a82762f281a1a3530cc739c7e9a38a5cb',1,'MCAudioFrame::cppFrame()'],['../interface_m_c_video_frame.html#a72ecc8a22621d66d8b80238bfe1b73db',1,'MCVideoFrame::cppFrame()']]],
-  ['create_17',['create',['../interface_m_c_publisher.html#adedbb3e36e61605f0fd22a95e628b2be',1,'MCPublisher::create()'],['../interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9',1,'MCNdiRenderer::create()'],['../interface_m_c_subscriber.html#a5c5bc921ce759b63fcc68d7a5ace9dcd',1,'MCSubscriber::create()']]]
+  ['cpp_5fcustom_5fsource_15',['cpp_custom_source',['../interface_m_c_custom_source.html#a05770888b1f88d8b1a519e04e85002c1',1,'MCCustomSource']]],
+  ['cpp_5ftrack_16',['cpp_track',['../interface_m_c_track.html#af4c3f3d8880823d3ef272e7ebe72ea72',1,'MCTrack']]],
+  ['cppframe_17',['cppFrame',['../interface_m_c_audio_frame.html#a82762f281a1a3530cc739c7e9a38a5cb',1,'MCAudioFrame']]],
+  ['create_18',['create',['../interface_m_c_publisher.html#adedbb3e36e61605f0fd22a95e628b2be',1,'MCPublisher::create()'],['../interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9',1,'MCNdiRenderer::create()'],['../interface_m_c_subscriber.html#a5c5bc921ce759b63fcc68d7a5ace9dcd',1,'MCSubscriber::create()']]]
 ];

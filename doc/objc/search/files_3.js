@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['private_2brenderer_2eh_0',['Private+Renderer.h',['../_private_09_renderer_8h.html',1,'']]],
-  ['private_2bsource_2eh_1',['Private+Source.h',['../_private_09_source_8h.html',1,'']]],
-  ['private_2btrack_2eh_2',['Private+Track.h',['../_private_09_track_8h.html',1,'']]],
-  ['publisher_2eh_3',['publisher.h',['../publisher_8h.html',1,'']]]
+  ['mc_5flogging_2eh_0',['mc_logging.h',['../mc__logging_8h.html',1,'']]],
+  ['media_2eh_1',['media.h',['../media_8h.html',1,'']]],
+  ['millicastsdk_2eh_2',['MillicastSDK.h',['../_millicast_s_d_k_8h.html',1,'']]]
 ];

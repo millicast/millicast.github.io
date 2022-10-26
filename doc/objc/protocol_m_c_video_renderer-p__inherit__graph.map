@@ -2,5 +2,5 @@
 <area shape="rect" id="node1" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="83,79,229,104"/>
 <area shape="rect" id="node3" href="$interface_m_c_ios_video_renderer.html" title="The purpose of this interface is to render video frames in a UI view. (iOS and tvOS)" alt="" coords="5,152,152,177"/>
 <area shape="rect" id="node4" href="$interface_m_c_ndi_renderer.html" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="177,152,293,177"/>
-<area shape="rect" id="node2" title=" " alt="" coords="80,5,232,31"/>
+<area shape="rect" id="node2" title=" " alt="" coords="109,5,203,31"/>
 </map>
