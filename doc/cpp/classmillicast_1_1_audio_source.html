@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.3.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.0</span>
    </div>
   </td>
  </tr>
@@ -128,7 +128,7 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6a69385d003b591001dc31e2b51ef43c82">NDI</a>
 , <a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6a2fd63673ef4f7f19a5ddaf41377bdfe9">DECKLINK</a>
 , <a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6a2a34244fcfea1917f34feb3fd9bafdce">TVOS</a>
-, <a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6a9fc5887c030f7a3e19821ebec457e719">FILE</a>
+, <a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6a72baef04098f035e8a320b03ad197818">CUSTOM</a>
 <br />
  }</td></tr>
 <tr class="memdesc:a2b254036de95834807305dbd9d5138a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_source.html" title="The Source base class.">Source</a> type.  <a href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6">More...</a><br /></td></tr>
@@ -163,6 +163,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d66b6bec884ef0e688e3877a65d96b1 inherit pub_methods_classmillicast_1_1_source"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_source.html#a9d66b6bec884ef0e688e3877a65d96b1">unique_id</a> () const</td></tr>
 <tr class="memdesc:a9d66b6bec884ef0e688e3877a65d96b1 inherit pub_methods_classmillicast_1_1_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the source's unique_id.  <a href="classmillicast_1_1_source.html#a9d66b6bec884ef0e688e3877a65d96b1">More...</a><br /></td></tr>
 <tr class="separator:a9d66b6bec884ef0e688e3877a65d96b1 inherit pub_methods_classmillicast_1_1_source"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccc42444bad15f94d7541cd279a1174 inherit pub_methods_classmillicast_1_1_source"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_source.html#a3ccc42444bad15f94d7541cd279a1174">set_track_name</a> (std::string <a class="el" href="classmillicast_1_1_source.html#ac70bdaab39ede43e8c6f956e74cc2916">track_name</a>)</td></tr>
+<tr class="memdesc:a3ccc42444bad15f94d7541cd279a1174 inherit pub_methods_classmillicast_1_1_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the name of the track. The name of the track is the name used to identify the track in the SDP.  <a href="classmillicast_1_1_source.html#a3ccc42444bad15f94d7541cd279a1174">More...</a><br /></td></tr>
+<tr class="separator:a3ccc42444bad15f94d7541cd279a1174 inherit pub_methods_classmillicast_1_1_source"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70bdaab39ede43e8c6f956e74cc2916 inherit pub_methods_classmillicast_1_1_source"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_source.html#ac70bdaab39ede43e8c6f956e74cc2916">track_name</a> () const</td></tr>
+<tr class="memdesc:ac70bdaab39ede43e8c6f956e74cc2916 inherit pub_methods_classmillicast_1_1_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the track. If you did not set one, it will be the default one.  <a href="classmillicast_1_1_source.html#ac70bdaab39ede43e8c6f956e74cc2916">More...</a><br /></td></tr>
+<tr class="separator:ac70bdaab39ede43e8c6f956e74cc2916 inherit pub_methods_classmillicast_1_1_source"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3938d04d4c83a1178b7f45bf6cb24a6b inherit pub_methods_classmillicast_1_1_source"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> std::weak_ptr&lt; <a class="el" href="classmillicast_1_1_track.html">Track</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_source.html#a3938d04d4c83a1178b7f45bf6cb24a6b">start_capture</a> ()=0</td></tr>
 <tr class="memdesc:a3938d04d4c83a1178b7f45bf6cb24a6b inherit pub_methods_classmillicast_1_1_source"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a capture from this source, this will init and start the capture device and create the corresponding track.  <a href="classmillicast_1_1_source.html#a3938d04d4c83a1178b7f45bf6cb24a6b">More...</a><br /></td></tr>
 <tr class="separator:a3938d04d4c83a1178b7f45bf6cb24a6b inherit pub_methods_classmillicast_1_1_source"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,8 +202,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a59f2983ccd65ff90c0ad2f76d3030f2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_audio_source.html#a59f2983ccd65ff90c0ad2f76d3030f2a">AudioSource</a> ()=default</td></tr>
 <tr class="separator:a59f2983ccd65ff90c0ad2f76d3030f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classmillicast_1_1_source"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classmillicast_1_1_source')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classmillicast_1_1_source.html">millicast::Source</a></td></tr>
-<tr class="memitem:a0b513317e1c473d686e42ae4a05f1969 inherit pro_methods_classmillicast_1_1_source"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_source.html#a0b513317e1c473d686e42ae4a05f1969">Source</a> ()=default</td></tr>
-<tr class="separator:a0b513317e1c473d686e42ae4a05f1969 inherit pro_methods_classmillicast_1_1_source"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8f9628b3a5dc8873d2e8ed4dd54ffc1 inherit pro_methods_classmillicast_1_1_source"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_source.html#ae8f9628b3a5dc8873d2e8ed4dd54ffc1">Source</a> () noexcept</td></tr>
+<tr class="separator:ae8f9628b3a5dc8873d2e8ed4dd54ffc1 inherit pro_methods_classmillicast_1_1_source"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The <a class="el" href="classmillicast_1_1_audio_source.html" title="The AudioSource class.">AudioSource</a> class. </p>
