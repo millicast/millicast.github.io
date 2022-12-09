@@ -1,5 +1,5 @@
 <map id="millicast::VideoSource" name="millicast::VideoSource">
-<area shape="rect" id="node1" title="The VideoSource class." alt="" coords="75,93,227,119"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="5,5,124,31"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_video_capabilities.html" title="The VideoCapabilities struct." alt="" coords="149,5,327,31"/>
+<area shape="rect" id="node1" title="The VideoSource class." coords="75,93,227,119"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_source.html" title="The Source base class." coords="5,5,124,31"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_video_capabilities.html" title="The VideoCapabilities struct." coords="149,5,327,31"/>
 </map>

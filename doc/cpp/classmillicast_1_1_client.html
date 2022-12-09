@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.2</span>
    </div>
   </td>
  </tr>
@@ -91,9 +91,9 @@ Inheritance diagram for millicast::Client:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmillicast_1_1_client__inherit__graph.png" border="0" usemap="#amillicast_1_1_client_inherit__map" alt="Inheritance graph"/></div>
 <map name="amillicast_1_1_client_inherit__map" id="amillicast_1_1_client_inherit__map">
-<area shape="rect" title="The Client base class." alt="" coords="90,5,202,31"/>
-<area shape="rect" href="classmillicast_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="5,79,137,104"/>
-<area shape="rect" href="classmillicast_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="161,79,280,104"/>
+<area shape="rect" title="The Client base class." coords="90,5,202,31"/>
+<area shape="rect" href="classmillicast_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." coords="5,79,137,104"/>
+<area shape="rect" href="classmillicast_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." coords="161,79,280,104"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -139,9 +139,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ef59e5e85d54302cf15b0c06a98f353"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_client.html#a6ef59e5e85d54302cf15b0c06a98f353">enable_stats</a> (bool enable)=0</td></tr>
 <tr class="memdesc:a6ef59e5e85d54302cf15b0c06a98f353"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the rtc stats collecting. The stats are collected once the client is either publishing or subscribed.  <a href="classmillicast_1_1_client.html#a6ef59e5e85d54302cf15b0c06a98f353">More...</a><br /></td></tr>
 <tr class="separator:a6ef59e5e85d54302cf15b0c06a98f353"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac578596dcba0b5b96deb3d0acc647874"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_client.html#ac578596dcba0b5b96deb3d0acc647874">set_max_bitrate</a> (int bitrate)=0</td></tr>
-<tr class="memdesc:ac578596dcba0b5b96deb3d0acc647874"><td class="mdescLeft">&#160;</td><td class="mdescRight">set_max_bitrate limit the peerconnection bandwidth  <a href="classmillicast_1_1_client.html#ac578596dcba0b5b96deb3d0acc647874">More...</a><br /></td></tr>
-<tr class="separator:ac578596dcba0b5b96deb3d0acc647874"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac91177bd19fc3a3bb2be72cbe7551882"><td class="memItemLeft" align="right" valign="top">virtual std::optional&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_client.html#ac91177bd19fc3a3bb2be72cbe7551882">get_mid</a> (const std::string &amp;track_id)=0</td></tr>
 <tr class="memdesc:ac91177bd19fc3a3bb2be72cbe7551882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transceiver mid associated to a track if any.  <a href="classmillicast_1_1_client.html#ac91177bd19fc3a3bb2be72cbe7551882">More...</a><br /></td></tr>
 <tr class="separator:ac91177bd19fc3a3bb2be72cbe7551882"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -545,40 +542,6 @@ returning true does not mean you are connected. You are connected when the <a cl
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">listener</td><td>The <a class="el" href="classmillicast_1_1_client.html" title="The Client base class.">Client</a> listener </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ac578596dcba0b5b96deb3d0acc647874" name="ac578596dcba0b5b96deb3d0acc647874"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac578596dcba0b5b96deb3d0acc647874">&#9670;&#160;</a></span>set_max_bitrate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void millicast::Client::set_max_bitrate </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>bitrate</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>set_max_bitrate limit the peerconnection bandwidth </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bitrate</td><td>The maximum bitrate in bps </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structmillicast_1_1_client_1_1_option.html" title="The Option struct allows to setup the millicast connection." alt="" coords="5,37,125,77"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_publisher_1_1_option.html" title="Option specific to the publisher." alt="" coords="173,5,305,45"/>
-<area shape="rect" id="node3" href="$structmillicast_1_1_viewer_1_1_option.html" title=" " alt="" coords="176,69,303,109"/>
+<area shape="rect" id="node1" href="$structmillicast_1_1_client_1_1_listener.html" title="The Client Listener struct which contains methods that will be called on specific events from a Clien..." coords="5,37,125,77"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1_publisher_1_1_listener.html" title="The Listener struct for the Publisher class. It adds the publishing event on top of the Client listen..." coords="173,5,305,45"/>
+<area shape="rect" id="node3" href="$structmillicast_1_1_viewer_1_1_listener.html" title="The Listener struct for the Viewer class. It adds the on_subscribed event on top of the Client listen..." coords="176,69,303,109"/>
 </map>

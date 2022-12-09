@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structmillicast_1_1_track_info.html" title="Useful informations about the available tracks in the media server. These informations are received i..." alt="" coords="5,5,139,31"/>
+<area shape="rect" id="node1" href="$classmillicast_1_1_track.html" title="The Track class represent a media sources." coords="5,31,116,56"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_audio_track.html" title="The AudioTrack class." coords="164,5,308,31"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_video_track.html" title="The VideoTrack class." coords="164,55,308,80"/>
 </map>

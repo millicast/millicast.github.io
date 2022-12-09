@@ -1,4 +1,4 @@
 <map id="millicast::VideoRenderer" name="millicast::VideoRenderer">
-<area shape="rect" id="node1" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="5,79,169,104"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="22,5,153,31"/>
+<area shape="rect" id="node1" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." coords="5,79,169,104"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." coords="22,5,153,31"/>
 </map>

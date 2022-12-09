@@ -1,5 +1,5 @@
 <map id="millicast::Client" name="millicast::Client">
-<area shape="rect" id="node1" title="The Client base class." alt="" coords="90,5,202,31"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="5,79,137,104"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="161,79,280,104"/>
+<area shape="rect" id="node1" title="The Client base class." coords="90,5,202,31"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." coords="5,79,137,104"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." coords="161,79,280,104"/>
 </map>

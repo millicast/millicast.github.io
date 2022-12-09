@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.2</span>
    </div>
   </td>
  </tr>
@@ -191,7 +191,7 @@ $(function() {
 <div class="line"><a id="l00255" name="l00255"></a><span class="lineno">  255</span> </div>
 <div class="line"><a id="l00256" name="l00256"></a><span class="lineno">  256</span> </div>
 <div class="line"><a id="l00257" name="l00257"></a><span class="lineno">  257</span><span class="preprocessor">#endif </span><span class="comment">/* MILLICAST_API_VIEWER_H */</span><span class="preprocessor"></span></div>
-<div class="ttc" id="aclassmillicast_1_1_client_html"><div class="ttname"><a href="classmillicast_1_1_client.html">millicast::Client</a></div><div class="ttdoc">The Client base class.</div><div class="ttdef"><b>Definition:</b> client.h:53</div></div>
+<div class="ttc" id="aclassmillicast_1_1_client_html"><div class="ttname"><a href="classmillicast_1_1_client.html">millicast::Client</a></div><div class="ttdoc">The Client base class.</div><div class="ttdef"><b>Definition:</b> client.h:67</div></div>
 <div class="ttc" id="aclassmillicast_1_1_viewer_html"><div class="ttname"><a href="classmillicast_1_1_viewer.html">millicast::Viewer</a></div><div class="ttdoc">The Viewer class. Its purpose is to receive media by subscribing to a millicast stream....</div><div class="ttdef"><b>Definition:</b> viewer.h:29</div></div>
 <div class="ttc" id="aclassmillicast_1_1_viewer_html_a23bc5440249fc92263c905905825b133"><div class="ttname"><a href="classmillicast_1_1_viewer.html#a23bc5440249fc92263c905905825b133">millicast::Viewer::set_credentials</a></div><div class="ttdeci">virtual bool set_credentials(const Credentials &amp;creds)=0</div><div class="ttdoc">Set the viewer credentials.</div></div>
 <div class="ttc" id="aclassmillicast_1_1_viewer_html_a28b87ff92d492ec967a98039bd72979e"><div class="ttname"><a href="classmillicast_1_1_viewer.html#a28b87ff92d492ec967a98039bd72979e">millicast::Viewer::unproject</a></div><div class="ttdeci">virtual bool unproject(const std::vector&lt; std::string &gt; &amp;mids)=0</div><div class="ttdoc">Send a command to stop the projection of a source.</div></div>
@@ -209,8 +209,8 @@ $(function() {
 <div class="ttc" id="aclient_8h_html"><div class="ttname"><a href="client_8h.html">client.h</a></div></div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition:</b> exports.h:15</div></div>
 <div class="ttc" id="anamespacemillicast_html"><div class="ttname"><a href="namespacemillicast.html">millicast</a></div><div class="ttdef"><b>Definition:</b> capabilities.h:16</div></div>
-<div class="ttc" id="astructmillicast_1_1_client_1_1_listener_html"><div class="ttname"><a href="structmillicast_1_1_client_1_1_listener.html">millicast::Client::Listener</a></div><div class="ttdoc">The Client Listener struct which contains methods that will be called on specific events from a Clien...</div><div class="ttdef"><b>Definition:</b> client.h:62</div></div>
-<div class="ttc" id="astructmillicast_1_1_client_1_1_option_html"><div class="ttname"><a href="structmillicast_1_1_client_1_1_option.html">millicast::Client::Option</a></div><div class="ttdoc">The Option struct allows to setup the millicast connection.</div><div class="ttdef"><b>Definition:</b> client.h:105</div></div>
+<div class="ttc" id="astructmillicast_1_1_client_1_1_listener_html"><div class="ttname"><a href="structmillicast_1_1_client_1_1_listener.html">millicast::Client::Listener</a></div><div class="ttdoc">The Client Listener struct which contains methods that will be called on specific events from a Clien...</div><div class="ttdef"><b>Definition:</b> client.h:76</div></div>
+<div class="ttc" id="astructmillicast_1_1_client_1_1_option_html"><div class="ttname"><a href="structmillicast_1_1_client_1_1_option.html">millicast::Client::Option</a></div><div class="ttdoc">The Option struct allows to setup the millicast connection.</div><div class="ttdef"><b>Definition:</b> client.h:119</div></div>
 <div class="ttc" id="astructmillicast_1_1_viewer_1_1_credentials_html"><div class="ttname"><a href="structmillicast_1_1_viewer_1_1_credentials.html">millicast::Viewer::Credentials</a></div><div class="ttdoc">The Credentials struct represent the credentials need to be able to connect and subscribe to a Millic...</div><div class="ttdef"><b>Definition:</b> viewer.h:48</div></div>
 <div class="ttc" id="astructmillicast_1_1_viewer_1_1_credentials_html_a167f02346ebbe74e68b366ebddd97977"><div class="ttname"><a href="structmillicast_1_1_viewer_1_1_credentials.html#a167f02346ebbe74e68b366ebddd97977">millicast::Viewer::Credentials::api_url</a></div><div class="ttdeci">std::string api_url</div><div class="ttdef"><b>Definition:</b> viewer.h:55</div></div>
 <div class="ttc" id="astructmillicast_1_1_viewer_1_1_credentials_html_a490624c63fb3459715acf913c09ae97b"><div class="ttname"><a href="structmillicast_1_1_viewer_1_1_credentials.html#a490624c63fb3459715acf913c09ae97b">millicast::Viewer::Credentials::token</a></div><div class="ttdeci">std::optional&lt; std::string &gt; token</div><div class="ttdef"><b>Definition:</b> viewer.h:53</div></div>

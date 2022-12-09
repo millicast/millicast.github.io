@@ -1,7 +1,7 @@
 <map id="millicast::Source::SourceBuilder&lt; T &gt;" name="millicast::Source::SourceBuilder&lt; T &gt;">
-<area shape="rect" id="node1" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." alt="" coords="5,101,140,141"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_audio_playback_1_1_builder.html" title="The Builder struct to build an AudioPlayback." alt="" coords="188,5,353,45"/>
-<area shape="rect" id="node3" href="$structmillicast_1_1_audio_source_1_1_builder.html" title="The Builder struct to build an audio source." alt="" coords="195,69,347,109"/>
-<area shape="rect" id="node4" href="$structmillicast_1_1_custom_source_1_1_builder.html" title="Builder struct to create a CustomSource." alt="" coords="188,133,353,173"/>
-<area shape="rect" id="node5" href="$structmillicast_1_1_video_source_1_1_builder.html" title="The Builder struct to build a video source." alt="" coords="195,197,347,237"/>
+<area shape="rect" id="node1" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." coords="5,101,140,141"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1_audio_playback_1_1_builder.html" title="The Builder struct to build an AudioPlayback." coords="188,5,353,45"/>
+<area shape="rect" id="node3" href="$structmillicast_1_1_audio_source_1_1_builder.html" title="The Builder struct to build an audio source." coords="195,69,347,109"/>
+<area shape="rect" id="node4" href="$structmillicast_1_1_custom_source_1_1_builder.html" title="Builder struct to create a CustomSource." coords="188,133,353,173"/>
+<area shape="rect" id="node5" href="$structmillicast_1_1_video_source_1_1_builder.html" title="The Builder struct to build a video source." coords="195,197,347,237"/>
 </map>

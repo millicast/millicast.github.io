@@ -1,6 +1,6 @@
 <map id="millicast::rtcstats::RemoteOutboundRtpStream" name="millicast::rtcstats::RemoteOutboundRtpStream">
-<area shape="rect" id="node1" title=" " alt="" coords="5,269,200,309"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1rtcstats_1_1_sent_rtp_stream.html" title=" " alt="" coords="41,181,164,221"/>
-<area shape="rect" id="node3" href="$structmillicast_1_1rtcstats_1_1_rtp_stream.html" title=" " alt="" coords="41,93,164,133"/>
-<area shape="rect" id="node4" href="$structmillicast_1_1rtcstats_1_1_stats.html" title=" " alt="" coords="41,5,164,45"/>
+<area shape="rect" id="node1" title=" " coords="5,269,200,309"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1rtcstats_1_1_sent_rtp_stream.html" title=" " coords="41,181,164,221"/>
+<area shape="rect" id="node3" href="$structmillicast_1_1rtcstats_1_1_rtp_stream.html" title=" " coords="41,93,164,133"/>
+<area shape="rect" id="node4" href="$structmillicast_1_1rtcstats_1_1_stats.html" title=" " coords="41,5,164,45"/>
 </map>

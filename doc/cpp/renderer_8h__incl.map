@@ -1,15 +1,15 @@
 <map id="api/millicast&#45;sdk/renderer.h" name="api/millicast&#45;sdk/renderer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="71,5,248,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,79,71,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="95,79,157,104"/>
-<area shape="rect" id="node4" href="$frames_8h.html" title=" " alt="" coords="67,152,217,177"/>
-<area shape="rect" id="node8" href="$source_8h.html" title=" " alt="" coords="329,79,478,104"/>
-<area shape="rect" id="node5" href="$exports_8h.html" title=" " alt="" coords="368,299,521,324"/>
-<area shape="rect" id="node6" href="$capabilities_8h.html" title=" " alt="" coords="359,225,533,251"/>
-<area shape="rect" id="node7" title=" " alt="" coords="545,299,600,324"/>
-<area shape="rect" id="node9" title=" " alt="" coords="242,152,301,177"/>
-<area shape="rect" id="node10" title=" " alt="" coords="325,152,391,177"/>
-<area shape="rect" id="node11" title=" " alt="" coords="415,152,485,177"/>
-<area shape="rect" id="node12" href="$mc__logging_8h.html" title=" " alt="" coords="610,225,786,251"/>
-<area shape="rect" id="node13" title=" " alt="" coords="659,299,737,324"/>
+<area shape="rect" id="node1" title=" " coords="71,5,248,31"/>
+<area shape="rect" id="node2" title=" " coords="5,79,71,104"/>
+<area shape="rect" id="node3" title=" " coords="95,79,157,104"/>
+<area shape="rect" id="node4" href="$frames_8h.html" title=" " coords="67,152,217,177"/>
+<area shape="rect" id="node8" href="$source_8h.html" title=" " coords="329,79,478,104"/>
+<area shape="rect" id="node5" href="$exports_8h.html" title=" " coords="368,299,521,324"/>
+<area shape="rect" id="node6" href="$capabilities_8h.html" title=" " coords="359,225,533,251"/>
+<area shape="rect" id="node7" title=" " coords="545,299,600,324"/>
+<area shape="rect" id="node9" title=" " coords="242,152,301,177"/>
+<area shape="rect" id="node10" title=" " coords="325,152,391,177"/>
+<area shape="rect" id="node11" title=" " coords="415,152,485,177"/>
+<area shape="rect" id="node12" href="$mc__logging_8h.html" title=" " coords="610,225,786,251"/>
+<area shape="rect" id="node13" title=" " coords="659,299,737,324"/>
 </map>
