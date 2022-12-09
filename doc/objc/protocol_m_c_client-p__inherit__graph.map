@@ -1,5 +1,5 @@
 <map id="&lt;MCClient&gt;" name="&lt;MCClient&gt;">
-<area shape="rect" id="node1" title="The Client base class." alt="" coords="70,5,163,31"/>
-<area shape="rect" id="node2" href="$interface_m_c_publisher.html" title="The Publisher interface. Its purpose is to publish media to a Millicast stream." alt="" coords="5,79,103,104"/>
-<area shape="rect" id="node3" href="$interface_m_c_subscriber.html" title="The Subscriber class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="127,79,232,104"/>
+<area shape="rect" id="node1" title="The Client base class." coords="70,5,163,31"/>
+<area shape="rect" id="node2" href="$interface_m_c_publisher.html" title="The Publisher interface. Its purpose is to publish media to a Millicast stream." coords="5,79,103,104"/>
+<area shape="rect" id="node3" href="$interface_m_c_subscriber.html" title="The Subscriber class. Its purpose is to receive media by subscribing to a millicast stream...." coords="127,79,232,104"/>
 </map>

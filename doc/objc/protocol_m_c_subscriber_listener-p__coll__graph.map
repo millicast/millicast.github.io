@@ -1,4 +1,4 @@
 <map id="&lt;MCSubscriberListener&gt;" name="&lt;MCSubscriberListener&gt;">
-<area shape="rect" id="node1" title="The Listener protocol for the Viewer class. It adds the on_subscribed event on top of the Client list..." alt="" coords="5,79,172,104"/>
-<area shape="rect" id="node2" title=" " alt="" coords="7,5,170,31"/>
+<area shape="rect" id="node1" title="The Listener protocol for the Viewer class. It adds the on_subscribed event on top of the Client list..." coords="5,79,172,104"/>
+<area shape="rect" id="node2" title=" " coords="7,5,170,31"/>
 </map>

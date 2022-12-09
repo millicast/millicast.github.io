@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.4.2</span>
    </div>
   </td>
  </tr>
@@ -180,33 +180,31 @@ $(function() {
 <div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno"><a class="line" href="protocol_m_c_publisher_listener-p.html#ab4a36881475de8d7d3df0c34878cc77e">  145</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_publisher.html">MCPublisher</a> : NSObject&lt;<a class="code hl_protocol" href="protocol_m_c_client-p.html">MCClient</a>&gt;</div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>- (BOOL) publish;</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>- (BOOL) unpublish;</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>- (BOOL) isPublishing;</div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span> </div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>- (BOOL) setCredentials: (<a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a>*) credentials;</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>- (<a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a>*) getCredentials;</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>- (void) addTrack:(<a class="code hl_interface" href="interface_m_c_track.html">MCTrack</a>*) track;</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>- (void) clearTracks;</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span> </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>- (void) enableSvcWithMode:(<a class="code hl_enumeration" href="publisher_8h.html#acd0ccf8b506d6386a57fed388c931dd4">MCScalabilityMode</a>) mode;</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>- (void) disableSvc;</div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>- (void) enableSimulcast:(BOOL) enable;</div>
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>- (void) overrideBwe:(<span class="keywordtype">int</span>) bwe;</div>
-<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>- (NSString*) getMid:(NSString*) trackId;</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span>+ (<a class="code hl_interface" href="interface_m_c_publisher.html">MCPublisher</a>*) create;</div>
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>- (BOOL) publish;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span> </div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>- (BOOL) unpublish;</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>- (BOOL) isPublishing;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>- (BOOL) setCredentials: (<a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a>*) credentials;</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>- (<a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a>*) getCredentials;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>- (void) addTrack:(<a class="code hl_interface" href="interface_m_c_track.html">MCTrack</a>*) track;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span> </div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>- (void) clearTracks;</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>- (void) enableSvcWithMode:(<a class="code hl_enumeration" href="publisher_8h.html#acd0ccf8b506d6386a57fed388c931dd4">MCScalabilityMode</a>) mode;</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span> </div>
+<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span>- (void) disableSvc;</div>
+<div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span> </div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>- (void) enableSimulcast:(BOOL) enable;</div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>- (NSString*) getMid:(NSString*) trackId;</div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span> </div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span>+ (<a class="code hl_interface" href="interface_m_c_publisher.html">MCPublisher</a>*) create;</div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span> </div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="keyword">@end</span></div>
 <div class="ttc" id="aclient_8h_html"><div class="ttname"><a href="client_8h.html">client.h</a></div></div>
 <div class="ttc" id="aexports_8h_html"><div class="ttname"><a href="exports_8h.html">exports.h</a></div></div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition:</b> exports.h:7</div></div>
@@ -218,7 +216,7 @@ $(function() {
 <div class="ttc" id="ainterface_m_c_publisher_html"><div class="ttname"><a href="interface_m_c_publisher.html">MCPublisher</a></div><div class="ttdoc">The Publisher interface. Its purpose is to publish media to a Millicast stream.</div><div class="ttdef"><b>Definition:</b> publisher.h:145</div></div>
 <div class="ttc" id="ainterface_m_c_track_html"><div class="ttname"><a href="interface_m_c_track.html">MCTrack</a></div><div class="ttdoc">The Track class represent a media sources.</div><div class="ttdef"><b>Definition:</b> track.h:23</div></div>
 <div class="ttc" id="ainterface_m_c_video_track_html"><div class="ttname"><a href="interface_m_c_video_track.html">MCVideoTrack</a></div><div class="ttdoc">The VideoTrack class.</div><div class="ttdef"><b>Definition:</b> track.h:64</div></div>
-<div class="ttc" id="aprotocol_m_c_client-p_html"><div class="ttname"><a href="protocol_m_c_client-p.html">MCClient-p</a></div><div class="ttdoc">The Client base class.</div><div class="ttdef"><b>Definition:</b> client.h:114</div></div>
+<div class="ttc" id="aprotocol_m_c_client-p_html"><div class="ttname"><a href="protocol_m_c_client-p.html">MCClient-p</a></div><div class="ttdoc">The Client base class.</div><div class="ttdef"><b>Definition:</b> client.h:130</div></div>
 <div class="ttc" id="apublisher_8h_html_acd0ccf8b506d6386a57fed388c931dd4"><div class="ttname"><a href="publisher_8h.html#acd0ccf8b506d6386a57fed388c931dd4">MCScalabilityMode</a></div><div class="ttdeci">MCScalabilityMode</div><div class="ttdef"><b>Definition:</b> publisher.h:54</div></div>
 <div class="ttc" id="apublisher_8h_html_acd0ccf8b506d6386a57fed388c931dd4a0ad8cbbdbdee3a9790c445ad00faa9fd"><div class="ttname"><a href="publisher_8h.html#acd0ccf8b506d6386a57fed388c931dd4a0ad8cbbdbdee3a9790c445ad00faa9fd">S3T3h</a></div><div class="ttdeci">@ S3T3h</div><div class="ttdef"><b>Definition:</b> publisher.h:83</div></div>
 <div class="ttc" id="apublisher_8h_html_acd0ccf8b506d6386a57fed388c931dd4a11a2163a72fc6c619ffbdd3c82ff7392"><div class="ttname"><a href="publisher_8h.html#acd0ccf8b506d6386a57fed388c931dd4a11a2163a72fc6c619ffbdd3c82ff7392">L2T3h</a></div><div class="ttdeci">@ L2T3h</div><div class="ttdef"><b>Definition:</b> publisher.h:67</div></div>

@@ -22,6 +22,5 @@ var searchData=
   ['onvideoframe_3a_19',['onVideoFrame:',['../interface_m_c_custom_source.html#a5950166342d207776960fe14ccd1a191',1,'MCCustomSource']]],
   ['onvideotrack_3awithmid_3a_20',['onVideoTrack:withMid:',['../protocol_m_c_subscriber_listener-p.html#a8c1bc681a731d9b331eeae8d23e461e4',1,'MCSubscriberListener-p']]],
   ['onviewercount_3a_21',['onViewerCount:',['../protocol_m_c_listener-p.html#af83f0450dc6012e6f5b5dfe13d6e3d52',1,'MCListener-p']]],
-  ['outbound_5frtp_22',['OUTBOUND_RTP',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a1ed412301646d5f198952f25cde41bc5',1,'stats.h']]],
-  ['overridebwe_3a_23',['overrideBwe:',['../interface_m_c_publisher.html#a5a69aea78f15a7a48e85f18b208e0b93',1,'MCPublisher']]]
+  ['outbound_5frtp_22',['OUTBOUND_RTP',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a1ed412301646d5f198952f25cde41bc5',1,'stats.h']]]
 ];

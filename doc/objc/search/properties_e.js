@@ -7,7 +7,8 @@ var searchData=
   ['sourceid_4',['sourceId',['../interface_m_c_client_options.html#a3fda2e3d06d2e5e2d57b586639f71bcc',1,'MCClientOptions']]],
   ['spatiallayerid_5',['spatialLayerId',['../interface_m_c_layer_data.html#a54668a8267f9085524492e5d4ba12000',1,'MCLayerData']]],
   ['ssrc_6',['ssrc',['../interface_m_c_rtp_stream_stats.html#a38acf694f940aa14681b19b653e00135',1,'MCRtpStreamStats']]],
-  ['statsdelayms_7',['statsDelayMs',['../interface_m_c_client_options.html#ade73614810ccf5da2d89d42b2ce2f5d3',1,'MCClientOptions']]],
-  ['stereo_8',['stereo',['../interface_m_c_client_options.html#a952371263140ee6cf51c8629febc6094',1,'MCClientOptions']]],
-  ['streamname_9',['streamName',['../interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994',1,'MCPublisherCredentials::streamName()'],['../interface_m_c_subscriber_credentials.html#afcb637baedf4918ab3f4ab5068334390',1,'MCSubscriberCredentials::streamName()']]]
+  ['startbitratekbps_7',['startBitrateKbps',['../interface_m_c_bitrate_settings.html#a64ba6202ea27149b6235bbac219b5871',1,'MCBitrateSettings']]],
+  ['statsdelayms_8',['statsDelayMs',['../interface_m_c_client_options.html#ade73614810ccf5da2d89d42b2ce2f5d3',1,'MCClientOptions']]],
+  ['stereo_9',['stereo',['../interface_m_c_client_options.html#a952371263140ee6cf51c8629febc6094',1,'MCClientOptions']]],
+  ['streamname_10',['streamName',['../interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994',1,'MCPublisherCredentials::streamName()'],['../interface_m_c_subscriber_credentials.html#afcb637baedf4918ab3f4ab5068334390',1,'MCSubscriberCredentials::streamName()']]]
 ];

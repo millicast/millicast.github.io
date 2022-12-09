@@ -1,6 +1,6 @@
 <map id="MCVideoSourceStats" name="MCVideoSourceStats">
-<area shape="rect" id="node1" title=" " alt="" coords="7,225,155,251"/>
-<area shape="rect" id="node2" href="$interface_m_c_media_source_stats.html" title=" " alt="" coords="5,152,156,177"/>
-<area shape="rect" id="node3" href="$interface_m_c_stats.html" title=" " alt="" coords="43,79,118,104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="41,5,120,31"/>
+<area shape="rect" id="node1" title=" " coords="7,225,155,251"/>
+<area shape="rect" id="node2" href="$interface_m_c_media_source_stats.html" title=" " coords="5,152,156,177"/>
+<area shape="rect" id="node3" href="$interface_m_c_stats.html" title=" " coords="43,79,118,104"/>
+<area shape="rect" id="node4" title=" " coords="41,5,120,31"/>
 </map>
