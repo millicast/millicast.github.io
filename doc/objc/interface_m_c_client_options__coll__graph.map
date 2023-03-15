@@ -1,5 +1,5 @@
 <map id="MCClientOptions" name="MCClientOptions">
-<area shape="rect" id="node1" title=" " coords="5,168,128,193"/>
-<area shape="rect" id="node2" title=" " coords="22,5,101,31"/>
-<area shape="rect" id="node3" href="$interface_m_c_bitrate_settings.html" title="Settings for the minimum, maximum and start bitrates of the streams." coords="83,80,213,105"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,168,128,193"/>
+<area shape="rect" id="node2" title=" " alt="" coords="22,5,101,31"/>
+<area shape="rect" id="node3" href="$interface_m_c_bitrate_settings.html" title="Settings for the minimum, maximum and start bitrates of the streams." alt="" coords="83,80,213,105"/>
 </map>

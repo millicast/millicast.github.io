@@ -10,13 +10,14 @@ var searchData=
   ['initwithcppframe_3a_7',['initWithCppFrame:',['../interface_m_c_audio_frame.html#a7603c1608e12601b3a2d080fd509f4ba',1,'MCAudioFrame']]],
   ['initwithcppsource_3a_8',['initWithCppSource:',['../interface_m_c_audio_playback.html#ab1b36024961ea77d4cf44cbcf2438893',1,'MCAudioPlayback::initWithCppSource:()'],['../interface_m_c_audio_source.html#a4baf3baa7d897d8ffdb2a5142222c447',1,'MCAudioSource::initWithCppSource:()'],['../interface_m_c_video_source.html#a7e637c76d4af1d4f90f298ba25873c5a',1,'MCVideoSource::initWithCppSource:()']]],
   ['initwithcpptrack_3a_9',['initWithCppTrack:',['../interface_m_c_track.html#a84fff92bcfde7751cf9ea5e16e161d6b',1,'MCTrack']]],
-  ['iscapturing_10',['isCapturing',['../protocol_capture_source-p.html#a5950e516e75fa83486f9d431ea7533b3',1,'CaptureSource-p::isCapturing()'],['../interface_m_c_audio_source.html#a362e772f0a54456fc969801f41995cee',1,'MCAudioSource::isCapturing()'],['../interface_m_c_custom_source.html#a93ea7d16a222f6f33c617c6e6e134982',1,'MCCustomSource::isCapturing()']]],
-  ['isconnected_11',['isConnected',['../protocol_m_c_client-p.html#a534db0cbfa2745f2bd00c4dca69870fc',1,'MCClient-p']]],
-  ['isenabled_12',['isEnabled',['../interface_m_c_track.html#aff6ff3a0a858648e3060fb5b1e62a63a',1,'MCTrack']]],
-  ['ismuted_13',['isMuted',['../protocol_m_c_audio_control-p.html#a54a560989b50d1e58123972bcf633fef',1,'MCAudioControl-p']]],
-  ['isndiavailable_14',['isNdiAvailable',['../interface_m_c_media.html#aac8f46bcfc38c1aa2999a156ec22d37d',1,'MCMedia']]],
-  ['isplaying_15',['isPlaying',['../protocol_playback_source-p.html#a370d9a1a64a302294d2367c56268ec31',1,'PlaybackSource-p::isPlaying()'],['../interface_m_c_audio_playback.html#a2defa47fd88b2568855420cd2f3b2d12',1,'MCAudioPlayback::isPlaying()']]],
-  ['ispublishing_16',['isPublishing',['../interface_m_c_publisher.html#aef89f1a0cbc6f28e04e73454ddaa84fb',1,'MCPublisher']]],
-  ['issubscribed_17',['isSubscribed',['../interface_m_c_subscriber.html#a63b8e3d4e04889b4533510cca9b5709b',1,'MCSubscriber']]],
-  ['iyuv_18',['IYUV',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90a7f87ea54de2ad4aa48194f9bd2bc31a8',1,'capabilities.h']]]
+  ['inserted_5fsamples_5ffor_5fdeceleration_10',['inserted_samples_for_deceleration',['../interface_m_c_inbound_rtp_stream_stats.html#a118866c94469439bd7a1545787faa93b',1,'MCInboundRtpStreamStats']]],
+  ['iscapturing_11',['isCapturing',['../protocol_capture_source-p.html#a5950e516e75fa83486f9d431ea7533b3',1,'CaptureSource-p::isCapturing()'],['../interface_m_c_audio_source.html#a362e772f0a54456fc969801f41995cee',1,'MCAudioSource::isCapturing()'],['../interface_m_c_custom_source.html#a93ea7d16a222f6f33c617c6e6e134982',1,'MCCustomSource::isCapturing()']]],
+  ['isconnected_12',['isConnected',['../protocol_m_c_client-p.html#a534db0cbfa2745f2bd00c4dca69870fc',1,'MCClient-p']]],
+  ['isenabled_13',['isEnabled',['../interface_m_c_track.html#aff6ff3a0a858648e3060fb5b1e62a63a',1,'MCTrack']]],
+  ['ismuted_14',['isMuted',['../protocol_m_c_audio_control-p.html#a54a560989b50d1e58123972bcf633fef',1,'MCAudioControl-p']]],
+  ['isndiavailable_15',['isNdiAvailable',['../interface_m_c_media.html#aac8f46bcfc38c1aa2999a156ec22d37d',1,'MCMedia']]],
+  ['isplaying_16',['isPlaying',['../protocol_playback_source-p.html#a370d9a1a64a302294d2367c56268ec31',1,'PlaybackSource-p::isPlaying()'],['../interface_m_c_audio_playback.html#a2defa47fd88b2568855420cd2f3b2d12',1,'MCAudioPlayback::isPlaying()']]],
+  ['ispublishing_17',['isPublishing',['../interface_m_c_publisher.html#aef89f1a0cbc6f28e04e73454ddaa84fb',1,'MCPublisher']]],
+  ['issubscribed_18',['isSubscribed',['../interface_m_c_subscriber.html#a63b8e3d4e04889b4533510cca9b5709b',1,'MCSubscriber']]],
+  ['iyuv_19',['IYUV',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90a7f87ea54de2ad4aa48194f9bd2bc31a8',1,'capabilities.h']]]
 ];

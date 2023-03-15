@@ -1,9 +1,9 @@
 <map id="MCAudioSource" name="MCAudioSource">
-<area shape="rect" id="node1" title="The AudioSource class." coords="126,152,243,177"/>
-<area shape="rect" id="node2" href="$interface_m_c_source.html" title="The Source base class." coords="8,79,92,104"/>
-<area shape="rect" id="node3" title=" " coords="5,5,84,31"/>
-<area shape="rect" id="node4" href="$protocol_capture_source-p.html" title=" " coords="122,79,247,104"/>
-<area shape="rect" id="node5" title=" " coords="109,5,261,31"/>
-<area shape="rect" id="node6" href="$protocol_m_c_audio_control-p.html" title="The AudioControl class." coords="293,79,428,104"/>
-<area shape="rect" id="node7" title=" " coords="285,5,482,31"/>
+<area shape="rect" id="node1" title="The AudioSource class." alt="" coords="126,152,243,177"/>
+<area shape="rect" id="node2" href="$interface_m_c_source.html" title="The Source base class." alt="" coords="8,79,92,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,5,84,31"/>
+<area shape="rect" id="node4" href="$protocol_capture_source-p.html" title=" " alt="" coords="122,79,247,104"/>
+<area shape="rect" id="node5" title=" " alt="" coords="109,5,261,31"/>
+<area shape="rect" id="node6" href="$protocol_m_c_audio_control-p.html" title="The AudioControl class." alt="" coords="293,79,428,104"/>
+<area shape="rect" id="node7" title=" " alt="" coords="285,5,482,31"/>
 </map>

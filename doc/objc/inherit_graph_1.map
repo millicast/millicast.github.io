@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$protocol_m_c_listener-p.html" title="The Client Listener protocol which contains methods that will be called on specific events from a Cli..." coords="5,5,111,31"/>
-<area shape="rect" id="node2" href="$protocol_m_c_publisher_listener-p.html" title="The Listener protocol for the Publisher class. It adds the publishing event on top of the Client list..." coords="159,5,317,31"/>
+<area shape="rect" id="node1" href="$protocol_m_c_listener-p.html" title="The Client Listener protocol which contains methods that will be called on specific events from a Cli..." alt="" coords="5,5,111,31"/>
+<area shape="rect" id="node2" href="$protocol_m_c_publisher_listener-p.html" title="The Listener protocol for the Publisher class. It adds the publishing event on top of the Client list..." alt="" coords="159,5,317,31"/>
 </map>

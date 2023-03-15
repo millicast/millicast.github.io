@@ -1,5 +1,5 @@
 <map id="MCAudioTrack" name="MCAudioTrack">
-<area shape="rect" id="node1" title="The AudioTrack class." coords="5,152,115,177"/>
-<area shape="rect" id="node2" href="$interface_m_c_track.html" title="The Track class represent a media sources." coords="22,79,98,104"/>
-<area shape="rect" id="node3" title=" " coords="21,5,99,31"/>
+<area shape="rect" id="node1" title="The AudioTrack class." alt="" coords="5,152,115,177"/>
+<area shape="rect" id="node2" href="$interface_m_c_track.html" title="The Track class represent a media sources." alt="" coords="22,79,98,104"/>
+<area shape="rect" id="node3" title=" " alt="" coords="21,5,99,31"/>
 </map>
