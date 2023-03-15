@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." coords="5,31,136,56"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." coords="184,31,348,56"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_deck_link_renderer.html" title="The DeckLinkRenderer class is used to render video on a DeckLink device." coords="396,5,583,31"/>
-<area shape="rect" id="node4" href="$classmillicast_1_1_ndi_renderer.html" title="The NdiRenderer class is used to render video as an ndi source." coords="414,55,565,80"/>
+<area shape="rect" id="node1" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="5,31,136,56"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="184,31,348,56"/>
+<area shape="rect" id="node3" href="$classmillicast_1_1_deck_link_renderer.html" title="The DeckLinkRenderer class is used to render video on a DeckLink device." alt="" coords="396,5,583,31"/>
+<area shape="rect" id="node4" href="$classmillicast_1_1_ndi_renderer.html" title="The NdiRenderer class is used to render video as an ndi source." alt="" coords="414,55,565,80"/>
 </map>

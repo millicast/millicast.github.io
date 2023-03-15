@@ -1,4 +1,4 @@
 <map id="millicast::Publisher" name="millicast::Publisher">
-<area shape="rect" id="node1" title="The Publisher class. Its purpose is to publish media to a Millicast stream." coords="5,79,137,104"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_client.html" title="The Client base class." coords="15,5,127,31"/>
+<area shape="rect" id="node1" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="5,79,137,104"/>
+<area shape="rect" id="node2" href="$classmillicast_1_1_client.html" title="The Client base class." alt="" coords="15,5,127,31"/>
 </map>

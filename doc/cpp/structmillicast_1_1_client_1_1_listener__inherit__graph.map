@@ -1,5 +1,5 @@
 <map id="millicast::Client::Listener" name="millicast::Client::Listener">
-<area shape="rect" id="node1" title="The Client Listener struct which contains methods that will be called on specific events from a Clien..." coords="87,5,207,45"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_publisher_1_1_listener.html" title="The Listener struct for the Publisher class. It adds the publishing event on top of the Client listen..." coords="5,93,137,133"/>
-<area shape="rect" id="node3" href="$structmillicast_1_1_viewer_1_1_listener.html" title="The Listener struct for the Viewer class. It adds the on_subscribed event on top of the Client listen..." coords="161,93,288,133"/>
+<area shape="rect" id="node1" title="The Client Listener struct which contains methods that will be called on specific events from a Clien..." alt="" coords="87,5,207,45"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1_publisher_1_1_listener.html" title="The Listener struct for the Publisher class. It adds the publishing event on top of the Client listen..." alt="" coords="5,93,137,133"/>
+<area shape="rect" id="node3" href="$structmillicast_1_1_viewer_1_1_listener.html" title="The Listener struct for the Viewer class. It adds the on_subscribed event on top of the Client listen..." alt="" coords="161,93,288,133"/>
 </map>

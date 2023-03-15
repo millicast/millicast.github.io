@@ -1,6 +1,6 @@
 <map id="millicast::rtcstats::MediaSource" name="millicast::rtcstats::MediaSource">
-<area shape="rect" id="node1" title=" " coords="79,93,201,133"/>
-<area shape="rect" id="node3" href="$structmillicast_1_1rtcstats_1_1_audio_source.html" title=" " coords="5,181,128,221"/>
-<area shape="rect" id="node4" href="$structmillicast_1_1rtcstats_1_1_video_source.html" title=" " coords="152,181,275,221"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1rtcstats_1_1_stats.html" title=" " coords="79,5,201,45"/>
+<area shape="rect" id="node1" title=" " alt="" coords="79,93,201,133"/>
+<area shape="rect" id="node3" href="$structmillicast_1_1rtcstats_1_1_audio_source.html" title=" " alt="" coords="5,181,128,221"/>
+<area shape="rect" id="node4" href="$structmillicast_1_1rtcstats_1_1_video_source.html" title=" " alt="" coords="152,181,275,221"/>
+<area shape="rect" id="node2" href="$structmillicast_1_1rtcstats_1_1_stats.html" title=" " alt="" coords="79,5,201,45"/>
 </map>

@@ -12,8 +12,10 @@ var searchData=
   ['remove_5frenderer_9',['remove_renderer',['../classmillicast_1_1_video_track.html#a6aadf783aa158b419d11ce58377235f5',1,'millicast::VideoTrack::remove_renderer()'],['../classmillicast_1_1_audio_track.html#aea25a1c2e135d278553dd29eede832a6',1,'millicast::AudioTrack::remove_renderer()']]],
   ['renderer_10',['Renderer',['../classmillicast_1_1_renderer.html',1,'millicast::Renderer'],['../classmillicast_1_1_renderer.html#a438262f38936c2f61940332e53536874',1,'millicast::Renderer::Renderer()']]],
   ['renderer_2eh_11',['renderer.h',['../renderer_8h.html',1,'']]],
-  ['rgb24_12',['RGB24',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa08415b81fed4feed7d982c9919ac08ee',1,'millicast']]],
-  ['rgb565_13',['RGB565',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa3b73e4d15701467ed72f157ffaff680a',1,'millicast']]],
-  ['round_5ftrip_5ftime_14',['round_trip_time',['../structmillicast_1_1rtcstats_1_1_remote_inbound_rtp_stream.html#a9c3bf05a0ac042e92e3c0666b00c09c5',1,'millicast::rtcstats::RemoteInboundRtpStream']]],
-  ['rtpstream_15',['RtpStream',['../structmillicast_1_1rtcstats_1_1_rtp_stream.html',1,'millicast::rtcstats']]]
+  ['reports_5fsent_12',['reports_sent',['../structmillicast_1_1rtcstats_1_1_remote_outbound_rtp_stream.html#aa17fecfca9833af2dcd2c140328b66de',1,'millicast::rtcstats::RemoteOutboundRtpStream']]],
+  ['rgb24_13',['RGB24',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa08415b81fed4feed7d982c9919ac08ee',1,'millicast']]],
+  ['rgb565_14',['RGB565',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa3b73e4d15701467ed72f157ffaff680a',1,'millicast']]],
+  ['round_5ftrip_5ftime_15',['round_trip_time',['../structmillicast_1_1rtcstats_1_1_remote_outbound_rtp_stream.html#a396d13f7f9ad980648e5ef491db8d8e2',1,'millicast::rtcstats::RemoteOutboundRtpStream::round_trip_time()'],['../structmillicast_1_1rtcstats_1_1_remote_inbound_rtp_stream.html#a9c3bf05a0ac042e92e3c0666b00c09c5',1,'millicast::rtcstats::RemoteInboundRtpStream::round_trip_time()']]],
+  ['round_5ftrip_5ftime_5fmeasurements_16',['round_trip_time_measurements',['../structmillicast_1_1rtcstats_1_1_remote_outbound_rtp_stream.html#a5bdeaa3a8f34ba426ecdbd4adc1b5542',1,'millicast::rtcstats::RemoteOutboundRtpStream::round_trip_time_measurements()'],['../structmillicast_1_1rtcstats_1_1_remote_inbound_rtp_stream.html#a38b855922238db52dcd6a109017230c0',1,'millicast::rtcstats::RemoteInboundRtpStream::round_trip_time_measurements()']]],
+  ['rtpstream_17',['RtpStream',['../structmillicast_1_1rtcstats_1_1_rtp_stream.html',1,'millicast::rtcstats']]]
 ];
