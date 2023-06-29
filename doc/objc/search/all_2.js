@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['capabilities_0',['capabilities',['../interface_m_c_video_source.html#a2d961fd9aac5631c2e8cb794d8727866',1,'MCVideoSource']]],
+  ['capabilities_0',['capabilities',['../interface_m_c_video_source.html#af7b11037f2050959293aafb493b7653c',1,'MCVideoSource']]],
   ['capabilities_2eh_1',['capabilities.h',['../capabilities_8h.html',1,'']]],
   ['capturesource_2dp_2',['CaptureSource-p',['../protocol_capture_source-p.html',1,'']]],
   ['changevideosource_3a_3',['changeVideoSource:',['../interface_m_c_video_source.html#a8a1b2a9dc486f9442324213ef6bfa297',1,'MCVideoSource']]],
@@ -14,13 +14,13 @@ var searchData=
   ['codec_11',['CODEC',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a3b1d027ef0c7749664aa744ad5e4f937',1,'stats.h']]],
   ['codec_5fid_12',['codec_id',['../interface_m_c_rtp_stream_stats.html#a07dd8c708e7e61d0d828e567e7b86fb8',1,'MCRtpStreamStats']]],
   ['codec_5ftype_13',['codec_type',['../interface_m_c_codecs_stats.html#a152d6ea159842911425334a8a36fe4e9',1,'MCCodecsStats']]],
-  ['colorrangeexpansion_14',['colorRangeExpansion',['../interface_m_c_ios_video_renderer.html#aab700dbea179644083b29a2328d5304c',1,'MCIosVideoRenderer']]],
+  ['colorrangeexpansion_14',['colorRangeExpansion',['../interface_m_c_ios_video_renderer.html#ad757cbd85e01f5b0f53528ce149270c2',1,'MCIosVideoRenderer']]],
   ['concealed_5fsamples_15',['concealed_samples',['../interface_m_c_inbound_rtp_stream_stats.html#ae95d19fc8ab902513a9ea733453bada8',1,'MCInboundRtpStreamStats']]],
   ['concealment_5fevents_16',['concealment_events',['../interface_m_c_inbound_rtp_stream_stats.html#a515932e6286a7fdb4f6d5be1b3df9d11',1,'MCInboundRtpStreamStats']]],
   ['connect_17',['connect',['../protocol_m_c_client-p.html#af165188549127f4493904fa7c0ccac61',1,'MCClient-p']]],
   ['connectwithdata_3ajwt_3a_18',['connectWithData:jwt:',['../protocol_m_c_client-p.html#ac19ca1cc471f97bff0fda52246489acb',1,'MCClient-p']]],
-  ['cpp_5fcustom_5fsource_19',['cpp_custom_source',['../interface_m_c_custom_source.html#a05770888b1f88d8b1a519e04e85002c1',1,'MCCustomSource']]],
-  ['cpp_5ftrack_20',['cpp_track',['../interface_m_c_track.html#af4c3f3d8880823d3ef272e7ebe72ea72',1,'MCTrack']]],
-  ['cppframe_21',['cppFrame',['../interface_m_c_audio_frame.html#a82762f281a1a3530cc739c7e9a38a5cb',1,'MCAudioFrame']]],
+  ['cpp_5fcustom_5fsource_19',['cpp_custom_source',['../interface_m_c_custom_source.html#ae32ea245bc8c7ea6e0eb078318d2549e',1,'MCCustomSource']]],
+  ['cpp_5ftrack_20',['cpp_track',['../interface_m_c_track.html#a42ce2d2daa2ca468de8fa63a29db9142',1,'MCTrack']]],
+  ['cppframe_21',['cppFrame',['../interface_m_c_audio_frame.html#afcd7c27d25e91aeb5fabc856dc308ec0',1,'MCAudioFrame']]],
   ['create_22',['create',['../interface_m_c_publisher.html#adedbb3e36e61605f0fd22a95e628b2be',1,'MCPublisher::create()'],['../interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9',1,'MCNdiRenderer::create()'],['../interface_m_c_subscriber.html#a5c5bc921ce759b63fcc68d7a5ace9dcd',1,'MCSubscriber::create()']]]
 ];

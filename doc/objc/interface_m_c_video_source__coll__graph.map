@@ -1,7 +1,11 @@
 <map id="MCVideoSource" name="MCVideoSource">
-<area shape="rect" id="node1" title="The VideoSource class." alt="" coords="55,152,173,177"/>
-<area shape="rect" id="node2" href="$interface_m_c_source.html" title="The Source base class." alt="" coords="8,79,92,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,84,31"/>
-<area shape="rect" id="node4" href="$protocol_capture_source-p.html" title=" " alt="" coords="119,79,245,104"/>
-<area shape="rect" id="node5" title=" " alt="" coords="109,5,261,31"/>
+<area shape="rect" id="Node000001" title="The VideoSource class." alt="" coords="56,153,172,178"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_source.html" title="The Source base class." alt="" coords="8,79,92,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,114,105,150,101,154,68,117"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,84,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="49,46,52,78,46,79,44,46"/>
+<area shape="rect" id="Node000004" href="$protocol_capture_source-p.html" title=" " alt="" coords="118,79,243,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,117,127,154,123,150,158,114"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="108,5,259,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="185,46,184,79,178,78,180,46"/>
 </map>

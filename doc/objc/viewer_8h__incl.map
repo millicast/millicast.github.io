@@ -1,6 +1,10 @@
 <map id="objc/MillicastSDK/viewer.h" name="objc/MillicastSDK/viewer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="129,5,308,31"/>
-<area shape="rect" id="node2" href="$client_8h.html" title=" " alt="" coords="92,79,236,104"/>
-<area shape="rect" id="node4" href="$exports_8h.html" title=" " alt="" coords="195,152,351,177"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,152,171,177"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="128,5,306,31"/>
+<area shape="rect" id="Node000002" href="$client_8h.html" title=" " alt="" coords="91,79,234,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,33,182,69,178,65,206,30"/>
+<area shape="rect" id="Node000004" href="$exports_8h.html" title=" " alt="" coords="194,153,349,178"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="226,30,249,78,268,138,263,139,244,80,221,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,153,170,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="151,107,112,144,109,140,148,103"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="182,103,242,142,240,147,179,107"/>
 </map>

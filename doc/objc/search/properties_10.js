@@ -11,5 +11,5 @@ var searchData=
   ['startbitratekbps_8',['startBitrateKbps',['../interface_m_c_bitrate_settings.html#a64ba6202ea27149b6235bbac219b5871',1,'MCBitrateSettings']]],
   ['statsdelayms_9',['statsDelayMs',['../interface_m_c_client_options.html#ade73614810ccf5da2d89d42b2ce2f5d3',1,'MCClientOptions']]],
   ['stereo_10',['stereo',['../interface_m_c_client_options.html#a952371263140ee6cf51c8629febc6094',1,'MCClientOptions']]],
-  ['streamname_11',['streamName',['../interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994',1,'MCPublisherCredentials::streamName()'],['../interface_m_c_subscriber_credentials.html#afcb637baedf4918ab3f4ab5068334390',1,'MCSubscriberCredentials::streamName()']]]
+  ['streamname_11',['streamName',['../interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994',1,'MCPublisherCredentials::streamName'],['../interface_m_c_subscriber_credentials.html#afcb637baedf4918ab3f4ab5068334390',1,'MCSubscriberCredentials::streamName']]]
 ];

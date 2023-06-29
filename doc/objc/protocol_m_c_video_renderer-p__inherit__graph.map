@@ -1,6 +1,9 @@
 <map id="&lt;MCVideoRenderer&gt;" name="&lt;MCVideoRenderer&gt;">
-<area shape="rect" id="node1" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="83,79,229,104"/>
-<area shape="rect" id="node3" href="$interface_m_c_ios_video_renderer.html" title="The purpose of this interface is to render video frames in a UI view. (iOS and tvOS)" alt="" coords="5,152,152,177"/>
-<area shape="rect" id="node4" href="$interface_m_c_ndi_renderer.html" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="177,152,293,177"/>
-<area shape="rect" id="node2" title=" " alt="" coords="109,5,203,31"/>
+<area shape="rect" id="Node000001" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="84,79,228,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_ios_video_renderer.html" title="The purpose of this interface is to render video frames in a UI view. (iOS and tvOS)" alt="" coords="5,153,152,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,117,93,154,90,150,130,113"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_ndi_renderer.html" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="176,153,291,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,113,222,150,218,154,178,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="109,5,203,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,46,159,79,153,79,153,46"/>
 </map>

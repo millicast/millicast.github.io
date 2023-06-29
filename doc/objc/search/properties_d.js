@@ -5,5 +5,5 @@ var searchData=
   ['packets_5fsent_2',['packets_sent',['../interface_m_c_sent_rtp_stream_stats.html#ab9cb542795db5765a4de7cc69ae7504c',1,'MCSentRtpStreamStats']]],
   ['payload_5ftype_3',['payload_type',['../interface_m_c_codecs_stats.html#ab973c386633d9ce1976508b1b9132f87',1,'MCCodecsStats']]],
   ['pinnedsourceid_4',['pinnedSourceId',['../interface_m_c_client_options.html#aa3dfa93dd518fa2a4d30956a907e367f',1,'MCClientOptions']]],
-  ['pli_5fcount_5',['pli_count',['../interface_m_c_inbound_rtp_stream_stats.html#ac7ff0e0b7cf05f185e7ce1638e0f5458',1,'MCInboundRtpStreamStats::pli_count()'],['../interface_m_c_outbound_rtp_stream_stats.html#a159af0b225ea14072533c155f902cb32',1,'MCOutboundRtpStreamStats::pli_count()']]]
+  ['pli_5fcount_5',['pli_count',['../interface_m_c_inbound_rtp_stream_stats.html#ac7ff0e0b7cf05f185e7ce1638e0f5458',1,'MCInboundRtpStreamStats::pli_count'],['../interface_m_c_outbound_rtp_stream_stats.html#a159af0b225ea14072533c155f902cb32',1,'MCOutboundRtpStreamStats::pli_count']]]
 ];

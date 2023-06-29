@@ -1,6 +1,9 @@
 <map id="MCAudioSourceStats" name="MCAudioSourceStats">
-<area shape="rect" id="node1" title=" " alt="" coords="7,225,155,251"/>
-<area shape="rect" id="node2" href="$interface_m_c_media_source_stats.html" title=" " alt="" coords="5,152,156,177"/>
-<area shape="rect" id="node3" href="$interface_m_c_stats.html" title=" " alt="" coords="43,79,118,104"/>
-<area shape="rect" id="node4" title=" " alt="" coords="41,5,120,31"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="6,226,154,252"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_media_source_stats.html" title=" " alt="" coords="5,153,155,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,193,83,226,77,226,77,193"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_stats.html" title=" " alt="" coords="43,79,117,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,119,83,152,77,152,77,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="41,5,119,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,46,83,79,77,79,77,46"/>
 </map>

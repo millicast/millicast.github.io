@@ -1,6 +1,9 @@
 <map id="objc/MillicastSDK/Private+Renderer.h" name="objc/MillicastSDK/Private+Renderer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="126,5,297,45"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,93,113,119"/>
-<area shape="rect" id="node3" title=" " alt="" coords="138,93,285,119"/>
-<area shape="rect" id="node4" title=" " alt="" coords="309,93,465,119"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="125,5,295,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,113,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,49,96,89,94,84,171,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="137,94,282,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,46,212,79,207,79,207,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="307,94,462,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="254,44,345,85,343,90,252,49"/>
 </map>

@@ -1,8 +1,13 @@
 <map id="MCSource" name="MCSource">
-<area shape="rect" id="node1" title="The Source base class." alt="" coords="250,79,334,104"/>
-<area shape="rect" id="node3" href="$interface_m_c_audio_playback.html" title="The AudioPlayback class." alt="" coords="5,152,136,177"/>
-<area shape="rect" id="node4" href="$interface_m_c_audio_source.html" title="The AudioSource class." alt="" coords="160,152,277,177"/>
-<area shape="rect" id="node5" href="$interface_m_c_custom_source.html" title=" " alt="" coords="301,152,432,177"/>
-<area shape="rect" id="node6" href="$interface_m_c_video_source.html" title="The VideoSource class." alt="" coords="456,152,573,177"/>
-<area shape="rect" id="node2" title=" " alt="" coords="253,5,331,31"/>
+<area shape="rect" id="Node000001" title="The Source base class." alt="" coords="248,79,332,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_audio_playback.html" title="The AudioPlayback class." alt="" coords="5,153,135,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,112,108,155,107,150,238,107"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_audio_source.html" title="The AudioSource class." alt="" coords="159,153,275,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,117,231,154,227,150,266,113"/>
+<area shape="rect" id="Node000005" href="$interface_m_c_custom_source.html" title=" " alt="" coords="299,153,428,178"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="314,113,353,150,349,154,311,117"/>
+<area shape="rect" id="Node000006" href="$interface_m_c_video_source.html" title="The VideoSource class." alt="" coords="452,153,568,178"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="342,107,473,150,472,155,340,112"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="251,5,329,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="293,46,293,79,287,79,287,46"/>
 </map>

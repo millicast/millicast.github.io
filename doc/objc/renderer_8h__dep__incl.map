@@ -1,5 +1,8 @@
 <map id="objc/MillicastSDK/renderer.h" name="objc/MillicastSDK/renderer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,192,31"/>
-<area shape="rect" id="node2" href="$_millicast_s_d_k_8h.html" title=" " alt="" coords="9,152,188,192"/>
-<area shape="rect" id="node3" href="$track_8h.html" title=" " alt="" coords="75,79,245,104"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,192,31"/>
+<area shape="rect" id="Node000002" href="$_millicast_s_d_k_8h.html" title=" " alt="" coords="10,153,187,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,44,65,80,64,99,68,117,85,151,81,153,63,119,58,99,60,78,78,42"/>
+<area shape="rect" id="Node000003" href="$track_8h.html" title=" " alt="" coords="75,79,245,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,41,152,77,147,80,116,44"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="144,118,116,154,112,151,140,115"/>
 </map>

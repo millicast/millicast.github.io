@@ -1,4 +1,5 @@
 <map id="&lt;MCAudioControl&gt;" name="&lt;MCAudioControl&gt;">
-<area shape="rect" id="node1" title="The AudioControl class." alt="" coords="37,79,171,104"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,203,31"/>
+<area shape="rect" id="Node000001" title="The AudioControl class." alt="" coords="37,79,170,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,202,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,46,106,79,101,79,101,46"/>
 </map>

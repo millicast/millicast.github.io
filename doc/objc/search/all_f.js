@@ -6,7 +6,7 @@ var searchData=
   ['payload_5ftype_3',['payload_type',['../interface_m_c_codecs_stats.html#ab973c386633d9ce1976508b1b9132f87',1,'MCCodecsStats']]],
   ['pinnedsourceid_4',['pinnedSourceId',['../interface_m_c_client_options.html#aa3dfa93dd518fa2a4d30956a907e367f',1,'MCClientOptions']]],
   ['playbacksource_2dp_5',['PlaybackSource-p',['../protocol_playback_source-p.html',1,'']]],
-  ['pli_5fcount_6',['pli_count',['../interface_m_c_inbound_rtp_stream_stats.html#ac7ff0e0b7cf05f185e7ce1638e0f5458',1,'MCInboundRtpStreamStats::pli_count()'],['../interface_m_c_outbound_rtp_stream_stats.html#a159af0b225ea14072533c155f902cb32',1,'MCOutboundRtpStreamStats::pli_count()']]],
+  ['pli_5fcount_6',['pli_count',['../interface_m_c_inbound_rtp_stream_stats.html#ac7ff0e0b7cf05f185e7ce1638e0f5458',1,'MCInboundRtpStreamStats::pli_count'],['../interface_m_c_outbound_rtp_stream_stats.html#a159af0b225ea14072533c155f902cb32',1,'MCOutboundRtpStreamStats::pli_count']]],
   ['private_2brenderer_2eh_7',['Private+Renderer.h',['../_private_09_renderer_8h.html',1,'']]],
   ['private_2bsource_2eh_8',['Private+Source.h',['../_private_09_source_8h.html',1,'']]],
   ['private_2btrack_2eh_9',['Private+Track.h',['../_private_09_track_8h.html',1,'']]],
