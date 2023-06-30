@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['capabilities_0',['capabilities',['../structmillicast_1_1_video_source_1_1_builder.html#a159971b02289c8424e8fb7f267706087',1,'millicast::VideoSource::Builder::capabilities()'],['../classmillicast_1_1_video_source.html#a1214bc0a89c0067577900ca7db3bba82',1,'millicast::VideoSource::capabilities()']]],
+  ['capabilities_0',['capabilities',['../structmillicast_1_1_video_source_1_1_builder.html#a159971b02289c8424e8fb7f267706087',1,'millicast::VideoSource::Builder::capabilities'],['../classmillicast_1_1_video_source.html#a1214bc0a89c0067577900ca7db3bba82',1,'millicast::VideoSource::capabilities()']]],
   ['capabilities_2eh_1',['capabilities.h',['../capabilities_8h.html',1,'']]],
   ['capability_2',['capability',['../classmillicast_1_1_video_source.html#a52cf0d2ba5c01357967b3942a99186cc',1,'millicast::VideoSource::capability()'],['../classmillicast_1_1_custom_source.html#a314e30804ce4af339b217004f578b292',1,'millicast::CustomSource::capability()']]],
   ['cast_5fto_3',['cast_to',['../structmillicast_1_1rtcstats_1_1_stats.html#a5d7e6730ffc94b54ce73d2d54b01ab54',1,'millicast::rtcstats::Stats']]],

@@ -1,8 +1,14 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classmillicast_1_1_audio_control.html" title="The AudioControl class." alt="" coords="5,19,159,44"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_audio_playback.html" title="The AudioPlayback class." alt="" coords="207,5,372,31"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_audio_source.html" title="The AudioSource class." alt="" coords="213,55,365,80"/>
-<area shape="rect" id="node4" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="23,80,141,105"/>
-<area shape="rect" id="node5" href="$classmillicast_1_1_custom_source.html" title="CustomSources let you provide your own video and audio data to the webrtc stream." alt="" coords="207,104,372,129"/>
-<area shape="rect" id="node6" href="$classmillicast_1_1_video_source.html" title="The VideoSource class." alt="" coords="213,153,365,179"/>
+<area shape="rect" id="Node000000" href="$classmillicast_1_1_audio_control.html" title="The AudioControl class." alt="" coords="5,19,158,44"/>
+<area shape="rect" id="Node000001" href="$classmillicast_1_1_audio_playback.html" title="The AudioPlayback class." alt="" coords="206,5,370,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="172,23,205,21,205,26,173,28"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_audio_source.html" title="The AudioSource class." alt="" coords="212,55,364,80"/>
+<area shape="poly" id="edge2_Node000000_Node000003" title=" " alt="" coords="173,45,212,52,211,57,172,50"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="22,80,141,106"/>
+<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="125,71,205,40,238,29,239,34,207,45,127,76"/>
+<area shape="poly" id="edge4_Node000002_Node000003" title=" " alt="" coords="155,81,211,74,212,79,156,86"/>
+<area shape="rect" id="Node000004" href="$classmillicast_1_1_custom_source.html" title="CustomSources let you provide your own video and audio data to the webrtc stream." alt="" coords="206,104,370,130"/>
+<area shape="poly" id="edge5_Node000002_Node000004" title=" " alt="" coords="156,99,206,105,205,110,155,104"/>
+<area shape="rect" id="Node000005" href="$classmillicast_1_1_video_source.html" title="The VideoSource class." alt="" coords="212,153,364,179"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="128,109,207,140,239,150,238,155,205,145,126,114"/>
 </map>

@@ -3,7 +3,7 @@ var searchData=
   ['i210_0',['I210',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aa1ba737986e1232bd5888fb00dcd57ace',1,'millicast']]],
   ['i420_1',['I420',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aacd1ea458818d68e388b9356fd528d67a',1,'millicast']]],
   ['i444_2',['I444',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aaf96e364a4f1aa0fa680eef169d895134',1,'millicast']]],
-  ['id_3',['id',['../structmillicast_1_1_source_1_1_source_builder.html#aa6675555796d967c0b4086f24cca7385',1,'millicast::Source::SourceBuilder::id()'],['../structmillicast_1_1rtcstats_1_1_stats.html#a087b68d4d870abdc1d107bfd32abf619',1,'millicast::rtcstats::Stats::id()'],['../classmillicast_1_1_source.html#a285f3371dde0e3786910cd758c903531',1,'millicast::Source::id()'],['../classmillicast_1_1_track.html#a33bc6cbd03214297747581903d7de36a',1,'millicast::Track::id()']]],
+  ['id_3',['id',['../structmillicast_1_1_source_1_1_source_builder.html#aa6675555796d967c0b4086f24cca7385',1,'millicast::Source::SourceBuilder::id'],['../structmillicast_1_1rtcstats_1_1_stats.html#a087b68d4d870abdc1d107bfd32abf619',1,'millicast::rtcstats::Stats::id'],['../classmillicast_1_1_source.html#a285f3371dde0e3786910cd758c903531',1,'millicast::Source::id()'],['../classmillicast_1_1_track.html#a33bc6cbd03214297747581903d7de36a',1,'millicast::Track::id()']]],
   ['inbound_5frtp_4',['INBOUND_RTP',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19eba17cdb42b0314046cd77f82f60a503645',1,'millicast::rtcstats']]],
   ['inboundrtpstream_5',['InboundRtpStream',['../structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html',1,'millicast::rtcstats']]],
   ['init_6',['init',['../classmillicast_1_1_renderer.html#aed0e31e1d8ce2a8398e2635b881ab67d',1,'millicast::Renderer']]],
@@ -17,6 +17,6 @@ var searchData=
   ['is_5fplaying_14',['is_playing',['../classmillicast_1_1_audio_playback.html#a04ad17f9bf3bcf0fe4453b5fc1e86bae',1,'millicast::AudioPlayback']]],
   ['is_5fpublishing_15',['is_publishing',['../classmillicast_1_1_publisher.html#a3c6790fb074c043a7bd66e50ff551260',1,'millicast::Publisher']]],
   ['is_5fsubscribed_16',['is_subscribed',['../classmillicast_1_1_viewer.html#a74aa3b0a69d4afb5e06254f74d33445e',1,'millicast::Viewer']]],
-  ['is_5fvalid_17',['is_valid',['../structmillicast_1_1_publisher_1_1_credentials.html#a10c24373b7cd0c12a9603b82f1decde0',1,'millicast::Publisher::Credentials::is_valid()'],['../structmillicast_1_1_viewer_1_1_credentials.html#afe7f295455430225a91c8ce5e3ab4f3d',1,'millicast::Viewer::Credentials::is_valid()']]],
+  ['is_5fvalid_17',['is_valid',['../structmillicast_1_1_publisher_1_1_credentials.html#a10c24373b7cd0c12a9603b82f1decde0',1,'millicast::Publisher::Credentials::is_valid'],['../structmillicast_1_1_viewer_1_1_credentials.html#afe7f295455430225a91c8ce5e3ab4f3d',1,'millicast::Viewer::Credentials::is_valid']]],
   ['iyuv_18',['IYUV',['../namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2aab08f0cb36474118c5bbc03b3a172a778',1,'millicast']]]
 ];

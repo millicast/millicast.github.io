@@ -1,4 +1,5 @@
 <map id="millicast::CustomSource::Builder" name="millicast::CustomSource::Builder">
-<area shape="rect" id="node1" title="Builder struct to create a CustomSource." alt="" coords="5,93,171,133"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_source_1_1_source_builder.html" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." alt="" coords="21,5,155,45"/>
+<area shape="rect" id="Node000001" title="Builder struct to create a CustomSource." alt="" coords="5,94,170,135"/>
+<area shape="rect" id="Node000002" href="$structmillicast_1_1_source_1_1_source_builder.html" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." alt="" coords="20,5,155,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,61,90,94,85,94,85,61"/>
 </map>

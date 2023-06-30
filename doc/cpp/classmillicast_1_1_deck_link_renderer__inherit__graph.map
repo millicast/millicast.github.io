@@ -1,5 +1,7 @@
 <map id="millicast::DeckLinkRenderer" name="millicast::DeckLinkRenderer">
-<area shape="rect" id="node1" title="The DeckLinkRenderer class is used to render video on a DeckLink device." alt="" coords="5,152,192,177"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="17,79,181,104"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="33,5,164,31"/>
+<area shape="rect" id="Node000001" title="The DeckLinkRenderer class is used to render video on a DeckLink device." alt="" coords="5,153,191,178"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="16,79,180,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,119,101,152,95,152,95,119"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="33,5,163,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,46,101,79,95,79,95,46"/>
 </map>

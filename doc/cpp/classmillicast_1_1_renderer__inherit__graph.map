@@ -1,6 +1,9 @@
 <map id="millicast::Renderer" name="millicast::Renderer">
-<area shape="rect" id="node1" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="129,5,260,31"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="113,79,277,104"/>
-<area shape="rect" id="node3" href="$classmillicast_1_1_deck_link_renderer.html" title="The DeckLinkRenderer class is used to render video on a DeckLink device." alt="" coords="5,152,192,177"/>
-<area shape="rect" id="node4" href="$classmillicast_1_1_ndi_renderer.html" title="The NdiRenderer class is used to render video as an ndi source." alt="" coords="217,152,367,177"/>
+<area shape="rect" id="Node000001" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="129,5,259,31"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="112,79,276,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,46,197,79,191,79,191,46"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_deck_link_renderer.html" title="The DeckLinkRenderer class is used to render video on a DeckLink device." alt="" coords="5,153,191,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="168,116,116,154,112,150,165,112"/>
+<area shape="rect" id="Node000004" href="$classmillicast_1_1_ndi_renderer.html" title="The NdiRenderer class is used to render video as an ndi source." alt="" coords="215,153,365,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="223,112,276,150,272,154,220,116"/>
 </map>

@@ -1,6 +1,10 @@
 <map id="api/millicast&#45;sdk/frames.h" name="api/millicast&#45;sdk/frames.h">
-<area shape="rect" id="node1" title=" " alt="" coords="70,5,241,31"/>
-<area shape="rect" id="node2" href="$renderer_8h.html" title=" " alt="" coords="5,152,183,177"/>
-<area shape="rect" id="node3" href="$source_8h.html" title=" " alt="" coords="131,79,302,104"/>
-<area shape="rect" id="node4" href="$media_8h.html" title=" " alt="" coords="207,152,373,177"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,5,240,31"/>
+<area shape="rect" id="Node000002" href="$renderer_8h.html" title=" " alt="" coords="5,153,182,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,45,121,80,107,120,99,153,93,152,102,118,116,78,136,42"/>
+<area shape="rect" id="Node000003" href="$source_8h.html" title=" " alt="" coords="132,79,301,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,41,208,77,204,80,172,44"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="184,115,116,154,113,150,181,110"/>
+<area shape="rect" id="Node000004" href="$media_8h.html" title=" " alt="" coords="206,153,371,178"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="240,113,278,150,274,154,236,117"/>
 </map>

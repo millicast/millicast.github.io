@@ -1,12 +1,24 @@
 <map id="api/millicast&#45;sdk/viewer.h" name="api/millicast&#45;sdk/viewer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="301,5,469,31"/>
-<area shape="rect" id="node2" href="$client_8h.html" title=" " alt="" coords="315,79,456,104"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,152,72,177"/>
-<area shape="rect" id="node4" title=" " alt="" coords="109,225,163,251"/>
-<area shape="rect" id="node5" title=" " alt="" coords="205,225,283,251"/>
-<area shape="rect" id="node6" title=" " alt="" coords="449,152,487,177"/>
-<area shape="rect" id="node7" title=" " alt="" coords="512,152,571,177"/>
-<area shape="rect" id="node8" title=" " alt="" coords="595,152,664,177"/>
-<area shape="rect" id="node9" href="$mc__logging_8h.html" title=" " alt="" coords="147,152,323,177"/>
-<area shape="rect" id="node10" href="$exports_8h.html" title=" " alt="" coords="325,225,478,251"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="302,5,469,31"/>
+<area shape="rect" id="Node000002" href="$client_8h.html" title=" " alt="" coords="315,79,455,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="388,31,388,64,383,64,383,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,153,72,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="324,108,91,155,87,156,85,151,90,150,323,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,226,164,252"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="315,103,209,122,164,136,147,145,137,154,130,167,127,182,131,212,126,212,122,182,125,165,132,151,144,141,162,131,207,116,314,98"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="205,226,283,252"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="382,107,365,141,336,180,310,203,283,221,280,216,307,198,333,177,360,139,378,104"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="447,153,486,178"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="401,103,444,141,440,145,397,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="510,153,567,178"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="412,103,500,144,498,148,410,108"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="591,153,659,178"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="427,103,578,147,576,152,425,108"/>
+<area shape="rect" id="Node000009" href="$mc__logging_8h.html" title=" " alt="" coords="147,153,322,178"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="361,108,274,148,272,144,358,103"/>
+<area shape="rect" id="Node000010" href="$exports_8h.html" title=" " alt="" coords="325,226,477,252"/>
+<area shape="poly" id="edge12_Node000002_Node000010" title=" " alt="" coords="389,105,401,211,396,212,384,105"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="220,181,167,220,163,215,216,177"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="239,178,243,211,238,212,233,179"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="264,176,361,218,359,223,262,181"/>
 </map>

@@ -3,7 +3,7 @@ var searchData=
   ['codec_0',['Codec',['../namespacemillicast_1_1_codec.html',1,'millicast']]],
   ['maintain_5fframerate_1',['MAINTAIN_FRAMERATE',['../namespacemillicast.html#a1f4a37c3aa6bf62c4aff9f2da4d24dc3a3ee3d08aeee5c27f5333a35e88cbec1b',1,'millicast']]],
   ['maintain_5fresolution_2',['MAINTAIN_RESOLUTION',['../namespacemillicast.html#a1f4a37c3aa6bf62c4aff9f2da4d24dc3af591116a4ac54f4eedc41852a98fc7ec',1,'millicast']]],
-  ['matrix_3',['matrix',['../classmillicast_1_1_video_capabilities.html#aaacbe0787773500b75779b9535cf2994',1,'millicast::VideoCapabilities::matrix()'],['../classmillicast_1_1_video_frame.html#a36eec018d1846db09df5f3c665e49ed2',1,'millicast::VideoFrame::matrix()']]],
+  ['matrix_3',['matrix',['../classmillicast_1_1_video_capabilities.html#aaacbe0787773500b75779b9535cf2994',1,'millicast::VideoCapabilities::matrix'],['../classmillicast_1_1_video_frame.html#a36eec018d1846db09df5f3c665e49ed2',1,'millicast::VideoFrame::matrix()']]],
   ['matrixid_4',['MatrixID',['../namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0b',1,'millicast']]],
   ['max_5fbitrate_5fkbps_5',['max_bitrate_kbps',['../structmillicast_1_1_bitrate_settings.html#a6f7e6f0d55d3152edfb54f845ac7c0a5',1,'millicast::BitrateSettings']]],
   ['max_5fspatial_5flayer_5fid_6',['max_spatial_layer_id',['../structmillicast_1_1_viewer_1_1_layer_data.html#ae2465eb510fdcfb974d7760c75127c64',1,'millicast::Viewer::LayerData']]],
@@ -14,7 +14,7 @@ var searchData=
   ['mc_5flog_11',['MC_LOG',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02cac3cd2cd7ad528ad399021b082a2d426e',1,'millicast']]],
   ['mc_5flogging_2eh_12',['mc_logging.h',['../mc__logging_8h.html',1,'']]],
   ['mc_5fwarning_13',['MC_WARNING',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02ca03d0bf76ea281cad8859ee7f10d302b5',1,'millicast']]],
-  ['media_14',['media',['../structmillicast_1_1_track_info.html#aa061ae865edcf42e2319f353659e0799',1,'millicast::TrackInfo::media()'],['../structmillicast_1_1_viewer_1_1_projection_data.html#a6935889b33c273ab4cf5eaf960496f2d',1,'millicast::Viewer::ProjectionData::media()']]],
+  ['media_14',['media',['../structmillicast_1_1_track_info.html#aa061ae865edcf42e2319f353659e0799',1,'millicast::TrackInfo::media'],['../structmillicast_1_1_viewer_1_1_projection_data.html#a6935889b33c273ab4cf5eaf960496f2d',1,'millicast::Viewer::ProjectionData::media']]],
   ['media_15',['Media',['../classmillicast_1_1_media.html',1,'millicast']]],
   ['media_2eh_16',['media.h',['../media_8h.html',1,'']]],
   ['media_5fsource_17',['MEDIA_SOURCE',['../namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebacdd7cff80c36c215a765c925b8d8b7d3',1,'millicast::rtcstats']]],
@@ -32,7 +32,7 @@ var searchData=
   ['monitor_29',['MONITOR',['../classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6aff3e179b3cc64393841107ccba0d6e48',1,'millicast::Source']]],
   ['multiopus_5fcodec_5fname_30',['MULTIOPUS_CODEC_NAME',['../namespacemillicast_1_1_codec.html#a22515489f162ddcd6f05f506a66701e7',1,'millicast::Codec']]],
   ['multiplexed_5faudio_5ftrack_31',['multiplexed_audio_track',['../structmillicast_1_1_viewer_1_1_option.html#aa89d7ba809be132f778eb93373a036ed',1,'millicast::Viewer::Option']]],
-  ['multisource_32',['multisource',['../structmillicast_1_1_viewer_1_1_option.html#aa09f67871200babc160561b9537d9dc2',1,'millicast::Viewer::Option::multisource()'],['../structmillicast_1_1_publisher_1_1_option.html#a17bf88989a86ee5e6f0a508dea374638',1,'millicast::Publisher::Option::multisource()']]],
+  ['multisource_32',['multisource',['../structmillicast_1_1_viewer_1_1_option.html#aa09f67871200babc160561b9537d9dc2',1,'millicast::Viewer::Option::multisource'],['../structmillicast_1_1_publisher_1_1_option.html#a17bf88989a86ee5e6f0a508dea374638',1,'millicast::Publisher::Option::multisource']]],
   ['mute_33',['mute',['../classmillicast_1_1_audio_control.html#a6590e6a61988ab8c8c3510bc3ac66e80',1,'millicast::AudioControl']]],
   ['rtcstats_34',['rtcstats',['../namespacemillicast_1_1rtcstats.html',1,'millicast']]]
 ];

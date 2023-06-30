@@ -1,4 +1,5 @@
 <map id="millicast::CustomSource" name="millicast::CustomSource">
-<area shape="rect" id="node1" title="CustomSources let you provide your own video and audio data to the webrtc stream." alt="" coords="5,79,171,104"/>
-<area shape="rect" id="node2" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="29,5,147,31"/>
+<area shape="rect" id="Node000001" title="CustomSources let you provide your own video and audio data to the webrtc stream." alt="" coords="5,79,170,105"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="28,5,147,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,46,90,79,85,79,85,46"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="millicast::Viewer::Option" name="millicast::Viewer::Option">
-<area shape="rect" id="node1" title=" " alt="" coords="5,93,132,133"/>
-<area shape="rect" id="node2" href="$structmillicast_1_1_client_1_1_option.html" title="The Option struct allows to setup the millicast connection." alt="" coords="9,5,129,45"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,94,131,135"/>
+<area shape="rect" id="Node000002" href="$structmillicast_1_1_client_1_1_option.html" title="The Option struct allows to setup the millicast connection." alt="" coords="8,5,128,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,61,71,94,65,94,65,61"/>
 </map>

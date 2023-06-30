@@ -1,5 +1,7 @@
 <map id="api/millicast&#45;sdk/client.h" name="api/millicast&#45;sdk/client.h">
-<area shape="rect" id="node1" title=" " alt="" coords="115,5,278,31"/>
-<area shape="rect" id="node2" href="$publisher_8h.html" title=" " alt="" coords="5,79,188,104"/>
-<area shape="rect" id="node3" href="$viewer_8h.html" title=" " alt="" coords="213,79,381,104"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="114,5,275,31"/>
+<area shape="rect" id="Node000002" href="$publisher_8h.html" title=" " alt="" coords="5,79,187,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,42,114,81,111,76,165,38"/>
+<area shape="rect" id="Node000003" href="$viewer_8h.html" title=" " alt="" coords="211,79,378,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="225,38,279,76,276,81,222,42"/>
 </map>
