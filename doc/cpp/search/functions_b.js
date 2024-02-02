@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['matrix_0',['matrix',['../classmillicast_1_1_video_frame.html#a36eec018d1846db09df5f3c665e49ed2',1,'millicast::VideoFrame']]],
-  ['mute_1',['mute',['../classmillicast_1_1_audio_control.html#a6590e6a61988ab8c8c3510bc3ac66e80',1,'millicast::AudioControl']]]
+  ['log_0',['log',['../classmillicast_1_1_logger.html#acb08e890dbb4f602014b638a2c979cdd',1,'millicast::Logger']]],
+  ['log_5fversion_1',['log_version',['../classmillicast_1_1_logger.html#a139d17499de00724d7dfc6d0d9d34b6d',1,'millicast::Logger']]]
 ];

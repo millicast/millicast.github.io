@@ -1,8 +1,6 @@
 <map id="MCProjectionData" name="MCProjectionData">
-<area shape="rect" id="Node000001" title="The projection data is used to project a video/audio track into a specific transceiver...." alt="" coords="5,169,134,195"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="25,5,103,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,46,72,169,66,169,62,46"/>
-<area shape="rect" id="Node000003" href="$interface_m_c_layer_data.html" title="The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ..." alt="" coords="85,80,187,106"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="88,40,126,78,123,82,84,44"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,119,81,170,77,167,116,116"/>
+<area shape="rect" id="node1" title="The projection data is used to project a video/audio track into a specific transceiver...." alt="" coords="5,258,134,283"/>
+<area shape="rect" id="node2" title=" " alt="" coords="60,5,138,31"/>
+<area shape="rect" id="node3" href="$interface_m_c_layer_data.html" title="The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ..." alt="" coords="85,169,187,195"/>
+<area shape="rect" id="node4" href="$interface_m_c_layer_resolution.html" title=" " alt="" coords="136,80,272,106"/>
 </map>

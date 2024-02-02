@@ -1,0 +1,5 @@
+<map id="millicast::AudioRenderer" name="millicast::AudioRenderer">
+<area shape="rect" id="Node000001" title="The AudioRenderer class inherits this if you want to render audio in a specific way in your applicati..." alt="" coords="5,5,169,31"/>
+<area shape="rect" id="Node000002" href="$class_private_audio_renderer.html" title=" " alt="" coords="13,79,161,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,46,90,79,84,79,84,46"/>
+</map>

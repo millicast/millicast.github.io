@@ -1,7 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmillicast_1_1_client.html" title="The Client base class." alt="" coords="5,31,117,56"/>
-<area shape="rect" id="Node000001" href="$classmillicast_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="165,5,296,31"/>
-<area shape="poly" id="edge7_Node000000_Node000001" title=" " alt="" coords="131,30,164,25,165,31,132,36"/>
-<area shape="rect" id="Node000002" href="$classmillicast_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="172,55,289,80"/>
-<area shape="poly" id="edge8_Node000000_Node000002" title=" " alt="" coords="132,51,172,57,171,62,131,56"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,167,31"/>
+<area shape="rect" id="Node000001" href="$protocol_m_c_subscriber_listener-p.html" title="The Listener protocol for the Viewer class. It adds the on_subscribed event on top of the Client list..." alt="" coords="215,5,381,31"/>
+<area shape="poly" id="edge70_Node000000_Node000001" title=" " alt="" coords="182,16,214,16,214,21,182,21"/>
 </map>

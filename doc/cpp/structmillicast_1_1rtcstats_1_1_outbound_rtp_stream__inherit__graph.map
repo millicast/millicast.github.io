@@ -1,9 +1,9 @@
 <map id="millicast::rtcstats::OutboundRtpStream" name="millicast::rtcstats::OutboundRtpStream">
 <area shape="rect" id="Node000001" title=" " alt="" coords="5,271,154,312"/>
 <area shape="rect" id="Node000002" href="$structmillicast_1_1rtcstats_1_1_sent_rtp_stream.html" title=" " alt="" coords="19,183,140,223"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,238,82,271,77,271,77,238"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,239,82,271,77,271,77,239"/>
 <area shape="rect" id="Node000003" href="$structmillicast_1_1rtcstats_1_1_rtp_stream.html" title=" " alt="" coords="19,94,140,135"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,149,82,182,77,182,77,149"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,150,82,182,77,182,77,150"/>
 <area shape="rect" id="Node000004" href="$structmillicast_1_1rtcstats_1_1_stats.html" title=" " alt="" coords="19,5,140,46"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="82,61,82,94,77,94,77,61"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="82,62,82,94,77,94,77,62"/>
 </map>

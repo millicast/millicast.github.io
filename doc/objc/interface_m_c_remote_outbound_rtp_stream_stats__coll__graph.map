@@ -1,11 +1,7 @@
 <map id="MCRemoteOutboundRtpStreamStats" name="MCRemoteOutboundRtpStreamStats">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,300,213,341"/>
-<area shape="rect" id="Node000002" href="$interface_m_c_sent_rtp_stream_stats.html" title=" " alt="" coords="27,226,191,252"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,267,112,300,106,300,106,267"/>
-<area shape="rect" id="Node000003" href="$interface_m_c_rtp_stream_stats.html" title=" " alt="" coords="41,153,177,178"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="112,193,112,226,106,226,106,193"/>
-<area shape="rect" id="Node000004" href="$interface_m_c_stats.html" title=" " alt="" coords="72,79,146,105"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="112,119,112,152,106,152,106,119"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="70,5,148,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="112,46,112,79,106,79,106,46"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,300,213,341"/>
+<area shape="rect" id="node2" href="$interface_m_c_sent_rtp_stream_stats.html" title=" " alt="" coords="27,226,191,252"/>
+<area shape="rect" id="node3" href="$interface_m_c_rtp_stream_stats.html" title=" " alt="" coords="41,153,177,178"/>
+<area shape="rect" id="node4" href="$interface_m_c_stats.html" title=" " alt="" coords="72,79,146,105"/>
+<area shape="rect" id="node5" title=" " alt="" coords="70,5,148,31"/>
 </map>

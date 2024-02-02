@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['build_0',['build',['../interface_m_c_video_source_builder.html#a6354ff58f9a916fd2d74004e50fb12b7',1,'MCVideoSourceBuilder::build()'],['../interface_m_c_audio_source_builder.html#a11a7f5a23feccf311c681a07d1f21cc1',1,'MCAudioSourceBuilder::build()'],['../interface_m_c_audio_playback_builder.html#aeb0b5a584b0710db7112aaaf50c10db5',1,'MCAudioPlaybackBuilder::build()'],['../interface_m_c_custom_source_builder.html#a91099b67be2cbdc4286065a9bde1dabd',1,'MCCustomSourceBuilder::build()']]]
+  ['addremotetrack_3a_0',['addRemoteTrack:',['../interface_m_c_subscriber.html#af4f26bf8d201b047c031d393fed13f9d',1,'MCSubscriber']]],
+  ['addrenderer_3a_1',['addRenderer:',['../interface_m_c_video_track.html#a35922beb1e417a936cd45d30aabb0211',1,'MCVideoTrack::addRenderer:()'],['../interface_m_c_audio_track.html#a8225c74051ff608f37a6dbb33e6d8c0e',1,'MCAudioTrack::addRenderer:()']]],
+  ['addstats_3a_2',['addStats:',['../interface_m_c_stats_report.html#a8d6386a66a17d186a187b5eb766d34be',1,'MCStatsReport']]],
+  ['addtrack_3a_3',['addTrack:',['../interface_m_c_publisher.html#ab114d350caa269322cf4fe50113d652f',1,'MCPublisher']]]
 ];

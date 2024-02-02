@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.5.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.0</span>
    </div>
   </td>
  </tr>
@@ -75,7 +75,6 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="structmillicast_1_1_audio_playback_1_1_builder-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">millicast::AudioPlayback::Builder Struct Reference</div></div>
 </div><!--header-->
@@ -84,15 +83,15 @@ $(function() {
 <p>The <a class="el" href="structmillicast_1_1_audio_playback_1_1_builder.html" title="The Builder struct to build an AudioPlayback.">Builder</a> struct to build an <a class="el" href="classmillicast_1_1_audio_playback.html" title="The AudioPlayback class.">AudioPlayback</a>.  
  <a href="structmillicast_1_1_audio_playback_1_1_builder.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="source_8h_source.html">source.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="api_2millicast-sdk_2source_8h_source.html">source.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for millicast::AudioPlayback::Builder:</div>
 <div class="dyncontent">
 <div class="center"><img src="structmillicast_1_1_audio_playback_1_1_builder__inherit__graph.png" border="0" usemap="#amillicast_1_1_audio_playback_1_1_builder_inherit__map" alt="Inheritance graph"/></div>
 <map name="amillicast_1_1_audio_playback_1_1_builder_inherit__map" id="amillicast_1_1_audio_playback_1_1_builder_inherit__map">
 <area shape="rect" title="The Builder struct to build an AudioPlayback." alt="" coords="5,94,170,135"/>
-<area shape="rect" href="structmillicast_1_1_source_1_1_source_builder.html" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." alt="" coords="20,5,155,46"/>
-<area shape="poly" title=" " alt="" coords="90,61,90,94,85,94,85,61"/>
+<area shape="rect" href="structmillicast_1_1_source_1_1_source_information.html" title=" " alt="" coords="24,5,151,46"/>
+<area shape="poly" title=" " alt="" coords="90,62,90,94,85,94,85,62"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -101,44 +100,35 @@ Collaboration diagram for millicast::AudioPlayback::Builder:</div>
 <div class="center"><img src="structmillicast_1_1_audio_playback_1_1_builder__coll__graph.png" border="0" usemap="#amillicast_1_1_audio_playback_1_1_builder_coll__map" alt="Collaboration graph"/></div>
 <map name="amillicast_1_1_audio_playback_1_1_builder_coll__map" id="amillicast_1_1_audio_playback_1_1_builder_coll__map">
 <area shape="rect" title="The Builder struct to build an AudioPlayback." alt="" coords="5,94,170,135"/>
-<area shape="rect" href="structmillicast_1_1_source_1_1_source_builder.html" title="The source builder is used to build a source object. It uses a CRTP design to build sources according..." alt="" coords="20,5,155,46"/>
-<area shape="poly" title=" " alt="" coords="90,61,90,94,85,94,85,61"/>
+<area shape="rect" href="structmillicast_1_1_source_1_1_source_information.html" title=" " alt="" coords="24,5,151,46"/>
+<area shape="poly" title=" " alt="" coords="90,62,90,94,85,94,85,62"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abeafd5c9cea57465034b12cd1c116035"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_audio_playback_1_1_builder.html#abeafd5c9cea57465034b12cd1c116035">build_extra</a> (<a class="el" href="classmillicast_1_1_audio_playback.html">AudioPlayback</a> &amp;)</td></tr>
-<tr class="memdesc:abeafd5c9cea57465034b12cd1c116035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extra configuration specific to the <a class="el" href="classmillicast_1_1_audio_playback.html" title="The AudioPlayback class.">AudioPlayback</a> class. this method is called by the <a class="el" href="structmillicast_1_1_source_1_1_source_builder.html#a1706b729bec33d2fb2b9815bfa6d11be" title="Build the source from the type, id, name and unique_id.">Source::SourceBuilder::build</a> method.  <br /></td></tr>
-<tr class="separator:abeafd5c9cea57465034b12cd1c116035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_structmillicast_1_1_source_1_1_source_builder"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_structmillicast_1_1_source_1_1_source_builder')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="structmillicast_1_1_source_1_1_source_builder.html">millicast::Source::SourceBuilder&lt; T &gt;</a></td></tr>
-<tr class="memitem:a1706b729bec33d2fb2b9815bfa6d11be inherit pub_methods_structmillicast_1_1_source_1_1_source_builder"><td class="memItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_builder.html#a1706b729bec33d2fb2b9815bfa6d11be">build</a> () noexcept</td></tr>
-<tr class="memdesc:a1706b729bec33d2fb2b9815bfa6d11be inherit pub_methods_structmillicast_1_1_source_1_1_source_builder"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the source from the type, id, name and unique_id.  <br /></td></tr>
-<tr class="separator:a1706b729bec33d2fb2b9815bfa6d11be inherit pub_methods_structmillicast_1_1_source_1_1_source_builder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af277ba26f247fb5dc514e8628528e62c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <a class="el" href="classmillicast_1_1_audio_playback.html#a437de9b3d6937f4b8bf1627003939e6e">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_audio_playback_1_1_builder.html#af277ba26f247fb5dc514e8628528e62c">create</a> ()</td></tr>
-<tr class="memdesc:af277ba26f247fb5dc514e8628528e62c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new audio playback object.  <br /></td></tr>
-<tr class="separator:af277ba26f247fb5dc514e8628528e62c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec03f6fa4d582d80eac89af90299cf1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_audio_playback_1_1_builder.html#aec03f6fa4d582d80eac89af90299cf1d">Builder</a> () noexcept=default</td></tr>
+<tr class="separator:aec03f6fa4d582d80eac89af90299cf1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106c5b12f86183b924d09d402f2332b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <a class="el" href="classmillicast_1_1_audio_playback.html#a437de9b3d6937f4b8bf1627003939e6e">Ptr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_audio_playback_1_1_builder.html#a106c5b12f86183b924d09d402f2332b6">build</a> () noexcept</td></tr>
+<tr class="separator:a106c5b12f86183b924d09d402f2332b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structmillicast_1_1_source_1_1_source_builder')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structmillicast_1_1_source_1_1_source_builder.html">millicast::Source::SourceBuilder&lt; T &gt;</a></td></tr>
-<tr class="memitem:a0e33f06b96a5bab37f576cf9aaa9f407 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_builder.html#a0e33f06b96a5bab37f576cf9aaa9f407">type</a></td></tr>
-<tr class="separator:a0e33f06b96a5bab37f576cf9aaa9f407 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6675555796d967c0b4086f24cca7385 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_builder.html#aa6675555796d967c0b4086f24cca7385">id</a></td></tr>
-<tr class="separator:aa6675555796d967c0b4086f24cca7385 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77e7d08df79756162bff06b47fa5ea68 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_builder.html#a77e7d08df79756162bff06b47fa5ea68">name</a></td></tr>
-<tr class="separator:a77e7d08df79756162bff06b47fa5ea68 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43fb1f857e8fe0145a9035d0da378f27 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_builder.html#a43fb1f857e8fe0145a9035d0da378f27">unique_id</a></td></tr>
-<tr class="separator:a43fb1f857e8fe0145a9035d0da378f27 inherit pub_attribs_structmillicast_1_1_source_1_1_source_builder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_structmillicast_1_1_source_1_1_source_information"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_structmillicast_1_1_source_1_1_source_information')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structmillicast_1_1_source_1_1_source_information.html">millicast::Source::SourceInformation</a></td></tr>
+<tr class="memitem:a1b275166a36dd30e26d4c3b03005aeda inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_information.html#a1b275166a36dd30e26d4c3b03005aeda">type</a></td></tr>
+<tr class="separator:a1b275166a36dd30e26d4c3b03005aeda inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fd560da3efc13db7dbb0917957ec0ef inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_information.html#a6fd560da3efc13db7dbb0917957ec0ef">id</a></td></tr>
+<tr class="separator:a6fd560da3efc13db7dbb0917957ec0ef inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9413fad6fd4d0c64c31a1d84e320374c inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_information.html#a9413fad6fd4d0c64c31a1d84e320374c">name</a></td></tr>
+<tr class="separator:a9413fad6fd4d0c64c31a1d84e320374c inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d96d8449ec532d9cf04c8654314298b inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_source_1_1_source_information.html#a3d96d8449ec532d9cf04c8654314298b">unique_id</a></td></tr>
+<tr class="separator:a3d96d8449ec532d9cf04c8654314298b inherit pub_attribs_structmillicast_1_1_source_1_1_source_information"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="structmillicast_1_1_audio_playback_1_1_builder.html" title="The Builder struct to build an AudioPlayback.">Builder</a> struct to build an <a class="el" href="classmillicast_1_1_audio_playback.html" title="The AudioPlayback class.">AudioPlayback</a>. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="abeafd5c9cea57465034b12cd1c116035" name="abeafd5c9cea57465034b12cd1c116035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abeafd5c9cea57465034b12cd1c116035">&#9670;&#160;</a></span>build_extra()</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aec03f6fa4d582d80eac89af90299cf1d" name="aec03f6fa4d582d80eac89af90299cf1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec03f6fa4d582d80eac89af90299cf1d">&#9670;&#160;</a></span>Builder()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,32 +137,24 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void millicast::AudioPlayback::Builder::build_extra </td>
+          <td class="memname"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> millicast::AudioPlayback::Builder::Builder </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classmillicast_1_1_audio_playback.html">AudioPlayback</a> &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Extra configuration specific to the <a class="el" href="classmillicast_1_1_audio_playback.html" title="The AudioPlayback class.">AudioPlayback</a> class. this method is called by the <a class="el" href="structmillicast_1_1_source_1_1_source_builder.html#a1706b729bec33d2fb2b9815bfa6d11be" title="Build the source from the type, id, name and unique_id.">Source::SourceBuilder::build</a> method. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">playback</td><td>The audio playback to configure. </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
-<a id="af277ba26f247fb5dc514e8628528e62c" name="af277ba26f247fb5dc514e8628528e62c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af277ba26f247fb5dc514e8628528e62c">&#9670;&#160;</a></span>create()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a106c5b12f86183b924d09d402f2332b6" name="a106c5b12f86183b924d09d402f2332b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a106c5b12f86183b924d09d402f2332b6">&#9670;&#160;</a></span>build()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,7 +163,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <a class="el" href="classmillicast_1_1_audio_playback.html#a437de9b3d6937f4b8bf1627003939e6e">Ptr</a> millicast::AudioPlayback::Builder::create </td>
+          <td class="memname"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <a class="el" href="classmillicast_1_1_audio_playback.html#a437de9b3d6937f4b8bf1627003939e6e">Ptr</a> millicast::AudioPlayback::Builder::build </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -189,18 +171,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Create a new audio playback object. </p>
 <dl class="section return"><dt>Returns</dt><dd>The audio playback as <a class="el" href="classmillicast_1_1_audio_playback.html#a437de9b3d6937f4b8bf1627003939e6e">AudioPlayback::Ptr</a> </dd></dl>
 
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>api/millicast-sdk/<a class="el" href="source_8h_source.html">source.h</a></li>
+<li>api/millicast-sdk/<a class="el" href="api_2millicast-sdk_2source_8h_source.html">source.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

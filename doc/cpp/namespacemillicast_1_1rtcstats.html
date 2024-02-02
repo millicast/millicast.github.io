@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.5.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.0</span>
    </div>
   </td>
  </tr>
@@ -84,15 +84,11 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_audio_source.html">AudioSource</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_audio_stream_track.html">AudioStreamTrack</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_codecs.html">Codecs</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html">InboundRtpStream</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_media_source.html">MediaSource</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_media_stream_track.html">MediaStreamTrack</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_outbound_rtp_stream.html">OutboundRtpStream</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -110,8 +106,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_video_source.html">VideoSource</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1rtcstats_1_1_video_stream_track.html">VideoStreamTrack</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -122,11 +116,9 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebac42422534dc044788a6b7016c5bf3774">REMOTE_INBOUND_RTP</a>
 , <br />
 &#160;&#160;<a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebac591ded847bf88c679816980bc5609b6">REMOTE_OUTBOUND_RTP</a>
-, <a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19eba57e308a879578b7caa137cdc4d11301b">MEDIA_TRACK</a>
-, <a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19eba1a58df07a988e2072120f0abaa12ad11">AUDIO_TRACK</a>
-, <a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebad6dcca3724cf766531e63e447e5dfcc1">VIDEO_TRACK</a>
-, <br />
-&#160;&#160;<a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebacdd7cff80c36c215a765c925b8d8b7d3">MEDIA_SOURCE</a>
+, <a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebacdd7cff80c36c215a765c925b8d8b7d3">MEDIA_SOURCE</a>
+, <a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebab1386ace2d0884ada6782a7688d6649f">AUDIO_SOURCE</a>
+, <a class="el" href="namespacemillicast_1_1rtcstats.html#a3cf265fe593452b7e98de2cb7e2b19ebaa9cdf5f82339ed3ef7f5ab3d46f800b6">VIDEO_SOURCE</a>
 <br />
  }</td></tr>
 <tr class="separator:a3cf265fe593452b7e98de2cb7e2b19eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,10 +149,9 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19eba17cdb42b0314046cd77f82f60a503645" name="a3cf265fe593452b7e98de2cb7e2b19eba17cdb42b0314046cd77f82f60a503645"></a>INBOUND_RTP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19ebac42422534dc044788a6b7016c5bf3774" name="a3cf265fe593452b7e98de2cb7e2b19ebac42422534dc044788a6b7016c5bf3774"></a>REMOTE_INBOUND_RTP&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19ebac591ded847bf88c679816980bc5609b6" name="a3cf265fe593452b7e98de2cb7e2b19ebac591ded847bf88c679816980bc5609b6"></a>REMOTE_OUTBOUND_RTP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19eba57e308a879578b7caa137cdc4d11301b" name="a3cf265fe593452b7e98de2cb7e2b19eba57e308a879578b7caa137cdc4d11301b"></a>MEDIA_TRACK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19eba1a58df07a988e2072120f0abaa12ad11" name="a3cf265fe593452b7e98de2cb7e2b19eba1a58df07a988e2072120f0abaa12ad11"></a>AUDIO_TRACK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19ebad6dcca3724cf766531e63e447e5dfcc1" name="a3cf265fe593452b7e98de2cb7e2b19ebad6dcca3724cf766531e63e447e5dfcc1"></a>VIDEO_TRACK&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19ebacdd7cff80c36c215a765c925b8d8b7d3" name="a3cf265fe593452b7e98de2cb7e2b19ebacdd7cff80c36c215a765c925b8d8b7d3"></a>MEDIA_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19ebab1386ace2d0884ada6782a7688d6649f" name="a3cf265fe593452b7e98de2cb7e2b19ebab1386ace2d0884ada6782a7688d6649f"></a>AUDIO_SOURCE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3cf265fe593452b7e98de2cb7e2b19ebaa9cdf5f82339ed3ef7f5ab3d46f800b6" name="a3cf265fe593452b7e98de2cb7e2b19ebaa9cdf5f82339ed3ef7f5ab3d46f800b6"></a>VIDEO_SOURCE&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

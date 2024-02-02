@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.5.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.0</span>
    </div>
   </td>
  </tr>
@@ -83,7 +83,7 @@ $(function() {
 <p>The <a class="el" href="classmillicast_1_1_video_frame.html" title="The VideoFrame class used to described a VideoFrame.">VideoFrame</a> class used to described a <a class="el" href="classmillicast_1_1_video_frame.html" title="The VideoFrame class used to described a VideoFrame.">VideoFrame</a>.  
  <a href="classmillicast_1_1_video_frame.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="frames_8h_source.html">frames.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="api_2millicast-sdk_2frames_8h_source.html">frames.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -104,6 +104,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed946b08bff2e7f3d2ccfe79c5bc6fc5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2a">VideoType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_video_frame.html#aed946b08bff2e7f3d2ccfe79c5bc6fc5">frame_type</a> () const =0</td></tr>
 <tr class="memdesc:aed946b08bff2e7f3d2ccfe79c5bc6fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type (ex.: I420) of the video frame.  <br /></td></tr>
 <tr class="separator:aed946b08bff2e7f3d2ccfe79c5bc6fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d668aef595fc5d70a2ef41e6f9c057"><td class="memItemLeft" align="right" valign="top">virtual uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_video_frame.html#a56d668aef595fc5d70a2ef41e6f9c057">timestamp</a> () const</td></tr>
+<tr class="memdesc:a56d668aef595fc5d70a2ef41e6f9c057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current timestamp of the videoframe. The current system clock should be enough. This is used to make certain RTC stats available.  <br /></td></tr>
+<tr class="separator:a56d668aef595fc5d70a2ef41e6f9c057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affcfed453f215893050179c12f2a380b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeb">PrimaryID</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_video_frame.html#affcfed453f215893050179c12f2a380b">primaries</a> () const =0</td></tr>
 <tr class="memdesc:affcfed453f215893050179c12f2a380b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the standard (ex.: BT709) used for image parameters of the video frame.  <br /></td></tr>
 <tr class="separator:affcfed453f215893050179c12f2a380b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -449,6 +452,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a56d668aef595fc5d70a2ef41e6f9c057" name="a56d668aef595fc5d70a2ef41e6f9c057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d668aef595fc5d70a2ef41e6f9c057">&#9670;&#160;</a></span>timestamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual uint32_t millicast::VideoFrame::timestamp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current timestamp of the videoframe. The current system clock should be enough. This is used to make certain RTC stats available. </p>
+<dl class="section return"><dt>Returns</dt><dd>The timestamp </dd></dl>
+
+</div>
+</div>
 <a id="a8f7913e9277643d16d4ec361b8c4da8b" name="a8f7913e9277643d16d4ec361b8c4da8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f7913e9277643d16d4ec361b8c4da8b">&#9670;&#160;</a></span>transfer()</h2>
 
@@ -506,7 +537,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>api/millicast-sdk/<a class="el" href="frames_8h_source.html">frames.h</a></li>
+<li>api/millicast-sdk/<a class="el" href="api_2millicast-sdk_2frames_8h_source.html">frames.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

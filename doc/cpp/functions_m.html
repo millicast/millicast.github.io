@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.5.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.0</span>
    </div>
   </td>
  </tr>
@@ -74,16 +74,25 @@ $(function() {
 <h3><a id="index_m" name="index_m"></a>- m -</h3><ul>
 <li>matrix&#160;:&#160;<a class="el" href="classmillicast_1_1_video_capabilities.html#aaacbe0787773500b75779b9535cf2994">millicast::VideoCapabilities</a>, <a class="el" href="classmillicast_1_1_video_frame.html#a36eec018d1846db09df5f3c665e49ed2">millicast::VideoFrame</a></li>
 <li>max_bitrate_kbps&#160;:&#160;<a class="el" href="structmillicast_1_1_bitrate_settings.html#a6f7e6f0d55d3152edfb54f845ac7c0a5">millicast::BitrateSettings</a></li>
-<li>max_spatial_layer_id&#160;:&#160;<a class="el" href="structmillicast_1_1_viewer_1_1_layer_data.html#ae2465eb510fdcfb974d7760c75127c64">millicast::Viewer::LayerData</a></li>
-<li>max_temporal_layer_id&#160;:&#160;<a class="el" href="structmillicast_1_1_viewer_1_1_layer_data.html#a22a98c9de95ee09c7f91eeb95559d539">millicast::Viewer::LayerData</a></li>
-<li>media&#160;:&#160;<a class="el" href="structmillicast_1_1_track_info.html#aa061ae865edcf42e2319f353659e0799">millicast::TrackInfo</a>, <a class="el" href="structmillicast_1_1_viewer_1_1_projection_data.html#a6935889b33c273ab4cf5eaf960496f2d">millicast::Viewer::ProjectionData</a></li>
-<li>media_source_id&#160;:&#160;<a class="el" href="structmillicast_1_1rtcstats_1_1_media_stream_track.html#a13c5dcaeca4aae9c130dee2db523feeb">millicast::rtcstats::MediaStreamTrack</a></li>
-<li>mid&#160;:&#160;<a class="el" href="structmillicast_1_1_viewer_1_1_projection_data.html#a19c5842865d9c9873da7e2aec5d3c47a">millicast::Viewer::ProjectionData</a></li>
-<li>mime_type&#160;:&#160;<a class="el" href="structmillicast_1_1rtcstats_1_1_codecs.html#a5cd961e87b8827c22ccccc128c1fae48">millicast::rtcstats::Codecs</a></li>
+<li>max_spatial_layer_id&#160;:&#160;<a class="el" href="structmillicast_1_1_viewer_layer_data.html#abd3bedbf4d45320d891543c757560688">millicast::ViewerLayerData</a></li>
+<li>max_temporal_layer_id&#160;:&#160;<a class="el" href="structmillicast_1_1_viewer_layer_data.html#a824fece39eb771fd1dd171f92a5eb7fd">millicast::ViewerLayerData</a></li>
+<li>maxBitrateKbps&#160;:&#160;<a class="el" href="interface_m_c_bitrate_settings.html#ad5cdd18da4dc7ba4719a3b539f9b7e9d">MCBitrateSettings</a></li>
+<li>maxSpatialLayerId&#160;:&#160;<a class="el" href="interface_m_c_layer_data.html#adc719caa2c2183df1e15ff1840a91902">MCLayerData</a></li>
+<li>maxTemporalLayerId&#160;:&#160;<a class="el" href="interface_m_c_layer_data.html#ad230b7ce27eccc15647a441f2f5d09f3">MCLayerData</a></li>
+<li>media&#160;:&#160;<a class="el" href="interface_m_c_projection_data.html#a59469572613ec50f75db267fa84ea642">MCProjectionData</a>, <a class="el" href="structmillicast_1_1_track_info.html#aa061ae865edcf42e2319f353659e0799">millicast::TrackInfo</a>, <a class="el" href="structmillicast_1_1_viewer_projection_data.html#af611b582f3f9666b26c7839680c25874">millicast::ViewerProjectionData</a></li>
+<li>media_source_id&#160;:&#160;<a class="el" href="interface_m_c_remote_outbound_rtp_stream_stats.html#a4103d72185fd57bbaa5e05b3344853f3">MCRemoteOutboundRtpStreamStats</a></li>
+<li>message()&#160;:&#160;<a class="el" href="classmillicast_1_1_async_operation_cancelled.html#afe55c743d9cd0207055f6c79996da7f4">millicast::AsyncOperationCancelled</a>, <a class="el" href="classmillicast_1_1_error.html#a00aad59d07686e37a579c6e5410ec690">millicast::Error</a>, <a class="el" href="classmillicast_1_1_generic_error.html#a5cf105276f05d3a80b5439a335951b0b">millicast::GenericError</a></li>
+<li>mid&#160;:&#160;<a class="el" href="interface_m_c_inbound_rtp_stream_stats.html#a0a26a43a923aa0a6edb656b8b8c97886">MCInboundRtpStreamStats</a>, <a class="el" href="interface_m_c_projection_data.html#a5dca09e2c9166936f07f4efa0b7115a5">MCProjectionData</a>, <a class="el" href="structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html#a7b84de7269be4ab32c680a88b310e76e">millicast::rtcstats::InboundRtpStream</a>, <a class="el" href="structmillicast_1_1_viewer_projection_data.html#a066488e2356a648e26de34b2d8af98c2">millicast::ViewerProjectionData</a></li>
+<li>mime_type&#160;:&#160;<a class="el" href="interface_m_c_codecs_stats.html#a5fd7697dfb30a513080ffc9bb6a0b9a3">MCCodecsStats</a>, <a class="el" href="structmillicast_1_1rtcstats_1_1_codecs.html#a5cd961e87b8827c22ccccc128c1fae48">millicast::rtcstats::Codecs</a></li>
 <li>min_bitrate_kbps&#160;:&#160;<a class="el" href="structmillicast_1_1_bitrate_settings.html#afe250e925ab2eecad970421786c6ad3b">millicast::BitrateSettings</a></li>
-<li>multiplexed_audio_track&#160;:&#160;<a class="el" href="structmillicast_1_1_viewer_1_1_option.html#aa89d7ba809be132f778eb93373a036ed">millicast::Viewer::Option</a></li>
-<li>multisource&#160;:&#160;<a class="el" href="structmillicast_1_1_publisher_1_1_option.html#a17bf88989a86ee5e6f0a508dea374638">millicast::Publisher::Option</a>, <a class="el" href="structmillicast_1_1_viewer_1_1_option.html#aa09f67871200babc160561b9537d9dc2">millicast::Viewer::Option</a></li>
+<li>min_playout_delay&#160;:&#160;<a class="el" href="interface_m_c_inbound_rtp_stream_stats.html#a650d85785e6ec76db9d7ec4a3db9793d">MCInboundRtpStreamStats</a>, <a class="el" href="structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html#acf7d33a08ce4644824ce1b98aec364d5">millicast::rtcstats::InboundRtpStream</a></li>
+<li>minBitrateKbps&#160;:&#160;<a class="el" href="interface_m_c_bitrate_settings.html#abfd79c1c963748513eb25a5ee132e56a">MCBitrateSettings</a></li>
+<li>MULTIPLE_RESOLVE&#160;:&#160;<a class="el" href="classmillicast_1_1_async_operation_cancelled.html#a16e0b8501301a359bbeb5cd303330a58a0ff583f2d534f719f5ea2ef386a7cca7">millicast::AsyncOperationCancelled</a></li>
+<li>multiplexed_audio_track&#160;:&#160;<a class="el" href="structmillicast_1_1_viewer_option.html#a3a3bc138ec59180ee7015f1282532b00">millicast::ViewerOption</a></li>
+<li>multiplexedAudioTrack&#160;:&#160;<a class="el" href="interface_m_c_client_options.html#abdcf63893058d69b0429eef35baa4b5e">MCClientOptions</a></li>
+<li>multisource&#160;:&#160;<a class="el" href="structmillicast_1_1_publisher_option.html#abe244fc4b9578b49b46b6c864c44f933">millicast::PublisherOption</a>, <a class="el" href="structmillicast_1_1_viewer_option.html#aa26667bd1c263b37360340a767f20f61">millicast::ViewerOption</a></li>
 <li>mute()&#160;:&#160;<a class="el" href="classmillicast_1_1_audio_control.html#a6590e6a61988ab8c8c3510bc3ac66e80">millicast::AudioControl</a></li>
+<li>mute:&#160;:&#160;<a class="el" href="protocol_m_c_audio_control-p.html#a10b84fc2eb4ff28da69ff94092d08ab8">&lt;MCAudioControl&gt;</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

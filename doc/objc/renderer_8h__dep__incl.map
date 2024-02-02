@@ -1,8 +1,11 @@
 <map id="objc/MillicastSDK/renderer.h" name="objc/MillicastSDK/renderer.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,192,31"/>
-<area shape="rect" id="Node000002" href="$_millicast_s_d_k_8h.html" title=" " alt="" coords="10,153,187,193"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,44,65,80,64,99,68,117,85,151,81,153,63,119,58,99,60,78,78,42"/>
-<area shape="rect" id="Node000003" href="$track_8h.html" title=" " alt="" coords="75,79,245,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,41,152,77,147,80,116,44"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="144,118,116,154,112,151,140,115"/>
+<area shape="rect" id="node1" title=" " alt="" coords="285,5,471,31"/>
+<area shape="rect" id="node2" href="$_millicast_s_d_k-_mac_8h.html" title=" " alt="" coords="85,256,262,297"/>
+<area shape="rect" id="node3" href="$_millicast_s_d_k-i_o_s_8h.html" title=" " alt="" coords="389,256,566,297"/>
+<area shape="rect" id="node4" href="$_private_09_renderer_8h.html" title=" " alt="" coords="617,79,787,120"/>
+<area shape="rect" id="node6" href="$cm__sample__buffer__renderer_8h.html" title=" " alt="" coords="24,168,198,208"/>
+<area shape="rect" id="node7" href="$ios__renderer_8h.html" title=" " alt="" coords="395,79,542,120"/>
+<area shape="rect" id="node8" href="$track_8h.html" title=" " alt="" coords="202,87,372,112"/>
+<area shape="rect" id="node5" href="$_private_09_track_8h.html" title=" " alt="" coords="617,168,787,208"/>
+<area shape="rect" id="node9" href="$screen__share__source_8h.html" title=" " alt="" coords="272,168,441,208"/>
 </map>

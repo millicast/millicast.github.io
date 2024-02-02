@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['unproject_3a_0',['unproject:',['../interface_m_c_subscriber.html#a7ba37646789013e49a2aa024efb1e6fb',1,'MCSubscriber']]],
-  ['unpublish_1',['unpublish',['../interface_m_c_publisher.html#aa4fd632844b82f4895c9eed8847d6d04',1,'MCPublisher']]],
-  ['unsubscribe_2',['unsubscribe',['../interface_m_c_subscriber.html#abfd18159500208b284880f9ea47b5d47',1,'MCSubscriber']]]
+  ['record_0',['record',['../interface_m_c_publisher.html#ad378648f41bb8d397e4c09868c242040',1,'MCPublisher']]],
+  ['removerenderer_3a_1',['removeRenderer:',['../interface_m_c_video_track.html#ac328d59a900f45ba698c1dc7410f232e',1,'MCVideoTrack::removeRenderer:()'],['../interface_m_c_audio_track.html#a9c617b15e5bafbb0b65329f44d3da5ec',1,'MCAudioTrack::removeRenderer:()']]]
 ];

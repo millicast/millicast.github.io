@@ -1,9 +1,9 @@
 <map id="millicast::rtcstats::MediaSource" name="millicast::rtcstats::MediaSource">
 <area shape="rect" id="Node000001" title=" " alt="" coords="77,94,199,135"/>
 <area shape="rect" id="Node000003" href="$structmillicast_1_1rtcstats_1_1_audio_source.html" title=" " alt="" coords="5,183,127,223"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,148,84,184,80,181,110,144"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,149,84,184,80,181,110,145"/>
 <area shape="rect" id="Node000004" href="$structmillicast_1_1rtcstats_1_1_video_source.html" title=" " alt="" coords="151,183,272,223"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="166,144,197,180,193,184,162,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="166,145,197,180,193,184,162,148"/>
 <area shape="rect" id="Node000002" href="$structmillicast_1_1rtcstats_1_1_stats.html" title=" " alt="" coords="77,5,199,46"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,61,141,94,135,94,135,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,62,141,94,135,94,135,62"/>
 </map>

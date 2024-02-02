@@ -1,9 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio." alt="" coords="5,31,136,56"/>
-<area shape="rect" id="Node000001" href="$classmillicast_1_1_video_renderer.html" title="The VideoRenderer class Inherits this class to receive video frames and render them in your applicati..." alt="" coords="184,31,347,56"/>
-<area shape="poly" id="edge13_Node000000_Node000001" title=" " alt="" coords="150,41,183,41,183,46,150,46"/>
-<area shape="rect" id="Node000002" href="$classmillicast_1_1_deck_link_renderer.html" title="The DeckLinkRenderer class is used to render video on a DeckLink device." alt="" coords="395,5,580,31"/>
-<area shape="poly" id="edge14_Node000001_Node000002" title=" " alt="" coords="361,30,394,26,395,31,362,35"/>
-<area shape="rect" id="Node000003" href="$classmillicast_1_1_ndi_renderer.html" title="The NdiRenderer class is used to render video as an ndi source." alt="" coords="413,55,563,80"/>
-<area shape="poly" id="edge15_Node000001_Node000003" title=" " alt="" coords="362,51,412,57,412,62,361,56"/>
+<area shape="rect" id="Node000000" href="$classmillicast_1_1_client_base.html" title=" " alt="" coords="5,112,147,137"/>
+<area shape="rect" id="Node000001" href="$classmillicast_1_1compat_1_1_client.html" title="The Client base class." alt="" coords="196,71,324,111"/>
+<area shape="poly" id="edge81_Node000000_Node000001" title=" " alt="" coords="161,106,195,100,196,105,162,111"/>
+<area shape="rect" id="Node000004" href="$classmillicast_1_1promises_1_1_client.html" title=" " alt="" coords="195,136,325,177"/>
+<area shape="poly" id="edge84_Node000000_Node000004" title=" " alt="" coords="162,137,195,142,194,148,161,142"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1compat_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="374,5,502,46"/>
+<area shape="poly" id="edge82_Node000001_Node000002" title=" " alt="" coords="330,62,380,44,382,49,332,67"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1compat_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="374,71,502,111"/>
+<area shape="poly" id="edge83_Node000001_Node000003" title=" " alt="" coords="340,88,374,88,374,94,340,94"/>
+<area shape="rect" id="Node000005" href="$classmillicast_1_1promises_1_1_publisher.html" title=" " alt="" coords="373,136,503,177"/>
+<area shape="poly" id="edge85_Node000004_Node000005" title=" " alt="" coords="341,154,372,154,372,159,341,159"/>
+<area shape="rect" id="Node000006" href="$classmillicast_1_1promises_1_1_viewer.html" title=" " alt="" coords="373,201,503,242"/>
+<area shape="poly" id="edge86_Node000004_Node000006" title=" " alt="" coords="332,180,382,198,380,203,330,185"/>
 </map>

@@ -1,16 +1,9 @@
 <map id="objc/MillicastSDK/track.h" name="objc/MillicastSDK/track.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="121,5,290,31"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,102,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,34,94,75,91,70,179,29"/>
-<area shape="rect" id="Node000003" href="$renderer_8h.html" title=" " alt="" coords="126,79,285,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,31,208,64,203,64,203,31"/>
-<area shape="rect" id="Node000005" href="$exports_8h.html" title=" " alt="" coords="217,300,373,326"/>
-<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="238,29,271,48,286,62,298,78,320,122,326,161,323,202,315,253,307,286,301,285,310,251,317,202,321,162,315,124,294,80,282,65,268,53,236,34"/>
-<area shape="rect" id="Node000004" href="$capabilities_8h.html" title=" " alt="" coords="80,226,257,252"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="160,108,124,126,108,138,96,154,92,171,99,187,114,203,133,216,130,221,111,207,95,190,87,171,91,152,105,135,121,121,158,103"/>
-<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="226,103,250,123,272,151,286,186,294,222,298,285,293,285,288,223,281,187,267,154,246,127,222,107"/>
-<area shape="rect" id="Node000006" href="$frames_8h.html" title=" " alt="" coords="105,153,258,178"/>
-<area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="204,106,193,139,188,138,199,104"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="191,250,262,290,259,295,188,255"/>
-<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="182,179,176,212,170,211,177,178"/>
+<area shape="rect" id="node1" title=" " alt="" coords="29,5,198,31"/>
+<area shape="rect" id="node2" href="$renderer_8h.html" title=" " alt="" coords="117,79,276,105"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,300,161,326"/>
+<area shape="rect" id="node3" title=" " alt="" coords="297,153,493,178"/>
+<area shape="rect" id="node4" href="$capabilities_8h.html" title=" " alt="" coords="306,226,484,252"/>
+<area shape="rect" id="node6" href="$frames_8h.html" title=" " alt="" coords="120,153,273,178"/>
+<area shape="rect" id="node7" title=" " alt="" coords="121,226,283,252"/>
 </map>

@@ -1,26 +1,10 @@
 var searchData=
 [
-  ['capabilities_0',['capabilities',['../interface_m_c_video_source.html#af7b11037f2050959293aafb493b7653c',1,'MCVideoSource']]],
-  ['capabilities_2eh_1',['capabilities.h',['../capabilities_8h.html',1,'']]],
-  ['capturesource_2dp_2',['CaptureSource-p',['../protocol_capture_source-p.html',1,'']]],
-  ['changevideosource_3a_3',['changeVideoSource:',['../interface_m_c_video_source.html#a8a1b2a9dc486f9442324213ef6bfa297',1,'MCVideoSource']]],
-  ['changevideosource_3aascending_3a_4',['changeVideoSource:ascending:',['../interface_m_c_video_source.html#a094e516e70eb211787744de09eb1e971',1,'MCVideoSource']]],
-  ['channelnumber_5',['channelNumber',['../interface_m_c_audio_frame.html#af0c319997207c9fbdd165e1feef81616',1,'MCAudioFrame']]],
-  ['channels_6',['channels',['../interface_m_c_codecs_stats.html#aca0034067db1305eafab661d83bd7af3',1,'MCCodecsStats']]],
-  ['cleanup_7',['cleanup',['../interface_m_c_cleanup.html#aae88e64afb5c780e6d6addec9274b4c5',1,'MCCleanup']]],
-  ['cleartracks_8',['clearTracks',['../interface_m_c_publisher.html#a4f072339b31547b894c91095756335ca',1,'MCPublisher']]],
-  ['client_2eh_9',['client.h',['../client_8h.html',1,'']]],
-  ['clock_5frate_10',['clock_rate',['../interface_m_c_codecs_stats.html#a2eb8ffd0cfdefeede234edef52d98e1f',1,'MCCodecsStats']]],
-  ['codec_11',['CODEC',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a3b1d027ef0c7749664aa744ad5e4f937',1,'stats.h']]],
-  ['codec_5fid_12',['codec_id',['../interface_m_c_rtp_stream_stats.html#a07dd8c708e7e61d0d828e567e7b86fb8',1,'MCRtpStreamStats']]],
-  ['codec_5ftype_13',['codec_type',['../interface_m_c_codecs_stats.html#a152d6ea159842911425334a8a36fe4e9',1,'MCCodecsStats']]],
-  ['colorrangeexpansion_14',['colorRangeExpansion',['../interface_m_c_ios_video_renderer.html#ad757cbd85e01f5b0f53528ce149270c2',1,'MCIosVideoRenderer']]],
-  ['concealed_5fsamples_15',['concealed_samples',['../interface_m_c_inbound_rtp_stream_stats.html#ae95d19fc8ab902513a9ea733453bada8',1,'MCInboundRtpStreamStats']]],
-  ['concealment_5fevents_16',['concealment_events',['../interface_m_c_inbound_rtp_stream_stats.html#a515932e6286a7fdb4f6d5be1b3df9d11',1,'MCInboundRtpStreamStats']]],
-  ['connect_17',['connect',['../protocol_m_c_client-p.html#af165188549127f4493904fa7c0ccac61',1,'MCClient-p']]],
-  ['connectwithdata_3ajwt_3a_18',['connectWithData:jwt:',['../protocol_m_c_client-p.html#ac19ca1cc471f97bff0fda52246489acb',1,'MCClient-p']]],
-  ['cpp_5fcustom_5fsource_19',['cpp_custom_source',['../interface_m_c_custom_source.html#ae32ea245bc8c7ea6e0eb078318d2549e',1,'MCCustomSource']]],
-  ['cpp_5ftrack_20',['cpp_track',['../interface_m_c_track.html#a42ce2d2daa2ca468de8fa63a29db9142',1,'MCTrack']]],
-  ['cppframe_21',['cppFrame',['../interface_m_c_audio_frame.html#afcd7c27d25e91aeb5fabc856dc308ec0',1,'MCAudioFrame']]],
-  ['create_22',['create',['../interface_m_c_publisher.html#adedbb3e36e61605f0fd22a95e628b2be',1,'MCPublisher::create()'],['../interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9',1,'MCNdiRenderer::create()'],['../interface_m_c_subscriber.html#a5c5bc921ce759b63fcc68d7a5ace9dcd',1,'MCSubscriber::create()']]]
+  ['bgra_0',['BGRA',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90ae806f2c292a965ab4230bf7086d5ba54',1,'capabilities.h']]],
+  ['bitrate_1',['bitrate',['../interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49',1,'MCLayerData']]],
+  ['bitratesettings_2',['bitrateSettings',['../interface_m_c_client_options.html#afe35778ec2ff69e7de9728d3d05e3948',1,'MCClientOptions']]],
+  ['bitspersample_3',['bitsPerSample',['../interface_m_c_audio_frame.html#a052cb55c1a7bd5f64655700bcac581cc',1,'MCAudioFrame']]],
+  ['build_4',['build',['../interface_m_c_video_source_builder.html#a6354ff58f9a916fd2d74004e50fb12b7',1,'MCVideoSourceBuilder::build()'],['../interface_m_c_audio_source_builder.html#a11a7f5a23feccf311c681a07d1f21cc1',1,'MCAudioSourceBuilder::build()'],['../interface_m_c_audio_playback_builder.html#aeb0b5a584b0710db7112aaaf50c10db5',1,'MCAudioPlaybackBuilder::build()'],['../interface_m_c_custom_audio_source_builder.html#a77f3df34848cb957c08c8411621ec611',1,'MCCustomAudioSourceBuilder::build()'],['../interface_m_c_core_video_source_builder.html#acc8441a253453c58a18a57d8f7025045',1,'MCCoreVideoSourceBuilder::build()']]],
+  ['bytes_5freceived_5',['bytes_received',['../interface_m_c_inbound_rtp_stream_stats.html#aeb1bcc370f21501372e868aed9ee8553',1,'MCInboundRtpStreamStats']]],
+  ['bytes_5fsent_6',['bytes_sent',['../interface_m_c_sent_rtp_stream_stats.html#ae4a53cc4907051701ddde0f706e2250b',1,'MCSentRtpStreamStats']]]
 ];

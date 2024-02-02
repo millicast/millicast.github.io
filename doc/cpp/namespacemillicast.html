@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.5.1</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.0</span>
    </div>
   </td>
  </tr>
@@ -81,14 +81,22 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:namespacemillicast_1_1_codec"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast_1_1_codec.html">Codec</a></td></tr>
-<tr class="memdesc:namespacemillicast_1_1_codec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace where you can find constant for the codec names. <br /></td></tr>
+<tr class="memitem:namespacemillicast_1_1codec"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast_1_1codec.html">codec</a></td></tr>
+<tr class="memdesc:namespacemillicast_1_1codec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace where you can find constant for the codec names. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacemillicast_1_1compat"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast_1_1compat.html">compat</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacemillicast_1_1detail"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast_1_1detail.html">detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacemillicast_1_1promises"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast_1_1promises.html">promises</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacemillicast_1_1rtcstats"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast_1_1rtcstats.html">rtcstats</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_async_operation_cancelled.html">AsyncOperationCancelled</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_audio_control.html">AudioControl</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_audio_control.html" title="The AudioControl class.">AudioControl</a> class.  <a href="classmillicast_1_1_audio_control.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -108,16 +116,42 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_audio_track.html" title="The AudioTrack class.">AudioTrack</a> class.  <a href="classmillicast_1_1_audio_track.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_bitrate_settings.html">BitrateSettings</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows setting the desired minimum, maximum and or start bitrates when publishing a stream. You can also use <code>disable_bwe</code> to disable the internal bandwidth estimation and utilise the maximum bitrate provided as the sending bitrate.  <a href="structmillicast_1_1_bitrate_settings.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows setting the desired minimum and/or maximum bitrates when publishing a stream. You can also use <code>disable_bwe</code> to disable the internal bandwidth estimation and utilise the maximum bitrate provided as the sending bitrate.  <a href="structmillicast_1_1_bitrate_settings.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_client.html">Client</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_client.html" title="The Client base class.">Client</a> base class.  <a href="classmillicast_1_1_client.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1compat_1_1_client.html">Client</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1compat_1_1_client.html" title="The Client base class.">Client</a> base class.  <a href="classmillicast_1_1compat_1_1_client.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_client_base.html">ClientBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_client_connection_options.html">ClientConnectionOptions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connection related options.  <a href="structmillicast_1_1_client_connection_options.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_client_json_data.html">ClientJsonData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Authentication data returned by the director api in order to open a websocket connection.  <a href="structmillicast_1_1_client_json_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_client_listener.html">ClientListener</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1compat_1_1_client.html" title="The Client base class.">Client</a> Listener struct which contains methods that will be called on specific events from a <a class="el" href="classmillicast_1_1compat_1_1_client.html" title="The Client base class.">Client</a> object.  <a href="structmillicast_1_1_client_listener.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_client_option.html">ClientOption</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="structmillicast_1_1_client_option.html" title="The ClientOption struct allows to setup the millicast connection.">ClientOption</a> struct allows to setup the millicast connection.  <a href="structmillicast_1_1_client_option.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_custom_audio_source.html">CustomAudioSource</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_custom_source.html">CustomSource</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">CustomSources let you provide your own video and audio data to the webrtc stream.  <a href="classmillicast_1_1_custom_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_custom_video_source.html">CustomVideoSource</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_deck_link_renderer.html">DeckLinkRenderer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_deck_link_renderer.html" title="The DeckLinkRenderer class is used to render video on a DeckLink device.">DeckLinkRenderer</a> class is used to render video on a DeckLink device.  <a href="classmillicast_1_1_deck_link_renderer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_error.html">Error</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_error_category_base.html">ErrorCategoryBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_exception.html">Exception</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_generic_error.html">GenericError</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_logger.html">Logger</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,8 +161,21 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_ndi_renderer.html">NdiRenderer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_ndi_renderer.html" title="The NdiRenderer class is used to render video as an ndi source.">NdiRenderer</a> class is used to render video as an ndi source.  <a href="classmillicast_1_1_ndi_renderer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_publisher.html">Publisher</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream.">Publisher</a> class. Its purpose is to publish media to a Millicast stream.  <a href="classmillicast_1_1_publisher.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_promise.html">Promise</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1compat_1_1_publisher.html">Publisher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1compat_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream.">Publisher</a> class. Its purpose is to publish media to a Millicast stream.  <a href="classmillicast_1_1compat_1_1_publisher.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_publisher_credentials.html">PublisherCredentials</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Credentials struct represent the credentials need to be able to connect and publish to a Millicast stream.  <a href="structmillicast_1_1_publisher_credentials.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_publisher_listener.html">PublisherListener</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="structmillicast_1_1_publisher_listener.html" title="The PublisherListener struct for the Publisher class. It adds the publishing event on top of the Clie...">PublisherListener</a> struct for the <a class="el" href="classmillicast_1_1compat_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream.">Publisher</a> class. It adds the publishing event on top of the <a class="el" href="classmillicast_1_1compat_1_1_client.html" title="The Client base class.">Client</a> listener You must inherit this class and set a listener with set_listener to be able to receive events from the publisher.  <a href="structmillicast_1_1_publisher_listener.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_publisher_option.html">PublisherOption</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Option specific to the publisher.  <a href="structmillicast_1_1_publisher_option.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_recording_listener.html">RecordingListener</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_renderer.html">Renderer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_renderer.html" title="The Renderer base class. A renderer is used to render video on screen or render audio.">Renderer</a> base class. A renderer is used to render video on screen or render audio.  <a href="classmillicast_1_1_renderer.html#details">More...</a><br /></td></tr>
@@ -142,7 +189,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_track.html" title="The Track class represent a media sources.">Track</a> class represent a media sources.  <a href="classmillicast_1_1_track.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_track_info.html">TrackInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Useful informations about the available tracks in the media server. These informations are received in the active event of the <a class="el" href="classmillicast_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream....">Viewer</a>.  <a href="structmillicast_1_1_track_info.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Useful informations about the available tracks in the media server. These informations are received in the active event of the <a class="el" href="classmillicast_1_1compat_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream....">Viewer</a>.  <a href="structmillicast_1_1_track_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_video_capabilities.html">VideoCapabilities</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_video_capabilities.html" title="The VideoCapabilities struct.">VideoCapabilities</a> struct.  <a href="classmillicast_1_1_video_capabilities.html#details">More...</a><br /></td></tr>
@@ -159,8 +206,22 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_video_track.html">VideoTrack</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_video_track.html" title="The VideoTrack class.">VideoTrack</a> class.  <a href="classmillicast_1_1_video_track.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_viewer.html">Viewer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream....">Viewer</a> class. Its purpose is to receive media by subscribing to a millicast stream. The stream must already exists and someone must publish media.  <a href="classmillicast_1_1_viewer.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1compat_1_1_viewer.html">Viewer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classmillicast_1_1compat_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream....">Viewer</a> class. Its purpose is to receive media by subscribing to a millicast stream. The stream must already exists and someone must publish media.  <a href="classmillicast_1_1compat_1_1_viewer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_credentials.html">ViewerCredentials</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="structmillicast_1_1_viewer_credentials.html" title="The ViewerCredentials struct represent the credentials need to be able to connect and subscribe to a ...">ViewerCredentials</a> struct represent the credentials need to be able to connect and subscribe to a Millicast stream.  <a href="structmillicast_1_1_viewer_credentials.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_layer_data.html">ViewerLayerData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layer data is used to select a simulcast/svc layer. by sending a command to the server using the select or project method.  <a href="structmillicast_1_1_viewer_layer_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_listener.html">ViewerListener</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Listener struct for the <a class="el" href="classmillicast_1_1compat_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream....">Viewer</a> class. It adds the on_subscribed event on top of the <a class="el" href="classmillicast_1_1compat_1_1_client.html" title="The Client base class.">Client</a> listener You must inherit this class and set a listener with set_listener to be able to receive events from the <a class="el" href="classmillicast_1_1compat_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream....">Viewer</a>.  <a href="structmillicast_1_1_viewer_listener.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_option.html">ViewerOption</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_viewer_projection_data.html">ViewerProjectionData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The projection data is used to project a video/audio track into a specific transceiver. We send a command to the media server using the project method to choose which track to project.  <a href="structmillicast_1_1_viewer_projection_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -193,76 +254,76 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:a3e878ddbbd034e20ba1b96575ac0fd2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The VideoType enum represent the pixel format used for video frames.  <a href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2a">More...</a><br /></td></tr>
 <tr class="separator:a3e878ddbbd034e20ba1b96575ac0fd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a954f641e1cba44b7b09f91bc8a87ddeb"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeb">PrimaryID</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba28e5643978b0beecce56950e500cb83f">kBT709</a> = 1
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba8536661e94a42d4d95dcb9058b9936b5">kUnspecified</a> = 2
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba0cc37fea4f6b1511a798adb3b4c21fee">kBT470M</a> = 4
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba6300b13b959500ab137acb4a6480a596">kBT470BG</a> = 5
+&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba0b69475c5783f10c0be13d36825fc3b9">BT709</a> = 1
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba1c04cc3823d476c3017238679a0fdf52">UNSPECIFIED</a> = 2
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba1a9854ea3e47b957f4009d6da1b1eb14">BT470M</a> = 4
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddebaa4b98e0a438889b62172acac5acc8728">BT470BG</a> = 5
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba320b6e1694df8e76bf31cefca4cad98b">kSMPTE170M</a> = 6
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba0fe6d65a6fd9292206f0f01722c48cfd">kSMPTE240M</a> = 7
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddebac0bc6b4d5b7b2b9cd4afe9b8642cd3a8">kFILM</a> = 8
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba21b6f54575e0b16fcbf0af0fe49341b0">kBT2020</a> = 9
+&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba2e079c2fa31081f70ae351862c5a2bf1">SMPTE170M</a> = 6
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba4caac6367dac34f43c86c62b4fc624d0">SMPTE240M</a> = 7
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba1eb819d462609c8c21ba619cc4562712">FILM</a> = 8
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddebacede9bc5f1db241392356796faabf6e6">BT2020</a> = 9
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba14701595a2cab86cccf5137a9853db47">kSMPTEST428</a> = 10
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba09acd81c784beef9b86ad5b66bbe7e58">kSMPTEST431</a> = 11
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddebaa0bece90fe301ce1f80f0a332e5db71a">kSMPTEST432</a> = 12
-, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba9a49c06a7ec13888014735d0827ba230">kJEDECP22</a> = 22
+&#160;&#160;<a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddebac745659bccceb60e9252e263edb8dda1">SMPTEST428</a> = 10
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba6891961c6da850eeccc2caaf223e5ae3">SMPTEST431</a> = 11
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba8c589d39f72bd47041c287c63b040095">SMPTEST432</a> = 12
+, <a class="el" href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeba96797ac5f649f290be1a911a93deba37">JEDECP22</a> = 22
 <br />
  }</td></tr>
 <tr class="memdesc:a954f641e1cba44b7b09f91bc8a87ddeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The PrimaryID enum represents the standard of image parameters used for video frames.  <a href="namespacemillicast.html#a954f641e1cba44b7b09f91bc8a87ddeb">More...</a><br /></td></tr>
 <tr class="separator:a954f641e1cba44b7b09f91bc8a87ddeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55b121eb3756290a964c7f50f3108949"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949">TransferID</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a28e5643978b0beecce56950e500cb83f">kBT709</a> = 1
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a8536661e94a42d4d95dcb9058b9936b5">kUnspecified</a> = 2
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a106829d4d2954709dd39e2a2a6cd261a">kGAMMA22</a> = 4
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a215cc4c723582920d499b7f21da3ebdd">kGAMMA28</a> = 5
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a0b69475c5783f10c0be13d36825fc3b9">BT709</a> = 1
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a1c04cc3823d476c3017238679a0fdf52">UNSPECIFIED</a> = 2
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a8d6ee1d16cddeb17fcdd29ef787297c7">GAMMA22</a> = 4
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949adf30329af507c3ba2d808c2b81d59378">GAMMA28</a> = 5
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a320b6e1694df8e76bf31cefca4cad98b">kSMPTE170M</a> = 6
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a0fe6d65a6fd9292206f0f01722c48cfd">kSMPTE240M</a> = 7
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949afd0bda8f85b35011bdcde415691fc36f">kLINEAR</a> = 8
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ac2df88e31e9306e3242dacf91bc392e3">kLOG</a> = 9
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a2e079c2fa31081f70ae351862c5a2bf1">SMPTE170M</a> = 6
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a4caac6367dac34f43c86c62b4fc624d0">SMPTE240M</a> = 7
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949aaac544aacc3615aada24897a215f5046">LINEAR</a> = 8
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a4b5ffcdaf38ce4d463171f5c977c5ab3">LOG</a> = 9
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ad0142723dc61440d7ccbde509107e348">kLOG_SQRT</a> = 10
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a83d3a37541f298c42a95e9cb88607f38">kIEC61966_2_4</a> = 11
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a9e39034d23d0cba0ee9cf6a786ebb20f">kBT1361_ECG</a> = 12
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a2e094c4d18e031f336389c261b1fa316">kIEC61966_2_1</a> = 13
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a4d808ce9df1aa2e8a6aea6b41cc1ffdb">LOG_SQRT</a> = 10
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a998db92bfd0386437256c3f7b69a8477">IEC61966_2_4</a> = 11
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a3e3d242b4d1f15fc05cbe6ecb80d5375">BT1361_ECG</a> = 12
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ac6e3753baceb3b09be22895f3f054bbb">IEC61966_2_1</a> = 13
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a247ef905922cc08942e94b9d0a5abfbf">kBT2020_10</a> = 14
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ad9359d4a68c3c2c758471e28acc347e6">kBT2020_12</a> = 15
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949aa1605120f54de0c9fd7dd125c16eb788">kSMPTEST2084</a> = 16
-, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a14701595a2cab86cccf5137a9853db47">kSMPTEST428</a> = 17
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a6e1ec01a0f77fab1b88fe429e8c2f13c">BT2020_10</a> = 14
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a5bf98fe5a5fa1a2d9a35741b90039bf4">BT2020_12</a> = 15
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a043eb2c9118cec984795f606b67a1cb7">SMPTEST2084</a> = 16
+, <a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949ac745659bccceb60e9252e263edb8dda1">SMPTEST428</a> = 17
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a90e6666dec14e34a6983232530f33253">kARIB_STD_B67</a> = 18
+&#160;&#160;<a class="el" href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949aedafbb1c9119846d368f535b2f8955d7">ARIB_STD_B67</a> = 18
 <br />
  }</td></tr>
 <tr class="memdesc:a55b121eb3756290a964c7f50f3108949"><td class="mdescLeft">&#160;</td><td class="mdescRight">The TransferID enum represents the transfer function used for video frames.  <a href="namespacemillicast.html#a55b121eb3756290a964c7f50f3108949">More...</a><br /></td></tr>
 <tr class="separator:a55b121eb3756290a964c7f50f3108949"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf55de9876ae016fa23b2fe69888cd0b"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0b">MatrixID</a> : uint8_t { <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba6e94255c2d60c849b6f24ad631bb2613">kRGB</a> = 0
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba28e5643978b0beecce56950e500cb83f">kBT709</a> = 1
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba8536661e94a42d4d95dcb9058b9936b5">kUnspecified</a> = 2
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba2efdadc2b9082b349c0d56d450eb3245">kFCC</a> = 4
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba889574aebacda6bfd3e534e2b49b8028">RGB</a> = 0
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba0b69475c5783f10c0be13d36825fc3b9">BT709</a> = 1
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba1c04cc3823d476c3017238679a0fdf52">UNSPECIFIED</a> = 2
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0baa44b9f61b43631a04f181b6ab1259e51">FCC</a> = 4
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba6300b13b959500ab137acb4a6480a596">kBT470BG</a> = 5
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba320b6e1694df8e76bf31cefca4cad98b">kSMPTE170M</a> = 6
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba0fe6d65a6fd9292206f0f01722c48cfd">kSMPTE240M</a> = 7
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba6a42f931b6fab59123cfb55efcd3ef5f">kYCOCG</a> = 8
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0baa4b98e0a438889b62172acac5acc8728">BT470BG</a> = 5
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba2e079c2fa31081f70ae351862c5a2bf1">SMPTE170M</a> = 6
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba4caac6367dac34f43c86c62b4fc624d0">SMPTE240M</a> = 7
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0bad6510f6a1de350f3aaa2f958f9e78878">YCOCG</a> = 8
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0baf007e589a2e769c96d62c9cc687a5c02">kBT2020_NCL</a> = 9
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba751070110fc4a3b1822191ca622af1b3">kBT2020_CL</a> = 10
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0bae0778d95774a9d3ce82d2d5827a7c0e0">kSMPTE2085</a> = 11
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba58dfeac5d1195afda67d69e60a3d319c">kCDNCLS</a> = 12
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba42c72201b777582bb18f110c35131281">BT2020_NCL</a> = 9
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba0f1c3479d0e26ecb964dabba985a4be1">BT2020_CL</a> = 10
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0bad2cbbad0e08fdea68a1a270eb5cc9687">SMPTE2085</a> = 11
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0baa43bf79d66ba36bc4074169eb788041f">CDNCLS</a> = 12
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba5c1d8c0d1c3383857ffcf36bedf3b505">kCDCLS</a> = 13
-, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0bafb592b93e0b364ec6bedaabfe91747b9">kBT2100_ICTCP</a> = 14
+&#160;&#160;<a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0ba22dea2750bd6d22d426a3ed0d44f5255">CDCLS</a> = 13
+, <a class="el" href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0baa6708f4ddc5acde198c8ab3220969ca2">BT2100_ICTCP</a> = 14
 <br />
  }</td></tr>
 <tr class="memdesc:adf55de9876ae016fa23b2fe69888cd0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The MatrixID enum represents the color matrix to use for conversion between color spaces.  <a href="namespacemillicast.html#adf55de9876ae016fa23b2fe69888cd0b">More...</a><br /></td></tr>
 <tr class="separator:adf55de9876ae016fa23b2fe69888cd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abecb53f5eaa9afab8ae2eb4900342f13"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13">RangeID</a> { <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13ab10913c938482a8aa4ba85b7a1116cb4">kInvalid</a> = 0
-, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13af842b9d7c6733e37e7a26b70bcf28c5b">kLimited</a> = 1
-, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13aa60924e124da4d51bd4dc74c8f85b158">kFull</a> = 2
-, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13aa7ea8a43e8e126169ef4f1fff8cb33af">kDerived</a> = 3
+<tr class="memitem:abecb53f5eaa9afab8ae2eb4900342f13"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13">RangeID</a> { <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13accc0377a8afbf50e7094f5c23a8af223">INVALID</a> = 0
+, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13ad9e0d83abd8b9bb4c1998be68831922c">LIMITED</a> = 1
+, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13aba7de5bc6888294e5884b024a4c894f1">FULL</a> = 2
+, <a class="el" href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13a787a73f9406d65d027b75097ceb833ac">DERIVED</a> = 3
  }</td></tr>
 <tr class="memdesc:abecb53f5eaa9afab8ae2eb4900342f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">The RangeID enum represents the color range values.  <a href="namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13">More...</a><br /></td></tr>
 <tr class="separator:abecb53f5eaa9afab8ae2eb4900342f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -285,42 +346,42 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:ab0341b4a0484bc08143cd40b27fae02c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The LogLevel enum specify the severity of a log message.  <a href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c">More...</a><br /></td></tr>
 <tr class="separator:ab0341b4a0484bc08143cd40b27fae02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3167efde11adb089493f904c86a13f65"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65">ScalabilityMode</a> { <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ae905f208232e4731aca8032df4732fc3">L1T2</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65afce8faadebc20c0e70a0ec3dc86a84fb">L1T2h</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65add5dc1734c11ca88ee50956363fc8e45">L1T3</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a3019b35f263fa17d7f31a6ce2f3f6e0f">L1T3h</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a030aa51fb66d44e49c0fcf6b04045c3c">L1_T2</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65aca081ce5c645036094468904447628a6">L1_T2_H</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a7a3ae594723fef5095ca04731a121eb3">L1_T3</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65af8616e2d26d44e46af07ca95964a92a9">L1_T3_H</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a6760e01c24ee94e20d3105c4a4f13e0b">L2T1</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65aa0667f3e159b3eb56de54f26cc4a3de0">L2T1h</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65acc2f19e51594fa3dd0947e4a43391c53">L2T1_KEY</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a41a0663338c0f1f384c060236cfb1fda">L2T2</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65acffff10b779763102ef2f283cce1585f">L2_T1</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a5b80a8973f7cf22a4db59ea98c519c93">L2_T1_H</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65aa7a2a992634e2cbb6c0658745bbdb026">L2_T1_KEY</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ab28430b7a7eff7cce9cc6f33aed72345">L2_T2</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65af54b1f657106eae4ce833469db51bd3e">L2T3</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a70b54b25eadc8ddc4c7853f96105edb1">L2T2h</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a22663abad3f4ee3153cb2555a14ba96e">L2T2_KEY</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a060786d2d6816b1757364327ce152433">L2T2_KEY_SHIFT</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ad9ae597674118f2ca3ad241818f1534e">L2_T3</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a0052373be8e3147eaaccbab8725fb048">L2_T2_H</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65aa38df35895664077f81fe7a19aca1132">L2_T2_KEY</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a1f7c0eb7283db9e7aa54a30081cdd239">L2_T2_KEY_SHIFT</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a3d0f4d2690209637dfbc763b7803f2e3">L2T3h</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a3b03b0e45c03acde379ce97176b06814">L3T1</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ae953bbe7cdc1f12c4b3ec157e3330fd1">L3T2</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a0e22598c7fe910ee6e39d7a744ca4f1c">L3T3</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65af99bff299523e32595caf64bd5f0a63a">L2_T3_H</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a7b19c166d2747f7a89554247a4b78df7">L3_T1</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ab49041216baea373766d0ae1797b3ff3">L3_T2</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ae43d6e7f09875a98a7477a34e824bd82">L3_T3</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ad256f7e3aa0d87a7e0da2633e207d7cd">L3T3_KEY</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a58282098b6f01335862b8194f0996054">S2T1</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a3c39000e54b050eab141acd21ecbd283">S2T2</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a1531aa24e7c565451acba5261fecf008">S2T3</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a924c3af9a84799a64ac8ce98748d2685">L3_T3_KEY</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ac0a9a07fa755c9f15cced7e69913df2c">S2_T1</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65af165648dbb611c5e31aabecbbbeab47a">S2_T2</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a92d8a839705a90119a45352f10999c81">S2_T3</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65adb9ba41e83f8737060196b46a5dfc5d1">S3T1</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a399caf7fa8efd2fe310438cbff141bc0">S3T2</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a327c921c885af19ab27ed3a7c90c905b">S3T3</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a53b9fb9c001a83093b108d47550a7541">S2T1h</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a0cae603da236f2cbff18ed924db21dba">S3_T1</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a31b73c0294054bd78f352919471e42a6">S3_T2</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a142e6ebfec2a2ed0dcb3608325c33f0d">S3_T3</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ab2c12ffb762cfbaa212c31a8dda2b78c">S2_T1_H</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a6dc9b240f614b95b038b9ec3aae2b2cf">S2T2h</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65af0c3d68af1cdf392cf43c1cbe690a2fc">S2T3h</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a125d738e055c7540441627241b4757da">S3T1h</a>
-, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a49f33547f9710a14ce699a70ef311c1e">S3T2h</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a31f503caaa4f1f6b1e2d78a876d4ffe3">S2_T2_H</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a1afe078b17984458df3bd5d99f3f9c2d">S2_T3_H</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ad5584e44044d118358613cc54375c8cb">S3_T1_H</a>
+, <a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a15ba8c35e04bc94a2773dbaad34314ce">S3_T2_H</a>
 , <br />
-&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65ad3cba5aaba6649797dddb094d76fd58e">S3T3h</a>
+&#160;&#160;<a class="el" href="namespacemillicast.html#a3167efde11adb089493f904c86a13f65a981fd57231240c62a5f5e69b0461130b">S3_T3_H</a>
 <br />
  }</td></tr>
 <tr class="separator:a3167efde11adb089493f904c86a13f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,6 +391,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a4c1d65fb20abf83b40a88afbc27f3416"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a4c1d65fb20abf83b40a88afbc27f3416">video_type_to_str</a> (<a class="el" href="namespacemillicast.html#a3e878ddbbd034e20ba1b96575ac0fd2a">VideoType</a> t)</td></tr>
 <tr class="memdesc:a4c1d65fb20abf83b40a88afbc27f3416"><td class="mdescLeft">&#160;</td><td class="mdescRight">video_type_to_str convert a VideoType enum value to a std::string  <br /></td></tr>
 <tr class="separator:a4c1d65fb20abf83b40a88afbc27f3416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00c815f1bd2abe711916e3826d54dd4"><td class="memTemplParams" colspan="2">template&lt;typename EnumT &gt; </td></tr>
+<tr class="memitem:ac00c815f1bd2abe711916e3826d54dd4"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_error_condition_enum&lt; EnumT &gt;::value, <a class="el" href="classmillicast_1_1_error.html">Error</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#ac00c815f1bd2abe711916e3826d54dd4">make_error_condition</a> (EnumT value)</td></tr>
+<tr class="separator:ac00c815f1bd2abe711916e3826d54dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac874419743f8ddb9a660a57726581e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmillicast_1_1_error.html">Error</a> <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#abac874419743f8ddb9a660a57726581e">make_error_condition</a> (<a class="el" href="classmillicast_1_1_async_operation_cancelled.html#a16e0b8501301a359bbeb5cd303330a58">AsyncOperationCancelled::Value</a> value, const std::string &amp;message)</td></tr>
+<tr class="separator:abac874419743f8ddb9a660a57726581e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43da8dfaf6376f512132254790335709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmillicast_1_1_error.html">Error</a> <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a43da8dfaf6376f512132254790335709">make_error_condition</a> (<a class="el" href="classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4fac">GenericError::Value</a> value, const std::string &amp;message)</td></tr>
+<tr class="separator:a43da8dfaf6376f512132254790335709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ee6abc01a0cbd1f310659302ce44a0"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a03ee6abc01a0cbd1f310659302ce44a0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6">Source::Type</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a03ee6abc01a0cbd1f310659302ce44a0">Source::type&lt; Source::Type &gt;</a> () const</td></tr>
+<tr class="separator:a03ee6abc01a0cbd1f310659302ce44a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b5814bdee61e041ff1e247b0f191a6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a37b5814bdee61e041ff1e247b0f191a6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a37b5814bdee61e041ff1e247b0f191a6">Source::type&lt; std::string &gt;</a> () const</td></tr>
+<tr class="separator:a37b5814bdee61e041ff1e247b0f191a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="aa1e2b03e1cd334be99d54a6318653ef3" name="aa1e2b03e1cd334be99d54a6318653ef3"></a>
@@ -372,9 +446,9 @@ Functions</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a055c1a591abb0e8cd86dc969727bcc0b" name="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a055c1a591abb0e8cd86dc969727bcc0b"></a>DISABLED&#160;</td><td class="fielddoc"><p>Don't take any actions based on over-utilization signals. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a1f4a37c3aa6bf62c4aff9f2da4d24dc3af591116a4ac54f4eedc41852a98fc7ec" name="a1f4a37c3aa6bf62c4aff9f2da4d24dc3af591116a4ac54f4eedc41852a98fc7ec"></a>MAINTAIN_RESOLUTION&#160;</td><td class="fielddoc"><p>On over-use, request lower resolution, possibly causing down-scaling. </p>
+<tr><td class="fieldname"><a id="a1f4a37c3aa6bf62c4aff9f2da4d24dc3af591116a4ac54f4eedc41852a98fc7ec" name="a1f4a37c3aa6bf62c4aff9f2da4d24dc3af591116a4ac54f4eedc41852a98fc7ec"></a>MAINTAIN_RESOLUTION&#160;</td><td class="fielddoc"><p>On over-use, request lower frame rate, possibly causing frame drops. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a3ee3d08aeee5c27f5333a35e88cbec1b" name="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a3ee3d08aeee5c27f5333a35e88cbec1b"></a>MAINTAIN_FRAMERATE&#160;</td><td class="fielddoc"><p>On over-use, request lower frame rate, possibly causing frame drops. </p>
+<tr><td class="fieldname"><a id="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a3ee3d08aeee5c27f5333a35e88cbec1b" name="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a3ee3d08aeee5c27f5333a35e88cbec1b"></a>MAINTAIN_FRAMERATE&#160;</td><td class="fielddoc"><p>On over-use, request lower resolution, possibly causing down-scaling. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a0cb4635d100151dcaac6f91db856c402" name="a1f4a37c3aa6bf62c4aff9f2da4d24dc3a0cb4635d100151dcaac6f91db856c402"></a>BALANCED&#160;</td><td class="fielddoc"><p>Try to strike a "pleasing" balance between frame rate or resolution. </p>
 </td></tr>
@@ -440,20 +514,20 @@ Functions</h2></td></tr>
 
 <p>The MatrixID enum represents the color matrix to use for conversion between color spaces. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba6e94255c2d60c849b6f24ad631bb2613" name="adf55de9876ae016fa23b2fe69888cd0ba6e94255c2d60c849b6f24ad631bb2613"></a>kRGB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba28e5643978b0beecce56950e500cb83f" name="adf55de9876ae016fa23b2fe69888cd0ba28e5643978b0beecce56950e500cb83f"></a>kBT709&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba8536661e94a42d4d95dcb9058b9936b5" name="adf55de9876ae016fa23b2fe69888cd0ba8536661e94a42d4d95dcb9058b9936b5"></a>kUnspecified&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba2efdadc2b9082b349c0d56d450eb3245" name="adf55de9876ae016fa23b2fe69888cd0ba2efdadc2b9082b349c0d56d450eb3245"></a>kFCC&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba6300b13b959500ab137acb4a6480a596" name="adf55de9876ae016fa23b2fe69888cd0ba6300b13b959500ab137acb4a6480a596"></a>kBT470BG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba320b6e1694df8e76bf31cefca4cad98b" name="adf55de9876ae016fa23b2fe69888cd0ba320b6e1694df8e76bf31cefca4cad98b"></a>kSMPTE170M&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba0fe6d65a6fd9292206f0f01722c48cfd" name="adf55de9876ae016fa23b2fe69888cd0ba0fe6d65a6fd9292206f0f01722c48cfd"></a>kSMPTE240M&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba6a42f931b6fab59123cfb55efcd3ef5f" name="adf55de9876ae016fa23b2fe69888cd0ba6a42f931b6fab59123cfb55efcd3ef5f"></a>kYCOCG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0baf007e589a2e769c96d62c9cc687a5c02" name="adf55de9876ae016fa23b2fe69888cd0baf007e589a2e769c96d62c9cc687a5c02"></a>kBT2020_NCL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba751070110fc4a3b1822191ca622af1b3" name="adf55de9876ae016fa23b2fe69888cd0ba751070110fc4a3b1822191ca622af1b3"></a>kBT2020_CL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0bae0778d95774a9d3ce82d2d5827a7c0e0" name="adf55de9876ae016fa23b2fe69888cd0bae0778d95774a9d3ce82d2d5827a7c0e0"></a>kSMPTE2085&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba58dfeac5d1195afda67d69e60a3d319c" name="adf55de9876ae016fa23b2fe69888cd0ba58dfeac5d1195afda67d69e60a3d319c"></a>kCDNCLS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba5c1d8c0d1c3383857ffcf36bedf3b505" name="adf55de9876ae016fa23b2fe69888cd0ba5c1d8c0d1c3383857ffcf36bedf3b505"></a>kCDCLS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0bafb592b93e0b364ec6bedaabfe91747b9" name="adf55de9876ae016fa23b2fe69888cd0bafb592b93e0b364ec6bedaabfe91747b9"></a>kBT2100_ICTCP&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba889574aebacda6bfd3e534e2b49b8028" name="adf55de9876ae016fa23b2fe69888cd0ba889574aebacda6bfd3e534e2b49b8028"></a>RGB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba0b69475c5783f10c0be13d36825fc3b9" name="adf55de9876ae016fa23b2fe69888cd0ba0b69475c5783f10c0be13d36825fc3b9"></a>BT709&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba1c04cc3823d476c3017238679a0fdf52" name="adf55de9876ae016fa23b2fe69888cd0ba1c04cc3823d476c3017238679a0fdf52"></a>UNSPECIFIED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0baa44b9f61b43631a04f181b6ab1259e51" name="adf55de9876ae016fa23b2fe69888cd0baa44b9f61b43631a04f181b6ab1259e51"></a>FCC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0baa4b98e0a438889b62172acac5acc8728" name="adf55de9876ae016fa23b2fe69888cd0baa4b98e0a438889b62172acac5acc8728"></a>BT470BG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba2e079c2fa31081f70ae351862c5a2bf1" name="adf55de9876ae016fa23b2fe69888cd0ba2e079c2fa31081f70ae351862c5a2bf1"></a>SMPTE170M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba4caac6367dac34f43c86c62b4fc624d0" name="adf55de9876ae016fa23b2fe69888cd0ba4caac6367dac34f43c86c62b4fc624d0"></a>SMPTE240M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0bad6510f6a1de350f3aaa2f958f9e78878" name="adf55de9876ae016fa23b2fe69888cd0bad6510f6a1de350f3aaa2f958f9e78878"></a>YCOCG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba42c72201b777582bb18f110c35131281" name="adf55de9876ae016fa23b2fe69888cd0ba42c72201b777582bb18f110c35131281"></a>BT2020_NCL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba0f1c3479d0e26ecb964dabba985a4be1" name="adf55de9876ae016fa23b2fe69888cd0ba0f1c3479d0e26ecb964dabba985a4be1"></a>BT2020_CL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0bad2cbbad0e08fdea68a1a270eb5cc9687" name="adf55de9876ae016fa23b2fe69888cd0bad2cbbad0e08fdea68a1a270eb5cc9687"></a>SMPTE2085&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0baa43bf79d66ba36bc4074169eb788041f" name="adf55de9876ae016fa23b2fe69888cd0baa43bf79d66ba36bc4074169eb788041f"></a>CDNCLS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0ba22dea2750bd6d22d426a3ed0d44f5255" name="adf55de9876ae016fa23b2fe69888cd0ba22dea2750bd6d22d426a3ed0d44f5255"></a>CDCLS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="adf55de9876ae016fa23b2fe69888cd0baa6708f4ddc5acde198c8ab3220969ca2" name="adf55de9876ae016fa23b2fe69888cd0baa6708f4ddc5acde198c8ab3220969ca2"></a>BT2100_ICTCP&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -480,18 +554,18 @@ Functions</h2></td></tr>
 
 <p>The PrimaryID enum represents the standard of image parameters used for video frames. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba28e5643978b0beecce56950e500cb83f" name="a954f641e1cba44b7b09f91bc8a87ddeba28e5643978b0beecce56950e500cb83f"></a>kBT709&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba8536661e94a42d4d95dcb9058b9936b5" name="a954f641e1cba44b7b09f91bc8a87ddeba8536661e94a42d4d95dcb9058b9936b5"></a>kUnspecified&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba0cc37fea4f6b1511a798adb3b4c21fee" name="a954f641e1cba44b7b09f91bc8a87ddeba0cc37fea4f6b1511a798adb3b4c21fee"></a>kBT470M&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba6300b13b959500ab137acb4a6480a596" name="a954f641e1cba44b7b09f91bc8a87ddeba6300b13b959500ab137acb4a6480a596"></a>kBT470BG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba320b6e1694df8e76bf31cefca4cad98b" name="a954f641e1cba44b7b09f91bc8a87ddeba320b6e1694df8e76bf31cefca4cad98b"></a>kSMPTE170M&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba0fe6d65a6fd9292206f0f01722c48cfd" name="a954f641e1cba44b7b09f91bc8a87ddeba0fe6d65a6fd9292206f0f01722c48cfd"></a>kSMPTE240M&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddebac0bc6b4d5b7b2b9cd4afe9b8642cd3a8" name="a954f641e1cba44b7b09f91bc8a87ddebac0bc6b4d5b7b2b9cd4afe9b8642cd3a8"></a>kFILM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba21b6f54575e0b16fcbf0af0fe49341b0" name="a954f641e1cba44b7b09f91bc8a87ddeba21b6f54575e0b16fcbf0af0fe49341b0"></a>kBT2020&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba14701595a2cab86cccf5137a9853db47" name="a954f641e1cba44b7b09f91bc8a87ddeba14701595a2cab86cccf5137a9853db47"></a>kSMPTEST428&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba09acd81c784beef9b86ad5b66bbe7e58" name="a954f641e1cba44b7b09f91bc8a87ddeba09acd81c784beef9b86ad5b66bbe7e58"></a>kSMPTEST431&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddebaa0bece90fe301ce1f80f0a332e5db71a" name="a954f641e1cba44b7b09f91bc8a87ddebaa0bece90fe301ce1f80f0a332e5db71a"></a>kSMPTEST432&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba9a49c06a7ec13888014735d0827ba230" name="a954f641e1cba44b7b09f91bc8a87ddeba9a49c06a7ec13888014735d0827ba230"></a>kJEDECP22&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba0b69475c5783f10c0be13d36825fc3b9" name="a954f641e1cba44b7b09f91bc8a87ddeba0b69475c5783f10c0be13d36825fc3b9"></a>BT709&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba1c04cc3823d476c3017238679a0fdf52" name="a954f641e1cba44b7b09f91bc8a87ddeba1c04cc3823d476c3017238679a0fdf52"></a>UNSPECIFIED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba1a9854ea3e47b957f4009d6da1b1eb14" name="a954f641e1cba44b7b09f91bc8a87ddeba1a9854ea3e47b957f4009d6da1b1eb14"></a>BT470M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddebaa4b98e0a438889b62172acac5acc8728" name="a954f641e1cba44b7b09f91bc8a87ddebaa4b98e0a438889b62172acac5acc8728"></a>BT470BG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba2e079c2fa31081f70ae351862c5a2bf1" name="a954f641e1cba44b7b09f91bc8a87ddeba2e079c2fa31081f70ae351862c5a2bf1"></a>SMPTE170M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba4caac6367dac34f43c86c62b4fc624d0" name="a954f641e1cba44b7b09f91bc8a87ddeba4caac6367dac34f43c86c62b4fc624d0"></a>SMPTE240M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba1eb819d462609c8c21ba619cc4562712" name="a954f641e1cba44b7b09f91bc8a87ddeba1eb819d462609c8c21ba619cc4562712"></a>FILM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddebacede9bc5f1db241392356796faabf6e6" name="a954f641e1cba44b7b09f91bc8a87ddebacede9bc5f1db241392356796faabf6e6"></a>BT2020&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddebac745659bccceb60e9252e263edb8dda1" name="a954f641e1cba44b7b09f91bc8a87ddebac745659bccceb60e9252e263edb8dda1"></a>SMPTEST428&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba6891961c6da850eeccc2caaf223e5ae3" name="a954f641e1cba44b7b09f91bc8a87ddeba6891961c6da850eeccc2caaf223e5ae3"></a>SMPTEST431&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba8c589d39f72bd47041c287c63b040095" name="a954f641e1cba44b7b09f91bc8a87ddeba8c589d39f72bd47041c287c63b040095"></a>SMPTEST432&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a954f641e1cba44b7b09f91bc8a87ddeba96797ac5f649f290be1a911a93deba37" name="a954f641e1cba44b7b09f91bc8a87ddeba96797ac5f649f290be1a911a93deba37"></a>JEDECP22&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -518,10 +592,10 @@ Functions</h2></td></tr>
 
 <p>The RangeID enum represents the color range values. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13ab10913c938482a8aa4ba85b7a1116cb4" name="abecb53f5eaa9afab8ae2eb4900342f13ab10913c938482a8aa4ba85b7a1116cb4"></a>kInvalid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13af842b9d7c6733e37e7a26b70bcf28c5b" name="abecb53f5eaa9afab8ae2eb4900342f13af842b9d7c6733e37e7a26b70bcf28c5b"></a>kLimited&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13aa60924e124da4d51bd4dc74c8f85b158" name="abecb53f5eaa9afab8ae2eb4900342f13aa60924e124da4d51bd4dc74c8f85b158"></a>kFull&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13aa7ea8a43e8e126169ef4f1fff8cb33af" name="abecb53f5eaa9afab8ae2eb4900342f13aa7ea8a43e8e126169ef4f1fff8cb33af"></a>kDerived&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13accc0377a8afbf50e7094f5c23a8af223" name="abecb53f5eaa9afab8ae2eb4900342f13accc0377a8afbf50e7094f5c23a8af223"></a>INVALID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13ad9e0d83abd8b9bb4c1998be68831922c" name="abecb53f5eaa9afab8ae2eb4900342f13ad9e0d83abd8b9bb4c1998be68831922c"></a>LIMITED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13aba7de5bc6888294e5884b024a4c894f1" name="abecb53f5eaa9afab8ae2eb4900342f13aba7de5bc6888294e5884b024a4c894f1"></a>FULL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abecb53f5eaa9afab8ae2eb4900342f13a787a73f9406d65d027b75097ceb833ac" name="abecb53f5eaa9afab8ae2eb4900342f13a787a73f9406d65d027b75097ceb833ac"></a>DERIVED&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -546,35 +620,35 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ae905f208232e4731aca8032df4732fc3" name="a3167efde11adb089493f904c86a13f65ae905f208232e4731aca8032df4732fc3"></a>L1T2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65afce8faadebc20c0e70a0ec3dc86a84fb" name="a3167efde11adb089493f904c86a13f65afce8faadebc20c0e70a0ec3dc86a84fb"></a>L1T2h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65add5dc1734c11ca88ee50956363fc8e45" name="a3167efde11adb089493f904c86a13f65add5dc1734c11ca88ee50956363fc8e45"></a>L1T3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a3019b35f263fa17d7f31a6ce2f3f6e0f" name="a3167efde11adb089493f904c86a13f65a3019b35f263fa17d7f31a6ce2f3f6e0f"></a>L1T3h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a6760e01c24ee94e20d3105c4a4f13e0b" name="a3167efde11adb089493f904c86a13f65a6760e01c24ee94e20d3105c4a4f13e0b"></a>L2T1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65aa0667f3e159b3eb56de54f26cc4a3de0" name="a3167efde11adb089493f904c86a13f65aa0667f3e159b3eb56de54f26cc4a3de0"></a>L2T1h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65acc2f19e51594fa3dd0947e4a43391c53" name="a3167efde11adb089493f904c86a13f65acc2f19e51594fa3dd0947e4a43391c53"></a>L2T1_KEY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a41a0663338c0f1f384c060236cfb1fda" name="a3167efde11adb089493f904c86a13f65a41a0663338c0f1f384c060236cfb1fda"></a>L2T2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65af54b1f657106eae4ce833469db51bd3e" name="a3167efde11adb089493f904c86a13f65af54b1f657106eae4ce833469db51bd3e"></a>L2T3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a70b54b25eadc8ddc4c7853f96105edb1" name="a3167efde11adb089493f904c86a13f65a70b54b25eadc8ddc4c7853f96105edb1"></a>L2T2h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a22663abad3f4ee3153cb2555a14ba96e" name="a3167efde11adb089493f904c86a13f65a22663abad3f4ee3153cb2555a14ba96e"></a>L2T2_KEY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a060786d2d6816b1757364327ce152433" name="a3167efde11adb089493f904c86a13f65a060786d2d6816b1757364327ce152433"></a>L2T2_KEY_SHIFT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a3d0f4d2690209637dfbc763b7803f2e3" name="a3167efde11adb089493f904c86a13f65a3d0f4d2690209637dfbc763b7803f2e3"></a>L2T3h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a3b03b0e45c03acde379ce97176b06814" name="a3167efde11adb089493f904c86a13f65a3b03b0e45c03acde379ce97176b06814"></a>L3T1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ae953bbe7cdc1f12c4b3ec157e3330fd1" name="a3167efde11adb089493f904c86a13f65ae953bbe7cdc1f12c4b3ec157e3330fd1"></a>L3T2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a0e22598c7fe910ee6e39d7a744ca4f1c" name="a3167efde11adb089493f904c86a13f65a0e22598c7fe910ee6e39d7a744ca4f1c"></a>L3T3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ad256f7e3aa0d87a7e0da2633e207d7cd" name="a3167efde11adb089493f904c86a13f65ad256f7e3aa0d87a7e0da2633e207d7cd"></a>L3T3_KEY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a58282098b6f01335862b8194f0996054" name="a3167efde11adb089493f904c86a13f65a58282098b6f01335862b8194f0996054"></a>S2T1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a3c39000e54b050eab141acd21ecbd283" name="a3167efde11adb089493f904c86a13f65a3c39000e54b050eab141acd21ecbd283"></a>S2T2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a1531aa24e7c565451acba5261fecf008" name="a3167efde11adb089493f904c86a13f65a1531aa24e7c565451acba5261fecf008"></a>S2T3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65adb9ba41e83f8737060196b46a5dfc5d1" name="a3167efde11adb089493f904c86a13f65adb9ba41e83f8737060196b46a5dfc5d1"></a>S3T1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a399caf7fa8efd2fe310438cbff141bc0" name="a3167efde11adb089493f904c86a13f65a399caf7fa8efd2fe310438cbff141bc0"></a>S3T2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a327c921c885af19ab27ed3a7c90c905b" name="a3167efde11adb089493f904c86a13f65a327c921c885af19ab27ed3a7c90c905b"></a>S3T3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a53b9fb9c001a83093b108d47550a7541" name="a3167efde11adb089493f904c86a13f65a53b9fb9c001a83093b108d47550a7541"></a>S2T1h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a6dc9b240f614b95b038b9ec3aae2b2cf" name="a3167efde11adb089493f904c86a13f65a6dc9b240f614b95b038b9ec3aae2b2cf"></a>S2T2h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65af0c3d68af1cdf392cf43c1cbe690a2fc" name="a3167efde11adb089493f904c86a13f65af0c3d68af1cdf392cf43c1cbe690a2fc"></a>S2T3h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a125d738e055c7540441627241b4757da" name="a3167efde11adb089493f904c86a13f65a125d738e055c7540441627241b4757da"></a>S3T1h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a49f33547f9710a14ce699a70ef311c1e" name="a3167efde11adb089493f904c86a13f65a49f33547f9710a14ce699a70ef311c1e"></a>S3T2h&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ad3cba5aaba6649797dddb094d76fd58e" name="a3167efde11adb089493f904c86a13f65ad3cba5aaba6649797dddb094d76fd58e"></a>S3T3h&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a030aa51fb66d44e49c0fcf6b04045c3c" name="a3167efde11adb089493f904c86a13f65a030aa51fb66d44e49c0fcf6b04045c3c"></a>L1_T2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65aca081ce5c645036094468904447628a6" name="a3167efde11adb089493f904c86a13f65aca081ce5c645036094468904447628a6"></a>L1_T2_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a7a3ae594723fef5095ca04731a121eb3" name="a3167efde11adb089493f904c86a13f65a7a3ae594723fef5095ca04731a121eb3"></a>L1_T3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65af8616e2d26d44e46af07ca95964a92a9" name="a3167efde11adb089493f904c86a13f65af8616e2d26d44e46af07ca95964a92a9"></a>L1_T3_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65acffff10b779763102ef2f283cce1585f" name="a3167efde11adb089493f904c86a13f65acffff10b779763102ef2f283cce1585f"></a>L2_T1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a5b80a8973f7cf22a4db59ea98c519c93" name="a3167efde11adb089493f904c86a13f65a5b80a8973f7cf22a4db59ea98c519c93"></a>L2_T1_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65aa7a2a992634e2cbb6c0658745bbdb026" name="a3167efde11adb089493f904c86a13f65aa7a2a992634e2cbb6c0658745bbdb026"></a>L2_T1_KEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ab28430b7a7eff7cce9cc6f33aed72345" name="a3167efde11adb089493f904c86a13f65ab28430b7a7eff7cce9cc6f33aed72345"></a>L2_T2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ad9ae597674118f2ca3ad241818f1534e" name="a3167efde11adb089493f904c86a13f65ad9ae597674118f2ca3ad241818f1534e"></a>L2_T3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a0052373be8e3147eaaccbab8725fb048" name="a3167efde11adb089493f904c86a13f65a0052373be8e3147eaaccbab8725fb048"></a>L2_T2_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65aa38df35895664077f81fe7a19aca1132" name="a3167efde11adb089493f904c86a13f65aa38df35895664077f81fe7a19aca1132"></a>L2_T2_KEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a1f7c0eb7283db9e7aa54a30081cdd239" name="a3167efde11adb089493f904c86a13f65a1f7c0eb7283db9e7aa54a30081cdd239"></a>L2_T2_KEY_SHIFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65af99bff299523e32595caf64bd5f0a63a" name="a3167efde11adb089493f904c86a13f65af99bff299523e32595caf64bd5f0a63a"></a>L2_T3_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a7b19c166d2747f7a89554247a4b78df7" name="a3167efde11adb089493f904c86a13f65a7b19c166d2747f7a89554247a4b78df7"></a>L3_T1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ab49041216baea373766d0ae1797b3ff3" name="a3167efde11adb089493f904c86a13f65ab49041216baea373766d0ae1797b3ff3"></a>L3_T2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ae43d6e7f09875a98a7477a34e824bd82" name="a3167efde11adb089493f904c86a13f65ae43d6e7f09875a98a7477a34e824bd82"></a>L3_T3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a924c3af9a84799a64ac8ce98748d2685" name="a3167efde11adb089493f904c86a13f65a924c3af9a84799a64ac8ce98748d2685"></a>L3_T3_KEY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ac0a9a07fa755c9f15cced7e69913df2c" name="a3167efde11adb089493f904c86a13f65ac0a9a07fa755c9f15cced7e69913df2c"></a>S2_T1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65af165648dbb611c5e31aabecbbbeab47a" name="a3167efde11adb089493f904c86a13f65af165648dbb611c5e31aabecbbbeab47a"></a>S2_T2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a92d8a839705a90119a45352f10999c81" name="a3167efde11adb089493f904c86a13f65a92d8a839705a90119a45352f10999c81"></a>S2_T3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a0cae603da236f2cbff18ed924db21dba" name="a3167efde11adb089493f904c86a13f65a0cae603da236f2cbff18ed924db21dba"></a>S3_T1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a31b73c0294054bd78f352919471e42a6" name="a3167efde11adb089493f904c86a13f65a31b73c0294054bd78f352919471e42a6"></a>S3_T2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a142e6ebfec2a2ed0dcb3608325c33f0d" name="a3167efde11adb089493f904c86a13f65a142e6ebfec2a2ed0dcb3608325c33f0d"></a>S3_T3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ab2c12ffb762cfbaa212c31a8dda2b78c" name="a3167efde11adb089493f904c86a13f65ab2c12ffb762cfbaa212c31a8dda2b78c"></a>S2_T1_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a31f503caaa4f1f6b1e2d78a876d4ffe3" name="a3167efde11adb089493f904c86a13f65a31f503caaa4f1f6b1e2d78a876d4ffe3"></a>S2_T2_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a1afe078b17984458df3bd5d99f3f9c2d" name="a3167efde11adb089493f904c86a13f65a1afe078b17984458df3bd5d99f3f9c2d"></a>S2_T3_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65ad5584e44044d118358613cc54375c8cb" name="a3167efde11adb089493f904c86a13f65ad5584e44044d118358613cc54375c8cb"></a>S3_T1_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a15ba8c35e04bc94a2773dbaad34314ce" name="a3167efde11adb089493f904c86a13f65a15ba8c35e04bc94a2773dbaad34314ce"></a>S3_T2_H&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a3167efde11adb089493f904c86a13f65a981fd57231240c62a5f5e69b0461130b" name="a3167efde11adb089493f904c86a13f65a981fd57231240c62a5f5e69b0461130b"></a>S3_T3_H&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -601,23 +675,23 @@ Functions</h2></td></tr>
 
 <p>The TransferID enum represents the transfer function used for video frames. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a28e5643978b0beecce56950e500cb83f" name="a55b121eb3756290a964c7f50f3108949a28e5643978b0beecce56950e500cb83f"></a>kBT709&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a8536661e94a42d4d95dcb9058b9936b5" name="a55b121eb3756290a964c7f50f3108949a8536661e94a42d4d95dcb9058b9936b5"></a>kUnspecified&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a106829d4d2954709dd39e2a2a6cd261a" name="a55b121eb3756290a964c7f50f3108949a106829d4d2954709dd39e2a2a6cd261a"></a>kGAMMA22&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a215cc4c723582920d499b7f21da3ebdd" name="a55b121eb3756290a964c7f50f3108949a215cc4c723582920d499b7f21da3ebdd"></a>kGAMMA28&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a320b6e1694df8e76bf31cefca4cad98b" name="a55b121eb3756290a964c7f50f3108949a320b6e1694df8e76bf31cefca4cad98b"></a>kSMPTE170M&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a0fe6d65a6fd9292206f0f01722c48cfd" name="a55b121eb3756290a964c7f50f3108949a0fe6d65a6fd9292206f0f01722c48cfd"></a>kSMPTE240M&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949afd0bda8f85b35011bdcde415691fc36f" name="a55b121eb3756290a964c7f50f3108949afd0bda8f85b35011bdcde415691fc36f"></a>kLINEAR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949ac2df88e31e9306e3242dacf91bc392e3" name="a55b121eb3756290a964c7f50f3108949ac2df88e31e9306e3242dacf91bc392e3"></a>kLOG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949ad0142723dc61440d7ccbde509107e348" name="a55b121eb3756290a964c7f50f3108949ad0142723dc61440d7ccbde509107e348"></a>kLOG_SQRT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a83d3a37541f298c42a95e9cb88607f38" name="a55b121eb3756290a964c7f50f3108949a83d3a37541f298c42a95e9cb88607f38"></a>kIEC61966_2_4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a9e39034d23d0cba0ee9cf6a786ebb20f" name="a55b121eb3756290a964c7f50f3108949a9e39034d23d0cba0ee9cf6a786ebb20f"></a>kBT1361_ECG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a2e094c4d18e031f336389c261b1fa316" name="a55b121eb3756290a964c7f50f3108949a2e094c4d18e031f336389c261b1fa316"></a>kIEC61966_2_1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a247ef905922cc08942e94b9d0a5abfbf" name="a55b121eb3756290a964c7f50f3108949a247ef905922cc08942e94b9d0a5abfbf"></a>kBT2020_10&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949ad9359d4a68c3c2c758471e28acc347e6" name="a55b121eb3756290a964c7f50f3108949ad9359d4a68c3c2c758471e28acc347e6"></a>kBT2020_12&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949aa1605120f54de0c9fd7dd125c16eb788" name="a55b121eb3756290a964c7f50f3108949aa1605120f54de0c9fd7dd125c16eb788"></a>kSMPTEST2084&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a14701595a2cab86cccf5137a9853db47" name="a55b121eb3756290a964c7f50f3108949a14701595a2cab86cccf5137a9853db47"></a>kSMPTEST428&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a90e6666dec14e34a6983232530f33253" name="a55b121eb3756290a964c7f50f3108949a90e6666dec14e34a6983232530f33253"></a>kARIB_STD_B67&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a0b69475c5783f10c0be13d36825fc3b9" name="a55b121eb3756290a964c7f50f3108949a0b69475c5783f10c0be13d36825fc3b9"></a>BT709&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a1c04cc3823d476c3017238679a0fdf52" name="a55b121eb3756290a964c7f50f3108949a1c04cc3823d476c3017238679a0fdf52"></a>UNSPECIFIED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a8d6ee1d16cddeb17fcdd29ef787297c7" name="a55b121eb3756290a964c7f50f3108949a8d6ee1d16cddeb17fcdd29ef787297c7"></a>GAMMA22&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949adf30329af507c3ba2d808c2b81d59378" name="a55b121eb3756290a964c7f50f3108949adf30329af507c3ba2d808c2b81d59378"></a>GAMMA28&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a2e079c2fa31081f70ae351862c5a2bf1" name="a55b121eb3756290a964c7f50f3108949a2e079c2fa31081f70ae351862c5a2bf1"></a>SMPTE170M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a4caac6367dac34f43c86c62b4fc624d0" name="a55b121eb3756290a964c7f50f3108949a4caac6367dac34f43c86c62b4fc624d0"></a>SMPTE240M&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949aaac544aacc3615aada24897a215f5046" name="a55b121eb3756290a964c7f50f3108949aaac544aacc3615aada24897a215f5046"></a>LINEAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a4b5ffcdaf38ce4d463171f5c977c5ab3" name="a55b121eb3756290a964c7f50f3108949a4b5ffcdaf38ce4d463171f5c977c5ab3"></a>LOG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a4d808ce9df1aa2e8a6aea6b41cc1ffdb" name="a55b121eb3756290a964c7f50f3108949a4d808ce9df1aa2e8a6aea6b41cc1ffdb"></a>LOG_SQRT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a998db92bfd0386437256c3f7b69a8477" name="a55b121eb3756290a964c7f50f3108949a998db92bfd0386437256c3f7b69a8477"></a>IEC61966_2_4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a3e3d242b4d1f15fc05cbe6ecb80d5375" name="a55b121eb3756290a964c7f50f3108949a3e3d242b4d1f15fc05cbe6ecb80d5375"></a>BT1361_ECG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949ac6e3753baceb3b09be22895f3f054bbb" name="a55b121eb3756290a964c7f50f3108949ac6e3753baceb3b09be22895f3f054bbb"></a>IEC61966_2_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a6e1ec01a0f77fab1b88fe429e8c2f13c" name="a55b121eb3756290a964c7f50f3108949a6e1ec01a0f77fab1b88fe429e8c2f13c"></a>BT2020_10&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a5bf98fe5a5fa1a2d9a35741b90039bf4" name="a55b121eb3756290a964c7f50f3108949a5bf98fe5a5fa1a2d9a35741b90039bf4"></a>BT2020_12&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949a043eb2c9118cec984795f606b67a1cb7" name="a55b121eb3756290a964c7f50f3108949a043eb2c9118cec984795f606b67a1cb7"></a>SMPTEST2084&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949ac745659bccceb60e9252e263edb8dda1" name="a55b121eb3756290a964c7f50f3108949ac745659bccceb60e9252e263edb8dda1"></a>SMPTEST428&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a55b121eb3756290a964c7f50f3108949aedafbb1c9119846d368f535b2f8955d7" name="a55b121eb3756290a964c7f50f3108949aedafbb1c9119846d368f535b2f8955d7"></a>ARIB_STD_B67&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -663,6 +737,120 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="abac874419743f8ddb9a660a57726581e" name="abac874419743f8ddb9a660a57726581e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac874419743f8ddb9a660a57726581e">&#9670;&#160;</a></span>make_error_condition() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmillicast_1_1_error.html">Error</a> <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> millicast::make_error_condition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmillicast_1_1_async_operation_cancelled.html#a16e0b8501301a359bbeb5cd303330a58">AsyncOperationCancelled::Value</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac00c815f1bd2abe711916e3826d54dd4" name="ac00c815f1bd2abe711916e3826d54dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00c815f1bd2abe711916e3826d54dd4">&#9670;&#160;</a></span>make_error_condition() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename EnumT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::enable_if_t&lt; std::is_error_condition_enum&lt; EnumT &gt;::value, <a class="el" href="classmillicast_1_1_error.html">Error</a> &gt; millicast::make_error_condition </td>
+          <td>(</td>
+          <td class="paramtype">EnumT&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a43da8dfaf6376f512132254790335709" name="a43da8dfaf6376f512132254790335709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43da8dfaf6376f512132254790335709">&#9670;&#160;</a></span>make_error_condition() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmillicast_1_1_error.html">Error</a> <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> millicast::make_error_condition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4fac">GenericError::Value</a>&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>message</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03ee6abc01a0cbd1f310659302ce44a0" name="a03ee6abc01a0cbd1f310659302ce44a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03ee6abc01a0cbd1f310659302ce44a0">&#9670;&#160;</a></span>Source::type&lt; Source::Type &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6">Source::Type</a> <a class="el" href="classmillicast_1_1_source.html#a9bb1f9e48b72eee3e3f34a2564026ceb">millicast::Source::type</a>&lt; <a class="el" href="classmillicast_1_1_source.html#a2b254036de95834807305dbd9d5138a6">Source::Type</a> &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a37b5814bdee61e041ff1e247b0f191a6" name="a37b5814bdee61e041ff1e247b0f191a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37b5814bdee61e041ff1e247b0f191a6">&#9670;&#160;</a></span>Source::type&lt; std::string &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> std::string <a class="el" href="classmillicast_1_1_source.html#a9bb1f9e48b72eee3e3f34a2564026ceb">millicast::Source::type</a>&lt; std::string &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4c1d65fb20abf83b40a88afbc27f3416" name="a4c1d65fb20abf83b40a88afbc27f3416"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c1d65fb20abf83b40a88afbc27f3416">&#9670;&#160;</a></span>video_type_to_str()</h2>
 

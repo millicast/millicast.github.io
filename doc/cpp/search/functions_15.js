@@ -1,22 +1,4 @@
 var searchData=
 [
-  ['_7eaudiorenderer_0',['~AudioRenderer',['../classmillicast_1_1_audio_renderer.html#adbb914ad57c01d16ec94d4877a52d8b0',1,'millicast::AudioRenderer']]],
-  ['_7eaudiosource_1',['~AudioSource',['../classmillicast_1_1_audio_source.html#aca2f0f083d847ec1e6f0cea5e4859c4b',1,'millicast::AudioSource']]],
-  ['_7eaudiotrack_2',['~AudioTrack',['../classmillicast_1_1_audio_track.html#aaa8077dd5d68456a100c049951adf90b',1,'millicast::AudioTrack']]],
-  ['_7eclient_3',['~Client',['../classmillicast_1_1_client.html#aa7861d8a7775c9f85d99f0e233a75bb6',1,'millicast::Client']]],
-  ['_7econst_5fiterator_4',['~const_iterator',['../classmillicast_1_1_stats_report_1_1const__iterator.html#aea0cf5690ec6198e2348da2cec7e712a',1,'millicast::StatsReport::const_iterator']]],
-  ['_7ecustomsource_5',['~CustomSource',['../classmillicast_1_1_custom_source.html#a3e575f6cd035a0994346890b7692d6b1',1,'millicast::CustomSource']]],
-  ['_7edecklinkrenderer_6',['~DeckLinkRenderer',['../classmillicast_1_1_deck_link_renderer.html#a7b0bdb01bf3ea9791f6ebb3ad65f493d',1,'millicast::DeckLinkRenderer']]],
-  ['_7elistener_7',['~Listener',['../structmillicast_1_1_client_1_1_listener.html#a4af625d8449cd9f9cbc6b2dd6e5e65d5',1,'millicast::Client::Listener']]],
-  ['_7endirenderer_8',['~NdiRenderer',['../classmillicast_1_1_ndi_renderer.html#ab3a1593b467550bc23d25cb1ee41c5ff',1,'millicast::NdiRenderer']]],
-  ['_7epublisher_9',['~Publisher',['../classmillicast_1_1_publisher.html#a3116434f5ecee5aae643c733875a9fc5',1,'millicast::Publisher']]],
-  ['_7erenderer_10',['~Renderer',['../classmillicast_1_1_renderer.html#a8fa1b19d7650a0fbdc019c4af65e1883',1,'millicast::Renderer']]],
-  ['_7esource_11',['~Source',['../classmillicast_1_1_source.html#aac606cd46e583cc06a2b94af9fd17e12',1,'millicast::Source']]],
-  ['_7estatsreport_12',['~StatsReport',['../classmillicast_1_1_stats_report.html#a253efcbb510044e3be9ef7ca3b473f22',1,'millicast::StatsReport']]],
-  ['_7etrack_13',['~Track',['../classmillicast_1_1_track.html#ab76b68203e15b958953a5024baf2f58e',1,'millicast::Track']]],
-  ['_7evideoframe_14',['~VideoFrame',['../classmillicast_1_1_video_frame.html#a06646b002ebb6cb8c1989996b4fa5928',1,'millicast::VideoFrame']]],
-  ['_7evideorenderer_15',['~VideoRenderer',['../classmillicast_1_1_video_renderer.html#ac8a82168903fb02fab383a1f6608fc86',1,'millicast::VideoRenderer']]],
-  ['_7evideosource_16',['~VideoSource',['../classmillicast_1_1_video_source.html#a03a616ae1db0895467a3f944cb75adb3',1,'millicast::VideoSource']]],
-  ['_7evideotrack_17',['~VideoTrack',['../classmillicast_1_1_video_track.html#a170056141717822e02a1d0268d22a421',1,'millicast::VideoTrack']]],
-  ['_7eviewer_18',['~Viewer',['../classmillicast_1_1_viewer.html#ac0c46c0bbbfaa4dd4b17be4ac5bc3c0b',1,'millicast::Viewer']]]
+  ['width_0',['width',['../classmillicast_1_1_video_frame.html#ae7c808555d014f73bddcf809b82534cc',1,'millicast::VideoFrame::width()'],['../protocol_m_c_video_frame-p.html#aa0946091f6c480e4adfa110d2b2d30c4',1,'MCVideoFrame-p::width()']]]
 ];

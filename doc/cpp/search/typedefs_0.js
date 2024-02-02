@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['ptr_0',['Ptr',['../classmillicast_1_1_source.html#a5ae0968e092d265fd418d6cb7023863d',1,'millicast::Source::Ptr'],['../classmillicast_1_1_video_source.html#a06e7166f547eb131389fc627ab862057',1,'millicast::VideoSource::Ptr'],['../classmillicast_1_1_audio_source.html#ab11ffade8011eda3eb6921a4e9f9b739',1,'millicast::AudioSource::Ptr'],['../classmillicast_1_1_audio_playback.html#a437de9b3d6937f4b8bf1627003939e6e',1,'millicast::AudioPlayback::Ptr'],['../classmillicast_1_1_custom_source.html#aad2dc9e4aa5f02403aa721356e2b8e1a',1,'millicast::CustomSource::Ptr']]]
+  ['connectionoptions_0',['ConnectionOptions',['../classmillicast_1_1_client_base.html#ad11d399f9fefb0d344903f09d6a3a55a',1,'millicast::ClientBase']]],
+  ['credentials_1',['Credentials',['../classmillicast_1_1compat_1_1_publisher.html#a43fa0854c108bcdea7983094e9324c45',1,'millicast::compat::Publisher::Credentials'],['../classmillicast_1_1compat_1_1_viewer.html#ab459f40f3dd578800bd9c96030cb52c0',1,'millicast::compat::Viewer::Credentials']]]
 ];

@@ -1,9 +1,12 @@
 <map id="objc/MillicastSDK/Private+Renderer.h" name="objc/MillicastSDK/Private+Renderer.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="125,5,295,46"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,113,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,49,96,89,94,84,171,44"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="137,94,282,120"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,46,212,79,207,79,207,46"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="307,94,462,120"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="254,44,345,85,343,90,252,49"/>
+<area shape="rect" id="node1" title=" " alt="" coords="286,5,457,46"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,94,151,120"/>
+<area shape="rect" id="node3" title=" " alt="" coords="174,94,334,120"/>
+<area shape="rect" id="node4" href="$frames_8h.html" title=" " alt="" coords="295,168,448,193"/>
+<area shape="rect" id="node8" href="$renderer_8h.html" title=" " alt="" coords="408,94,567,120"/>
+<area shape="rect" id="node10" title=" " alt="" coords="591,94,746,120"/>
+<area shape="rect" id="node5" title=" " alt="" coords="134,241,297,267"/>
+<area shape="rect" id="node6" href="$capabilities_8h.html" title=" " alt="" coords="320,241,497,267"/>
+<area shape="rect" id="node7" title=" " alt="" coords="394,315,549,341"/>
+<area shape="rect" id="node9" title=" " alt="" coords="573,168,770,193"/>
 </map>

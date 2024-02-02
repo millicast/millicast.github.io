@@ -1,8 +1,7 @@
 <map id="objc/MillicastSDK/source.h" name="objc/MillicastSDK/source.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,185,31"/>
-<area shape="rect" id="Node000002" href="$_millicast_s_d_k_8h.html" title=" " alt="" coords="6,153,184,193"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,44,60,80,59,99,63,117,81,151,77,153,58,119,53,99,55,78,74,42"/>
-<area shape="rect" id="Node000003" href="$media_8h.html" title=" " alt="" coords="70,79,245,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,40,149,77,145,80,113,44"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="141,118,113,154,108,151,137,115"/>
+<area shape="rect" id="node1" title=" " alt="" coords="120,5,300,31"/>
+<area shape="rect" id="node2" href="$_millicast_s_d_k-_mac_8h.html" title=" " alt="" coords="21,168,199,208"/>
+<area shape="rect" id="node3" href="$_millicast_s_d_k-i_o_s_8h.html" title=" " alt="" coords="223,168,400,208"/>
+<area shape="rect" id="node4" href="$media_8h.html" title=" " alt="" coords="25,87,200,112"/>
+<area shape="rect" id="node5" href="$screen__share__source_8h.html" title=" " alt="" coords="225,79,393,120"/>
 </map>

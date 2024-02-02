@@ -1,23 +1,7 @@
 var searchData=
 [
-  ['i210_0',['I210',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90a60b5a926ccefe8e04f3bbeabf50a57a2',1,'capabilities.h']]],
-  ['i420_1',['I420',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90ae05124d95aeb9a0e4d704a57fc6442f7',1,'capabilities.h']]],
-  ['i444_2',['I444',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90a48e3ee4d1825bfed1ad1e75a4f292cd3',1,'capabilities.h']]],
-  ['inbound_5frtp_3',['INBOUND_RTP',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a10b5873dab2be8a202009d55200d02cc',1,'stats.h']]],
-  ['init_4',['init',['../class_private_video_renderer.html#a24b25db8c56c5642b24d9f785719f073',1,'PrivateVideoRenderer']]],
-  ['initplayback_5',['initPlayback',['../protocol_playback_source-p.html#a841362d75cd0264d81bf443f1a05f3a0',1,'PlaybackSource-p::initPlayback()'],['../interface_m_c_audio_playback.html#ab4c4ece4729c974caffbb34d87e6b9d8',1,'MCAudioPlayback::initPlayback()']]],
-  ['initwithcolorrangeexpansion_3a_6',['initWithColorRangeExpansion:',['../interface_m_c_ios_video_renderer.html#a830afc060a13cf42488f9994f4acc6b4',1,'MCIosVideoRenderer']]],
-  ['initwithcppframe_3a_7',['initWithCppFrame:',['../interface_m_c_audio_frame.html#a6a19c32706214f4e7f32ffd1738b97b1',1,'MCAudioFrame']]],
-  ['initwithcppsource_3a_8',['initWithCppSource:',['../interface_m_c_audio_playback.html#ad067cd0f067fd89cdeb08f29360a1d36',1,'MCAudioPlayback::initWithCppSource:'],['../interface_m_c_audio_source.html#ad067cd0f067fd89cdeb08f29360a1d36',1,'MCAudioSource::initWithCppSource:'],['../interface_m_c_video_source.html#ad067cd0f067fd89cdeb08f29360a1d36',1,'MCVideoSource::initWithCppSource:']]],
-  ['initwithcpptrack_3a_9',['initWithCppTrack:',['../interface_m_c_track.html#ad6356bde13dc98a6b851113e395d7818',1,'MCTrack']]],
-  ['inserted_5fsamples_5ffor_5fdeceleration_10',['inserted_samples_for_deceleration',['../interface_m_c_inbound_rtp_stream_stats.html#a118866c94469439bd7a1545787faa93b',1,'MCInboundRtpStreamStats']]],
-  ['iscapturing_11',['isCapturing',['../protocol_capture_source-p.html#a5950e516e75fa83486f9d431ea7533b3',1,'CaptureSource-p::isCapturing()'],['../interface_m_c_audio_source.html#a362e772f0a54456fc969801f41995cee',1,'MCAudioSource::isCapturing()'],['../interface_m_c_custom_source.html#a93ea7d16a222f6f33c617c6e6e134982',1,'MCCustomSource::isCapturing()']]],
-  ['isconnected_12',['isConnected',['../protocol_m_c_client-p.html#a534db0cbfa2745f2bd00c4dca69870fc',1,'MCClient-p']]],
-  ['isenabled_13',['isEnabled',['../interface_m_c_track.html#aff6ff3a0a858648e3060fb5b1e62a63a',1,'MCTrack']]],
-  ['ismuted_14',['isMuted',['../protocol_m_c_audio_control-p.html#a54a560989b50d1e58123972bcf633fef',1,'MCAudioControl-p']]],
-  ['isndiavailable_15',['isNdiAvailable',['../interface_m_c_media.html#aac8f46bcfc38c1aa2999a156ec22d37d',1,'MCMedia']]],
-  ['isplaying_16',['isPlaying',['../protocol_playback_source-p.html#a370d9a1a64a302294d2367c56268ec31',1,'PlaybackSource-p::isPlaying()'],['../interface_m_c_audio_playback.html#a2defa47fd88b2568855420cd2f3b2d12',1,'MCAudioPlayback::isPlaying()']]],
-  ['ispublishing_17',['isPublishing',['../interface_m_c_publisher.html#aef89f1a0cbc6f28e04e73454ddaa84fb',1,'MCPublisher']]],
-  ['issubscribed_18',['isSubscribed',['../interface_m_c_subscriber.html#a63b8e3d4e04889b4533510cca9b5709b',1,'MCSubscriber']]],
-  ['iyuv_19',['IYUV',['../capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90a7f87ea54de2ad4aa48194f9bd2bc31a8',1,'capabilities.h']]]
+  ['header_5fbytes_5freceived_0',['header_bytes_received',['../interface_m_c_inbound_rtp_stream_stats.html#a1f02190f883a7b274e0fdda5d0b7ff10',1,'MCInboundRtpStreamStats']]],
+  ['header_5fbytes_5fsent_1',['header_bytes_sent',['../interface_m_c_outbound_rtp_stream_stats.html#a36d941ccd11e30cbdf44ecc76d7cdd92',1,'MCOutboundRtpStreamStats']]],
+  ['height_2',['height',['../interface_m_c_video_capabilities.html#a978e99e230653c67839e214d9a54da97',1,'MCVideoCapabilities::height()'],['../interface_m_c_c_m_sample_buffer_video_renderer.html#ae15a98a7d5241ebbb1fb54ea8edb032c',1,'MCCMSampleBufferVideoRenderer::height()'],['../interface_m_c_video_source_stats.html#a3f92f8ad571648119170c178308c286a',1,'MCVideoSourceStats::height()'],['../interface_m_c_layer_resolution.html#a8242a3df4943b9db81eb9b63d41c705a',1,'MCLayerResolution::height()'],['../protocol_m_c_video_frame-p.html#aa92fdbe0585d4731be5396785ff963a0',1,'MCVideoFrame-p::height()']]],
+  ['huge_5fframes_5fsent_3',['huge_frames_sent',['../interface_m_c_outbound_rtp_stream_stats.html#a4f0bf83e61448e5dfbce12a726d4647f',1,'MCOutboundRtpStreamStats']]]
 ];

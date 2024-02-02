@@ -1,27 +1,6 @@
 var searchData=
 [
-  ['on_5fframe_0',['on_frame',['../class_private_video_renderer.html#abd2954e3fc918808f61c3a3ec3438f0f',1,'PrivateVideoRenderer::on_frame()'],['../class_private_audio_renderer.html#a2b198fb9ca5cb2f080e2a2bf27ccdce4',1,'PrivateAudioRenderer::on_frame()']]],
-  ['onactive_1',['onActive',['../protocol_m_c_publisher_listener-p.html#ab4a36881475de8d7d3df0c34878cc77e',1,'MCPublisherListener-p']]],
-  ['onactive_3atracks_3asourceid_3a_2',['onActive:tracks:sourceId:',['../protocol_m_c_subscriber_listener-p.html#af659eaf9d12813f66d1d95b7b106cb0f',1,'MCSubscriberListener-p']]],
-  ['onaudioframe_3a_3',['onAudioFrame:',['../interface_m_c_custom_source.html#a23cbe8ba73692f0c7541176913dfd413',1,'MCCustomSource']]],
-  ['onaudiotrack_3awithmid_3a_4',['onAudioTrack:withMid:',['../protocol_m_c_subscriber_listener-p.html#a659ef700a4f847e53747d855c4529004',1,'MCSubscriberListener-p']]],
-  ['onconnected_5',['onConnected',['../protocol_m_c_listener-p.html#a25035e8eb6dba124cfcc80a31cf89b3e',1,'MCListener-p']]],
-  ['onconnectionerror_3awithreason_3a_6',['onConnectionError:withReason:',['../protocol_m_c_listener-p.html#ae4f9af4b150231689e4865e166e5d437',1,'MCListener-p']]],
-  ['ondisconnected_7',['onDisconnected',['../protocol_m_c_listener-p.html#a81988878ad2e454484a4882a45befcd0',1,'MCListener-p']]],
-  ['oninactive_8',['onInactive',['../protocol_m_c_publisher_listener-p.html#a29c2c4cc5df89e10b3ad31fe79ba7a61',1,'MCPublisherListener-p']]],
-  ['oninactive_3asourceid_3a_9',['onInactive:sourceId:',['../protocol_m_c_subscriber_listener-p.html#ad3e636e45febce5120de53386adb4c23',1,'MCSubscriberListener-p']]],
-  ['onlayers_3aactivelayers_3ainactivelayers_3a_10',['onLayers:activeLayers:inactiveLayers:',['../protocol_m_c_subscriber_listener-p.html#a0a2404df306890539a3edf436192eaa4',1,'MCSubscriberListener-p']]],
-  ['onlogwithmessage_3alevel_3a_11',['onLogWithMessage:Level:',['../protocol_m_c_logger_delegate-p.html#a9a8b8aa89a9c28f364709b4bc70b5b3f',1,'MCLoggerDelegate-p']]],
-  ['onpublishing_12',['onPublishing',['../protocol_m_c_publisher_listener-p.html#ad1778bc92bf6f28ac7fce4aaedcbceef',1,'MCPublisherListener-p']]],
-  ['onpublishingerror_3a_13',['onPublishingError:',['../protocol_m_c_publisher_listener-p.html#a01e1c775c149afcfeb01df2712d23abb',1,'MCPublisherListener-p']]],
-  ['onsignalingerror_3a_14',['onSignalingError:',['../protocol_m_c_listener-p.html#ab13dcbfc40338af334c3d8a16b4148cf',1,'MCListener-p']]],
-  ['onstatsreport_3a_15',['onStatsReport:',['../protocol_m_c_listener-p.html#a77515241671ded0115012a5792d2a0b3',1,'MCListener-p']]],
-  ['onstopped_16',['onStopped',['../protocol_m_c_subscriber_listener-p.html#ad5ce3f6c36638dd37af568fcd61375e1',1,'MCSubscriberListener-p']]],
-  ['onsubscribed_17',['onSubscribed',['../protocol_m_c_subscriber_listener-p.html#a24312bccc87138f146ca85e6276aed77',1,'MCSubscriberListener-p']]],
-  ['onsubscribederror_3a_18',['onSubscribedError:',['../protocol_m_c_subscriber_listener-p.html#a01cf94116f6335f87c81ba22845863d2',1,'MCSubscriberListener-p']]],
-  ['onvad_3asourceid_3a_19',['onVad:sourceId:',['../protocol_m_c_subscriber_listener-p.html#a929fa34ad841c4e2816c0c45e4e16920',1,'MCSubscriberListener-p']]],
-  ['onvideoframe_3a_20',['onVideoFrame:',['../interface_m_c_custom_source.html#a5950166342d207776960fe14ccd1a191',1,'MCCustomSource']]],
-  ['onvideotrack_3awithmid_3a_21',['onVideoTrack:withMid:',['../protocol_m_c_subscriber_listener-p.html#a8c1bc681a731d9b331eeae8d23e461e4',1,'MCSubscriberListener-p']]],
-  ['onviewercount_3a_22',['onViewerCount:',['../protocol_m_c_listener-p.html#af83f0450dc6012e6f5b5dfe13d6e3d52',1,'MCListener-p']]],
-  ['outbound_5frtp_23',['OUTBOUND_RTP',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a1ed412301646d5f198952f25cde41bc5',1,'stats.h']]]
+  ['nack_5fcount_0',['nack_count',['../interface_m_c_inbound_rtp_stream_stats.html#aa9114ec78e15525cfc1c47b8dfde6f9b',1,'MCInboundRtpStreamStats::nack_count()'],['../interface_m_c_outbound_rtp_stream_stats.html#a82c30da11c53349974151b613eee25f0',1,'MCOutboundRtpStreamStats::nack_count()']]],
+  ['name_1',['name',['../interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221',1,'MCAppShareSource']]],
+  ['ns_5fenum_2',['NS_ENUM',['../client_8h.html#a5474c76861ce11e984bc157c510ea48e',1,'NS_ENUM(NSInteger, MCDegradationPreferences):&#160;client.h'],['../client_8h.html#afacc25cc87251a4befabb9d84d8d9c92',1,'NS_ENUM(NSInteger, MCScalabilityMode):&#160;client.h']]]
 ];

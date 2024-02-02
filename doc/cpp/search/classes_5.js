@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jsondata_0',['JsonData',['../structmillicast_1_1_client_1_1_json_data.html',1,'millicast::Client']]]
+  ['genericerror_0',['GenericError',['../classmillicast_1_1_generic_error.html',1,'millicast']]]
 ];
