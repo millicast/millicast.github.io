@@ -278,7 +278,10 @@ $dokka.location:com.millicast/Publisher/credentials/#/PointingToDeclaration/and
 $dokka.location:com.millicast/Publisher/isPublishing/#/PointingToDeclaration/android/com.millicast/-publisher/is-publishing.html
 $dokka.location:com.millicast/Publisher/onTransformableFrame/#/PointingToDeclaration/android/com.millicast/-publisher/on-transformable-frame.html
 $dokka.location:com.millicast/Publisher/publish/#com.millicast.publishers.Option?/PointingToDeclaration/android/com.millicast/-publisher/publish.html
+$dokka.location:com.millicast/Publisher/rtcStatsReport/#/PointingToDeclaration/android/com.millicast/-publisher/rtc-stats-report.html
 $dokka.location:com.millicast/Publisher/setCredentials/#com.millicast.publishers.Credential/PointingToDeclaration/android/com.millicast/-publisher/set-credentials.html
+$dokka.location:com.millicast/Publisher/signalingError/#/PointingToDeclaration/android/com.millicast/-publisher/signaling-error.html
+$dokka.location:com.millicast/Publisher/state/#/PointingToDeclaration/android/com.millicast/-publisher/state.html
 $dokka.location:com.millicast/Publisher/unpublish/#/PointingToDeclaration/android/com.millicast/-publisher/unpublish.html
 $dokka.location:com.millicast/Subscriber///PointingToDeclaration/android/com.millicast/-subscriber/index.html
 $dokka.location:com.millicast/Subscriber/activity/#/PointingToDeclaration/android/com.millicast/-subscriber/activity.html
