@@ -1,7 +1,7 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
 $dokka.location:com.millicast.android.compose////PointingToDeclaration/android/com.millicast.android.compose/index.html
-$dokka.location:com.millicast.android.compose//TextureViewRenderer/#androidx.compose.ui.Modifier#kotlin.Boolean#org.webrtc.RendererCommon.ScalingType#com.millicast.android.compose.TextureViewRendererConfiguration#org.webrtc.VideoTrack/PointingToDeclaration/android/com.millicast.android.compose/-texture-view-renderer.html
+$dokka.location:com.millicast.android.compose//TextureViewRenderer/#androidx.compose.ui.Modifier#kotlin.Boolean#org.webrtc.RendererCommon.ScalingType#com.millicast.android.compose.TextureViewRendererConfiguration#com.millicast.devices.track.VideoTrack/PointingToDeclaration/android/com.millicast.android.compose/-texture-view-renderer.html
 $dokka.location:com.millicast.android.compose/TextureViewRendererConfiguration.Optionals///PointingToDeclaration/android/com.millicast.android.compose/-texture-view-renderer-configuration/-optionals/index.html
 $dokka.location:com.millicast.android.compose/TextureViewRendererConfiguration.Optionals/Optionals/#kotlin.IntArray#org.webrtc.RendererCommon.GlDrawer/PointingToDeclaration/android/com.millicast.android.compose/-texture-view-renderer-configuration/-optionals/-optionals.html
 $dokka.location:com.millicast.android.compose/TextureViewRendererConfiguration.Optionals/configAttributes/#/PointingToDeclaration/android/com.millicast.android.compose/-texture-view-renderer-configuration/-optionals/config-attributes.html
@@ -109,6 +109,7 @@ $dokka.location:com.millicast.devices.track/VideoTrack///PointingToDeclaration/
 $dokka.location:com.millicast.devices.track/VideoTrack/disableNdiOutput/#/PointingToDeclaration/android/com.millicast.devices.track/-video-track/disable-ndi-output.html
 $dokka.location:com.millicast.devices.track/VideoTrack/enableNdiOutput/#kotlin.String/PointingToDeclaration/android/com.millicast.devices.track/-video-track/enable-ndi-output.html
 $dokka.location:com.millicast.devices.track/VideoTrack/isNdiOutputEnabled/#/PointingToDeclaration/android/com.millicast.devices.track/-video-track/is-ndi-output-enabled.html
+$dokka.location:com.millicast.devices.track/VideoTrack/removeVideoSink/#org.webrtc.VideoSink/PointingToDeclaration/android/com.millicast.devices.track/-video-track/remove-video-sink.html
 $dokka.location:com.millicast.devices.track/VideoTrack/setEnabled/#kotlin.Boolean/PointingToDeclaration/android/com.millicast.devices.track/-video-track/set-enabled.html
 $dokka.location:com.millicast.devices.track/VideoTrack/setRenderer/#com.millicast.VideoRenderer/PointingToDeclaration/android/com.millicast.devices.track/-video-track/set-renderer.html
 $dokka.location:com.millicast.devices.track/VideoTrack/setVideoSink/#org.webrtc.VideoSink/PointingToDeclaration/android/com.millicast.devices.track/-video-track/set-video-sink.html
@@ -207,7 +208,6 @@ $dokka.location:com.millicast.subscribers/SubscriberListener/onActive/#kotlin.St
 $dokka.location:com.millicast.subscribers/SubscriberListener/onFrameMetadata/#kotlin.Int#kotlin.Int#kotlin.ByteArray/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-frame-metadata.html
 $dokka.location:com.millicast.subscribers/SubscriberListener/onInactive/#kotlin.String#java.util.Optional[kotlin.String]/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-inactive.html
 $dokka.location:com.millicast.subscribers/SubscriberListener/onLayers/#kotlin.String#kotlin.Array[com.millicast.subscribers.state.LayerData]#kotlin.Array[kotlin.String]/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-layers.html
-$dokka.location:com.millicast.subscribers/SubscriberListener/onStopped/#/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-stopped.html
 $dokka.location:com.millicast.subscribers/SubscriberListener/onSubscribed/#/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-subscribed.html
 $dokka.location:com.millicast.subscribers/SubscriberListener/onSubscribedError/#kotlin.String/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-subscribed-error.html
 $dokka.location:com.millicast.subscribers/SubscriberListener/onTrack/#com.millicast.devices.track.AudioTrack#java.util.Optional[kotlin.String]/PointingToDeclaration/android/com.millicast.subscribers/-subscriber-listener/on-track.html
@@ -267,6 +267,7 @@ $dokka.location:com.millicast/Media/audioPlayback/#/PointingToDeclaration/andro
 $dokka.location:com.millicast/Media/audioSources/#/PointingToDeclaration/android/com.millicast/-media/audio-sources.html
 $dokka.location:com.millicast/Media/eglBaseContext/#/PointingToDeclaration/android/com.millicast/-media/egl-base-context.html
 $dokka.location:com.millicast/Media/isCamera2Supported/#/PointingToDeclaration/android/com.millicast/-media/is-camera2-supported.html
+$dokka.location:com.millicast/Media/supportedAudioCodecs/#/PointingToDeclaration/android/com.millicast/-media/supported-audio-codecs.html
 $dokka.location:com.millicast/Media/supportedVideoCodecs/#/PointingToDeclaration/android/com.millicast/-media/supported-video-codecs.html
 $dokka.location:com.millicast/Media/videoDecoderFactory/#/PointingToDeclaration/android/com.millicast/-media/video-decoder-factory.html
 $dokka.location:com.millicast/Media/videoEncoderFactory/#/PointingToDeclaration/android/com.millicast/-media/video-encoder-factory.html
@@ -276,8 +277,7 @@ $dokka.location:com.millicast/Publisher/addTrack/#com.millicast.devices.track.Tr
 $dokka.location:com.millicast/Publisher/credentials/#/PointingToDeclaration/android/com.millicast/-publisher/credentials.html
 $dokka.location:com.millicast/Publisher/isPublishing/#/PointingToDeclaration/android/com.millicast/-publisher/is-publishing.html
 $dokka.location:com.millicast/Publisher/onTransformableFrame/#/PointingToDeclaration/android/com.millicast/-publisher/on-transformable-frame.html
-$dokka.location:com.millicast/Publisher/publish/#/PointingToDeclaration/android/com.millicast/-publisher/publish.html
-$dokka.location:com.millicast/Publisher/publish/#com.millicast.publishers.Option/PointingToDeclaration/android/com.millicast/-publisher/publish.html
+$dokka.location:com.millicast/Publisher/publish/#com.millicast.publishers.Option?/PointingToDeclaration/android/com.millicast/-publisher/publish.html
 $dokka.location:com.millicast/Publisher/setCredentials/#com.millicast.publishers.Credential/PointingToDeclaration/android/com.millicast/-publisher/set-credentials.html
 $dokka.location:com.millicast/Publisher/unpublish/#/PointingToDeclaration/android/com.millicast/-publisher/unpublish.html
 $dokka.location:com.millicast/Subscriber///PointingToDeclaration/android/com.millicast/-subscriber/index.html
@@ -293,7 +293,6 @@ $dokka.location:com.millicast/Subscriber/select/#com.millicast.subscribers.state
 $dokka.location:com.millicast/Subscriber/setCredentials/#com.millicast.subscribers.Credential/PointingToDeclaration/android/com.millicast/-subscriber/set-credentials.html
 $dokka.location:com.millicast/Subscriber/signalingError/#/PointingToDeclaration/android/com.millicast/-subscriber/signaling-error.html
 $dokka.location:com.millicast/Subscriber/state/#/PointingToDeclaration/android/com.millicast/-subscriber/state.html
-$dokka.location:com.millicast/Subscriber/subscribe/#/PointingToDeclaration/android/com.millicast/-subscriber/subscribe.html
 $dokka.location:com.millicast/Subscriber/subscribe/#com.millicast.subscribers.Option/PointingToDeclaration/android/com.millicast/-subscriber/subscribe.html
 $dokka.location:com.millicast/Subscriber/track/#/PointingToDeclaration/android/com.millicast/-subscriber/track.html
 $dokka.location:com.millicast/Subscriber/unproject/#java.util.ArrayList[kotlin.String?]/PointingToDeclaration/android/com.millicast/-subscriber/unproject.html

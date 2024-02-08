@@ -65,7 +65,7 @@
   <div class="breadcrumbs"><a href="../../../index.html">android</a><span class="delimiter">/</span><a href="../index.html">com.millicast.devices.source.custom</a><span class="delimiter">/</span><span class="current">CustomSource</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Custom</span><wbr></wbr><span><span>Source</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">CustomSource</a></div><p class="paragraph">The CustomSource class serves as a customizable source for capturing and providing both video and audio data.</p><p class="paragraph">This can be used to fit in context where video filter can be used, audio noise suppression or custom voices for instance.</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">CustomSource</a></div><p class="paragraph">The CustomSource class serves as a customizable source for capturing and providing both video and audio data. The class is useful for using video filters, audio noise suppression, or customized audio.</p></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
@@ -101,7 +101,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-audio-frame.html"><span class="token function">onAudioFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">frame<span class="token operator">: </span><a href="../-audio-frame/index.html">AudioFrame</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Inject an audio frame which content depends on the developer. For performance reasons, prefer recycling the AudioFrame to make sure not too many allocations are performed over time</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-audio-frame.html"><span class="token function">onAudioFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">frame<span class="token operator">: </span><a href="../-audio-frame/index.html">AudioFrame</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Injects an audio frame which content depends on the developer. For performance reasons, prefer recycling the AudioFrame to make sure not too many allocations are performed over time</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-video-frame.html"><span class="token function">onVideoFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">frame<span class="token operator">: </span><a href="../-video-frame/index.html">VideoFrame</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Inject a raw video frame which implementation depends on the developer</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="on-video-frame.html"><span class="token function">onVideoFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">frame<span class="token operator">: </span><a href="../-video-frame/index.html">VideoFrame</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">A callback that is triggered whenever a new video frame is available.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -131,7 +131,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="start-audio-capture.html"><span class="token function">startAudioCapture</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.millicast.devices.track/-audio-track/index.html">AudioTrack</a></div><div class="brief "><p class="paragraph">Method used to define and create a new audio track that will then need to be sent to a Publisher's addTrack()</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="start-audio-capture.html"><span class="token function">startAudioCapture</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../com.millicast.devices.track/-audio-track/index.html">AudioTrack</a></div><div class="brief "><p class="paragraph">Defines and creates a new audio track to send it to a Publisher's addTrack().</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="stop-capture.html"><span class="token function">stopCapture</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Stop the underlying audio & video tracks and tell the SDK to stop any pending operations related to this custom source.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="stop-capture.html"><span class="token function">stopCapture</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Stops the underlying audio and video tracks and informs the SDK to stop any pending operations related to this custom source.</p></div></div></div>
                 </div>
               </div>
             </div>
