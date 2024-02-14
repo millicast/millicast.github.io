@@ -287,6 +287,7 @@ $dokka.location:com.millicast/Subscriber///PointingToDeclaration/android/com.mi
 $dokka.location:com.millicast/Subscriber/activity/#/PointingToDeclaration/android/com.millicast/-subscriber/activity.html
 $dokka.location:com.millicast/Subscriber/addRemoteTrack/#com.millicast.devices.track.TrackType/PointingToDeclaration/android/com.millicast/-subscriber/add-remote-track.html
 $dokka.location:com.millicast/Subscriber/credentials/#/PointingToDeclaration/android/com.millicast/-subscriber/credentials.html
+$dokka.location:com.millicast/Subscriber/currentState/#/PointingToDeclaration/android/com.millicast/-subscriber/current-state.html
 $dokka.location:com.millicast/Subscriber/isSubscribed/#/PointingToDeclaration/android/com.millicast/-subscriber/is-subscribed.html
 $dokka.location:com.millicast/Subscriber/layers/#/PointingToDeclaration/android/com.millicast/-subscriber/layers.html
 $dokka.location:com.millicast/Subscriber/onTransformableFrame/#/PointingToDeclaration/android/com.millicast/-subscriber/on-transformable-frame.html
@@ -298,6 +299,7 @@ $dokka.location:com.millicast/Subscriber/signalingError/#/PointingToDeclaration/
 $dokka.location:com.millicast/Subscriber/state/#/PointingToDeclaration/android/com.millicast/-subscriber/state.html
 $dokka.location:com.millicast/Subscriber/subscribe/#com.millicast.subscribers.Option/PointingToDeclaration/android/com.millicast/-subscriber/subscribe.html
 $dokka.location:com.millicast/Subscriber/track/#/PointingToDeclaration/android/com.millicast/-subscriber/track.html
+$dokka.location:com.millicast/Subscriber/tracks/#/PointingToDeclaration/android/com.millicast/-subscriber/tracks.html
 $dokka.location:com.millicast/Subscriber/unproject/#java.util.ArrayList[kotlin.String?]/PointingToDeclaration/android/com.millicast/-subscriber/unproject.html
 $dokka.location:com.millicast/Subscriber/unsubscribe/#/PointingToDeclaration/android/com.millicast/-subscriber/unsubscribe.html
 $dokka.location:com.millicast/Subscriber/vad/#/PointingToDeclaration/android/com.millicast/-subscriber/vad.html
