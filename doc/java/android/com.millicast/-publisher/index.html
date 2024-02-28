@@ -65,7 +65,7 @@
   <div class="breadcrumbs"><a href="../../../index.html">android</a><span class="delimiter">/</span><a href="../index.html">com.millicast</a><span class="delimiter">/</span><span class="current">Publisher</span></div>
   <div class="cover ">
     <h1 class="cover"><span><span>Publisher</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Publisher</a> : <a href="../-client/index.html">Client</a><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="com.millicast.jni/NativePublisher///PointingToDeclaration/">NativePublisher</span><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.millicast.publishers/InterfacePublisherListener///PointingToDeclaration/">InterfacePublisherListener</span><span class="token operator">&gt; </span></div><p class="paragraph">The Publisher class manages the publication of audio and video tracks to a Millicast stream.</p></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">Publisher</a> : <a href="../-client/index.html">Client</a><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="com.millicast.jni/IPublisher///PointingToDeclaration/">IPublisher</span><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.millicast.publishers/InterfacePublisherListener///PointingToDeclaration/">InterfacePublisherListener</span><span class="token operator">&gt; </span></div><p class="paragraph">The Publisher class manages the publication of audio and video tracks to a Millicast stream.</p></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
@@ -83,6 +83,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="credentials.html">credentials</a><span class="token operator">: </span><a href="../../com.millicast.publishers/-credential/index.html">Credential</a></div><div class="brief "><p class="paragraph">Returns the current publisher credentials.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="424514690%2FProperties%2F851067820" anchor-label="currentState" id="424514690%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="current-state.html"><span>current</span><wbr></wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="424514690%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="current-state.html">currentState</a><span class="token operator">: </span><span data-unresolved-link="com.millicast.publishers/PublisherState///PointingToDeclaration/">PublisherState</span></div><div class="brief "><p class="paragraph">Get the last publisher's state which was emitted</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -128,6 +143,21 @@
               <div>
                 <div class="title">
                   <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">var </span><a href="on-transformable-frame.html">onTransformableFrame</a><span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span>ssrc<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span><span class="token keyword"></span>timestamp<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html">ArrayList</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a><span class="token operator">&gt;</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">A callback that allows defining custom transformations or processing logic for video frames before they are transmitted.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="142162863%2FProperties%2F851067820" anchor-label="recording" id="142162863%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="recording.html"><span><span>recording</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="142162863%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">lateinit </span><span class="token keyword">var </span><a href="recording.html">recording</a><span class="token operator">: </span><a href="../../com.millicast.publishers/-recording/index.html">Recording</a></div><div class="brief "><p class="paragraph">Returns the recording controller for the Publisher instance.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -206,7 +236,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="../-client/connect.html"><span class="token function">connect</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">connectionOptions<span class="token operator">: </span><a href="../../com.millicast.clients/-connection-options/index.html">ConnectionOptions</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Initiates a connection to the Millicast platform. By default, the SDK will always attempt to make auto reconnection. To disable this feature, pass a ConnectionOptions instance where autoReconnect is disabled.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="../-client/connect.html"><span class="token function">connect</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">connectionOptions<span class="token operator">: </span><a href="../../com.millicast.clients/-connection-options/index.html">ConnectionOptions</a><span class="token operator">?</span><span class="token operator"> = </span>null</span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">Initiates a connection to the Millicast platform. By default, the SDK will always attempt to make auto reconnection. To disable this feature, pass a ConnectionOptions instance where autoReconnect is disabled.</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -221,7 +251,7 @@
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">suspend </span><span class="token keyword">fun </span><a href="../-client/disconnect.html"><span class="token function">disconnect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Terminates the current connection to the Millicast platform. Any ongoing process of publishing or subscribing content is automatically stopped before termination.</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-client/disconnect.html"><span class="token function">disconnect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Terminates the current connection to the Millicast platform. Any ongoing process of publishing or subscribing content is automatically stopped before termination. This method returns directly but will perform the call in its queue.</p></div></div></div>
                 </div>
               </div>
             </div>

@@ -26,6 +26,7 @@ $dokka.location:com.millicast.clients/Listener///PointingToDeclaration/android/
 $dokka.location:com.millicast.clients/Listener/onConnected/#/PointingToDeclaration/android/com.millicast.clients/-listener/on-connected.html
 $dokka.location:com.millicast.clients/Listener/onConnectionError/#int#java.lang.String/PointingToDeclaration/android/com.millicast.clients/-listener/on-connection-error.html
 $dokka.location:com.millicast.clients/Listener/onDisconnected/#/PointingToDeclaration/android/com.millicast.clients/-listener/on-disconnected.html
+$dokka.location:com.millicast.clients/Listener/onReleaseRequired/#/PointingToDeclaration/android/com.millicast.clients/-listener/on-release-required.html
 $dokka.location:com.millicast.clients/Listener/onSignalingError/#java.lang.String/PointingToDeclaration/android/com.millicast.clients/-listener/on-signaling-error.html
 $dokka.location:com.millicast.clients/Listener/onStatsReport/#com.millicast.clients.stats.RtsReport/PointingToDeclaration/android/com.millicast.clients/-listener/on-stats-report.html
 $dokka.location:com.millicast.clients/Listener/onViewerCount/#int/PointingToDeclaration/android/com.millicast.clients/-listener/on-viewer-count.html
@@ -275,9 +276,11 @@ $dokka.location:com.millicast/Media/videoSources/#/PointingToDeclaration/androi
 $dokka.location:com.millicast/Publisher///PointingToDeclaration/android/com.millicast/-publisher/index.html
 $dokka.location:com.millicast/Publisher/addTrack/#com.millicast.devices.track.Track/PointingToDeclaration/android/com.millicast/-publisher/add-track.html
 $dokka.location:com.millicast/Publisher/credentials/#/PointingToDeclaration/android/com.millicast/-publisher/credentials.html
+$dokka.location:com.millicast/Publisher/currentState/#/PointingToDeclaration/android/com.millicast/-publisher/current-state.html
 $dokka.location:com.millicast/Publisher/isPublishing/#/PointingToDeclaration/android/com.millicast/-publisher/is-publishing.html
 $dokka.location:com.millicast/Publisher/onTransformableFrame/#/PointingToDeclaration/android/com.millicast/-publisher/on-transformable-frame.html
 $dokka.location:com.millicast/Publisher/publish/#com.millicast.publishers.Option?/PointingToDeclaration/android/com.millicast/-publisher/publish.html
+$dokka.location:com.millicast/Publisher/recording/#/PointingToDeclaration/android/com.millicast/-publisher/recording.html
 $dokka.location:com.millicast/Publisher/rtcStatsReport/#/PointingToDeclaration/android/com.millicast/-publisher/rtc-stats-report.html
 $dokka.location:com.millicast/Publisher/setCredentials/#com.millicast.publishers.Credential/PointingToDeclaration/android/com.millicast/-publisher/set-credentials.html
 $dokka.location:com.millicast/Publisher/signalingError/#/PointingToDeclaration/android/com.millicast/-publisher/signaling-error.html
