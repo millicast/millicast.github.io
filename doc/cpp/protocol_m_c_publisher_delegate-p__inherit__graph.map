@@ -1,0 +1,7 @@
+<map id="&lt;MCPublisherDelegate&gt;" name="&lt;MCPublisherDelegate&gt;">
+<area shape="rect" id="Node000001" title="The Listener protocol for the Publisher class. It adds the publishing event on top of the Client list..." alt="" coords="5,153,170,178"/>
+<area shape="rect" id="Node000002" href="$protocol_m_c_delegate-p.html" title="The Client Delegate protocol which contains methods that will be called on specific events from a Cli..." alt="" coords="32,79,143,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,120,90,152,85,152,85,120"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="12,5,163,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="90,46,90,79,85,79,85,46"/>
+</map>

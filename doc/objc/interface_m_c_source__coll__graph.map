@@ -1,4 +1,5 @@
 <map id="MCSource" name="MCSource">
-<area shape="rect" id="node1" title="The Source base class." alt="" coords="5,79,89,105"/>
-<area shape="rect" id="node2" title=" " alt="" coords="8,5,86,31"/>
+<area shape="rect" id="Node000001" title="The Source base class." alt="" coords="5,79,89,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="8,5,86,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="50,46,50,79,44,79,44,46"/>
 </map>

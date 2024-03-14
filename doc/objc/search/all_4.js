@@ -1,18 +1,14 @@
 var searchData=
 [
-  ['data_0',['data',['../interface_m_c_audio_frame.html#a68cc9fefcf5265981be9ccec784dcba4',1,'MCAudioFrame']]],
-  ['decode_1',['DECODE',['../stats_8h.html#a894c0499b007fb72c9d2eb3ae633be40aedbaf1619a7cd7276e67127835445d3b',1,'stats.h']]],
-  ['decoder_5fimplementation_2',['decoder_implementation',['../interface_m_c_inbound_rtp_stream_stats.html#a953ddc0136b58be14e78654efd140f55',1,'MCInboundRtpStreamStats']]],
-  ['degradationpreferences_3',['degradationPreferences',['../interface_m_c_client_options.html#a51cb81ea818cc0f5cff5652b9aaef61d',1,'MCClientOptions']]],
-  ['delegate_4',['delegate',['../interface_m_c_c_m_sample_buffer_video_renderer.html#a886365b934de8da9ca04599cb67aa3bb',1,'MCCMSampleBufferVideoRenderer::delegate()'],['../interface_m_c_ios_video_renderer.html#a1908101674685935bf8f460e24a19587',1,'MCIosVideoRenderer::delegate()']]],
-  ['deprecated_20list_5',['Deprecated List',['../deprecated.html',1,'']]],
-  ['didchangesize_3a_6',['didChangeSize:',['../protocol_m_c_c_m_sample_buffer_video_renderer_delegate-p.html#a0ff7b6289cc236f88782b59c195e56fb',1,'MCCMSampleBufferVideoRendererDelegate-p']]],
-  ['didchangevideosize_3a_7',['didChangeVideoSize:',['../protocol_m_c_ios_video_renderer_delegate-p.html#a32d41d400daae25cfceb968492d94d80',1,'MCIosVideoRendererDelegate-p']]],
-  ['didreceiveframe_3a_8',['didReceiveFrame:',['../protocol_m_c_video_renderer-p.html#acfbee891b02a4ece2b18d7ee17494e3c',1,'MCVideoRenderer-p::didReceiveFrame:()'],['../protocol_m_c_audio_renderer-p.html#afd76e13f73b8df431984fff27c47f39f',1,'MCAudioRenderer-p::didReceiveFrame:()']]],
-  ['didreceivesamplebuffer_3a_9',['didReceiveSampleBuffer:',['../protocol_m_c_c_m_sample_buffer_video_renderer_delegate-p.html#aa4817fa76cd432e5d46cf3443623a862',1,'MCCMSampleBufferVideoRendererDelegate-p']]],
-  ['disableaudio_10',['disableAudio',['../interface_m_c_client_options.html#a06327cb45f87c647d5bd1e9f808415cc',1,'MCClientOptions']]],
-  ['disablebwe_11',['disableBWE',['../interface_m_c_bitrate_settings.html#a0ca6a90d83ee1d61d19d746e53ab89dc',1,'MCBitrateSettings']]],
-  ['disablewebsocketlogs_3a_12',['disableWebsocketLogs:',['../interface_m_c_logger.html#aaf8a98e9c568edc744847ee4ace63010',1,'MCLogger']]],
-  ['disconnect_13',['disconnect',['../protocol_m_c_client-p.html#a4db7b35579349bbcc460e7f1889a0554',1,'MCClient-p']]],
-  ['dtx_14',['dtx',['../interface_m_c_client_options.html#ad0833f369bfc21f072737e2d17c92103',1,'MCClientOptions']]]
+  ['echo_5freturn_5floss_0',['echo_return_loss',['../interface_m_c_audio_source_stats.html#adf010bb92156b45a5d9c13d62fe3d283',1,'MCAudioSourceStats']]],
+  ['echo_5freturn_5floss_5fenhancement_1',['echo_return_loss_enhancement',['../interface_m_c_audio_source_stats.html#aef6881e74f50f5f9e8d3f3c72313e204',1,'MCAudioSourceStats']]],
+  ['enable_3a_2',['enable:',['../interface_m_c_track.html#a60d8a3109c5d04032b1a5fdec8be3d54',1,'MCTrack']]],
+  ['enableframetransformer_3acompletionhandler_3a_3',['enableFrameTransformer:completionHandler:',['../protocol_m_c_client-p.html#afebd54c4adcf4a170dc1eff93265c2ff',1,'MCClient-p']]],
+  ['enablestats_3acompletionhandler_3a_4',['enableStats:completionHandler:',['../protocol_m_c_client-p.html#ade56fc01941986fd5da5d02b7aba1a18',1,'MCClient-p']]],
+  ['encode_5',['ENCODE',['../stats_8h.html#a894c0499b007fb72c9d2eb3ae633be40a461c9de854d68995ea040c24cb0f749f',1,'stats.h']]],
+  ['encoder_5fimplementation_6',['encoder_implementation',['../interface_m_c_outbound_rtp_stream_stats.html#a011b48af79a1093bbbd8f1aba87e7c0a',1,'MCOutboundRtpStreamStats']]],
+  ['encodingid_7',['encodingId',['../interface_m_c_layer_data.html#a8d16fdf7d167d4f1ab5f5e2fdd2a6b78',1,'MCLayerData']]],
+  ['errorwithcppsdkerror_3a_8',['errorWithCPPSDKError:',['../category_n_s_error_07_s_d_k_factory_methods__private_08.html#a05e0470d7d5ce2b55bf80aedd50ad70b',1,'NSError(SDKFactoryMethods_private)']]],
+  ['estimated_5fplayout_5ftimestamp_9',['estimated_playout_timestamp',['../interface_m_c_inbound_rtp_stream_stats.html#ae734cd94f62dca8c2b594286c484debd',1,'MCInboundRtpStreamStats']]],
+  ['excludedsourceid_10',['excludedSourceId',['../interface_m_c_client_options.html#a83522073c38bde716945ed730438f10f',1,'MCClientOptions']]]
 ];

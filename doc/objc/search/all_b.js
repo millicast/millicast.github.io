@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['key_5fframes_5fdecoded_0',['key_frames_decoded',['../interface_m_c_inbound_rtp_stream_stats.html#a121c1b0de6e61f4530de717a844c9b12',1,'MCInboundRtpStreamStats']]],
-  ['key_5fframes_5fencoded_1',['key_frames_encoded',['../interface_m_c_outbound_rtp_stream_stats.html#ab47a2478ea92880bb8086ab78b4978b2',1,'MCOutboundRtpStreamStats']]],
-  ['kind_2',['kind',['../interface_m_c_rtp_stream_stats.html#adbc3ce9e66675c3d92723ba3eecb0183',1,'MCRtpStreamStats::kind()'],['../interface_m_c_media_source_stats.html#ae15ac24e84fa20c6739dbf565059e2c8',1,'MCMediaSourceStats::kind()'],['../interface_m_c_track.html#a6f5ec8d5cec10be899cfa3fafb3f8574',1,'MCTrack::kind()']]]
+  ['last_5fpacket_5freceived_5ftimestamp_0',['last_packet_received_timestamp',['../interface_m_c_inbound_rtp_stream_stats.html#a6e28507b186509c61bbf1e59c9a635fc',1,'MCInboundRtpStreamStats']]],
+  ['layer_1',['layer',['../interface_m_c_projection_data.html#a078c3db7875f446538238f4e317e2a9b',1,'MCProjectionData']]],
+  ['layerresolution_2',['layerResolution',['../interface_m_c_layer_data.html#a9984623a8ab0aa3f74afdc20fbe8abf1',1,'MCLayerData']]],
+  ['local_5fid_3',['local_id',['../interface_m_c_remote_outbound_rtp_stream_stats.html#aeea6f5b166b48f123eb09e1a3def9011',1,'MCRemoteOutboundRtpStreamStats::local_id'],['../interface_m_c_remote_inbound_rtp_stream_stats.html#a3184a1c34eacf5a8498e49ee4b517b85',1,'MCRemoteInboundRtpStreamStats::local_id']]]
 ];

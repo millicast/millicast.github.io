@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['jitter_0',['jitter',['../interface_m_c_received_rtp_stream_stats.html#a745ad8265abc6dd2d5fe9bb20f9b316c',1,'MCReceivedRtpStreamStats']]],
-  ['jitter_5fbuffer_5fdelay_1',['jitter_buffer_delay',['../interface_m_c_inbound_rtp_stream_stats.html#ab077894821238fdd3934a2bd4430c981',1,'MCInboundRtpStreamStats']]],
-  ['jitter_5fbuffer_5femitted_5fcount_2',['jitter_buffer_emitted_count',['../interface_m_c_inbound_rtp_stream_stats.html#aa99f86be2255d21d87587e9fd2b6841b',1,'MCInboundRtpStreamStats']]],
-  ['jitter_5fbuffer_5fminimum_5fdelay_3',['jitter_buffer_minimum_delay',['../interface_m_c_inbound_rtp_stream_stats.html#abded37f9a858c389a1b4470e5ac9e369',1,'MCInboundRtpStreamStats']]],
-  ['jitter_5fbuffer_5ftarget_5fdelay_4',['jitter_buffer_target_delay',['../interface_m_c_inbound_rtp_stream_stats.html#a1925ef2f93fd6c408b87f9118f03eca4',1,'MCInboundRtpStreamStats']]]
+  ['key_5fframes_5fdecoded_0',['key_frames_decoded',['../interface_m_c_inbound_rtp_stream_stats.html#a121c1b0de6e61f4530de717a844c9b12',1,'MCInboundRtpStreamStats']]],
+  ['key_5fframes_5fencoded_1',['key_frames_encoded',['../interface_m_c_outbound_rtp_stream_stats.html#ab47a2478ea92880bb8086ab78b4978b2',1,'MCOutboundRtpStreamStats']]],
+  ['kind_2',['kind',['../interface_m_c_rtp_stream_stats.html#adbc3ce9e66675c3d92723ba3eecb0183',1,'MCRtpStreamStats::kind'],['../interface_m_c_media_source_stats.html#ae15ac24e84fa20c6739dbf565059e2c8',1,'MCMediaSourceStats::kind'],['../interface_m_c_track.html#a6f5ec8d5cec10be899cfa3fafb3f8574',1,'MCTrack::kind()']]]
 ];

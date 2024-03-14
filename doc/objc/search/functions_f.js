@@ -1,5 +1,23 @@
 var searchData=
 [
-  ['record_0',['record',['../interface_m_c_publisher.html#ad378648f41bb8d397e4c09868c242040',1,'MCPublisher']]],
-  ['removerenderer_3a_1',['removeRenderer:',['../interface_m_c_video_track.html#ac328d59a900f45ba698c1dc7410f232e',1,'MCVideoTrack::removeRenderer:()'],['../interface_m_c_audio_track.html#a9c617b15e5bafbb0b65329f44d3da5ec',1,'MCAudioTrack::removeRenderer:()']]]
+  ['select_3acompletionhandler_3a_0',['select:completionHandler:',['../interface_m_c_subscriber.html#a4ff6b85d752b5347a4f87ddf6d45bd5b',1,'MCSubscriber']]],
+  ['setcapabilities_3a_1',['setCapabilities:',['../interface_m_c_video_source_builder.html#a4bda360153eb50433f94c77e577e7e41',1,'MCVideoSourceBuilder']]],
+  ['setcapability_3a_2',['setCapability:',['../interface_m_c_video_source.html#a94482e694797e35a53b00c28911c0693',1,'MCVideoSource']]],
+  ['setcredentials_3acompletionhandler_3a_3',['setCredentials:completionHandler:',['../interface_m_c_publisher.html#a9af81991cd9d525fcd7b9e3931f0da7a',1,'MCPublisher::setCredentials:completionHandler:()'],['../interface_m_c_subscriber.html#afed9eaf5a761f8e9e9dd2c2ceed6d6d4',1,'MCSubscriber::setCredentials:completionHandler:()']]],
+  ['setdelegate_3a_4',['setDelegate:',['../interface_m_c_logger.html#adb3b13e317309e5b42b911c7222088f6',1,'MCLogger']]],
+  ['setname_3a_5',['setName:',['../interface_m_c_ndi_renderer.html#a553b91a949831a29812c563a66e51d09',1,'MCNdiRenderer::setName:()'],['../interface_m_c_source_builder.html#a6c31b138e0fd93dc876de29533192a04',1,'MCSourceBuilder::setName:()']]],
+  ['setnumchannel_3a_6',['setNumChannel:',['../protocol_m_c_audio_control-p.html#a51b10fadf2e4519e88e603eb4a48d507',1,'MCAudioControl-p']]],
+  ['settype_3a_7',['setType:',['../interface_m_c_source_builder.html#a679f81a575d82495393bc8b08c692413',1,'MCSourceBuilder']]],
+  ['setuniqueid_3a_8',['setUniqueId:',['../interface_m_c_source_builder.html#a380e5354a1771d77013e4880052323a8',1,'MCSourceBuilder']]],
+  ['setvolume_3a_9',['setVolume:',['../protocol_m_c_audio_control-p.html#a6d6eb97fb2601561e89b05a5f655bd8a',1,'MCAudioControl-p::setVolume:()'],['../interface_m_c_audio_track.html#a6d2500cc92a345bc8c422789e9dc04df',1,'MCAudioTrack::setVolume:()']]],
+  ['size_10',['size',['../interface_m_c_stats_report.html#a97fd8df027224f606b172431c17f8a6e',1,'MCStatsReport']]],
+  ['sizei420_11',['sizeI420',['../protocol_m_c_video_frame-p.html#a2b8acb06dbd588bd6f04351e4ac9ba5f',1,'MCVideoFrame-p']]],
+  ['sizei444_12',['sizeI444',['../protocol_m_c_video_frame-p.html#a226f73238b9a4bc07bb38658928228fc',1,'MCVideoFrame-p']]],
+  ['sizergb_13',['sizeRgb',['../protocol_m_c_video_frame-p.html#a7a4ff0eb6a9e5912381bf4b019eeb296',1,'MCVideoFrame-p']]],
+  ['startcapture_14',['startCapture',['../protocol_capture_source-p.html#abc18d838383389401191c9cbc3145d9f',1,'CaptureSource-p::startCapture()'],['../interface_m_c_audio_source.html#ad8f05d42cf43f2e9b8f450bd0e32f37b',1,'MCAudioSource::startCapture()'],['../interface_m_c_custom_audio_source.html#abd3052204f7795d9d45a78a171e74ed3',1,'MCCustomAudioSource::startCapture()'],['../interface_m_c_core_video_source.html#add198af3993a5a9a7f485ab4c02552b6',1,'MCCoreVideoSource::startCapture()']]],
+  ['startcapturewithcompletionhandler_3a_15',['startCaptureWithCompletionHandler:',['../interface_m_c_app_share_source.html#ac613698d4233a77b7831b0c73c29ef09',1,'MCAppShareSource']]],
+  ['stopcapture_16',['stopCapture',['../protocol_capture_source-p.html#a6a0ed6c182aecbc5e0a5840d69e5fa27',1,'CaptureSource-p::stopCapture()'],['../interface_m_c_audio_source.html#ae5aedc601e7983c093d2fc5c0d62a8b2',1,'MCAudioSource::stopCapture()'],['../interface_m_c_custom_audio_source.html#ae18f03f3969a854f5f984348830cf589',1,'MCCustomAudioSource::stopCapture()'],['../interface_m_c_core_video_source.html#a233f1114a62878c416da123a90a9a57d',1,'MCCoreVideoSource::stopCapture()']]],
+  ['stopcapturewithcompletionhandler_3a_17',['stopCaptureWithCompletionHandler:',['../interface_m_c_app_share_source.html#a0345b0a190124c6d205954cb6784cd01',1,'MCAppShareSource']]],
+  ['subscribewithcompletionhandler_3a_18',['subscribeWithCompletionHandler:',['../interface_m_c_subscriber.html#aa2bcc39c82f307c3e4c8dabefebbbaf0',1,'MCSubscriber']]],
+  ['subscribewithoptions_3acompletionhandler_3a_19',['subscribeWithOptions:completionHandler:',['../interface_m_c_subscriber.html#a418855910f87192a5ef71a16674908eb',1,'MCSubscriber']]]
 ];

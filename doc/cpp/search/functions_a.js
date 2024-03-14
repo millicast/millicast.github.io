@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kind_0',['kind',['../classmillicast_1_1_track.html#a22b99e2e2209689d345488ba2178a805',1,'millicast::Track::kind()'],['../interface_m_c_track.html#a6f5ec8d5cec10be899cfa3fafb3f8574',1,'MCTrack::kind()']]]
+  ['log_0',['log',['../classmillicast_1_1_logger.html#acb08e890dbb4f602014b638a2c979cdd',1,'millicast::Logger']]],
+  ['log_5fversion_1',['log_version',['../classmillicast_1_1_logger.html#a139d17499de00724d7dfc6d0d9d34b6d',1,'millicast::Logger']]]
 ];

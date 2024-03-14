@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.4</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -116,12 +116,18 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_error.html">millicast::Error</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The errors reported by the Millicast SDK.  <a href="classmillicast_1_1_error.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structmillicast_1_1_error_category_base.html">millicast::ErrorCategoryBase&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper for defining error categories in the Millicast SDK.  <a href="structmillicast_1_1_error_category_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_async_operation_cancelled.html">millicast::AsyncOperationCancelled</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> category for errors triggered when the operation failed because it was abandoned for various reasons.  <a href="classmillicast_1_1_async_operation_cancelled.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_generic_error.html">millicast::GenericError</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> category for other errors.  <a href="classmillicast_1_1_generic_error.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_http_error.html">millicast::HttpError</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_exception.html">millicast::Exception</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,11 +147,17 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ac00c815f1bd2abe711916e3826d54dd4"><td class="memTemplParams" colspan="2">template&lt;typename EnumT &gt; </td></tr>
 <tr class="memitem:ac00c815f1bd2abe711916e3826d54dd4"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if_t&lt; std::is_error_condition_enum&lt; EnumT &gt;::value, <a class="el" href="classmillicast_1_1_error.html">Error</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#ac00c815f1bd2abe711916e3826d54dd4">millicast::make_error_condition</a> (EnumT value)</td></tr>
+<tr class="memdesc:ac00c815f1bd2abe711916e3826d54dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper to create <a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> object from the enum value defined in Millicast error category.  <br /></td></tr>
 <tr class="separator:ac00c815f1bd2abe711916e3826d54dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abac874419743f8ddb9a660a57726581e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmillicast_1_1_error.html">Error</a> <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#abac874419743f8ddb9a660a57726581e">millicast::make_error_condition</a> (<a class="el" href="classmillicast_1_1_async_operation_cancelled.html#a16e0b8501301a359bbeb5cd303330a58">AsyncOperationCancelled::Value</a> value, const std::string &amp;message)</td></tr>
+<tr class="memdesc:abac874419743f8ddb9a660a57726581e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct <a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> in <a class="el" href="classmillicast_1_1_async_operation_cancelled.html" title="Error category for errors triggered when the operation failed because it was abandoned for various re...">AsyncOperationCancelled</a> category.  <br /></td></tr>
 <tr class="separator:abac874419743f8ddb9a660a57726581e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43da8dfaf6376f512132254790335709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmillicast_1_1_error.html">Error</a> <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#a43da8dfaf6376f512132254790335709">millicast::make_error_condition</a> (<a class="el" href="classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4fac">GenericError::Value</a> value, const std::string &amp;message)</td></tr>
+<tr class="memdesc:a43da8dfaf6376f512132254790335709"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct <a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> in <a class="el" href="classmillicast_1_1_generic_error.html" title="Error category for other errors.">GenericError</a> category.  <br /></td></tr>
 <tr class="separator:a43da8dfaf6376f512132254790335709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad727cf38ce8d33937d3dd5b294091339"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmillicast_1_1_error.html">Error</a> <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemillicast.html#ad727cf38ce8d33937d3dd5b294091339">millicast::make_error_condition</a> (<a class="el" href="classmillicast_1_1_http_error.html#af9fd1f8cf1dc144acf6f88b1bb450866">HttpError::Value</a> value, const std::string &amp;message)</td></tr>
+<tr class="memdesc:ad727cf38ce8d33937d3dd5b294091339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct <a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> in <a class="el" href="classmillicast_1_1_http_error.html">HttpError</a> category.  <br /></td></tr>
+<tr class="separator:ad727cf38ce8d33937d3dd5b294091339"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

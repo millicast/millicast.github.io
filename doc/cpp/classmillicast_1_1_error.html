@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.4</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -80,13 +80,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>The errors reported by the Millicast SDK.  
+ <a href="classmillicast_1_1_error.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="error_8h_source.html">error.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for millicast::Error:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmillicast_1_1_error__inherit__graph.png" border="0" usemap="#amillicast_1_1_error_inherit__map" alt="Inheritance graph"/></div>
 <map name="amillicast_1_1_error_inherit__map" id="amillicast_1_1_error_inherit__map">
-<area shape="rect" title=" " alt="" coords="19,79,124,105"/>
+<area shape="rect" title="The errors reported by the Millicast SDK." alt="" coords="19,79,124,105"/>
 <area shape="rect" title=" " alt="" coords="5,5,138,31"/>
 <area shape="poly" title=" " alt="" coords="74,46,74,79,69,79,69,46"/>
 </map>
@@ -96,7 +99,7 @@ Collaboration diagram for millicast::Error:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmillicast_1_1_error__coll__graph.png" border="0" usemap="#amillicast_1_1_error_coll__map" alt="Collaboration graph"/></div>
 <map name="amillicast_1_1_error_coll__map" id="amillicast_1_1_error_coll__map">
-<area shape="rect" title=" " alt="" coords="19,79,124,105"/>
+<area shape="rect" title="The errors reported by the Millicast SDK." alt="" coords="19,79,124,105"/>
 <area shape="rect" title=" " alt="" coords="5,5,138,31"/>
 <area shape="poly" title=" " alt="" coords="74,46,74,79,69,79,69,46"/>
 </map>
@@ -130,9 +133,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad378e3ce8a1ceeff0c7ca3a340514697"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_error.html#ad378e3ce8a1ceeff0c7ca3a340514697">operator==</a> (EnumT val) const</td></tr>
 <tr class="separator:ad378e3ce8a1ceeff0c7ca3a340514697"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00aad59d07686e37a579c6e5410ec690"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_error.html#a00aad59d07686e37a579c6e5410ec690">message</a> () const</td></tr>
+<tr class="memdesc:a00aad59d07686e37a579c6e5410ec690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the error message.  <br /></td></tr>
 <tr class="separator:a00aad59d07686e37a579c6e5410ec690"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The errors reported by the Millicast SDK. </p>
+<p>The <a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> extends the std::error_condition class, refer to the std::error_condition documentation for basic usage principles.</p>
+<p>Additionally, <a class="el" href="classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK.">Error</a> can carry a custom per-instance message string. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af05c3b446f54763048810442b8f92da1" name="af05c3b446f54763048810442b8f92da1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af05c3b446f54763048810442b8f92da1">&#9670;&#160;</a></span>Error() <span class="overload">[1/8]</span></h2>
 
@@ -395,6 +403,9 @@ template&lt;typename EnumT , typename X  = std::enable_if_t&lt;std::is_error_con
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Get the error message. </p>
+<dl class="section return"><dt>Returns</dt><dd>the error message. </dd></dl>
 
 </div>
 </div>

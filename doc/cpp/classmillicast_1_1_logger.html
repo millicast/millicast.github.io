@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.4</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -104,12 +104,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3ee2135ec208cfdd2a469e5fa798f815"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_logger.html#a3ee2135ec208cfdd2a469e5fa798f815">disable_websocket_logs</a> (bool disable)</td></tr>
 <tr class="memdesc:a3ee2135ec208cfdd2a469e5fa798f815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable websocket log message, except the error.  <br /></td></tr>
 <tr class="separator:a3ee2135ec208cfdd2a469e5fa798f815"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca8a9acaab52c9bdfe52bb3dd26fba7d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_logger.html#aca8a9acaab52c9bdfe52bb3dd26fba7d">is_websocket_logs_disabled</a> ()</td></tr>
-<tr class="memdesc:aca8a9acaab52c9bdfe52bb3dd26fba7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable websocket log message, except the error.  <br /></td></tr>
-<tr class="separator:aca8a9acaab52c9bdfe52bb3dd26fba7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03a1090351c90b2166c975e14d03167"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_logger.html#ae03a1090351c90b2166c975e14d03167">disable_all_logs</a> ()</td></tr>
 <tr class="memdesc:ae03a1090351c90b2166c975e14d03167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable All log messages, except the error.  <br /></td></tr>
 <tr class="separator:ae03a1090351c90b2166c975e14d03167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17733c278bac8b0f84858f0af2959b63"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_logger.html#a17733c278bac8b0f84858f0af2959b63">set_log_levels</a> (<a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c">LogLevel</a> sdk, <a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c">LogLevel</a> webrtc=<a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02caa04f06051effc016251375b5428bde8d">LogLevel::MC_OFF</a>, <a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c">LogLevel</a> websocket=<a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02caa04f06051effc016251375b5428bde8d">LogLevel::MC_OFF</a>)</td></tr>
+<tr class="memdesc:a17733c278bac8b0f84858f0af2959b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set log levels for the core SDK, webrtc and websocket.  <br /></td></tr>
+<tr class="separator:a17733c278bac8b0f84858f0af2959b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac79b625d2bed4cac0c03316a291c6969"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_logger.html#ac79b625d2bed4cac0c03316a291c6969">get_webrtc_version</a> ()</td></tr>
 <tr class="separator:ac79b625d2bed4cac0c03316a291c6969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -255,33 +255,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aca8a9acaab52c9bdfe52bb3dd26fba7d" name="aca8a9acaab52c9bdfe52bb3dd26fba7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca8a9acaab52c9bdfe52bb3dd26fba7d">&#9670;&#160;</a></span>is_websocket_logs_disabled()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> bool millicast::Logger::is_websocket_logs_disabled </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Disable websocket log message, except the error. </p>
-
-</div>
-</div>
 <a id="acb08e890dbb4f602014b638a2c979cdd" name="acb08e890dbb4f602014b638a2c979cdd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb08e890dbb4f602014b638a2c979cdd">&#9670;&#160;</a></span>log()</h2>
 
@@ -351,6 +324,51 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Log the version of the millicast SDK. </p>
+
+</div>
+</div>
+<a id="a17733c278bac8b0f84858f0af2959b63" name="a17733c278bac8b0f84858f0af2959b63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17733c278bac8b0f84858f0af2959b63">&#9670;&#160;</a></span>set_log_levels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> void millicast::Logger::set_log_levels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>sdk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>webrtc</em> = <code><a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02caa04f06051effc016251375b5428bde8d">LogLevel::MC_OFF</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>websocket</em> = <code><a class="el" href="namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02caa04f06051effc016251375b5428bde8d">LogLevel::MC_OFF</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set log levels for the core SDK, webrtc and websocket. </p>
+<p>Note: setting log levels is not atomic, and some log messages may be dropped. It is recommended to not modify the log levels while the client is connected. </p>
 
 </div>
 </div>

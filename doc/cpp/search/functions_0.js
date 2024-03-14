@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['_5f_5fattribute_5f_5f_0',['__attribute__',['../interface_m_c_publisher.html#a16b95888b4c14c554dc134a4173beaf1',1,'MCPublisher']]],
-  ['_5f_5fdeprecated_5fmsg_1',['__deprecated_msg',['../objc_2_millicast_s_d_k_2source_8h.html#a440424626559970a071017ae829c719b',1,'source.h']]]
+  ['add_5fremote_5ftrack_0',['add_remote_track',['../classmillicast_1_1compat_1_1_viewer.html#a56f791285d3b0df72ca62e5e5d83c65b',1,'millicast::compat::Viewer::add_remote_track()'],['../classmillicast_1_1promises_1_1_viewer.html#ad8f350406f874776c0b10a6edd9775aa',1,'millicast::promises::Viewer::add_remote_track()']]],
+  ['add_5frenderer_1',['add_renderer',['../classmillicast_1_1_video_track.html#aef3cb40bc4e80e6b5e6ad1d6614845e0',1,'millicast::VideoTrack::add_renderer()'],['../classmillicast_1_1_audio_track.html#a76141291bc6af895b3d9e4cfa3c1fc21',1,'millicast::AudioTrack::add_renderer()']]],
+  ['add_5fstats_2',['add_stats',['../classmillicast_1_1_stats_report.html#ac16c2d3a4fa1edbedb42aa8f8ee10196',1,'millicast::StatsReport']]],
+  ['add_5ftrack_3',['add_track',['../classmillicast_1_1compat_1_1_publisher.html#a1f416b3497f170cbaf270a5b5c41f30c',1,'millicast::compat::Publisher::add_track(std::weak_ptr&lt; Track &gt; track)=0'],['../classmillicast_1_1compat_1_1_publisher.html#a7003329299cc5c0141ad0ed3950d5d17',1,'millicast::compat::Publisher::add_track(std::weak_ptr&lt; VideoTrack &gt; track)=0'],['../classmillicast_1_1compat_1_1_publisher.html#a9df0b2e84f061c6e62b3a317e0597a81',1,'millicast::compat::Publisher::add_track(std::weak_ptr&lt; AudioTrack &gt; track)=0'],['../classmillicast_1_1promises_1_1_publisher.html#a75e891a6c7e322cbbce7a0239c0061e1',1,'millicast::promises::Publisher::add_track(std::weak_ptr&lt; Track &gt; track)=0'],['../classmillicast_1_1promises_1_1_publisher.html#a728b03777aefdef61fe9e0085a721746',1,'millicast::promises::Publisher::add_track(std::weak_ptr&lt; VideoTrack &gt; track)=0'],['../classmillicast_1_1promises_1_1_publisher.html#ad0ba4e9e56791782307b8532a5d65f6c',1,'millicast::promises::Publisher::add_track(std::weak_ptr&lt; AudioTrack &gt; track)=0']]],
+  ['addremotetrack_3acompletionhandler_3a_4',['addRemoteTrack:completionHandler:',['../interface_m_c_subscriber.html#a04e86c4ded58df710dba873af2eaad14',1,'MCSubscriber']]],
+  ['addrenderer_3a_5',['addRenderer:',['../interface_m_c_video_track.html#a35922beb1e417a936cd45d30aabb0211',1,'MCVideoTrack::addRenderer:()'],['../interface_m_c_audio_track.html#a8225c74051ff608f37a6dbb33e6d8c0e',1,'MCAudioTrack::addRenderer:()']]],
+  ['addstats_3a_6',['addStats:',['../interface_m_c_stats_report.html#a8d6386a66a17d186a187b5eb766d34be',1,'MCStatsReport']]],
+  ['addtrackwithaudiotrack_3acompletionhandler_3a_7',['addTrackWithAudioTrack:completionHandler:',['../interface_m_c_publisher.html#a3675df068c2a571b8e2942bcbb6ca9a4',1,'MCPublisher']]],
+  ['addtrackwithvideotrack_3acompletionhandler_3a_8',['addTrackWithVideoTrack:completionHandler:',['../interface_m_c_publisher.html#a67e0597f0f67fd457f0cc96dbafe1f31',1,'MCPublisher']]],
+  ['audiorenderer_9',['AudioRenderer',['../classmillicast_1_1_audio_renderer.html#a078696660516cb00b0437a1bdd61fcd1',1,'millicast::AudioRenderer']]],
+  ['audiotrack_10',['AudioTrack',['../classmillicast_1_1_audio_track.html#a273c63bd3074f915022e25ebbf5a98b5',1,'millicast::AudioTrack']]]
 ];

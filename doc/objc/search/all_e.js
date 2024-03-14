@@ -1,6 +1,29 @@
 var searchData=
 [
-  ['nack_5fcount_0',['nack_count',['../interface_m_c_inbound_rtp_stream_stats.html#aa9114ec78e15525cfc1c47b8dfde6f9b',1,'MCInboundRtpStreamStats::nack_count()'],['../interface_m_c_outbound_rtp_stream_stats.html#a82c30da11c53349974151b613eee25f0',1,'MCOutboundRtpStreamStats::nack_count()']]],
-  ['name_1',['name',['../interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221',1,'MCAppShareSource']]],
-  ['ns_5fenum_2',['NS_ENUM',['../client_8h.html#a5474c76861ce11e984bc157c510ea48e',1,'NS_ENUM(NSInteger, MCDegradationPreferences):&#160;client.h'],['../client_8h.html#afacc25cc87251a4befabb9d84d8d9c92',1,'NS_ENUM(NSInteger, MCScalabilityMode):&#160;client.h']]]
+  ['obj_5fc_5ferrors_2eh_0',['obj_c_errors.h',['../obj__c__errors_8h.html',1,'']]],
+  ['on_5fframe_1',['on_frame',['../class_private_video_renderer.html#abd2954e3fc918808f61c3a3ec3438f0f',1,'PrivateVideoRenderer::on_frame()'],['../class_private_audio_renderer.html#a2b198fb9ca5cb2f080e2a2bf27ccdce4',1,'PrivateAudioRenderer::on_frame()']]],
+  ['onactive_2',['onActive',['../protocol_m_c_publisher_delegate-p.html#ab8d6b48e34b88a823e48997ae46487ab',1,'MCPublisherDelegate-p']]],
+  ['onactive_3atracks_3asourceid_3a_3',['onActive:tracks:sourceId:',['../protocol_m_c_subscriber_delegate-p.html#ae4ab8aba119b7518f78ba9f4313ed0f1',1,'MCSubscriberDelegate-p']]],
+  ['onaudioframe_3a_4',['onAudioFrame:',['../interface_m_c_custom_audio_source.html#a36d8b9700f91fe30bb2356e5febfb349',1,'MCCustomAudioSource']]],
+  ['onaudiotrack_3awithmid_3a_5',['onAudioTrack:withMid:',['../protocol_m_c_subscriber_delegate-p.html#ad0a39746bb312afcae39a5bf146a0fa9',1,'MCSubscriberDelegate-p']]],
+  ['onconnected_6',['onConnected',['../protocol_m_c_delegate-p.html#a9df656d9ccb58e6d6b3b3eba1c8f2dba',1,'MCDelegate-p']]],
+  ['onconnectionerror_3awithreason_3a_7',['onConnectionError:withReason:',['../protocol_m_c_delegate-p.html#a93d377f609c877d36e2567e32d3ae8d0',1,'MCDelegate-p']]],
+  ['ondisconnected_8',['onDisconnected',['../protocol_m_c_delegate-p.html#a4aa87739f0395d482d35a0c06e06838e',1,'MCDelegate-p']]],
+  ['onframemetadata_3awithlength_3awithssrc_3awithtimestamp_3a_9',['onFrameMetadata:withLength:withSsrc:withTimestamp:',['../protocol_m_c_subscriber_delegate-p.html#ad32be2dcd34752d83dd47a8572266a33',1,'MCSubscriberDelegate-p']]],
+  ['oninactive_10',['onInactive',['../protocol_m_c_publisher_delegate-p.html#af60c207832fe21cec947f691617c69fb',1,'MCPublisherDelegate-p']]],
+  ['oninactive_3asourceid_3a_11',['onInactive:sourceId:',['../protocol_m_c_subscriber_delegate-p.html#a12aa97e51efe98fa7bd90063b9870ca7',1,'MCSubscriberDelegate-p']]],
+  ['onlayers_3aactivelayers_3ainactivelayers_3a_12',['onLayers:activeLayers:inactiveLayers:',['../protocol_m_c_subscriber_delegate-p.html#aeb2ed650dc205bbef2a42bbbdc360b75',1,'MCSubscriberDelegate-p']]],
+  ['onlogwithmessage_3alevel_3a_13',['onLogWithMessage:Level:',['../protocol_m_c_logger_delegate-p.html#a9a8b8aa89a9c28f364709b4bc70b5b3f',1,'MCLoggerDelegate-p']]],
+  ['onpixelbuffer_3a_14',['onPixelBuffer:',['../interface_m_c_core_video_source.html#a8712c9b5a2f44883c43a8a049d3bef44',1,'MCCoreVideoSource']]],
+  ['onpixelbuffer_3awithtimestamp_3a_15',['onPixelBuffer:withTimestamp:',['../interface_m_c_core_video_source.html#ac79497324108c29f277bbfbdfc6cac13',1,'MCCoreVideoSource']]],
+  ['onpublishing_16',['onPublishing',['../protocol_m_c_publisher_delegate-p.html#af949277c86cca59e4a2fa3cd21841282',1,'MCPublisherDelegate-p']]],
+  ['onsignalingerror_3a_17',['onSignalingError:',['../protocol_m_c_delegate-p.html#a61c6cbce0909fe998c5e427927ff14b3',1,'MCDelegate-p']]],
+  ['onstatsreport_3a_18',['onStatsReport:',['../protocol_m_c_delegate-p.html#a5dc7c879a257706e788f606d04e0ebd0',1,'MCDelegate-p']]],
+  ['onstopped_19',['onStopped',['../protocol_m_c_subscriber_delegate-p.html#ad86dd77a60f0416e1d63a87b5c8fb962',1,'MCSubscriberDelegate-p']]],
+  ['onsubscribed_20',['onSubscribed',['../protocol_m_c_subscriber_delegate-p.html#add0061b2c1022af1c74f7fefcd069e6e',1,'MCSubscriberDelegate-p']]],
+  ['ontransformableframe_3awithssrc_3awithtimestamp_3a_21',['onTransformableFrame:withSsrc:withTimestamp:',['../protocol_m_c_publisher_delegate-p.html#ad3195c77f7a93183bd1c89e1da573724',1,'MCPublisherDelegate-p']]],
+  ['onvad_3asourceid_3a_22',['onVad:sourceId:',['../protocol_m_c_subscriber_delegate-p.html#a600f331f04cf04a2e196f236c3a90b7a',1,'MCSubscriberDelegate-p']]],
+  ['onvideotrack_3awithmid_3a_23',['onVideoTrack:withMid:',['../protocol_m_c_subscriber_delegate-p.html#acc6f9796e6ddcde9d048fb637a0b7c5e',1,'MCSubscriberDelegate-p']]],
+  ['onviewercount_3a_24',['onViewerCount:',['../protocol_m_c_delegate-p.html#acae449985d4c4ee5c9aa4623f3023e43',1,'MCDelegate-p']]],
+  ['outbound_5frtp_25',['OUTBOUND_RTP',['../stats_8h.html#aefc9dead8419799abae90d94f3992f11a1ed412301646d5f198952f25cde41bc5',1,'stats.h']]]
 ];

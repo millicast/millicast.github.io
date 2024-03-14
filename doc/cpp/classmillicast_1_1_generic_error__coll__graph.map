@@ -1,5 +1,5 @@
 <map id="millicast::GenericError" name="millicast::GenericError">
-<area shape="rect" id="Node000001" title=" " alt="" coords="9,168,160,193"/>
+<area shape="rect" id="Node000001" title="Error category for other errors." alt="" coords="9,168,160,193"/>
 <area shape="rect" id="Node000002" href="$structmillicast_1_1_error_category_base.html" title=" " alt="" coords="5,79,164,120"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,135,87,167,82,167,82,135"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="19,5,150,31"/>

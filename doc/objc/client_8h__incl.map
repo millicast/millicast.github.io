@@ -1,5 +1,7 @@
 <map id="objc/MillicastSDK/client.h" name="objc/MillicastSDK/client.h">
-<area shape="rect" id="node1" title=" " alt="" coords="94,5,265,31"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,79,170,105"/>
-<area shape="rect" id="node3" title=" " alt="" coords="194,79,349,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="94,5,265,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,170,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,34,116,72,113,67,162,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="194,79,349,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,29,246,67,243,72,193,34"/>
 </map>

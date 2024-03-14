@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kind_0',['kind',['../interface_m_c_track.html#a6f5ec8d5cec10be899cfa3fafb3f8574',1,'MCTrack']]]
+  ['mute_3a_0',['mute:',['../protocol_m_c_audio_control-p.html#a10b84fc2eb4ff28da69ff94092d08ab8',1,'MCAudioControl-p']]]
 ];

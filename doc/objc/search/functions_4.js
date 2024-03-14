@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['didchangesize_3a_0',['didChangeSize:',['../protocol_m_c_c_m_sample_buffer_video_renderer_delegate-p.html#a0ff7b6289cc236f88782b59c195e56fb',1,'MCCMSampleBufferVideoRendererDelegate-p']]],
-  ['didchangevideosize_3a_1',['didChangeVideoSize:',['../protocol_m_c_ios_video_renderer_delegate-p.html#a32d41d400daae25cfceb968492d94d80',1,'MCIosVideoRendererDelegate-p']]],
-  ['didreceiveframe_3a_2',['didReceiveFrame:',['../protocol_m_c_video_renderer-p.html#acfbee891b02a4ece2b18d7ee17494e3c',1,'MCVideoRenderer-p::didReceiveFrame:()'],['../protocol_m_c_audio_renderer-p.html#afd76e13f73b8df431984fff27c47f39f',1,'MCAudioRenderer-p::didReceiveFrame:()']]],
-  ['didreceivesamplebuffer_3a_3',['didReceiveSampleBuffer:',['../protocol_m_c_c_m_sample_buffer_video_renderer_delegate-p.html#aa4817fa76cd432e5d46cf3443623a862',1,'MCCMSampleBufferVideoRendererDelegate-p']]],
-  ['disablewebsocketlogs_3a_4',['disableWebsocketLogs:',['../interface_m_c_logger.html#aaf8a98e9c568edc744847ee4ace63010',1,'MCLogger']]],
-  ['disconnect_5',['disconnect',['../protocol_m_c_client-p.html#a4db7b35579349bbcc460e7f1889a0554',1,'MCClient-p']]]
+  ['enable_3a_0',['enable:',['../interface_m_c_track.html#a60d8a3109c5d04032b1a5fdec8be3d54',1,'MCTrack']]],
+  ['enableframetransformer_3acompletionhandler_3a_1',['enableFrameTransformer:completionHandler:',['../protocol_m_c_client-p.html#afebd54c4adcf4a170dc1eff93265c2ff',1,'MCClient-p']]],
+  ['enablestats_3acompletionhandler_3a_2',['enableStats:completionHandler:',['../protocol_m_c_client-p.html#ade56fc01941986fd5da5d02b7aba1a18',1,'MCClient-p']]],
+  ['errorwithcppsdkerror_3a_3',['errorWithCPPSDKError:',['../category_n_s_error_07_s_d_k_factory_methods__private_08.html#a05e0470d7d5ce2b55bf80aedd50ad70b',1,'NSError(SDKFactoryMethods_private)']]]
 ];

@@ -1,12 +1,24 @@
 <map id="objc/MillicastSDK/Private+Renderer.h" name="objc/MillicastSDK/Private+Renderer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="286,5,457,46"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,94,151,120"/>
-<area shape="rect" id="node3" title=" " alt="" coords="174,94,334,120"/>
-<area shape="rect" id="node4" href="$frames_8h.html" title=" " alt="" coords="295,168,448,193"/>
-<area shape="rect" id="node8" href="$renderer_8h.html" title=" " alt="" coords="408,94,567,120"/>
-<area shape="rect" id="node10" title=" " alt="" coords="591,94,746,120"/>
-<area shape="rect" id="node5" title=" " alt="" coords="134,241,297,267"/>
-<area shape="rect" id="node6" href="$capabilities_8h.html" title=" " alt="" coords="320,241,497,267"/>
-<area shape="rect" id="node7" title=" " alt="" coords="394,315,549,341"/>
-<area shape="rect" id="node9" title=" " alt="" coords="573,168,770,193"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="286,5,457,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,94,151,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="299,49,138,92,137,87,297,44"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="174,94,334,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="344,49,286,87,283,83,341,44"/>
+<area shape="rect" id="Node000004" href="$frames_8h.html" title=" " alt="" coords="295,168,448,193"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="374,46,374,152,369,152,369,46"/>
+<area shape="rect" id="Node000008" href="$renderer_8h.html" title=" " alt="" coords="408,94,567,120"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="402,44,458,83,456,87,399,49"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="591,94,746,120"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="446,44,609,87,607,92,445,49"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="134,241,297,267"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="346,196,257,237,255,232,344,191"/>
+<area shape="rect" id="Node000006" href="$capabilities_8h.html" title=" " alt="" coords="320,241,497,267"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="380,192,398,226,393,229,375,195"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="394,315,549,341"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="421,265,453,301,449,305,417,269"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="469,122,405,162,402,157,466,118"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="488,120,478,155,462,195,434,231,430,228,457,192,473,153,482,119"/>
+<area shape="poly" id="edge10_Node000008_Node000007" title=" " alt="" coords="495,119,504,146,514,183,518,225,513,268,494,304,489,301,507,266,513,225,509,184,499,147,490,121"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="573,168,770,193"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="520,118,627,159,625,164,518,123"/>
 </map>

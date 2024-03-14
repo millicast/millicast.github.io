@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.4</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.0</span>
    </div>
   </td>
  </tr>
@@ -73,16 +73,16 @@ $(function() {
 
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
 <li>select()&#160;:&#160;<a class="el" href="classmillicast_1_1compat_1_1_viewer.html#ae2b25b699546ede3805fa5dc778eb5fa">millicast::compat::Viewer</a>, <a class="el" href="classmillicast_1_1promises_1_1_viewer.html#a15cae5ff76c11bd11deeab23e4dbcf32">millicast::promises::Viewer</a></li>
-<li>select:&#160;:&#160;<a class="el" href="interface_m_c_subscriber.html#a10827a5b60afc01671779c3b847dcfbc">MCSubscriber</a></li>
+<li>select:completionHandler:&#160;:&#160;<a class="el" href="interface_m_c_subscriber.html#a4ff6b85d752b5347a4f87ddf6d45bd5b">MCSubscriber</a></li>
 <li>set_capabilities()&#160;:&#160;<a class="el" href="classmillicast_1_1_video_source.html#a93ac785809bc1e82f2e019d3d83c9232">millicast::VideoSource</a></li>
-<li>set_capability()&#160;:&#160;<a class="el" href="classmillicast_1_1_custom_source.html#a7ddf59f045faa538fe9b5be90a8a6f9b">millicast::CustomSource</a>, <a class="el" href="classmillicast_1_1_video_source.html#a0bba1e8d7d8d712a606b8a5830ddf3f5">millicast::VideoSource</a></li>
+<li>set_capability()&#160;:&#160;<a class="el" href="classmillicast_1_1_video_source.html#a0bba1e8d7d8d712a606b8a5830ddf3f5">millicast::VideoSource</a></li>
 <li>set_content_hint()&#160;:&#160;<a class="el" href="classmillicast_1_1_video_track.html#ae1260d3b4a0b40744911f3e7e2fe1ea8">millicast::VideoTrack</a></li>
 <li>set_credentials()&#160;:&#160;<a class="el" href="classmillicast_1_1compat_1_1_publisher.html#ac30c35dc05a165815c73a6e8493ea8fa">millicast::compat::Publisher</a>, <a class="el" href="classmillicast_1_1compat_1_1_viewer.html#a2b89b75c97968776b4e550647a8d8c95">millicast::compat::Viewer</a>, <a class="el" href="classmillicast_1_1promises_1_1_publisher.html#ad6b0dc504e47095bce3854e27d23496b">millicast::promises::Publisher</a>, <a class="el" href="classmillicast_1_1promises_1_1_viewer.html#a9b0457de52b9b7d8e541f027b3e30566">millicast::promises::Viewer</a></li>
 <li>set_listener()&#160;:&#160;<a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a1205aa3e5f3db4cc6ce21b7aef14c6d8">millicast::compat::Publisher</a>, <a class="el" href="classmillicast_1_1compat_1_1_viewer.html#a206febe2ff8a64bd47e20109ce535f5e">millicast::compat::Viewer</a>, <a class="el" href="classmillicast_1_1promises_1_1_publisher.html#a59327350e455418462ec05b6fa16a3d9">millicast::promises::Publisher</a>, <a class="el" href="classmillicast_1_1promises_1_1_viewer.html#a3432b36ac5e09b6d3babef4f7a6b6da6">millicast::promises::Viewer</a></li>
+<li>set_log_levels()&#160;:&#160;<a class="el" href="classmillicast_1_1_logger.html#a17733c278bac8b0f84858f0af2959b63">millicast::Logger</a></li>
 <li>set_logger()&#160;:&#160;<a class="el" href="classmillicast_1_1_logger.html#ae9a18e9093b7a32c62cba2446395caa4">millicast::Logger</a></li>
 <li>set_name()&#160;:&#160;<a class="el" href="classmillicast_1_1_ndi_renderer.html#a682664eff719ac805d1452fae281c669">millicast::NdiRenderer</a></li>
 <li>set_num_channel()&#160;:&#160;<a class="el" href="classmillicast_1_1_audio_control.html#acb6c37446ba766f5918dca9aba9edf0a">millicast::AudioControl</a></li>
-<li>set_options()&#160;:&#160;<a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a34a546808a7b47beb9d91cd2390e4bfb">millicast::compat::Publisher</a>, <a class="el" href="classmillicast_1_1compat_1_1_viewer.html#a41b3bb17c59040c677f77f59d3f9bc2c">millicast::compat::Viewer</a></li>
 <li>set_recording_listener()&#160;:&#160;<a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a654ef46c86344c4ee67809d4b2f6f817">millicast::compat::Publisher</a></li>
 <li>set_rtc_verbose()&#160;:&#160;<a class="el" href="classmillicast_1_1_logger.html#aa4f9844f1bcab3700fd0e66de126e04d">millicast::Logger</a></li>
 <li>set_source()&#160;:&#160;<a class="el" href="classmillicast_1_1_deck_link_renderer.html#ae07c126069d723fe231a7378c9cbaf95">millicast::DeckLinkRenderer</a></li>
@@ -90,13 +90,10 @@ $(function() {
 <li>set_volume()&#160;:&#160;<a class="el" href="classmillicast_1_1_audio_control.html#a39bccdb09b2f71c38a6e2a8f2631585d">millicast::AudioControl</a>, <a class="el" href="classmillicast_1_1_audio_track.html#a53a14fef7a85073a1992b7c3a1b44fa2">millicast::AudioTrack</a></li>
 <li>setCapabilities:&#160;:&#160;<a class="el" href="interface_m_c_video_source_builder.html#a4bda360153eb50433f94c77e577e7e41">MCVideoSourceBuilder</a></li>
 <li>setCapability:&#160;:&#160;<a class="el" href="interface_m_c_video_source.html#a94482e694797e35a53b00c28911c0693">MCVideoSource</a></li>
-<li>setCredentials:&#160;:&#160;<a class="el" href="interface_m_c_publisher.html#aa903dfaec2ad6f1754a0ec9505a8a7d5">MCPublisher</a>, <a class="el" href="interface_m_c_subscriber.html#af21adea653905929853f8b53187c968f">MCSubscriber</a></li>
+<li>setCredentials:completionHandler:&#160;:&#160;<a class="el" href="interface_m_c_publisher.html#a9af81991cd9d525fcd7b9e3931f0da7a">MCPublisher</a>, <a class="el" href="interface_m_c_subscriber.html#afed9eaf5a761f8e9e9dd2c2ceed6d6d4">MCSubscriber</a></li>
 <li>setDelegate:&#160;:&#160;<a class="el" href="interface_m_c_logger.html#adb3b13e317309e5b42b911c7222088f6">MCLogger</a></li>
-<li>setListener:&#160;:&#160;<a class="el" href="protocol_m_c_client-p.html#a016fc1c0e1f44a63f4db76cf00473121">&lt;MCClient&gt;</a></li>
 <li>setName:&#160;:&#160;<a class="el" href="interface_m_c_ndi_renderer.html#a553b91a949831a29812c563a66e51d09">MCNdiRenderer</a>, <a class="el" href="interface_m_c_source_builder.html#a6c31b138e0fd93dc876de29533192a04">MCSourceBuilder</a></li>
 <li>setNumChannel:&#160;:&#160;<a class="el" href="protocol_m_c_audio_control-p.html#a51b10fadf2e4519e88e603eb4a48d507">&lt;MCAudioControl&gt;</a></li>
-<li>setOptions:&#160;:&#160;<a class="el" href="protocol_m_c_client-p.html#adab35a91cba5adc901bcceb057e98a02">&lt;MCClient&gt;</a></li>
-<li>setRecordingListener:&#160;:&#160;<a class="el" href="interface_m_c_publisher.html#a2dedf2e1078b8bc0f44d3b8a0d2f506a">MCPublisher</a></li>
 <li>setType:&#160;:&#160;<a class="el" href="interface_m_c_source_builder.html#a679f81a575d82495393bc8b08c692413">MCSourceBuilder</a></li>
 <li>setUniqueId:&#160;:&#160;<a class="el" href="interface_m_c_source_builder.html#a380e5354a1771d77013e4880052323a8">MCSourceBuilder</a></li>
 <li>setVolume:&#160;:&#160;<a class="el" href="protocol_m_c_audio_control-p.html#a6d6eb97fb2601561e89b05a5f655bd8a">&lt;MCAudioControl&gt;</a>, <a class="el" href="interface_m_c_audio_track.html#a6d2500cc92a345bc8c422789e9dc04df">MCAudioTrack</a></li>
@@ -104,19 +101,18 @@ $(function() {
 <li>sizeI420&#160;:&#160;<a class="el" href="protocol_m_c_video_frame-p.html#a2b8acb06dbd588bd6f04351e4ac9ba5f">&lt;MCVideoFrame&gt;</a></li>
 <li>sizeI444&#160;:&#160;<a class="el" href="protocol_m_c_video_frame-p.html#a226f73238b9a4bc07bb38658928228fc">&lt;MCVideoFrame&gt;</a></li>
 <li>sizeRgb&#160;:&#160;<a class="el" href="protocol_m_c_video_frame-p.html#a7a4ff0eb6a9e5912381bf4b019eeb296">&lt;MCVideoFrame&gt;</a></li>
-<li>Source()&#160;:&#160;<a class="el" href="classmillicast_1_1_audio_playback.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::AudioPlayback</a>, <a class="el" href="classmillicast_1_1_audio_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::AudioSource</a>, <a class="el" href="classmillicast_1_1_custom_audio_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::CustomAudioSource</a>, <a class="el" href="classmillicast_1_1_custom_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::CustomSource</a>, <a class="el" href="classmillicast_1_1_custom_video_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::CustomVideoSource</a>, <a class="el" href="classmillicast_1_1_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::Source</a>, <a class="el" href="classmillicast_1_1_video_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::VideoSource</a></li>
-<li>start_audio_capture()&#160;:&#160;<a class="el" href="classmillicast_1_1_custom_source.html#a8c2645b7cc6f9740c3d8f52c14584e03">millicast::CustomSource</a></li>
+<li>Source()&#160;:&#160;<a class="el" href="classmillicast_1_1_audio_playback.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::AudioPlayback</a>, <a class="el" href="classmillicast_1_1_audio_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::AudioSource</a>, <a class="el" href="classmillicast_1_1_custom_audio_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::CustomAudioSource</a>, <a class="el" href="classmillicast_1_1_custom_video_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::CustomVideoSource</a>, <a class="el" href="classmillicast_1_1_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::Source</a>, <a class="el" href="classmillicast_1_1_video_source.html#a8b0540511f9d4d9ad2dc253b0cd2be55">millicast::VideoSource</a></li>
 <li>start_capture()&#160;:&#160;<a class="el" href="classmillicast_1_1_custom_audio_source.html#adb3751aef773dc4e56cd3e03e4f23fce">millicast::CustomAudioSource</a>, <a class="el" href="classmillicast_1_1_custom_video_source.html#a7e57468a1d3fd3bf0e9d8486822ec20d">millicast::CustomVideoSource</a>, <a class="el" href="classmillicast_1_1_source.html#a3938d04d4c83a1178b7f45bf6cb24a6b">millicast::Source</a></li>
-<li>start_video_capture()&#160;:&#160;<a class="el" href="classmillicast_1_1_custom_source.html#a22a7d6abcabc4921a7880d8018daa223">millicast::CustomSource</a></li>
 <li>startCapture&#160;:&#160;<a class="el" href="protocol_capture_source-p.html#abc18d838383389401191c9cbc3145d9f">&lt;CaptureSource&gt;</a>, <a class="el" href="interface_m_c_audio_source.html#ad8f05d42cf43f2e9b8f450bd0e32f37b">MCAudioSource</a>, <a class="el" href="interface_m_c_core_video_source.html#add198af3993a5a9a7f485ab4c02552b6">MCCoreVideoSource</a>, <a class="el" href="interface_m_c_custom_audio_source.html#abd3052204f7795d9d45a78a171e74ed3">MCCustomAudioSource</a></li>
 <li>startCaptureWithCompletionHandler:&#160;:&#160;<a class="el" href="interface_m_c_app_share_source.html#ac613698d4233a77b7831b0c73c29ef09">MCAppShareSource</a></li>
 <li>StatsReport()&#160;:&#160;<a class="el" href="classmillicast_1_1_stats_report.html#a42793970bf21b3846b1a686e240980de">millicast::StatsReport</a></li>
 <li>stop()&#160;:&#160;<a class="el" href="classmillicast_1_1_deck_link_renderer.html#aad9a0e26172ea39ba359645c20d4c7d6">millicast::DeckLinkRenderer</a></li>
-<li>stop_capture()&#160;:&#160;<a class="el" href="classmillicast_1_1_custom_audio_source.html#a3d22d7e71f6138ce2a2bbad4bab79e1e">millicast::CustomAudioSource</a>, <a class="el" href="classmillicast_1_1_custom_source.html#adf1fc59e6adedcfc1c15492065f80f04">millicast::CustomSource</a>, <a class="el" href="classmillicast_1_1_custom_video_source.html#aab3e7bf1e085b8397242979d8368f970">millicast::CustomVideoSource</a>, <a class="el" href="classmillicast_1_1_source.html#a6519df2f0da7f6aec40297094657d76a">millicast::Source</a></li>
+<li>stop_capture()&#160;:&#160;<a class="el" href="classmillicast_1_1_custom_audio_source.html#a3d22d7e71f6138ce2a2bbad4bab79e1e">millicast::CustomAudioSource</a>, <a class="el" href="classmillicast_1_1_custom_video_source.html#aab3e7bf1e085b8397242979d8368f970">millicast::CustomVideoSource</a>, <a class="el" href="classmillicast_1_1_source.html#a6519df2f0da7f6aec40297094657d76a">millicast::Source</a></li>
 <li>stopCapture&#160;:&#160;<a class="el" href="protocol_capture_source-p.html#a6a0ed6c182aecbc5e0a5840d69e5fa27">&lt;CaptureSource&gt;</a>, <a class="el" href="interface_m_c_audio_source.html#ae5aedc601e7983c093d2fc5c0d62a8b2">MCAudioSource</a>, <a class="el" href="interface_m_c_core_video_source.html#a233f1114a62878c416da123a90a9a57d">MCCoreVideoSource</a>, <a class="el" href="interface_m_c_custom_audio_source.html#ae18f03f3969a854f5f984348830cf589">MCCustomAudioSource</a></li>
 <li>stopCaptureWithCompletionHandler:&#160;:&#160;<a class="el" href="interface_m_c_app_share_source.html#a0345b0a190124c6d205954cb6784cd01">MCAppShareSource</a></li>
-<li>subscribe&#160;:&#160;<a class="el" href="interface_m_c_subscriber.html#ab1e7a41782c71b021509a54e315e1853">MCSubscriber</a>, <a class="el" href="classmillicast_1_1compat_1_1_viewer.html#a60871e98e165e59b0fe39593ec521177">millicast::compat::Viewer</a>, <a class="el" href="classmillicast_1_1promises_1_1_viewer.html#ac21357f43ecb804040defae0896837c1">millicast::promises::Viewer</a></li>
-<li>subscribeWithOptions:&#160;:&#160;<a class="el" href="interface_m_c_subscriber.html#aedc31a2288c311f1ecc7c3765e1283cb">MCSubscriber</a></li>
+<li>subscribe()&#160;:&#160;<a class="el" href="classmillicast_1_1compat_1_1_viewer.html#a60871e98e165e59b0fe39593ec521177">millicast::compat::Viewer</a>, <a class="el" href="classmillicast_1_1promises_1_1_viewer.html#ac21357f43ecb804040defae0896837c1">millicast::promises::Viewer</a></li>
+<li>subscribeWithCompletionHandler:&#160;:&#160;<a class="el" href="interface_m_c_subscriber.html#aa2bcc39c82f307c3e4c8dabefebbbaf0">MCSubscriber</a></li>
+<li>subscribeWithOptions:completionHandler:&#160;:&#160;<a class="el" href="interface_m_c_subscriber.html#a418855910f87192a5ef71a16674908eb">MCSubscriber</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

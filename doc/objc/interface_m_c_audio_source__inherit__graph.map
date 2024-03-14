@@ -1,9 +1,15 @@
 <map id="MCAudioSource" name="MCAudioSource">
-<area shape="rect" id="node1" title="The AudioSource class." alt="" coords="125,153,241,178"/>
-<area shape="rect" id="node2" href="$interface_m_c_source.html" title="The Source base class." alt="" coords="8,79,92,105"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,84,31"/>
-<area shape="rect" id="node4" href="$protocol_capture_source-p.html" title=" " alt="" coords="121,79,245,105"/>
-<area shape="rect" id="node5" title=" " alt="" coords="108,5,259,31"/>
-<area shape="rect" id="node6" href="$protocol_m_c_audio_control-p.html" title="The AudioControl class." alt="" coords="291,79,425,105"/>
-<area shape="rect" id="node7" title=" " alt="" coords="282,5,479,31"/>
+<area shape="rect" id="Node000001" title="The AudioSource class." alt="" coords="125,153,241,178"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_source.html" title="The Source base class." alt="" coords="8,79,92,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,110,162,150,159,154,85,115"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,84,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="49,46,52,78,46,79,44,47"/>
+<area shape="rect" id="Node000004" href="$protocol_capture_source-p.html" title=" " alt="" coords="121,79,245,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="186,120,186,152,181,152,181,120"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="108,5,259,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="186,46,186,79,181,79,181,46"/>
+<area shape="rect" id="Node000006" href="$protocol_m_c_audio_control-p.html" title="The AudioControl class." alt="" coords="291,79,425,105"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="315,113,214,155,212,150,313,108"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="282,5,479,31"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="375,47,364,79,359,78,370,45"/>
 </map>

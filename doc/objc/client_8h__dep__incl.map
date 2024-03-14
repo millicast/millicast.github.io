@@ -1,7 +1,15 @@
 <map id="objc/MillicastSDK/client.h" name="objc/MillicastSDK/client.h">
-<area shape="rect" id="node1" title=" " alt="" coords="138,5,310,31"/>
-<area shape="rect" id="node2" href="$_millicast_s_d_k-_mac_8h.html" title=" " alt="" coords="31,153,209,193"/>
-<area shape="rect" id="node3" href="$_millicast_s_d_k-i_o_s_8h.html" title=" " alt="" coords="239,153,417,193"/>
-<area shape="rect" id="node4" href="$publisher_8h.html" title=" " alt="" coords="24,79,216,105"/>
-<area shape="rect" id="node5" href="$viewer_8h.html" title=" " alt="" coords="239,79,417,105"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="138,5,310,31"/>
+<area shape="rect" id="Node000002" href="$_millicast_s_d_k-_mac_8h.html" title=" " alt="" coords="31,153,209,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,37,59,56,31,67,14,81,9,91,9,100,19,118,41,135,69,150,66,154,38,140,15,122,3,101,4,89,10,77,28,63,57,51,129,32"/>
+<area shape="rect" id="Node000003" href="$_millicast_s_d_k-i_o_s_8h.html" title=" " alt="" coords="239,153,417,193"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="315,32,385,51,413,63,431,77,437,89,438,101,426,121,404,140,378,154,375,150,401,135,422,118,433,99,432,90,427,81,411,68,383,56,313,37"/>
+<area shape="rect" id="Node000004" href="$publisher_8h.html" title=" " alt="" coords="24,79,216,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="195,42,139,81,136,76,192,38"/>
+<area shape="rect" id="Node000005" href="$viewer_8h.html" title=" " alt="" coords="239,79,417,105"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="255,38,312,76,309,81,252,42"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="123,120,123,152,117,152,117,120"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="167,108,277,150,275,155,165,113"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="283,113,173,155,171,150,281,108"/>
+<area shape="poly" id="edge8_Node000005_Node000003" title=" " alt="" coords="331,120,331,152,325,152,325,120"/>
 </map>

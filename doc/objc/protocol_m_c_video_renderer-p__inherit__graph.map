@@ -1,7 +1,11 @@
 <map id="&lt;MCVideoRenderer&gt;" name="&lt;MCVideoRenderer&gt;">
-<area shape="rect" id="node1" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="259,79,404,105"/>
-<area shape="rect" id="node3" href="$interface_m_c_c_m_sample_buffer_video_renderer.html" title="CMSampleBuffer renderer." alt="" coords="5,153,234,178"/>
-<area shape="rect" id="node4" href="$interface_m_c_ios_video_renderer.html" title="The purpose of this interface is to render video frames in a UI view. (iOS and tvOS)" alt="" coords="258,153,405,178"/>
-<area shape="rect" id="node5" href="$interface_m_c_ndi_renderer.html" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="429,153,544,178"/>
-<area shape="rect" id="node2" title=" " alt="" coords="284,5,379,31"/>
+<area shape="rect" id="Node000001" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="259,79,404,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_c_m_sample_buffer_video_renderer.html" title="CMSampleBuffer renderer." alt="" coords="5,153,234,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="282,112,156,155,155,150,281,107"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_ios_video_renderer.html" title="The purpose of this interface is to render video frames in a UI view. (iOS and tvOS)" alt="" coords="258,153,405,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="334,120,334,152,329,152,329,120"/>
+<area shape="rect" id="Node000005" href="$interface_m_c_ndi_renderer.html" title="The NdiRenderer interface is used to render video as an ndi source." alt="" coords="429,153,544,178"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="373,109,461,150,459,154,370,114"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="284,5,379,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="334,46,334,79,329,79,329,46"/>
 </map>
