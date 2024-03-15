@@ -34,8 +34,6 @@ $dokka.location:com.millicast.devices.playback////PointingToDeclaration/android
 $dokka.location:com.millicast.devices.playback/AudioPlayback///PointingToDeclaration/android/com.millicast.devices.playback/-audio-playback/index.html
 $dokka.location:com.millicast.devices.playback/AudioPlayback/initPlayback/#/PointingToDeclaration/android/com.millicast.devices.playback/-audio-playback/init-playback.html
 $dokka.location:com.millicast.devices.playback/AudioPlayback/release/#/PointingToDeclaration/android/com.millicast.devices.playback/-audio-playback/release.html
-$dokka.location:com.millicast.devices.playback/NdiAudioPlayback///PointingToDeclaration/android/com.millicast.devices.playback/-ndi-audio-playback/index.html
-$dokka.location:com.millicast.devices.playback/NdiAudioPlayback/initPlayback/#/PointingToDeclaration/android/com.millicast.devices.playback/-ndi-audio-playback/init-playback.html
 $dokka.location:com.millicast.devices.playback/SpeakerAudioPlayback///PointingToDeclaration/android/com.millicast.devices.playback/-speaker-audio-playback/index.html
 $dokka.location:com.millicast.devices.playback/SpeakerAudioPlayback/initPlayback/#/PointingToDeclaration/android/com.millicast.devices.playback/-speaker-audio-playback/init-playback.html
 $dokka.location:com.millicast.devices.source.audio////PointingToDeclaration/android/com.millicast.devices.source.audio/index.html
@@ -91,11 +89,6 @@ $dokka.location:com.millicast.devices.source.video/CameraVideoSource/startCaptur
 $dokka.location:com.millicast.devices.source.video/CameraVideoSource/stopCapture/#/PointingToDeclaration/android/com.millicast.devices.source.video/-camera-video-source/stop-capture.html
 $dokka.location:com.millicast.devices.source.video/CameraVideoSource/switchCamera/#com.millicast.devices.type.SwitchCameraHandler/PointingToDeclaration/android/com.millicast.devices.source.video/-camera-video-source/switch-camera.html
 $dokka.location:com.millicast.devices.source.video/CameraVideoSource/switchCamera/#com.millicast.devices.type.SwitchCameraHandler?#kotlin.String/PointingToDeclaration/android/com.millicast.devices.source.video/-camera-video-source/switch-camera.html
-$dokka.location:com.millicast.devices.source.video/NdiVideoSource///PointingToDeclaration/android/com.millicast.devices.source.video/-ndi-video-source/index.html
-$dokka.location:com.millicast.devices.source.video/NdiVideoSource/isCapturing/#/PointingToDeclaration/android/com.millicast.devices.source.video/-ndi-video-source/is-capturing.html
-$dokka.location:com.millicast.devices.source.video/NdiVideoSource/release/#/PointingToDeclaration/android/com.millicast.devices.source.video/-ndi-video-source/release.html
-$dokka.location:com.millicast.devices.source.video/NdiVideoSource/startCapture/#/PointingToDeclaration/android/com.millicast.devices.source.video/-ndi-video-source/start-capture.html
-$dokka.location:com.millicast.devices.source.video/NdiVideoSource/stopCapture/#/PointingToDeclaration/android/com.millicast.devices.source.video/-ndi-video-source/stop-capture.html
 $dokka.location:com.millicast.devices.source.video/VideoCapabilities///PointingToDeclaration/android/com.millicast.devices.source.video/-video-capabilities/index.html
 $dokka.location:com.millicast.devices.source.video/VideoCapabilities/fps/#/PointingToDeclaration/android/com.millicast.devices.source.video/-video-capabilities/fps.html
 $dokka.location:com.millicast.devices.source.video/VideoCapabilities/height/#/PointingToDeclaration/android/com.millicast.devices.source.video/-video-capabilities/height.html
@@ -117,9 +110,6 @@ $dokka.location:com.millicast.devices.track/Track/kind/#/PointingToDeclaration/
 $dokka.location:com.millicast.devices.track/Track/name/#/PointingToDeclaration/android/com.millicast.devices.track/-track/name.html
 $dokka.location:com.millicast.devices.track/Track/setEnabled/#kotlin.Boolean/PointingToDeclaration/android/com.millicast.devices.track/-track/set-enabled.html
 $dokka.location:com.millicast.devices.track/VideoTrack///PointingToDeclaration/android/com.millicast.devices.track/-video-track/index.html
-$dokka.location:com.millicast.devices.track/VideoTrack/disableNdiOutput/#/PointingToDeclaration/android/com.millicast.devices.track/-video-track/disable-ndi-output.html
-$dokka.location:com.millicast.devices.track/VideoTrack/enableNdiOutput/#kotlin.String/PointingToDeclaration/android/com.millicast.devices.track/-video-track/enable-ndi-output.html
-$dokka.location:com.millicast.devices.track/VideoTrack/isNdiOutputEnabled/#/PointingToDeclaration/android/com.millicast.devices.track/-video-track/is-ndi-output-enabled.html
 $dokka.location:com.millicast.devices.track/VideoTrack/removeVideoSink/#org.webrtc.VideoSink/PointingToDeclaration/android/com.millicast.devices.track/-video-track/remove-video-sink.html
 $dokka.location:com.millicast.devices.track/VideoTrack/setEnabled/#kotlin.Boolean/PointingToDeclaration/android/com.millicast.devices.track/-video-track/set-enabled.html
 $dokka.location:com.millicast.devices.track/VideoTrack/setRenderer/#com.millicast.VideoRenderer/PointingToDeclaration/android/com.millicast.devices.track/-video-track/set-renderer.html
@@ -136,7 +126,6 @@ $dokka.location:com.millicast.devices.type/SwitchCameraHandler///PointingToDecla
 $dokka.location:com.millicast.devices.type/Type.CUSTOM///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}android/com.millicast.devices.type/-type/-c-u-s-t-o-m/index.html
 $dokka.location:com.millicast.devices.type/Type.DEVICE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}android/com.millicast.devices.type/-type/-d-e-v-i-c-e/index.html
 $dokka.location:com.millicast.devices.type/Type.MIC///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}android/com.millicast.devices.type/-type/-m-i-c/index.html
-$dokka.location:com.millicast.devices.type/Type.NDI///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}android/com.millicast.devices.type/-type/-n-d-i/index.html
 $dokka.location:com.millicast.devices.type/Type///PointingToDeclaration/android/com.millicast.devices.type/-type/index.html
 $dokka.location:com.millicast.devices.type/Type/entries/#/PointingToDeclaration/android/com.millicast.devices.type/-type/entries.html
 $dokka.location:com.millicast.devices.type/Type/valueOf/#kotlin.String/PointingToDeclaration/android/com.millicast.devices.type/-type/value-of.html
