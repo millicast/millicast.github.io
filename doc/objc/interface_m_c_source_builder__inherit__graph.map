@@ -1,0 +1,9 @@
+<map id="MCSourceBuilder" name="MCSourceBuilder">
+<area shape="rect" id="node1" title="The source builder is used to build a source object." alt="" coords="132,104,255,130"/>
+<area shape="rect" id="node3" href="$interface_m_c_audio_playback_builder.html" title=" " alt="" coords="320,5,489,31"/>
+<area shape="rect" id="node4" href="$interface_m_c_audio_source_builder.html" title=" " alt="" coords="326,55,482,80"/>
+<area shape="rect" id="node5" href="$interface_m_c_core_video_source_builder.html" title=" " alt="" coords="312,104,496,130"/>
+<area shape="rect" id="node6" href="$interface_m_c_custom_audio_source_builder.html" title=" " alt="" coords="303,153,505,179"/>
+<area shape="rect" id="node7" href="$interface_m_c_video_source_builder.html" title=" " alt="" coords="326,203,482,228"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,104,84,130"/>
+</map>

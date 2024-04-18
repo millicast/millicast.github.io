@@ -24,13 +24,12 @@ var searchData=
   ['layerresolution_21',['layerResolution',['../interface_m_c_layer_data.html#a9984623a8ab0aa3f74afdc20fbe8abf1',1,'MCLayerData']]],
   ['limited_22',['LIMITED',['../namespacemillicast.html#abecb53f5eaa9afab8ae2eb4900342f13ad9e0d83abd8b9bb4c1998be68831922c',1,'millicast']]],
   ['linear_23',['LINEAR',['../namespacemillicast.html#a55b121eb3756290a964c7f50f3108949aaac544aacc3615aada24897a215f5046',1,'millicast']]],
-  ['listener_24',['Listener',['../classmillicast_1_1_client_base.html#aa7837e2e117ffba542fdbe039de19eb7',1,'millicast::ClientBase::Listener'],['../classmillicast_1_1compat_1_1_publisher.html#a4759a9254b414d9181042df702f5bebe',1,'millicast::compat::Publisher::Listener'],['../classmillicast_1_1compat_1_1_viewer.html#a2b8c48678664522a2a26305e5ebdd2ac',1,'millicast::compat::Viewer::Listener']]],
-  ['local_5fid_25',['local_id',['../structmillicast_1_1rtcstats_1_1_remote_outbound_rtp_stream.html#ac655e9025cc3a68877ca6581b19e59d4',1,'millicast::rtcstats::RemoteOutboundRtpStream::local_id'],['../structmillicast_1_1rtcstats_1_1_remote_inbound_rtp_stream.html#a93c9f34340304e7d229138093d0aab85',1,'millicast::rtcstats::RemoteInboundRtpStream::local_id'],['../interface_m_c_remote_outbound_rtp_stream_stats.html#aeea6f5b166b48f123eb09e1a3def9011',1,'MCRemoteOutboundRtpStreamStats::local_id'],['../interface_m_c_remote_inbound_rtp_stream_stats.html#a3184a1c34eacf5a8498e49ee4b517b85',1,'MCRemoteInboundRtpStreamStats::local_id']]],
-  ['log_26',['LOG',['../namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a4b5ffcdaf38ce4d463171f5c977c5ab3',1,'millicast']]],
-  ['log_27',['log',['../classmillicast_1_1_logger.html#acb08e890dbb4f602014b638a2c979cdd',1,'millicast::Logger']]],
+  ['listener_24',['Listener',['../classmillicast_1_1compat_1_1_viewer.html#a2b8c48678664522a2a26305e5ebdd2ac',1,'millicast::compat::Viewer::Listener'],['../classmillicast_1_1compat_1_1_publisher.html#a4759a9254b414d9181042df702f5bebe',1,'millicast::compat::Publisher::Listener'],['../classmillicast_1_1_client_base.html#aa7837e2e117ffba542fdbe039de19eb7',1,'millicast::ClientBase::Listener']]],
+  ['local_5fid_25',['local_id',['../interface_m_c_remote_inbound_rtp_stream_stats.html#a3184a1c34eacf5a8498e49ee4b517b85',1,'MCRemoteInboundRtpStreamStats::local_id'],['../interface_m_c_remote_outbound_rtp_stream_stats.html#aeea6f5b166b48f123eb09e1a3def9011',1,'MCRemoteOutboundRtpStreamStats::local_id'],['../structmillicast_1_1rtcstats_1_1_remote_inbound_rtp_stream.html#a93c9f34340304e7d229138093d0aab85',1,'millicast::rtcstats::RemoteInboundRtpStream::local_id'],['../structmillicast_1_1rtcstats_1_1_remote_outbound_rtp_stream.html#ac655e9025cc3a68877ca6581b19e59d4',1,'millicast::rtcstats::RemoteOutboundRtpStream::local_id']]],
+  ['log_26',['log',['../classmillicast_1_1_logger.html#acb08e890dbb4f602014b638a2c979cdd',1,'millicast::Logger']]],
+  ['log_27',['LOG',['../namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a4b5ffcdaf38ce4d463171f5c977c5ab3',1,'millicast']]],
   ['log_5fsqrt_28',['LOG_SQRT',['../namespacemillicast.html#a55b121eb3756290a964c7f50f3108949a4d808ce9df1aa2e8a6aea6b41cc1ffdb',1,'millicast']]],
   ['log_5fversion_29',['log_version',['../classmillicast_1_1_logger.html#a139d17499de00724d7dfc6d0d9d34b6d',1,'millicast::Logger']]],
-  ['logcomponent_30',['LogComponent',['../classmillicast_1_1_logger.html#a7dfeac931f4a47495b4cf874e347b333',1,'millicast::Logger']]],
-  ['logger_31',['Logger',['../classmillicast_1_1_logger.html',1,'millicast']]],
-  ['loglevel_32',['LogLevel',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c',1,'millicast']]]
+  ['logger_30',['Logger',['../classmillicast_1_1_logger.html',1,'millicast']]],
+  ['loglevel_31',['LogLevel',['../namespacemillicast.html#ab0341b4a0484bc08143cd40b27fae02c',1,'millicast']]]
 ];

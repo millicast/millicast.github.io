@@ -10,5 +10,6 @@ var searchData=
   ['codecs_7',['Codecs',['../structmillicast_1_1rtcstats_1_1_codecs.html',1,'millicast::rtcstats']]],
   ['const_5fiterator_8',['const_iterator',['../classmillicast_1_1_stats_report_1_1const__iterator.html',1,'millicast::StatsReport']]],
   ['customaudiosource_9',['CustomAudioSource',['../classmillicast_1_1_custom_audio_source.html',1,'millicast']]],
-  ['customvideosource_10',['CustomVideoSource',['../classmillicast_1_1_custom_video_source.html',1,'millicast']]]
+  ['customsource_10',['CustomSource',['../classmillicast_1_1_custom_source.html',1,'millicast']]],
+  ['customvideosource_11',['CustomVideoSource',['../classmillicast_1_1_custom_video_source.html',1,'millicast']]]
 ];

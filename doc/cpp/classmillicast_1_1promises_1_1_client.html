@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.2</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
    </div>
   </td>
  </tr>
@@ -80,19 +80,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classmillicast_1_1promises_1_1_client.html" title="The Client base class.">Client</a> base class.  
- <a href="classmillicast_1_1promises_1_1_client.html#details">More...</a></p>
-
 <p><code>#include &lt;<a class="el" href="api_2millicast-sdk_2client_8h_source.html">client.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for millicast::promises::Client:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmillicast_1_1promises_1_1_client__inherit__graph.png" border="0" usemap="#amillicast_1_1promises_1_1_client_inherit__map" alt="Inheritance graph"/></div>
 <map name="amillicast_1_1promises_1_1_client_inherit__map" id="amillicast_1_1promises_1_1_client_inherit__map">
-<area shape="rect" title="The Client base class." alt="" coords="83,79,213,120"/>
-<area shape="rect" href="classmillicast_1_1promises_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="5,168,136,208"/>
+<area shape="rect" title=" " alt="" coords="83,79,213,120"/>
+<area shape="rect" href="classmillicast_1_1promises_1_1_publisher.html" title=" " alt="" coords="5,168,136,208"/>
 <area shape="poly" title=" " alt="" coords="122,133,90,169,86,165,118,130"/>
-<area shape="rect" href="classmillicast_1_1promises_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="160,168,290,208"/>
+<area shape="rect" href="classmillicast_1_1promises_1_1_viewer.html" title=" " alt="" coords="160,168,290,208"/>
 <area shape="poly" title=" " alt="" coords="178,130,210,165,206,169,174,133"/>
 <area shape="rect" href="classmillicast_1_1_client_base.html" title=" " alt="" coords="77,5,219,31"/>
 <area shape="poly" title=" " alt="" coords="151,46,151,79,145,79,145,46"/>
@@ -103,7 +100,7 @@ Collaboration diagram for millicast::promises::Client:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmillicast_1_1promises_1_1_client__coll__graph.png" border="0" usemap="#amillicast_1_1promises_1_1_client_coll__map" alt="Collaboration graph"/></div>
 <map name="amillicast_1_1promises_1_1_client_coll__map" id="amillicast_1_1promises_1_1_client_coll__map">
-<area shape="rect" title="The Client base class." alt="" coords="11,79,141,120"/>
+<area shape="rect" title=" " alt="" coords="11,79,141,120"/>
 <area shape="rect" href="classmillicast_1_1_client_base.html" title=" " alt="" coords="5,5,147,31"/>
 <area shape="poly" title=" " alt="" coords="79,46,79,79,73,79,73,46"/>
 </map>
@@ -112,24 +109,18 @@ Collaboration diagram for millicast::promises::Client:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a2ae4b4f404d7158e8175fb58ab41aa72"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1_promise.html">Promise</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1promises_1_1_client.html#a2ae4b4f404d7158e8175fb58ab41aa72">connect</a> (std::optional&lt; <a class="el" href="classmillicast_1_1_client_base.html#ad11d399f9fefb0d344903f09d6a3a55a">ConnectionOptions</a> &gt; &amp;&amp;connection_options)=0</td></tr>
-<tr class="memdesc:a2ae4b4f404d7158e8175fb58ab41aa72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect and open a websocket connection with the Millicast platform.  <br /></td></tr>
 <tr class="separator:a2ae4b4f404d7158e8175fb58ab41aa72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73d8520039d82029c7ce60c5b9ab7ce5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1_promise.html">Promise</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1promises_1_1_client.html#a73d8520039d82029c7ce60c5b9ab7ce5">connect</a> (<a class="el" href="classmillicast_1_1_client_base.html#a850930534cbfe735335f5acb970cced4">JsonData</a> &amp;&amp;data, std::optional&lt; <a class="el" href="classmillicast_1_1_client_base.html#ad11d399f9fefb0d344903f09d6a3a55a">ConnectionOptions</a> &gt; &amp;&amp;connection_options)=0</td></tr>
-<tr class="memdesc:a73d8520039d82029c7ce60c5b9ab7ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the media server directly using the websocket url and the JWT.  <br /></td></tr>
 <tr class="separator:a73d8520039d82029c7ce60c5b9ab7ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64342f9780c7c37332f14c01cd488db2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1_promise.html">Promise</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1promises_1_1_client.html#a64342f9780c7c37332f14c01cd488db2">is_connected</a> () const =0</td></tr>
-<tr class="memdesc:a64342f9780c7c37332f14c01cd488db2"><td class="mdescLeft">&#160;</td><td class="mdescRight">is_connected  <br /></td></tr>
 <tr class="separator:a64342f9780c7c37332f14c01cd488db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07accb7642021b08541c0083af9bfc0d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1_promise.html">Promise</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1promises_1_1_client.html#a07accb7642021b08541c0083af9bfc0d">disconnect</a> ()=0</td></tr>
-<tr class="memdesc:a07accb7642021b08541c0083af9bfc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect from Millicast. The websocket connection to Millicast will no longer be active after disconnect is complete. If the client is currently publishing/subscribing, the SDK will first stop the publishing/subscribing before disconnecting.  <br /></td></tr>
 <tr class="separator:a07accb7642021b08541c0083af9bfc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac03493c7cee3268b6da479caf07a77da"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1_promise.html">Promise</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1promises_1_1_client.html#ac03493c7cee3268b6da479caf07a77da">enable_stats</a> (bool enable)=0</td></tr>
-<tr class="memdesc:ac03493c7cee3268b6da479caf07a77da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the rtc stats collecting. The stats are collected once the client is either publishing or subscribed.  <br /></td></tr>
 <tr class="separator:ac03493c7cee3268b6da479caf07a77da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af975c3d40c825bf3572659b985f5b696"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1_promise.html">Promise</a>&lt; std::optional&lt; std::string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1promises_1_1_client.html#af975c3d40c825bf3572659b985f5b696">get_mid</a> (std::string &amp;&amp;track_id)=0</td></tr>
 <tr class="separator:af975c3d40c825bf3572659b985f5b696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbbe0aa08c7448f5e2663c46857d8b3e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1_promise.html">Promise</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1promises_1_1_client.html#acbbe0aa08c7448f5e2663c46857d8b3e">enable_frame_transformer</a> (bool enable)=0</td></tr>
-<tr class="memdesc:acbbe0aa08c7448f5e2663c46857d8b3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add frame transformer so you can add metadata to frame When a new transformable frame is available, the listener method on_transformable_frame will be called.  <br /></td></tr>
 <tr class="separator:acbbe0aa08c7448f5e2663c46857d8b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmillicast_1_1_client_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmillicast_1_1_client_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmillicast_1_1_client_base.html">millicast::ClientBase</a></td></tr>
 <tr class="memitem:a55af17b0052d22a83ac179b3c5f732d5 inherit pub_methods_classmillicast_1_1_client_base"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_client_base.html#a55af17b0052d22a83ac179b3c5f732d5">~ClientBase</a> ()=default</td></tr>
@@ -157,10 +148,7 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:acaa42de31deae0a9883d557f54ac7c65 inherit pub_static_methods_classmillicast_1_1_client_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clean and free the memory of dynamic objects.  <br /></td></tr>
 <tr class="separator:acaa42de31deae0a9883d557f54ac7c65 inherit pub_static_methods_classmillicast_1_1_client_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classmillicast_1_1promises_1_1_client.html" title="The Client base class.">Client</a> base class. </p>
-<p>This is the base class to handle a connection with the Millicast platform. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a73d8520039d82029c7ce60c5b9ab7ce5" name="a73d8520039d82029c7ce60c5b9ab7ce5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73d8520039d82029c7ce60c5b9ab7ce5">&#9670;&#160;</a></span>connect() <span class="overload">[1/2]</span></h2>
 
@@ -195,16 +183,6 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Connect to the media server directly using the websocket url and the JWT. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">data</td><td>The JSON data returned by the director api. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classmillicast_1_1_promise.html">Promise</a> object providing asynchronous status. </dd></dl>
-<dl class="section remark"><dt>Remarks</dt><dd>when the success callback on the returned promise is invoked, the <a class="el" href="classmillicast_1_1promises_1_1_client.html" title="The Client base class.">Client</a> is connected. There's no need to implement listener's on_connected method. </dd></dl>
-
 </div>
 </div>
 <a id="a2ae4b4f404d7158e8175fb58ab41aa72" name="a2ae4b4f404d7158e8175fb58ab41aa72"></a>
@@ -231,12 +209,6 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Connect and open a websocket connection with the Millicast platform. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classmillicast_1_1_promise.html">Promise</a> object providing asynchronous status. </dd></dl>
-<dl class="section remark"><dt>Remarks</dt><dd>You must set valid credentials before using this method. </dd>
-<dd>
-when the success callback on the returned promise is invoked, the <a class="el" href="classmillicast_1_1promises_1_1_client.html" title="The Client base class.">Client</a> is connected. There's no need to implement listener's on_connected method. </dd></dl>
-
 </div>
 </div>
 <a id="a07accb7642021b08541c0083af9bfc0d" name="a07accb7642021b08541c0083af9bfc0d"></a>
@@ -261,9 +233,6 @@ when the success callback on the returned promise is invoked, the <a class="el" 
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Disconnect from Millicast. The websocket connection to Millicast will no longer be active after disconnect is complete. If the client is currently publishing/subscribing, the SDK will first stop the publishing/subscribing before disconnecting. </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classmillicast_1_1_promise.html">Promise</a> object providing asynchronous status. </dd></dl>
 
 </div>
 </div>
@@ -291,15 +260,6 @@ when the success callback on the returned promise is invoked, the <a class="el" 
 </table>
 </div><div class="memdoc">
 
-<p>Add frame transformer so you can add metadata to frame When a new transformable frame is available, the listener method on_transformable_frame will be called. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">enable</td><td>true to enable the frame transformer false to disable it </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classmillicast_1_1_promise.html">Promise</a> object providing asynchronous status. </dd></dl>
-
 </div>
 </div>
 <a id="ac03493c7cee3268b6da479caf07a77da" name="ac03493c7cee3268b6da479caf07a77da"></a>
@@ -325,15 +285,6 @@ when the success callback on the returned promise is invoked, the <a class="el" 
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Enable the rtc stats collecting. The stats are collected once the client is either publishing or subscribed. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">enable</td><td>true to enable the stats, false to disable the stats. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classmillicast_1_1_promise.html">Promise</a> object providing asynchronous status. </dd></dl>
 
 </div>
 </div>
@@ -385,9 +336,6 @@ when the success callback on the returned promise is invoked, the <a class="el" 
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>is_connected </p>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classmillicast_1_1_promise.html">Promise</a> object providing asynchronous status. The completion callback will be invoked with true if connected, and with false if not. </dd></dl>
 
 </div>
 </div>

@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,173,31"/>
-<area shape="rect" id="Node000001" href="$protocol_m_c_subscriber_delegate-p.html" title="The Listener protocol for the Viewer class. It adds the on_subscribed event on top of the Client list..." alt="" coords="221,5,393,31"/>
-<area shape="poly" id="edge71_Node000000_Node000001" title=" " alt="" coords="188,16,220,16,220,21,188,21"/>
+<area shape="rect" id="Node000000" href="$protocol_m_c_listener-p.html" title="The Client Listener protocol which contains methods that will be called on specific events from a Cli..." alt="" coords="5,5,110,31"/>
+<area shape="rect" id="Node000001" href="$protocol_m_c_publisher_listener-p.html" title="The Listener protocol for the Publisher class. It adds the publishing event on top of the Client list..." alt="" coords="158,5,316,31"/>
+<area shape="poly" id="edge69_Node000000_Node000001" title=" " alt="" coords="125,16,158,16,158,21,125,21"/>
 </map>

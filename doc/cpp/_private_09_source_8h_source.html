@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.2</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
    </div>
   </td>
  </tr>
@@ -103,31 +103,39 @@ $(function() {
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_custom_audio_source.html">MCCustomAudioSource</a>()</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="category_m_c_custom_source_07_08.html">   28</a></span><span class="keyword">@interface </span>MCCustomSource()</div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="interface_m_c_custom_audio_source.html#ae32ea245bc8c7ea6e0eb078318d2549e">   30</a></span><span class="keyword">@property</span>(nonatomic, assign) <a class="code hl_typedef" href="classmillicast_1_1_custom_audio_source.html#a60f20881e07ea7ffbb79ddda37913e22">millicast::CustomAudioSource::Ptr</a> cpp_custom_source;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="category_m_c_custom_source_07_08.html#a05770888b1f88d8b1a519e04e85002c1">   30</a></span><span class="keyword">@property</span> <a class="code hl_typedef" href="classmillicast_1_1_custom_source.html#aad2dc9e4aa5f02403aa721356e2b8e1a">millicast::CustomSource::Ptr</a> <a class="code hl_property" href="category_m_c_custom_source_07_08.html#a05770888b1f88d8b1a519e04e85002c1">cpp_custom_source</a>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_core_video_source.html">MCCoreVideoSource</a>()</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_custom_audio_source.html">MCCustomAudioSource</a>()</div>
 <div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="interface_m_c_core_video_source.html#ae8bfe71813ad9a2a59421fe0d0d5399e">   36</a></span><span class="keyword">@property</span> millicast::CoreVideoSource::Ptr <a class="code hl_define" href="interface_m_c_core_video_source.html#ae8bfe71813ad9a2a59421fe0d0d5399e">cpp_core_video_source</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="interface_m_c_custom_audio_source.html#ae32ea245bc8c7ea6e0eb078318d2549e">   36</a></span><span class="keyword">@property</span>(nonatomic, assign) <a class="code hl_typedef" href="classmillicast_1_1_custom_audio_source.html#a60f20881e07ea7ffbb79ddda37913e22">millicast::CustomAudioSource::Ptr</a> cpp_custom_source;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_audio_playback.html">MCAudioPlayback</a>()</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_core_video_source.html">MCCoreVideoSource</a>()</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>- (instancetype)initWithCppSource : (<a class="code hl_namespace" href="namespacemillicast.html">millicast</a>::AudioPlayback::Ptr) audioPlayback;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="interface_m_c_core_video_source.html#ae8bfe71813ad9a2a59421fe0d0d5399e">   42</a></span><span class="keyword">@property</span> millicast::CoreVideoSource::Ptr <a class="code hl_define" href="interface_m_c_core_video_source.html#ae8bfe71813ad9a2a59421fe0d0d5399e">cpp_core_video_source</a>;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">/* Private_Source_h */</span><span class="preprocessor"></span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_audio_playback.html">MCAudioPlayback</a>()</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>- (instancetype)initWithCppSource : (<a class="code hl_namespace" href="namespacemillicast.html">millicast</a>::AudioPlayback::Ptr) audioPlayback;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="preprocessor">#endif </span><span class="comment">/* Private_Source_h */</span><span class="preprocessor"></span></div>
 <div class="ttc" id="aapi_2millicast-sdk_2source_8h_html"><div class="ttname"><a href="api_2millicast-sdk_2source_8h.html">source.h</a></div></div>
+<div class="ttc" id="acategory_m_c_custom_source_07_08_html_a05770888b1f88d8b1a519e04e85002c1"><div class="ttname"><a href="category_m_c_custom_source_07_08.html#a05770888b1f88d8b1a519e04e85002c1">MCCustomSource()::cpp_custom_source</a></div><div class="ttdeci">millicast::CustomSource::Ptr cpp_custom_source</div><div class="ttdef"><b>Definition</b> Private+Source.h:30</div></div>
 <div class="ttc" id="aclassmillicast_1_1_custom_audio_source_html_a60f20881e07ea7ffbb79ddda37913e22"><div class="ttname"><a href="classmillicast_1_1_custom_audio_source.html#a60f20881e07ea7ffbb79ddda37913e22">millicast::CustomAudioSource::Ptr</a></div><div class="ttdeci">Source::SourcePtr&lt; CustomAudioSource &gt; Ptr</div><div class="ttdef"><b>Definition</b> source.h:337</div></div>
+<div class="ttc" id="aclassmillicast_1_1_custom_source_html_aad2dc9e4aa5f02403aa721356e2b8e1a"><div class="ttname"><a href="classmillicast_1_1_custom_source.html#aad2dc9e4aa5f02403aa721356e2b8e1a">millicast::CustomSource::Ptr</a></div><div class="ttdeci">Source::SourcePtr&lt; CustomSource &gt; Ptr</div><div class="ttdef"><b>Definition</b> source.h:413</div></div>
 <div class="ttc" id="ainterface_m_c_audio_playback_html"><div class="ttname"><a href="interface_m_c_audio_playback.html">MCAudioPlayback</a></div><div class="ttdoc">The AudioPlayback class.</div><div class="ttdef"><b>Definition</b> source.h:227</div></div>
 <div class="ttc" id="ainterface_m_c_audio_source_html"><div class="ttname"><a href="interface_m_c_audio_source.html">MCAudioSource</a></div><div class="ttdoc">The AudioSource class.</div><div class="ttdef"><b>Definition</b> source.h:208</div></div>
-<div class="ttc" id="ainterface_m_c_core_video_source_html"><div class="ttname"><a href="interface_m_c_core_video_source.html">MCCoreVideoSource</a></div><div class="ttdef"><b>Definition</b> source.h:266</div></div>
-<div class="ttc" id="ainterface_m_c_core_video_source_html_ae8bfe71813ad9a2a59421fe0d0d5399e"><div class="ttname"><a href="interface_m_c_core_video_source.html#ae8bfe71813ad9a2a59421fe0d0d5399e">MCCoreVideoSource::cpp_core_video_source</a></div><div class="ttdef"><b>Definition</b> Private+Source.h:36</div></div>
+<div class="ttc" id="ainterface_m_c_core_video_source_html"><div class="ttname"><a href="interface_m_c_core_video_source.html">MCCoreVideoSource</a></div><div class="ttdef"><b>Definition</b> source.h:307</div></div>
+<div class="ttc" id="ainterface_m_c_core_video_source_html_ae8bfe71813ad9a2a59421fe0d0d5399e"><div class="ttname"><a href="interface_m_c_core_video_source.html#ae8bfe71813ad9a2a59421fe0d0d5399e">MCCoreVideoSource::cpp_core_video_source</a></div><div class="ttdef"><b>Definition</b> Private+Source.h:42</div></div>
 <div class="ttc" id="ainterface_m_c_custom_audio_source_html"><div class="ttname"><a href="interface_m_c_custom_audio_source.html">MCCustomAudioSource</a></div><div class="ttdef"><b>Definition</b> source.h:248</div></div>
 <div class="ttc" id="ainterface_m_c_video_source_html"><div class="ttname"><a href="interface_m_c_video_source.html">MCVideoSource</a></div><div class="ttdoc">The VideoSource class.</div><div class="ttdef"><b>Definition</b> source.h:141</div></div>
 <div class="ttc" id="ainterface_m_c_video_source_html_af7b11037f2050959293aafb493b7653c"><div class="ttname"><a href="interface_m_c_video_source.html#af7b11037f2050959293aafb493b7653c">MCVideoSource::capabilities</a></div><div class="ttdef"><b>Definition</b> Private+Source.h:16</div></div>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.2</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
    </div>
   </td>
  </tr>
@@ -95,126 +95,81 @@ Inheritance diagram for &lt;MCClient&gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:a07b49c2887ebe76e2c7a1d49fd9c0b56"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a07b49c2887ebe76e2c7a1d49fd9c0b56">connectWithCompletionHandler:</a></td></tr>
-<tr class="memdesc:a07b49c2887ebe76e2c7a1d49fd9c0b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect and open a websocket connection with the Millicast platform.  <br /></td></tr>
-<tr class="separator:a07b49c2887ebe76e2c7a1d49fd9c0b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae233bb18ca568b3f9a5354fdee35c65c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#ae233bb18ca568b3f9a5354fdee35c65c">connectWithOptions:completionHandler:</a></td></tr>
-<tr class="memdesc:ae233bb18ca568b3f9a5354fdee35c65c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect and open a websocket connection with the Millicast platform.  <br /></td></tr>
-<tr class="separator:ae233bb18ca568b3f9a5354fdee35c65c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba2035ed4a75a465794225072a391c33"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#aba2035ed4a75a465794225072a391c33">connectWithWebsocketUrl:jwt:completionHandler:</a></td></tr>
-<tr class="memdesc:aba2035ed4a75a465794225072a391c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the media server directly using the websocket url and the JWT.  <br /></td></tr>
-<tr class="separator:aba2035ed4a75a465794225072a391c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bb4f2a6a25beada4cb1261f93464b24"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a3bb4f2a6a25beada4cb1261f93464b24">connectWithWebsocketUrl:jwt:connectionOptions:completionHandler:</a></td></tr>
-<tr class="memdesc:a3bb4f2a6a25beada4cb1261f93464b24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the media server directly using the websocket url and the JWT.  <br /></td></tr>
-<tr class="separator:a3bb4f2a6a25beada4cb1261f93464b24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06ded964e3620f3da61763c297f99b87"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a06ded964e3620f3da61763c297f99b87">isConnectedWithCompletionHandler:</a></td></tr>
-<tr class="memdesc:a06ded964e3620f3da61763c297f99b87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query whether the client is connected.  <br /></td></tr>
-<tr class="separator:a06ded964e3620f3da61763c297f99b87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad80491ba8f7840518a50c37160d4e3db"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#ad80491ba8f7840518a50c37160d4e3db">disconnectWithCompletionHandler:</a></td></tr>
-<tr class="memdesc:ad80491ba8f7840518a50c37160d4e3db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect from Millicast. The websocket connection to Millicast will no longer be active after disconnect is complete.  <br /></td></tr>
-<tr class="separator:ad80491ba8f7840518a50c37160d4e3db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade56fc01941986fd5da5d02b7aba1a18"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#ade56fc01941986fd5da5d02b7aba1a18">enableStats:completionHandler:</a></td></tr>
-<tr class="memdesc:ade56fc01941986fd5da5d02b7aba1a18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the rtc stats collecting. The stats are collected once the client is either publishing or subscribed.  <br /></td></tr>
-<tr class="separator:ade56fc01941986fd5da5d02b7aba1a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afebd54c4adcf4a170dc1eff93265c2ff"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#afebd54c4adcf4a170dc1eff93265c2ff">enableFrameTransformer:completionHandler:</a></td></tr>
-<tr class="memdesc:afebd54c4adcf4a170dc1eff93265c2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add frame transformer so you can add metadata to video frames. Disabled by default.  <br /></td></tr>
-<tr class="separator:afebd54c4adcf4a170dc1eff93265c2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4c85a624779abdb3fc170c88d9c3c7c"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#ac4c85a624779abdb3fc170c88d9c3c7c">getMid:completionHandler:</a></td></tr>
-<tr class="memdesc:ac4c85a624779abdb3fc170c88d9c3c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the transceiver mid associated to a track.  <br /></td></tr>
-<tr class="separator:ac4c85a624779abdb3fc170c88d9c3c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab35a91cba5adc901bcceb057e98a02"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#adab35a91cba5adc901bcceb057e98a02">setOptions:</a></td></tr>
+<tr class="memdesc:adab35a91cba5adc901bcceb057e98a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting options to be used while publishing or subscribing.  <br /></td></tr>
+<tr class="separator:adab35a91cba5adc901bcceb057e98a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af165188549127f4493904fa7c0ccac61"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#af165188549127f4493904fa7c0ccac61">connect</a></td></tr>
+<tr class="memdesc:af165188549127f4493904fa7c0ccac61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect and open a websocket connection with the Millicast platform.  <br /></td></tr>
+<tr class="separator:af165188549127f4493904fa7c0ccac61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbd6903f5e37a62ab6acbb359b071ad"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a3fbd6903f5e37a62ab6acbb359b071ad">connectWithOptions:</a></td></tr>
+<tr class="memdesc:a3fbd6903f5e37a62ab6acbb359b071ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect and open a websocket connection with the Millicast platform.  <br /></td></tr>
+<tr class="separator:a3fbd6903f5e37a62ab6acbb359b071ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac0e74f5cf6bac7e07860fa136ecd1b8"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#aac0e74f5cf6bac7e07860fa136ecd1b8">connectWithData:jwt:</a></td></tr>
+<tr class="memdesc:aac0e74f5cf6bac7e07860fa136ecd1b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the media server directly using the websocket url and the JWT.  <br /></td></tr>
+<tr class="separator:aac0e74f5cf6bac7e07860fa136ecd1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c4261dc787e30df2f11e201cb8c4a6"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#aa2c4261dc787e30df2f11e201cb8c4a6">connectWithData:jwt:connectionOptions:</a></td></tr>
+<tr class="memdesc:aa2c4261dc787e30df2f11e201cb8c4a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect to the media server directly using the websocket url and the JWT.  <br /></td></tr>
+<tr class="separator:aa2c4261dc787e30df2f11e201cb8c4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534db0cbfa2745f2bd00c4dca69870fc"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a534db0cbfa2745f2bd00c4dca69870fc">isConnected</a></td></tr>
+<tr class="memdesc:a534db0cbfa2745f2bd00c4dca69870fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">isConnected  <br /></td></tr>
+<tr class="separator:a534db0cbfa2745f2bd00c4dca69870fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db7b35579349bbcc460e7f1889a0554"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a4db7b35579349bbcc460e7f1889a0554">disconnect</a></td></tr>
+<tr class="memdesc:a4db7b35579349bbcc460e7f1889a0554"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect from Millicast. The websocket connection to Millicast will no longer be active after disconnect is complete. If the client is currently publishing/subscribing, the SDK will first stop the publishing/subscribing before disconnecting.  <br /></td></tr>
+<tr class="separator:a4db7b35579349bbcc460e7f1889a0554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016fc1c0e1f44a63f4db76cf00473121"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a016fc1c0e1f44a63f4db76cf00473121">setListener:</a></td></tr>
+<tr class="memdesc:a016fc1c0e1f44a63f4db76cf00473121"><td class="mdescLeft">&#160;</td><td class="mdescRight">setListener : set the client listener to receive event from the client.  <br /></td></tr>
+<tr class="separator:a016fc1c0e1f44a63f4db76cf00473121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0997d26f86d3f75146472d5c3f3c8892"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a0997d26f86d3f75146472d5c3f3c8892">enableStats:</a></td></tr>
+<tr class="memdesc:a0997d26f86d3f75146472d5c3f3c8892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the rtc stats collecting. The stats are collected once the client is either publishing or subscribed.  <br /></td></tr>
+<tr class="separator:a0997d26f86d3f75146472d5c3f3c8892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b6bec9f5551e91d2e2a8fabffc1b98d"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_client-p.html#a0b6bec9f5551e91d2e2a8fabffc1b98d">enableFrameTransformer:</a></td></tr>
+<tr class="memdesc:a0b6bec9f5551e91d2e2a8fabffc1b98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add frame transformer so you can add metadata to video frames. Disabled by default.  <br /></td></tr>
+<tr class="separator:a0b6bec9f5551e91d2e2a8fabffc1b98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The Client base class. </p>
 <p>This is the base class to handle a connection with the Millicast platform. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
-<a id="a07b49c2887ebe76e2c7a1d49fd9c0b56" name="a07b49c2887ebe76e2c7a1d49fd9c0b56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b49c2887ebe76e2c7a1d49fd9c0b56">&#9670;&#160;</a></span>connectWithCompletionHandler:</h2>
+<a id="af165188549127f4493904fa7c0ccac61" name="af165188549127f4493904fa7c0ccac61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af165188549127f4493904fa7c0ccac61">&#9670;&#160;</a></span>connect</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (void) connectWithCompletionHandler: </td>
+          <td class="memname">- (BOOL) connect </td>
           <td></td>
-          <td class="paramtype">(nonnull void(^)(NSError *_Nullable))&#160;</td>
-          <td class="paramname"><em>completionHandler</em></td>
+          <td class="paramname"></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Connect and open a websocket connection with the Millicast platform. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section remark"><dt>Remarks</dt><dd>You must set valid credentials before using this method. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>false if an error occurred, true otherwise. </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>You must set valid credentials before using this method. </dd>
+<dd>
+Returning true does not mean you are connected. You are connected when the Listener's method on_connected is called. </dd></dl>
 
 </div>
 </div>
-<a id="ae233bb18ca568b3f9a5354fdee35c65c" name="ae233bb18ca568b3f9a5354fdee35c65c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae233bb18ca568b3f9a5354fdee35c65c">&#9670;&#160;</a></span>connectWithOptions:completionHandler:</h2>
+<a id="aac0e74f5cf6bac7e07860fa136ecd1b8" name="aac0e74f5cf6bac7e07860fa136ecd1b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac0e74f5cf6bac7e07860fa136ecd1b8">&#9670;&#160;</a></span>connectWithData:jwt:</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (void) connectWithOptions: </td>
-          <td></td>
-          <td class="paramtype">(nonnull <a class="el" href="interface_m_c_connection_options.html">MCConnectionOptions</a> *)&#160;</td>
-          <td class="paramname"><em>options</em></td>
-        </tr>
-        <tr>
-          <td class="paramkey">completionHandler:</td>
-          <td></td>
-          <td class="paramtype">(nonnull void(^)(NSError *_Nullable))&#160;</td>
-          <td class="paramname"><em>completionHandler</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Connect and open a websocket connection with the Millicast platform. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">options</td><td>connection options. </td></tr>
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section remark"><dt>Remarks</dt><dd>You must set valid credentials before using this method. </dd></dl>
-
-</div>
-</div>
-<a id="aba2035ed4a75a465794225072a391c33" name="aba2035ed4a75a465794225072a391c33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba2035ed4a75a465794225072a391c33">&#9670;&#160;</a></span>connectWithWebsocketUrl:jwt:completionHandler:</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">- (void) connectWithWebsocketUrl: </td>
+          <td class="memname">- (BOOL) connectWithData: </td>
           <td></td>
           <td class="paramtype">(nonnull NSString *)&#160;</td>
-          <td class="paramname"><em>websocketUrl</em></td>
+          <td class="paramname"><em>wsUrl</em></td>
         </tr>
         <tr>
           <td class="paramkey">jwt:</td>
           <td></td>
           <td class="paramtype">(nonnull NSString *)&#160;</td>
-          <td class="paramname"><em>jwt</em></td>
-        </tr>
-        <tr>
-          <td class="paramkey">completionHandler:</td>
-          <td></td>
-          <td class="paramtype">(nonnull void(^)(NSError *_Nullable))&#160;</td>
-          <td class="paramname"><em>completionHandler</em>&#160;</td>
+          <td class="paramname"><em>jwt</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -229,24 +184,25 @@ Instance Methods</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">wsUrl</td><td>The websocket url returned by the director api </td></tr>
     <tr><td class="paramname">jwt</td><td>The JSON Web Token returned by the director api </td></tr>
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>false if an error occurred, true otherwise. </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Returning true does not mean you are connected. You are connected when the Listener's method on_connected is called. </dd></dl>
 
 </div>
 </div>
-<a id="a3bb4f2a6a25beada4cb1261f93464b24" name="a3bb4f2a6a25beada4cb1261f93464b24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bb4f2a6a25beada4cb1261f93464b24">&#9670;&#160;</a></span>connectWithWebsocketUrl:jwt:connectionOptions:completionHandler:</h2>
+<a id="aa2c4261dc787e30df2f11e201cb8c4a6" name="aa2c4261dc787e30df2f11e201cb8c4a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2c4261dc787e30df2f11e201cb8c4a6">&#9670;&#160;</a></span>connectWithData:jwt:connectionOptions:</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (void) connectWithWebsocketUrl: </td>
+          <td class="memname">- (BOOL) connectWithData: </td>
           <td></td>
           <td class="paramtype">(nonnull NSString *)&#160;</td>
-          <td class="paramname"><em>websocketUrl</em></td>
+          <td class="paramname"><em>wsUrl</em></td>
         </tr>
         <tr>
           <td class="paramkey">jwt:</td>
@@ -258,13 +214,7 @@ Instance Methods</h2></td></tr>
           <td class="paramkey">connectionOptions:</td>
           <td></td>
           <td class="paramtype">(nonnull <a class="el" href="interface_m_c_connection_options.html">MCConnectionOptions</a> *)&#160;</td>
-          <td class="paramname"><em>connectionOptions</em></td>
-        </tr>
-        <tr>
-          <td class="paramkey">completionHandler:</td>
-          <td></td>
-          <td class="paramtype">(nonnull void(^)(NSError *_Nullable))&#160;</td>
-          <td class="paramname"><em>completionHandler</em>&#160;</td>
+          <td class="paramname"><em>opts</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -278,44 +228,68 @@ Instance Methods</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">connectionOptions</td><td>connection options. </td></tr>
-    <tr><td class="paramname">websocketUrl</td><td>The websocket url returned by the director api </td></tr>
+    <tr><td class="paramname">wsUrl</td><td>The websocket url returned by the director api </td></tr>
     <tr><td class="paramname">jwt</td><td>The JSON Web Token returned by the director api </td></tr>
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>false if an error occurred, true otherwise. </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>Returning true does not mean you are connected. You are connected when the Listener's method on_connected is called. </dd></dl>
 
 </div>
 </div>
-<a id="ad80491ba8f7840518a50c37160d4e3db" name="ad80491ba8f7840518a50c37160d4e3db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad80491ba8f7840518a50c37160d4e3db">&#9670;&#160;</a></span>disconnectWithCompletionHandler:</h2>
+<a id="a3fbd6903f5e37a62ab6acbb359b071ad" name="a3fbd6903f5e37a62ab6acbb359b071ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbd6903f5e37a62ab6acbb359b071ad">&#9670;&#160;</a></span>connectWithOptions:</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (void) disconnectWithCompletionHandler: </td>
+          <td class="memname">- (BOOL) connectWithOptions: </td>
           <td></td>
-          <td class="paramtype">(nonnull void(^)(NSError *_Nullable))&#160;</td>
-          <td class="paramname"><em>completionHandler</em></td>
+          <td class="paramtype">(nonnull <a class="el" href="interface_m_c_connection_options.html">MCConnectionOptions</a> *)&#160;</td>
+          <td class="paramname"><em>opts</em></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Disconnect from Millicast. The websocket connection to Millicast will no longer be active after disconnect is complete. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>If the client is currently publishing/subscribing, the SDK will first stop the publishing/subscribing before disconnecting. </dd></dl>
+<p>Connect and open a websocket connection with the Millicast platform. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready. </td></tr>
+    <tr><td class="paramname">opts</td><td>Optionally pass connection options. </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>false if an error occurred, true otherwise. </dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>You must set valid credentials before using this method. </dd>
+<dd>
+Returning true does not mean you are connected. You are connected when the Listener's method on_connected is called. </dd></dl>
 
 </div>
 </div>
-<a id="afebd54c4adcf4a170dc1eff93265c2ff" name="afebd54c4adcf4a170dc1eff93265c2ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afebd54c4adcf4a170dc1eff93265c2ff">&#9670;&#160;</a></span>enableFrameTransformer:completionHandler:</h2>
+<a id="a4db7b35579349bbcc460e7f1889a0554" name="a4db7b35579349bbcc460e7f1889a0554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db7b35579349bbcc460e7f1889a0554">&#9670;&#160;</a></span>disconnect</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) disconnect </td>
+          <td></td>
+          <td class="paramname"></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disconnect from Millicast. The websocket connection to Millicast will no longer be active after disconnect is complete. If the client is currently publishing/subscribing, the SDK will first stop the publishing/subscribing before disconnecting. </p>
+<dl class="section return"><dt>Returns</dt><dd>false if unable to reach a disconnected state, true otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a0b6bec9f5551e91d2e2a8fabffc1b98d" name="a0b6bec9f5551e91d2e2a8fabffc1b98d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b6bec9f5551e91d2e2a8fabffc1b98d">&#9670;&#160;</a></span>enableFrameTransformer:</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,17 +299,7 @@ Instance Methods</h2></td></tr>
           <td></td>
           <td class="paramtype">(BOOL)&#160;</td>
           <td class="paramname"><em>enable</em></td>
-        </tr>
-        <tr>
-          <td class="paramkey">completionHandler:</td>
           <td></td>
-          <td class="paramtype">(nonnull void(^)(void))&#160;</td>
-          <td class="paramname"><em>completionHandler</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -344,15 +308,14 @@ Instance Methods</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">enable</td><td>true to enable the frame transformer, false to disable it </td></tr>
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ade56fc01941986fd5da5d02b7aba1a18" name="ade56fc01941986fd5da5d02b7aba1a18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade56fc01941986fd5da5d02b7aba1a18">&#9670;&#160;</a></span>enableStats:completionHandler:</h2>
+<a id="a0997d26f86d3f75146472d5c3f3c8892" name="a0997d26f86d3f75146472d5c3f3c8892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0997d26f86d3f75146472d5c3f3c8892">&#9670;&#160;</a></span>enableStats:</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -362,17 +325,7 @@ Instance Methods</h2></td></tr>
           <td></td>
           <td class="paramtype">(BOOL)&#160;</td>
           <td class="paramname"><em>enable</em></td>
-        </tr>
-        <tr>
-          <td class="paramkey">completionHandler:</td>
           <td></td>
-          <td class="paramtype">(nonnull void(^)(void))&#160;</td>
-          <td class="paramname"><em>completionHandler</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -381,74 +334,76 @@ Instance Methods</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">enable</td><td>true to enable the stats, false to disable the stats. </td></tr>
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ac4c85a624779abdb3fc170c88d9c3c7c" name="ac4c85a624779abdb3fc170c88d9c3c7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4c85a624779abdb3fc170c88d9c3c7c">&#9670;&#160;</a></span>getMid:completionHandler:</h2>
+<a id="a534db0cbfa2745f2bd00c4dca69870fc" name="a534db0cbfa2745f2bd00c4dca69870fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a534db0cbfa2745f2bd00c4dca69870fc">&#9670;&#160;</a></span>isConnected</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (void) getMid: </td>
+          <td class="memname">- (BOOL) isConnected </td>
           <td></td>
-          <td class="paramtype">(nonnull NSString *)&#160;</td>
-          <td class="paramname"><em>trackId</em></td>
-        </tr>
-        <tr>
-          <td class="paramkey">completionHandler:</td>
+          <td class="paramname"></td>
           <td></td>
-          <td class="paramtype">(nonnull void(^)(NSString *_Nullable, NSError *_Nullable))&#160;</td>
-          <td class="paramname"><em>completionHandler</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get the transceiver mid associated to a track. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>The underlying peer connection must be alive, i.e. we are either publishing or subscribing. </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">trackId</td><td>The id of the track we want to retrieve the mid </td></tr>
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>isConnected </p>
+<dl class="section return"><dt>Returns</dt><dd>return true if the client is connected to millicast, false otherwise. </dd></dl>
 
 </div>
 </div>
-<a id="a06ded964e3620f3da61763c297f99b87" name="a06ded964e3620f3da61763c297f99b87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06ded964e3620f3da61763c297f99b87">&#9670;&#160;</a></span>isConnectedWithCompletionHandler:</h2>
+<a id="a016fc1c0e1f44a63f4db76cf00473121" name="a016fc1c0e1f44a63f4db76cf00473121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a016fc1c0e1f44a63f4db76cf00473121">&#9670;&#160;</a></span>setListener:</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">- (void) isConnectedWithCompletionHandler: </td>
+          <td class="memname">- (void) setListener: </td>
           <td></td>
-          <td class="paramtype">(nonnull void(^)(BOOL connected))&#160;</td>
-          <td class="paramname"><em>completionHandler</em></td>
+          <td class="paramtype">(nullable id&lt; <a class="el" href="protocol_m_c_listener-p.html">MCListener</a> &gt;)&#160;</td>
+          <td class="paramname"><em>listener</em></td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Query whether the client is connected. </p>
+<p>setListener : set the client listener to receive event from the client. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">completionHandler</td><td>handler invoked when the result is ready. </td></tr>
+    <tr><td class="paramname">listener</td><td>The Client listener </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="adab35a91cba5adc901bcceb057e98a02" name="adab35a91cba5adc901bcceb057e98a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adab35a91cba5adc901bcceb057e98a02">&#9670;&#160;</a></span>setOptions:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (void) setOptions: </td>
+          <td></td>
+          <td class="paramtype">((deprecated))&#160;</td>
+          <td class="paramname"><em>__attribute__</em></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setting options to be used while publishing or subscribing. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000007">Deprecated:</a></b></dt><dd>since 1.6.0 Please use [<a class="el" href="interface_m_c_publisher.html" title="The Publisher interface. Its purpose is to publish media to a Millicast stream.">MCPublisher</a> publishWithOptions:] and [<a class="el" href="interface_m_c_subscriber.html" title="The Subscriber class. Its purpose is to receive media by subscribing to a millicast stream....">MCSubscriber</a> subscribeWithOptions:] to pass options instead;</dd></dl>
 
 </div>
 </div>

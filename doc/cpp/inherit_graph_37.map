@@ -1,5 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,129,31"/>
-<area shape="rect" id="Node000001" href="$classmillicast_1_1_exception.html" title=" " alt="" coords="177,5,312,31"/>
-<area shape="poly" id="edge120_Node000000_Node000001" title=" " alt="" coords="144,16,177,16,177,21,144,21"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,78,136,104"/>
+<area shape="rect" id="Node000001" href="$structmillicast_1_1_error_category_base.html" title=" " alt="" coords="184,5,409,46"/>
+<area shape="poly" id="edge113_Node000000_Node000001" title=" " alt="" coords="131,71,223,44,224,49,133,76"/>
+<area shape="rect" id="Node000003" href="$structmillicast_1_1_error_category_base.html" title=" " alt="" coords="217,71,376,111"/>
+<area shape="poly" id="edge115_Node000000_Node000003" title=" " alt="" coords="151,88,217,88,217,94,151,94"/>
+<area shape="rect" id="Node000005" href="$structmillicast_1_1_error_category_base.html" title=" " alt="" coords="217,136,376,177"/>
+<area shape="poly" id="edge117_Node000000_Node000005" title=" " alt="" coords="133,106,224,133,223,138,131,111"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_async_operation_cancelled.html" title=" " alt="" coords="457,5,627,46"/>
+<area shape="poly" id="edge114_Node000001_Node000002" title=" " alt="" coords="425,23,456,23,456,28,425,28"/>
+<area shape="rect" id="Node000004" href="$classmillicast_1_1_generic_error.html" title=" " alt="" coords="467,78,617,104"/>
+<area shape="poly" id="edge116_Node000003_Node000004" title=" " alt="" coords="391,88,466,88,466,94,391,94"/>
 </map>

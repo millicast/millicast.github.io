@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.2</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
    </div>
   </td>
  </tr>
@@ -167,6 +167,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1205aa3e5f3db4cc6ce21b7aef14c6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a654ef46c86344c4ee67809d4b2f6f817"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a654ef46c86344c4ee67809d4b2f6f817">set_recording_listener</a> (<a class="el" href="structmillicast_1_1_recording_listener.html">RecordingListener</a> *rlistener)=0</td></tr>
 <tr class="separator:a654ef46c86344c4ee67809d4b2f6f817"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a546808a7b47beb9d91cd2390e4bfb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a34a546808a7b47beb9d91cd2390e4bfb">set_options</a> (const <a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a50f908cef84d29dddfd5a5390c0f9292">Publisher::Option</a> &amp;options)=0</td></tr>
+<tr class="memdesc:a34a546808a7b47beb9d91cd2390e4bfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the client option to configure the publisher/subscriber.  <br /></td></tr>
+<tr class="separator:a34a546808a7b47beb9d91cd2390e4bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560c14388e1943c3a5dc3d18c57a2a63"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a50f908cef84d29dddfd5a5390c0f9292">Publisher::Option</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a560c14388e1943c3a5dc3d18c57a2a63">get_options</a> () const =0</td></tr>
+<tr class="memdesc:a560c14388e1943c3a5dc3d18c57a2a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current options.  <br /></td></tr>
+<tr class="separator:a560c14388e1943c3a5dc3d18c57a2a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classmillicast_1_1compat_1_1_client"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classmillicast_1_1compat_1_1_client')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classmillicast_1_1compat_1_1_client.html">millicast::compat::Client</a></td></tr>
 <tr class="memitem:a698d6e0b9491cfc096428ed8314ad073 inherit pub_methods_classmillicast_1_1compat_1_1_client"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1compat_1_1_client.html#a698d6e0b9491cfc096428ed8314ad073">connect</a> (const std::optional&lt; <a class="el" href="classmillicast_1_1_client_base.html#ad11d399f9fefb0d344903f09d6a3a55a">ConnectionOptions</a> &gt; &amp;connection_options=std::nullopt)=0</td></tr>
 <tr class="memdesc:a698d6e0b9491cfc096428ed8314ad073 inherit pub_methods_classmillicast_1_1compat_1_1_client"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect and open a websocket connection with the Millicast platform.  <br /></td></tr>
@@ -424,6 +430,35 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a560c14388e1943c3a5dc3d18c57a2a63" name="a560c14388e1943c3a5dc3d18c57a2a63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560c14388e1943c3a5dc3d18c57a2a63">&#9670;&#160;</a></span>get_options()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a50f908cef84d29dddfd5a5390c0f9292">Publisher::Option</a> millicast::compat::Publisher::get_options </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current options. </p>
+<dl class="section return"><dt>Returns</dt><dd>The options object. </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>since 1.6.0 </dd></dl>
+
+</div>
+</div>
 <a id="a135a70214427c2217c10fcb6de280b1d" name="a135a70214427c2217c10fcb6de280b1d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a135a70214427c2217c10fcb6de280b1d">&#9670;&#160;</a></span>is_publishing()</h2>
 
@@ -605,6 +640,43 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a34a546808a7b47beb9d91cd2390e4bfb" name="a34a546808a7b47beb9d91cd2390e4bfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34a546808a7b47beb9d91cd2390e4bfb">&#9670;&#160;</a></span>set_options()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void millicast::compat::Publisher::set_options </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classmillicast_1_1compat_1_1_publisher.html#a50f908cef84d29dddfd5a5390c0f9292">Publisher::Option</a> &amp;&#160;</td>
+          <td class="paramname"><em>options</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the client option to configure the publisher/subscriber. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">options</td><td>The option object containing all the information. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the options set are valid, false otherwise.</dd></dl>
+<dl class="section remark"><dt>Remarks</dt><dd>An example of invalid options is setting the incorrect SVC for publishing for the specified codec.</dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000001">Deprecated:</a></b></dt><dd>since 1.6.0 this API is deprecated. Please pass options via Publisher::publish(...) and Subscriber::subscribe(...) instead. </dd></dl>
 
 </div>
 </div>

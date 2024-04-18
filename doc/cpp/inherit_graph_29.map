@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmillicast_1_1_video_frame.html" title="The VideoFrame class used to described a VideoFrame." alt="" coords="5,5,153,31"/>
+<area shape="rect" id="Node000000" href="$classmillicast_1_1_track.html" title="The Track class represent a media sources." alt="" coords="5,31,116,56"/>
+<area shape="rect" id="Node000001" href="$classmillicast_1_1_audio_track.html" title="The AudioTrack class." alt="" coords="164,5,307,31"/>
+<area shape="poly" id="edge111_Node000000_Node000001" title=" " alt="" coords="131,31,163,26,164,31,132,36"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_video_track.html" title="The VideoTrack class." alt="" coords="164,55,307,80"/>
+<area shape="poly" id="edge112_Node000000_Node000002" title=" " alt="" coords="132,51,164,55,163,60,131,56"/>
 </map>

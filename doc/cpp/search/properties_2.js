@@ -7,5 +7,6 @@ var searchData=
   ['codec_5ftype_4',['codec_type',['../interface_m_c_codecs_stats.html#a152d6ea159842911425334a8a36fe4e9',1,'MCCodecsStats']]],
   ['concealed_5fsamples_5',['concealed_samples',['../interface_m_c_inbound_rtp_stream_stats.html#ae95d19fc8ab902513a9ea733453bada8',1,'MCInboundRtpStreamStats']]],
   ['concealment_5fevents_6',['concealment_events',['../interface_m_c_inbound_rtp_stream_stats.html#a515932e6286a7fdb4f6d5be1b3df9d11',1,'MCInboundRtpStreamStats']]],
-  ['cppframe_7',['cppFrame',['../interface_m_c_video_frame_impl.html#a72fea3c37b898294f5a60eb4d856da42',1,'MCVideoFrameImpl']]]
+  ['cpp_5fcustom_5fsource_7',['cpp_custom_source',['../category_m_c_custom_source_07_08.html#a05770888b1f88d8b1a519e04e85002c1',1,'MCCustomSource()']]],
+  ['cppframe_8',['cppFrame',['../interface_m_c_video_frame_impl.html#a72fea3c37b898294f5a60eb4d856da42',1,'MCVideoFrameImpl']]]
 ];

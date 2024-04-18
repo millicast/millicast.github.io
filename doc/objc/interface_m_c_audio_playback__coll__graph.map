@@ -1,0 +1,9 @@
+<map id="MCAudioPlayback" name="MCAudioPlayback">
+<area shape="rect" id="node1" title="The AudioPlayback class." alt="" coords="114,153,244,178"/>
+<area shape="rect" id="node2" href="$interface_m_c_source.html" title="The Source base class." alt="" coords="5,79,89,105"/>
+<area shape="rect" id="node3" title=" " alt="" coords="8,5,86,31"/>
+<area shape="rect" id="node4" href="$protocol_playback_source-p.html" title=" " alt="" coords="113,79,245,105"/>
+<area shape="rect" id="node5" title=" " alt="" coords="128,5,222,31"/>
+<area shape="rect" id="node6" href="$protocol_m_c_audio_control-p.html" title="The AudioControl class." alt="" coords="275,79,408,105"/>
+<area shape="rect" id="node7" title=" " alt="" coords="246,5,443,31"/>
+</map>

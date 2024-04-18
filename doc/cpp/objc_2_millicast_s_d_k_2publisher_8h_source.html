@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.2</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
    </div>
   </td>
  </tr>
@@ -89,71 +89,92 @@ $(function() {
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// Publisher //////////////////////////////////////////////////////////////////</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="protocol_m_c_publisher_delegate-p.html">   27</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@protocol </span>MCPublisherDelegate &lt;MCDelegate&gt;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>- (void) onActive;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>- (void) onInactive;</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>- (void) onPublishing;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="protocol_m_c_publisher_listener-p.html">   27</a></span><span class="keyword">@protocol </span>MCPublisherListener &lt;MCListener&gt;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>- (void) onPublishing;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>- (void) onPublishingError:(NSString*) error;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">@optional</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>- (void) onTransformableFrame:(NSMutableArray&lt;NSNumber*&gt;*)data withSsrc:(<span class="keywordtype">int</span>) ssrc withTimestamp:(<span class="keywordtype">int</span>) timestamp;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>- (void) onActive;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>- (void) onInactive;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="interface_m_c_publisher_credentials.html">   61</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a> : NSObject</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keyword">@optional</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>- (void) onTransformableFrame:(NSMutableArray&lt;NSNumber*&gt;*)data withSsrc:(<span class="keywordtype">int</span>) ssrc withTimestamp:(<span class="keywordtype">int</span>) timestamp;</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994">   64</a></span><span class="keyword">@property</span> (nonatomic, strong) NSString* <a class="code hl_property" href="interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994">streamName</a>;</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="interface_m_c_publisher_credentials.html#adf3637d445b02d1e80abce8d24e7bd96">   66</a></span><span class="keyword">@property</span> (nonatomic, strong) NSString* <a class="code hl_property" href="interface_m_c_publisher_credentials.html#adf3637d445b02d1e80abce8d24e7bd96">token</a>;</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="interface_m_c_publisher.html#a3675df068c2a571b8e2942bcbb6ca9a4">   68</a></span><span class="keyword">@property</span> (nonatomic, strong) NSString* <a class="code hl_property" href="interface_m_c_publisher_credentials.html#a7aabc38116c47afe7e8fc5b37a0638ff">apiUrl</a>;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="interface_m_c_publisher.html">   76</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_publisher.html">MCPublisher</a> : NSObject&lt;<a class="code hl_protocol" href="protocol_m_c_client-p.html">MCClient</a>&gt;</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>- (void) publishWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>- (void) publishWithOptions:(nonnull <a class="code hl_interface" href="interface_m_c_client_options.html">MCClientOptions</a> *) options</div>
-<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>          completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>- (void)unpublishWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="protocol_m_c_recording_listener-p.html">   72</a></span><span class="keyword">@protocol </span>MCRecordingListener</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>- (void) ownRecordingStarted;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>- (void) ownRecordingStopped;</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>- (void) failedToStartRecording;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>- (void) failedToStopRecording;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="interface_m_c_publisher_credentials.html">  103</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a> : NSObject</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno"><a class="line" href="interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994">  106</a></span><span class="keyword">@property</span> (nonatomic, strong) NSString* <a class="code hl_property" href="interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994">streamName</a>;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="interface_m_c_publisher_credentials.html#adf3637d445b02d1e80abce8d24e7bd96">  108</a></span><span class="keyword">@property</span> (nonatomic, strong) NSString* <a class="code hl_property" href="interface_m_c_publisher_credentials.html#adf3637d445b02d1e80abce8d24e7bd96">token</a>;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="interface_m_c_publisher.html#a16b95888b4c14c554dc134a4173beaf1">  110</a></span><span class="keyword">@property</span> (nonatomic, strong) NSString* <a class="code hl_property" href="interface_m_c_publisher_credentials.html#a7aabc38116c47afe7e8fc5b37a0638ff">apiUrl</a>;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>- (void) isPublishingWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(BOOL publishing)) completionHandler;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno"><a class="line" href="interface_m_c_publisher.html">  118</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_publisher.html">MCPublisher</a> : NSObject&lt;<a class="code hl_protocol" href="protocol_m_c_client-p.html">MCClient</a>&gt;</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>- (void) setCredentials:(nonnull <a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a>*) credentials</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>      completionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>- (void) getCredentialsWithCompletionHandler: (nonnull <span class="keywordtype">void</span> (^)(<a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a> * _Nonnull)) completionHandler;</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>- (void) addTrackWithVideoTrack:(nonnull <a class="code hl_interface" href="interface_m_c_video_track.html">MCVideoTrack</a>*) videoTrack</div>
-<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>              completionHandler:(nonnull <span class="keywordtype">void</span> (^)(<span class="keywordtype">void</span>)) completionHandler;</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span> </div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>- (void) addTrackWithAudioTrack:(nonnull <a class="code hl_interface" href="interface_m_c_audio_track.html">MCAudioTrack</a>*) audioTrack</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>              completionHandler:(nonnull <span class="keywordtype">void</span> (^)(<span class="keywordtype">void</span>)) completionHandler;</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>- (void) clearTracksWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(<span class="keywordtype">void</span>)) completionHandler;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>- (instancetype) initWithDelegate: (nonnull <span class="keywordtype">id</span>&lt;MCPublisherDelegate&gt;) delegate;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>-(void) recordWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>-(void) unrecordWithCompletionHandler:(nonnull <span class="keywordtype">void</span> (^)(NSError * _Nullable)) completionHandler;</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span> </div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno"><a class="line" href="protocol_m_c_publisher_delegate-p.html#ab8d6b48e34b88a823e48997ae46487ab">  185</a></span>NS_ASSUME_NONNULL_END</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>- (BOOL) publish;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>- (BOOL) publishWithOptions:(nonnull <a class="code hl_interface" href="interface_m_c_client_options.html">MCClientOptions</a> *) opts;</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>- (BOOL)unpublish;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>- (BOOL) isPublishing;</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>- (BOOL) setCredentials: (<a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a>*) credentials;</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>- (<a class="code hl_interface" href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a>*) getCredentials;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>- (void) addTrack:(<a class="code hl_interface" href="interface_m_c_track.html">MCTrack</a>*) track;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>- (void) clearTracks;</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span> </div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>- (void) enableSvcWithMode:(MCScalabilityMode) mode __attribute__((deprecated));</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span> </div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>- (void) disableSvc __attribute__((deprecated));</div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span>- (void) enableSimulcast:(BOOL) enable __attribute((deprecated));</div>
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span>- (NSString*) getMid:(NSString*) trackId;</div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span> </div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>+ (<a class="code hl_interface" href="interface_m_c_publisher.html">MCPublisher</a>*) create;</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span> </div>
+<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>-(void) record;</div>
+<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
+<div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span> </div>
+<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>-(void) unrecord;</div>
+<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
+<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>-(void) setRecordingListener:(nullable <span class="keywordtype">id</span>&lt;MCRecordingListener&gt;) rlistener;</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span> </div>
+<div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span> </div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno"><a class="line" href="protocol_m_c_recording_listener-p.html#ab840b1a8f9492ac38c82a56aeb74afce">  250</a></span>NS_ASSUME_NONNULL_END</div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition</b> exports.h:51</div></div>
 <div class="ttc" id="ainterface_m_c_audio_track_html"><div class="ttname"><a href="interface_m_c_audio_track.html">MCAudioTrack</a></div><div class="ttdoc">The AudioTrack class.</div><div class="ttdef"><b>Definition</b> track.h:90</div></div>
-<div class="ttc" id="ainterface_m_c_client_options_html"><div class="ttname"><a href="interface_m_c_client_options.html">MCClientOptions</a></div><div class="ttdef"><b>Definition</b> client.h:138</div></div>
-<div class="ttc" id="ainterface_m_c_publisher_credentials_html"><div class="ttname"><a href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a></div><div class="ttdoc">The Credentials interface represents the credentials needed to be able to connect and publish to a Mi...</div><div class="ttdef"><b>Definition</b> publisher.h:62</div></div>
-<div class="ttc" id="ainterface_m_c_publisher_credentials_html_a7aabc38116c47afe7e8fc5b37a0638ff"><div class="ttname"><a href="interface_m_c_publisher_credentials.html#a7aabc38116c47afe7e8fc5b37a0638ff">MCPublisherCredentials::apiUrl</a></div><div class="ttdeci">NSString * apiUrl</div><div class="ttdoc">The publish API URL as described in the Millicast API.</div><div class="ttdef"><b>Definition</b> publisher.h:68</div></div>
-<div class="ttc" id="ainterface_m_c_publisher_credentials_html_ac6c4af135b98fcb2519ab53f6a74b994"><div class="ttname"><a href="interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994">MCPublisherCredentials::streamName</a></div><div class="ttdeci">NSString * streamName</div><div class="ttdoc">The name of the stream we want to publish.</div><div class="ttdef"><b>Definition</b> publisher.h:64</div></div>
-<div class="ttc" id="ainterface_m_c_publisher_credentials_html_adf3637d445b02d1e80abce8d24e7bd96"><div class="ttname"><a href="interface_m_c_publisher_credentials.html#adf3637d445b02d1e80abce8d24e7bd96">MCPublisherCredentials::token</a></div><div class="ttdeci">NSString * token</div><div class="ttdoc">The publishing token as described in the Millicast API.</div><div class="ttdef"><b>Definition</b> publisher.h:66</div></div>
-<div class="ttc" id="ainterface_m_c_publisher_html"><div class="ttname"><a href="interface_m_c_publisher.html">MCPublisher</a></div><div class="ttdoc">The Publisher interface. Its purpose is to publish media to a Millicast stream.</div><div class="ttdef"><b>Definition</b> publisher.h:76</div></div>
+<div class="ttc" id="ainterface_m_c_client_options_html"><div class="ttname"><a href="interface_m_c_client_options.html">MCClientOptions</a></div><div class="ttdef"><b>Definition</b> client.h:141</div></div>
+<div class="ttc" id="ainterface_m_c_publisher_credentials_html"><div class="ttname"><a href="interface_m_c_publisher_credentials.html">MCPublisherCredentials</a></div><div class="ttdoc">The Credentials interface represents the credentials needed to be able to connect and publish to a Mi...</div><div class="ttdef"><b>Definition</b> publisher.h:104</div></div>
+<div class="ttc" id="ainterface_m_c_publisher_credentials_html_a7aabc38116c47afe7e8fc5b37a0638ff"><div class="ttname"><a href="interface_m_c_publisher_credentials.html#a7aabc38116c47afe7e8fc5b37a0638ff">MCPublisherCredentials::apiUrl</a></div><div class="ttdeci">NSString * apiUrl</div><div class="ttdoc">The publish API URL as described in the Millicast API.</div><div class="ttdef"><b>Definition</b> publisher.h:110</div></div>
+<div class="ttc" id="ainterface_m_c_publisher_credentials_html_ac6c4af135b98fcb2519ab53f6a74b994"><div class="ttname"><a href="interface_m_c_publisher_credentials.html#ac6c4af135b98fcb2519ab53f6a74b994">MCPublisherCredentials::streamName</a></div><div class="ttdeci">NSString * streamName</div><div class="ttdoc">The name of the stream we want to publish.</div><div class="ttdef"><b>Definition</b> publisher.h:106</div></div>
+<div class="ttc" id="ainterface_m_c_publisher_credentials_html_adf3637d445b02d1e80abce8d24e7bd96"><div class="ttname"><a href="interface_m_c_publisher_credentials.html#adf3637d445b02d1e80abce8d24e7bd96">MCPublisherCredentials::token</a></div><div class="ttdeci">NSString * token</div><div class="ttdoc">The publishing token as described in the Millicast API.</div><div class="ttdef"><b>Definition</b> publisher.h:108</div></div>
+<div class="ttc" id="ainterface_m_c_publisher_html"><div class="ttname"><a href="interface_m_c_publisher.html">MCPublisher</a></div><div class="ttdoc">The Publisher interface. Its purpose is to publish media to a Millicast stream.</div><div class="ttdef"><b>Definition</b> publisher.h:118</div></div>
 <div class="ttc" id="ainterface_m_c_track_html"><div class="ttname"><a href="interface_m_c_track.html">MCTrack</a></div><div class="ttdoc">The Track class represent a media sources.</div><div class="ttdef"><b>Definition</b> track.h:22</div></div>
 <div class="ttc" id="ainterface_m_c_video_track_html"><div class="ttname"><a href="interface_m_c_video_track.html">MCVideoTrack</a></div><div class="ttdoc">The VideoTrack class.</div><div class="ttdef"><b>Definition</b> track.h:63</div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2client_8h_html"><div class="ttname"><a href="objc_2_millicast_s_d_k_2client_8h.html">client.h</a></div></div>
-<div class="ttc" id="aprotocol_m_c_client-p_html"><div class="ttname"><a href="protocol_m_c_client-p.html">MCClient-p</a></div><div class="ttdoc">The Client base class.</div><div class="ttdef"><b>Definition</b> client.h:250</div></div>
+<div class="ttc" id="aprotocol_m_c_client-p_html"><div class="ttname"><a href="protocol_m_c_client-p.html">MCClient-p</a></div><div class="ttdoc">The Client base class.</div><div class="ttdef"><b>Definition</b> client.h:253</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
