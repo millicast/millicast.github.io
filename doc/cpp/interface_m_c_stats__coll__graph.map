@@ -1,5 +1,5 @@
 <map id="MCStats" name="MCStats">
-<area shape="rect" id="Node000001" title=" " alt="" coords="8,79,81,105"/>
+<area shape="rect" id="Node000001" title="A container of various different stats. To make sense of such statistics, please refer to the WebRTC ..." alt="" coords="8,79,81,105"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,5,84,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,46,47,79,42,79,42,46"/>
 </map>

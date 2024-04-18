@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -75,9 +75,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">source.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -139,40 +137,48 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_source.html">MCSource</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Source base class.  <a href="interface_m_c_source.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gathers information about the source.  <a href="interface_m_c_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_source_builder.html">MCSourceBuilder</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The source builder is used to build a source object.  <a href="interface_m_c_source_builder.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for building a source object.  <a href="interface_m_c_source_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">protocol &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocol_capture_source-p.html">&lt;CaptureSource&gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages the process of capturing the source by input sources, such as a microphone or a camera.  <a href="protocol_capture_source-p.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">protocol &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocol_playback_source-p.html">&lt;PlaybackSource&gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for managing playback devices.  <a href="protocol_playback_source-p.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_source.html">MCVideoSource</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The VideoSource class.  <a href="interface_m_c_video_source.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for managing video sources.  <a href="interface_m_c_video_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_source_builder.html">MCVideoSourceBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for building a video source object.  <a href="interface_m_c_video_source_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">protocol &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="protocol_m_c_audio_control-p.html">&lt;MCAudioControl&gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The AudioControl class.  <a href="protocol_m_c_audio_control-p.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages audio settings.  <a href="protocol_m_c_audio_control-p.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_source.html">MCAudioSource</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The AudioSource class.  <a href="interface_m_c_audio_source.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages the audio capture functionality.  <a href="interface_m_c_audio_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_source_builder.html">MCAudioSourceBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for building AudioSource.  <a href="interface_m_c_audio_source_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_playback.html">MCAudioPlayback</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The AudioPlayback class.  <a href="interface_m_c_audio_playback.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_playback_builder.html">MCAudioPlaybackBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for building AudioPlayback.  <a href="interface_m_c_audio_playback_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_custom_audio_source.html">MCCustomAudioSource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A custom audio source that can be fed any raw audio data for publishing.  <a href="interface_m_c_custom_audio_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_custom_audio_source_builder.html">MCCustomAudioSourceBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for building <a class="el" href="interface_m_c_custom_audio_source.html" title="A custom audio source that can be fed any raw audio data for publishing.">MCCustomAudioSource</a>.  <a href="interface_m_c_custom_audio_source_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_core_video_source.html">MCCoreVideoSource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Source that allows applications to feed their own raw CVPixelBuffers for publishing.  <a href="interface_m_c_core_video_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_core_video_source_builder.html">MCCoreVideoSourceBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Responsible for building a CoreVideoSource.  <a href="interface_m_c_core_video_source_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -190,25 +196,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:af2aee4010a651e3013763b8bde1bf44d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Source type.  <a href="objc_2_millicast_s_d_k_2source_8h.html#af2aee4010a651e3013763b8bde1bf44d">More...</a><br /></td></tr>
 <tr class="separator:af2aee4010a651e3013763b8bde1bf44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a440424626559970a071017ae829c719b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="objc_2_millicast_s_d_k_2source_8h.html#a440424626559970a071017ae829c719b">__deprecated_msg</a> (<a class="el" href="interface_m_c_track.html">MCTrack</a> *) startAudioCapture</td></tr>
-<tr class="memdesc:a440424626559970a071017ae829c719b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the video track.  <br /></td></tr>
-<tr class="separator:a440424626559970a071017ae829c719b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a491cf20e3eade8d94e2b531708897c24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="objc_2_millicast_s_d_k_2source_8h.html#a491cf20e3eade8d94e2b531708897c24">onVideoFrame</a></td></tr>
-<tr class="memdesc:a491cf20e3eade8d94e2b531708897c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this at the video frame rate to provide your own video frame.  <br /></td></tr>
-<tr class="separator:a491cf20e3eade8d94e2b531708897c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4b8d225d18ea5b886ee54ead75437c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="objc_2_millicast_s_d_k_2source_8h.html#a2d4b8d225d18ea5b886ee54ead75437c">onAudioFrame</a></td></tr>
-<tr class="memdesc:a2d4b8d225d18ea5b886ee54ead75437c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call this to provide your own audio data.  <br /></td></tr>
-<tr class="separator:a2d4b8d225d18ea5b886ee54ead75437c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fbfebb419f210c55833e392a48ae84e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="objc_2_millicast_s_d_k_2source_8h.html#a4fbfebb419f210c55833e392a48ae84e">isCapturing</a></td></tr>
-<tr class="separator:a4fbfebb419f210c55833e392a48ae84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042c74e1d8690bffc789eba16ff75352"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="objc_2_millicast_s_d_k_2source_8h.html#a042c74e1d8690bffc789eba16ff75352">stopCapture</a></td></tr>
-<tr class="separator:a042c74e1d8690bffc789eba16ff75352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>David Baldassin </dd></dl>
@@ -229,117 +216,21 @@ Variables</h2></td></tr>
 
 <p>The Source type. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44da21adc51f32d915eaca3ebb77f4bd75ed" name="af2aee4010a651e3013763b8bde1bf44da21adc51f32d915eaca3ebb77f4bd75ed"></a>MC_DEVICE&#160;</td><td class="fielddoc"><p>Hardware sources, camera, playback devices, ... </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44da21adc51f32d915eaca3ebb77f4bd75ed" name="af2aee4010a651e3013763b8bde1bf44da21adc51f32d915eaca3ebb77f4bd75ed"></a>MC_DEVICE&#160;</td><td class="fielddoc"><p>Hardware sources, camera, playback devices. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44daa002289000e13d07ae6b77554e1af4c6" name="af2aee4010a651e3013763b8bde1bf44daa002289000e13d07ae6b77554e1af4c6"></a>MC_MONITOR&#160;</td><td class="fielddoc"><p>Fullscreen capture source </p>
+<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44daa002289000e13d07ae6b77554e1af4c6" name="af2aee4010a651e3013763b8bde1bf44daa002289000e13d07ae6b77554e1af4c6"></a>MC_MONITOR&#160;</td><td class="fielddoc"><p>Fullscreen capture source. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44da1c98c3013d3b60165a66aa8300256035" name="af2aee4010a651e3013763b8bde1bf44da1c98c3013d3b60165a66aa8300256035"></a>MC_APP&#160;</td><td class="fielddoc"><p>Application screen capture source </p>
+<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44da1c98c3013d3b60165a66aa8300256035" name="af2aee4010a651e3013763b8bde1bf44da1c98c3013d3b60165a66aa8300256035"></a>MC_APP&#160;</td><td class="fielddoc"><p>Application screen capture source. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44dade2f6b41ea435f7e90ccad0946117d25" name="af2aee4010a651e3013763b8bde1bf44dade2f6b41ea435f7e90ccad0946117d25"></a>MC_MIC&#160;</td><td class="fielddoc"><p>Microphone devices source </p>
+<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44dade2f6b41ea435f7e90ccad0946117d25" name="af2aee4010a651e3013763b8bde1bf44dade2f6b41ea435f7e90ccad0946117d25"></a>MC_MIC&#160;</td><td class="fielddoc"><p>Microphone devices source. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44da4738b9189334875a495621b9b34ed3e8" name="af2aee4010a651e3013763b8bde1bf44da4738b9189334875a495621b9b34ed3e8"></a>MC_NDI&#160;</td><td class="fielddoc"><p>Ndi sources (input and output) </p>
+<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44da4738b9189334875a495621b9b34ed3e8" name="af2aee4010a651e3013763b8bde1bf44da4738b9189334875a495621b9b34ed3e8"></a>MC_NDI&#160;</td><td class="fielddoc"><p>Ndi sources (input and output). </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44dac541382bf13dffdde64abb3eb5d2785b" name="af2aee4010a651e3013763b8bde1bf44dac541382bf13dffdde64abb3eb5d2785b"></a>MC_DECKLINK&#160;</td><td class="fielddoc"><p>DeckLink devices sources (input and output) </p>
+<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44dac541382bf13dffdde64abb3eb5d2785b" name="af2aee4010a651e3013763b8bde1bf44dac541382bf13dffdde64abb3eb5d2785b"></a>MC_DECKLINK&#160;</td><td class="fielddoc"><p>DeckLink devices sources (input and output). </p>
 </td></tr>
-<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44daef3a7426f18f3b6ff51fc7b5b4c8068b" name="af2aee4010a651e3013763b8bde1bf44daef3a7426f18f3b6ff51fc7b5b4c8068b"></a>MC_CUSTOM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af2aee4010a651e3013763b8bde1bf44daef3a7426f18f3b6ff51fc7b5b4c8068b" name="af2aee4010a651e3013763b8bde1bf44daef3a7426f18f3b6ff51fc7b5b4c8068b"></a>MC_CUSTOM&#160;</td><td class="fielddoc"><p>Custom audio source. </p>
+</td></tr>
 </table>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a440424626559970a071017ae829c719b" name="a440424626559970a071017ae829c719b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a440424626559970a071017ae829c719b">&#9670;&#160;</a></span>__deprecated_msg()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">__deprecated_msg </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="interface_m_c_track.html">MCTrack</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create the video track. </p>
-<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000011">Deprecated:</a></b></dt><dd>Please use <a class="el" href="interface_m_c_custom_audio_source.html">MCCustomAudioSource</a> and CoreVideoSource instead. </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>The video track</dd></dl>
-<p>Create the audio track </p><dl class="section return"><dt>Returns</dt><dd>The audio track </dd></dl>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a4fbfebb419f210c55833e392a48ae84e" name="a4fbfebb419f210c55833e392a48ae84e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fbfebb419f210c55833e392a48ae84e">&#9670;&#160;</a></span>isCapturing</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool isCapturing</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2d4b8d225d18ea5b886ee54ead75437c" name="a2d4b8d225d18ea5b886ee54ead75437c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4b8d225d18ea5b886ee54ead75437c">&#9670;&#160;</a></span>onAudioFrame</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void onAudioFrame</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Call this to provide your own audio data. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">frame</td><td>The audio frame (chunk of audio). </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a491cf20e3eade8d94e2b531708897c24" name="a491cf20e3eade8d94e2b531708897c24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a491cf20e3eade8d94e2b531708897c24">&#9670;&#160;</a></span>onVideoFrame</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void onVideoFrame</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Call this at the video frame rate to provide your own video frame. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">frame</td><td>The video Frame. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a042c74e1d8690bffc789eba16ff75352" name="a042c74e1d8690bffc789eba16ff75352"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042c74e1d8690bffc789eba16ff75352">&#9670;&#160;</a></span>stopCapture</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void stopCapture</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

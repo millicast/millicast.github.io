@@ -1,6 +1,0 @@
-<map id="MCCMSampleBufferVideoRenderer" name="MCCMSampleBufferVideoRenderer">
-<area shape="rect" id="node1" title="CMSampleBuffer renderer." alt="" coords="5,153,234,178"/>
-<area shape="rect" id="node2" title=" " alt="" coords="12,79,91,105"/>
-<area shape="rect" id="node3" href="$protocol_m_c_video_renderer-p.html" title="The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic..." alt="" coords="115,79,260,105"/>
-<area shape="rect" id="node4" title=" " alt="" coords="140,5,235,31"/>
-</map>

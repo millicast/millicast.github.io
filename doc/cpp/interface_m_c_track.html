@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,7 +76,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The Track class represent a media sources.  
+<p>Represents a captured instance of a media source.  
  <a href="interface_m_c_track.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2track_8h_source.html">track.h</a>&gt;</code></p>
@@ -85,10 +85,10 @@ Inheritance diagram for MCTrack:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_track__inherit__graph.png" border="0" usemap="#a_m_c_track_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_track_inherit__map" id="a_m_c_track_inherit__map">
-<area shape="rect" title="The Track class represent a media sources." alt="" coords="87,79,163,105"/>
-<area shape="rect" href="interface_m_c_audio_track.html" title="The AudioTrack class." alt="" coords="5,153,114,178"/>
+<area shape="rect" title="Represents a captured instance of a media source." alt="" coords="87,79,163,105"/>
+<area shape="rect" href="interface_m_c_audio_track.html" title="Manages and plays a single audio resource." alt="" coords="5,153,114,178"/>
 <area shape="poly" title=" " alt="" coords="106,118,72,154,69,150,102,114"/>
-<area shape="rect" href="interface_m_c_video_track.html" title="The VideoTrack class." alt="" coords="137,153,246,178"/>
+<area shape="rect" href="interface_m_c_video_track.html" title="Responsible for managing video capture session from a video source." alt="" coords="137,153,246,178"/>
 <area shape="poly" title=" " alt="" coords="148,114,182,150,178,154,144,118"/>
 <area shape="rect" title=" " alt="" coords="86,5,164,31"/>
 <area shape="poly" title=" " alt="" coords="128,46,128,79,122,79,122,46"/>
@@ -99,7 +99,7 @@ Collaboration diagram for MCTrack:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_track__coll__graph.png" border="0" usemap="#a_m_c_track_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_track_coll__map" id="a_m_c_track_coll__map">
-<area shape="rect" title="The Track class represent a media sources." alt="" coords="7,79,82,105"/>
+<area shape="rect" title="Represents a captured instance of a media source." alt="" coords="7,79,82,105"/>
 <area shape="rect" title=" " alt="" coords="5,5,84,31"/>
 <area shape="poly" title=" " alt="" coords="47,46,47,79,42,79,42,46"/>
 </map>
@@ -108,16 +108,12 @@ Collaboration diagram for MCTrack:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a41ccd6e5db16024865a2e2a184315be1"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_track.html#a41ccd6e5db16024865a2e2a184315be1">getId</a></td></tr>
-<tr class="memdesc:a41ccd6e5db16024865a2e2a184315be1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the track's id.  <br /></td></tr>
 <tr class="separator:a41ccd6e5db16024865a2e2a184315be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f5ec8d5cec10be899cfa3fafb3f8574"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_track.html#a6f5ec8d5cec10be899cfa3fafb3f8574">kind</a></td></tr>
-<tr class="memdesc:a6f5ec8d5cec10be899cfa3fafb3f8574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the track's kind.  <br /></td></tr>
 <tr class="separator:a6f5ec8d5cec10be899cfa3fafb3f8574"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff6ff3a0a858648e3060fb5b1e62a63a"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_track.html#aff6ff3a0a858648e3060fb5b1e62a63a">isEnabled</a></td></tr>
-<tr class="memdesc:aff6ff3a0a858648e3060fb5b1e62a63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell whether the track is enabled or not.  <br /></td></tr>
 <tr class="separator:aff6ff3a0a858648e3060fb5b1e62a63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a60d8a3109c5d04032b1a5fdec8be3d54"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_track.html#a60d8a3109c5d04032b1a5fdec8be3d54">enable:</a></td></tr>
-<tr class="memdesc:a60d8a3109c5d04032b1a5fdec8be3d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable or disable the track. A disabled track will produce silence (if audio) or black frames (if video). Can be disabled and re-enabled.  <br /></td></tr>
 <tr class="separator:a60d8a3109c5d04032b1a5fdec8be3d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42ce2d2daa2ca468de8fa63a29db9142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_track.html#a42ce2d2daa2ca468de8fa63a29db9142">cpp_track</a></td></tr>
 <tr class="separator:a42ce2d2daa2ca468de8fa63a29db9142"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,7 +125,7 @@ Instance Methods</h2></td></tr>
 <tr class="separator:aa8c965945992b654e2830a3eb9a7ca1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The Track class represent a media sources. </p>
+<div class="textblock"><p>Represents a captured instance of a media source. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="a60d8a3109c5d04032b1a5fdec8be3d54" name="a60d8a3109c5d04032b1a5fdec8be3d54"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60d8a3109c5d04032b1a5fdec8be3d54">&#9670;&#160;</a></span>enable:</h2>
@@ -146,14 +142,12 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>enable or disable the track. A disabled track will produce silence (if audio) or black frames (if video). Can be disabled and re-enabled. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">e</td><td>true to enable, false to disable. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Enables or disables the track. A disabled audio track produces silence. A disabled video track produces black frames.</p><ul>
+<li>Parameters:<ul>
+<li>e: True to enable the track, false otherwise. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -171,9 +165,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Get the track's id. </p>
-<dl class="section return"><dt>Returns</dt><dd>The track's id. </dd></dl>
+<p>Get the track Id.</p><ul>
+<li>Returns: The track ID. </li>
+</ul>
 
 </div>
 </div>
@@ -191,9 +185,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Tell whether the track is enabled or not. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if the track is enabled, false otherwise. </dd></dl>
+<p>Checks whether the track is enabled or not.</p><ul>
+<li>Returns: True if the track is enabled, false otherwise. </li>
+</ul>
 
 </div>
 </div>
@@ -211,9 +205,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Get the track's kind. </p>
-<dl class="section return"><dt>Returns</dt><dd>The track's kind. Either audio or video. </dd></dl>
+<p>Get the track type.</p><ul>
+<li>Returns: The track type, either audio or video. </li>
+</ul>
 
 </div>
 </div>

@@ -1,5 +1,0 @@
-<map id="&lt;MCListener&gt;" name="&lt;MCListener&gt;">
-<area shape="rect" id="Node000001" title="The Client Listener protocol which contains methods that will be called on specific events from a Cli..." alt="" coords="32,5,137,31"/>
-<area shape="rect" id="Node000002" href="$protocol_m_c_publisher_listener-p.html" title="The Listener protocol for the Publisher class. It adds the publishing event on top of the Client list..." alt="" coords="5,79,164,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,46,87,79,82,79,82,46"/>
-</map>

@@ -1,15 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classmillicast_1_1_client_base.html" title=" " alt="" coords="5,112,147,137"/>
-<area shape="rect" id="Node000001" href="$classmillicast_1_1compat_1_1_client.html" title="The Client base class." alt="" coords="196,71,324,111"/>
-<area shape="poly" id="edge81_Node000000_Node000001" title=" " alt="" coords="161,106,195,100,196,105,162,111"/>
-<area shape="rect" id="Node000004" href="$classmillicast_1_1promises_1_1_client.html" title=" " alt="" coords="195,136,325,177"/>
-<area shape="poly" id="edge84_Node000000_Node000004" title=" " alt="" coords="162,137,195,142,194,148,161,142"/>
-<area shape="rect" id="Node000002" href="$classmillicast_1_1compat_1_1_publisher.html" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="374,5,502,46"/>
-<area shape="poly" id="edge82_Node000001_Node000002" title=" " alt="" coords="330,62,380,44,382,49,332,67"/>
-<area shape="rect" id="Node000003" href="$classmillicast_1_1compat_1_1_viewer.html" title="The Viewer class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="374,71,502,111"/>
-<area shape="poly" id="edge83_Node000001_Node000003" title=" " alt="" coords="340,88,374,88,374,94,340,94"/>
-<area shape="rect" id="Node000005" href="$classmillicast_1_1promises_1_1_publisher.html" title=" " alt="" coords="373,136,503,177"/>
-<area shape="poly" id="edge85_Node000004_Node000005" title=" " alt="" coords="341,154,372,154,372,159,341,159"/>
-<area shape="rect" id="Node000006" href="$classmillicast_1_1promises_1_1_viewer.html" title=" " alt="" coords="373,201,503,242"/>
-<area shape="poly" id="edge86_Node000004_Node000006" title=" " alt="" coords="332,180,382,198,380,203,330,185"/>
+<area shape="rect" id="Node000000" href="$structmillicast_1_1_client_listener.html" title="The Client Listener struct which contains methods that will be called on specific events from a Clien..." alt="" coords="5,31,163,56"/>
+<area shape="rect" id="Node000001" href="$structmillicast_1_1_publisher_listener.html" title="The PublisherListener struct for the Publisher class. It adds the publishing event on top of the Clie..." alt="" coords="211,5,388,31"/>
+<area shape="poly" id="edge87_Node000000_Node000001" title=" " alt="" coords="178,30,210,26,211,31,179,35"/>
+<area shape="rect" id="Node000002" href="$structmillicast_1_1_viewer_listener.html" title="The Listener struct for the Viewer class. It adds the on_subscribed event on top of the Client listen..." alt="" coords="218,55,381,80"/>
+<area shape="poly" id="edge88_Node000000_Node000002" title=" " alt="" coords="179,51,217,56,217,61,178,57"/>
 </map>

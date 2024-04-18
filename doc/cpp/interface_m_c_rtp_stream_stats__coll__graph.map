@@ -1,6 +1,6 @@
 <map id="MCRtpStreamStats" name="MCRtpStreamStats">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,153,142,178"/>
-<area shape="rect" id="Node000002" href="$interface_m_c_stats.html" title=" " alt="" coords="37,79,110,105"/>
+<area shape="rect" id="Node000001" title="Statistics for an RTP stream." alt="" coords="5,153,142,178"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_stats.html" title="A container of various different stats. To make sense of such statistics, please refer to the WebRTC ..." alt="" coords="37,79,110,105"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,120,76,152,71,152,71,120"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="34,5,113,31"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="76,46,76,79,71,79,71,46"/>

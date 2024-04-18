@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -77,16 +77,19 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Statistics representing a video track that is attached to one or more senders.  
+ <a href="interface_m_c_video_source_stats.html#details">More...</a></p>
+
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2stats_8h_source.html">stats.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MCVideoSourceStats:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_video_source_stats__inherit__graph.png" border="0" usemap="#a_m_c_video_source_stats_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_video_source_stats_inherit__map" id="a_m_c_video_source_stats_inherit__map">
-<area shape="rect" title=" " alt="" coords="6,226,154,252"/>
-<area shape="rect" href="interface_m_c_media_source_stats.html" title=" " alt="" coords="5,153,155,178"/>
+<area shape="rect" title="Statistics representing a video track that is attached to one or more senders." alt="" coords="6,226,154,252"/>
+<area shape="rect" href="interface_m_c_media_source_stats.html" title="The MCMediaSourceStats class gathers statistics details." alt="" coords="5,153,155,178"/>
 <area shape="poly" title=" " alt="" coords="83,194,83,226,77,226,77,194"/>
-<area shape="rect" href="interface_m_c_stats.html" title=" " alt="" coords="43,79,117,105"/>
+<area shape="rect" href="interface_m_c_stats.html" title="A container of various different stats. To make sense of such statistics, please refer to the WebRTC ..." alt="" coords="43,79,117,105"/>
 <area shape="poly" title=" " alt="" coords="83,120,83,152,77,152,77,120"/>
 <area shape="rect" title=" " alt="" coords="41,5,119,31"/>
 <area shape="poly" title=" " alt="" coords="83,46,83,79,77,79,77,46"/>
@@ -97,10 +100,10 @@ Collaboration diagram for MCVideoSourceStats:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_video_source_stats__coll__graph.png" border="0" usemap="#a_m_c_video_source_stats_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_video_source_stats_coll__map" id="a_m_c_video_source_stats_coll__map">
-<area shape="rect" title=" " alt="" coords="6,226,154,252"/>
-<area shape="rect" href="interface_m_c_media_source_stats.html" title=" " alt="" coords="5,153,155,178"/>
+<area shape="rect" title="Statistics representing a video track that is attached to one or more senders." alt="" coords="6,226,154,252"/>
+<area shape="rect" href="interface_m_c_media_source_stats.html" title="The MCMediaSourceStats class gathers statistics details." alt="" coords="5,153,155,178"/>
 <area shape="poly" title=" " alt="" coords="83,194,83,226,77,226,77,194"/>
-<area shape="rect" href="interface_m_c_stats.html" title=" " alt="" coords="43,79,117,105"/>
+<area shape="rect" href="interface_m_c_stats.html" title="A container of various different stats. To make sense of such statistics, please refer to the WebRTC ..." alt="" coords="43,79,117,105"/>
 <area shape="poly" title=" " alt="" coords="83,120,83,152,77,152,77,120"/>
 <area shape="rect" title=" " alt="" coords="41,5,119,31"/>
 <area shape="poly" title=" " alt="" coords="83,46,83,79,77,79,77,46"/>
@@ -110,35 +113,47 @@ Collaboration diagram for MCVideoSourceStats:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Class Methods</h2></td></tr>
 <tr class="memitem:ab26f6718ff03745bea7bfa4459a96d1e"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="objc_2_millicast_s_d_k_2stats_8h.html#aefc9dead8419799abae90d94f3992f11">MCStatsType</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_video_source_stats.html#ab26f6718ff03745bea7bfa4459a96d1e">get_type</a></td></tr>
+<tr class="memdesc:ab26f6718ff03745bea7bfa4459a96d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of statistics.  <br /></td></tr>
 <tr class="separator:ab26f6718ff03745bea7bfa4459a96d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97080ae9b88ca4b2e86f5a5f3239f156"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="objc_2_millicast_s_d_k_2stats_8h.html#aefc9dead8419799abae90d94f3992f11">MCStatsType</a>)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_media_source_stats.html#a97080ae9b88ca4b2e86f5a5f3239f156">get_type</a></td></tr>
+<tr class="memdesc:a97080ae9b88ca4b2e86f5a5f3239f156"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of statistics.  <br /></td></tr>
 <tr class="separator:a97080ae9b88ca4b2e86f5a5f3239f156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a56b73d3323117072576e4f941b4a49c2"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_source_stats.html#a56b73d3323117072576e4f941b4a49c2">width</a></td></tr>
+<tr class="memdesc:a56b73d3323117072576e4f941b4a49c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The width of the video source. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-width">width</a>  <br /></td></tr>
 <tr class="separator:a56b73d3323117072576e4f941b4a49c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f92f8ad571648119170c178308c286a"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_source_stats.html#a3f92f8ad571648119170c178308c286a">height</a></td></tr>
+<tr class="memdesc:a3f92f8ad571648119170c178308c286a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The height of the video source. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-height">height</a>  <br /></td></tr>
 <tr class="separator:a3f92f8ad571648119170c178308c286a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6197a90fae79b03de72f0cb6126ebc0"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_source_stats.html#ad6197a90fae79b03de72f0cb6126ebc0">frames</a></td></tr>
+<tr class="memdesc:ad6197a90fae79b03de72f0cb6126ebc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of frames. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-frames">frames</a>  <br /></td></tr>
 <tr class="separator:ad6197a90fae79b03de72f0cb6126ebc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae48075bda30f4627f08f3920e5b0dcac"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_source_stats.html#ae48075bda30f4627f08f3920e5b0dcac">frames_per_second</a></td></tr>
+<tr class="memdesc:ae48075bda30f4627f08f3920e5b0dcac"><td class="mdescLeft">&#160;</td><td class="mdescRight">The frame rate of the video source. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-framespersecond">framesPerSecond</a>  <br /></td></tr>
 <tr class="separator:ae48075bda30f4627f08f3920e5b0dcac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_m_c_media_source_stats"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_media_source_stats')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_m_c_media_source_stats.html">MCMediaSourceStats</a></td></tr>
 <tr class="memitem:a3fdec5d1f12874a0639d4b56f8f661f6 inherit properties_interface_m_c_media_source_stats"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_media_source_stats.html#a3fdec5d1f12874a0639d4b56f8f661f6">track_identifier</a></td></tr>
+<tr class="memdesc:a3fdec5d1f12874a0639d4b56f8f661f6 inherit properties_interface_m_c_media_source_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">The identifier of the track. see <a href="https://w3c.github.io/webrtc-stats/#dom-rtcmediasourcestats-trackidentifier">trackIdentifier</a>  <br /></td></tr>
 <tr class="separator:a3fdec5d1f12874a0639d4b56f8f661f6 inherit properties_interface_m_c_media_source_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae15ac24e84fa20c6739dbf565059e2c8 inherit properties_interface_m_c_media_source_stats"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_media_source_stats.html#ae15ac24e84fa20c6739dbf565059e2c8">kind</a></td></tr>
+<tr class="memdesc:ae15ac24e84fa20c6739dbf565059e2c8 inherit properties_interface_m_c_media_source_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">The track type. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcmediasourcestats-kind">kind</a>  <br /></td></tr>
 <tr class="separator:ae15ac24e84fa20c6739dbf565059e2c8 inherit properties_interface_m_c_media_source_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_m_c_stats"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_stats')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_m_c_stats.html">MCStats</a></td></tr>
 <tr class="memitem:a041d592505bd3fafcf9291208da7ca3f inherit properties_interface_m_c_stats"><td class="memItemLeft" align="right" valign="top">long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_stats.html#a041d592505bd3fafcf9291208da7ca3f">timestamp</a></td></tr>
-<tr class="memdesc:a041d592505bd3fafcf9291208da7ca3f inherit properties_interface_m_c_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">The timestamp in Milliseconds since Unix Epoch (Jan 1, 1970 00:00:00 UTC).  <br /></td></tr>
+<tr class="memdesc:a041d592505bd3fafcf9291208da7ca3f inherit properties_interface_m_c_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">The timestamp in milliseconds since Unix epoch (Jan 1, 1970 00:00:00 UTC) at which the statistical data was recorded.  <br /></td></tr>
 <tr class="separator:a041d592505bd3fafcf9291208da7ca3f inherit properties_interface_m_c_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fd336b18b2f355adbc2a4cf26607160 inherit properties_interface_m_c_stats"><td class="memItemLeft" align="right" valign="top">NSString *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_stats.html#a2fd336b18b2f355adbc2a4cf26607160">sid</a></td></tr>
+<tr class="memdesc:a2fd336b18b2f355adbc2a4cf26607160 inherit properties_interface_m_c_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique identifier.  <br /></td></tr>
 <tr class="separator:a2fd336b18b2f355adbc2a4cf26607160 inherit properties_interface_m_c_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d2a270808e3a24a3537fb3109f90c59 inherit properties_interface_m_c_stats"><td class="memItemLeft" align="right" valign="top"><a class="el" href="objc_2_millicast_s_d_k_2stats_8h.html#aefc9dead8419799abae90d94f3992f11">MCStatsType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_stats.html#a2d2a270808e3a24a3537fb3109f90c59">type</a></td></tr>
+<tr class="memdesc:a2d2a270808e3a24a3537fb3109f90c59 inherit properties_interface_m_c_stats"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of statistics.  <br /></td></tr>
 <tr class="separator:a2d2a270808e3a24a3537fb3109f90c59 inherit properties_interface_m_c_stats"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Method Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Statistics representing a video track that is attached to one or more senders. </p>
+</div><h2 class="groupheader">Method Documentation</h2>
 <a id="ab26f6718ff03745bea7bfa4459a96d1e" name="ab26f6718ff03745bea7bfa4459a96d1e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab26f6718ff03745bea7bfa4459a96d1e">&#9670;&#160;</a></span>get_type</h2>
 
@@ -153,6 +168,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the type of statistics. </p>
 
 <p>Implements <a class="el" href="interface_m_c_media_source_stats.html#a97080ae9b88ca4b2e86f5a5f3239f156">MCMediaSourceStats</a>.</p>
 
@@ -179,6 +196,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The number of frames. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-frames">frames</a> </p>
+
 </div>
 </div>
 <a id="ae48075bda30f4627f08f3920e5b0dcac" name="ae48075bda30f4627f08f3920e5b0dcac"></a>
@@ -200,6 +219,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The frame rate of the video source. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-framespersecond">framesPerSecond</a> </p>
 
 </div>
 </div>
@@ -223,6 +244,8 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The height of the video source. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-height">height</a> </p>
+
 </div>
 </div>
 <a id="a56b73d3323117072576e4f941b4a49c2" name="a56b73d3323117072576e4f941b4a49c2"></a>
@@ -244,6 +267,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>The width of the video source. See <a href="https://w3c.github.io/webrtc-stats/#dom-rtcvideosourcestats-width">width</a> </p>
 
 </div>
 </div>

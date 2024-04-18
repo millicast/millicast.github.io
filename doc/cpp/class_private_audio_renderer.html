@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,14 +76,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="class_private_audio_renderer.html" title="The PrivateAudioRenderer class is responsible for handling and rendering audio data in a private mann...">PrivateAudioRenderer</a> class is responsible for handling and rendering audio data in a private manner.  
+ <a href="class_private_audio_renderer.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_private_09_renderer_8h_source.html">Private+Renderer.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for PrivateAudioRenderer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_private_audio_renderer__inherit__graph.png" border="0" usemap="#a_private_audio_renderer_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_private_audio_renderer_inherit__map" id="a_private_audio_renderer_inherit__map">
-<area shape="rect" title=" " alt="" coords="13,79,161,105"/>
-<area shape="rect" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class inherits this if you want to render audio in a specific way in your applicati..." alt="" coords="5,5,169,31"/>
+<area shape="rect" title="The PrivateAudioRenderer class is responsible for handling and rendering audio data in a private mann..." alt="" coords="13,79,161,105"/>
+<area shape="rect" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class is responsible for rendering audio in a specific way in your application." alt="" coords="5,5,169,31"/>
 <area shape="poly" title=" " alt="" coords="90,46,90,79,84,79,84,46"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -92,8 +95,8 @@ Collaboration diagram for PrivateAudioRenderer:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_private_audio_renderer__coll__graph.png" border="0" usemap="#a_private_audio_renderer_coll__map" alt="Collaboration graph"/></div>
 <map name="a_private_audio_renderer_coll__map" id="a_private_audio_renderer_coll__map">
-<area shape="rect" title=" " alt="" coords="13,79,161,105"/>
-<area shape="rect" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class inherits this if you want to render audio in a specific way in your applicati..." alt="" coords="5,5,169,31"/>
+<area shape="rect" title="The PrivateAudioRenderer class is responsible for handling and rendering audio data in a private mann..." alt="" coords="13,79,161,105"/>
+<area shape="rect" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class is responsible for rendering audio in a specific way in your application." alt="" coords="5,5,169,31"/>
 <area shape="poly" title=" " alt="" coords="90,46,90,79,84,79,84,46"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -103,7 +106,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a668b7fd8f453cc95611b22a743f62c22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_private_audio_renderer.html#a668b7fd8f453cc95611b22a743f62c22">PrivateAudioRenderer</a> (id&lt; <a class="el" href="protocol_m_c_audio_renderer-p.html">MCAudioRenderer</a> &gt; callback)</td></tr>
 <tr class="separator:a668b7fd8f453cc95611b22a743f62c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b198fb9ca5cb2f080e2a2bf27ccdce4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_private_audio_renderer.html#a2b198fb9ca5cb2f080e2a2bf27ccdce4">on_frame</a> (const <a class="el" href="structmillicast_1_1_audio_frame.html">millicast::AudioFrame</a> &amp;audio_frame) override</td></tr>
-<tr class="memdesc:a2b198fb9ca5cb2f080e2a2bf27ccdce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">on_frame is called when a new audio frame is available.  <br /></td></tr>
+<tr class="memdesc:a2b198fb9ca5cb2f080e2a2bf27ccdce4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new audio frame becomes available.  <br /></td></tr>
 <tr class="separator:a2b198fb9ca5cb2f080e2a2bf27ccdce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49bdc34b952d3e0806c390d5203e9787"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_private_audio_renderer.html#a49bdc34b952d3e0806c390d5203e9787">~PrivateAudioRenderer</a> () override=default</td></tr>
 <tr class="separator:a49bdc34b952d3e0806c390d5203e9787"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,10 +116,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbb914ad57c01d16ec94d4877a52d8b0 inherit pub_methods_classmillicast_1_1_audio_renderer"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_audio_renderer.html#adbb914ad57c01d16ec94d4877a52d8b0">~AudioRenderer</a> ()=default</td></tr>
 <tr class="separator:adbb914ad57c01d16ec94d4877a52d8b0 inherit pub_methods_classmillicast_1_1_audio_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4775c9948362770f30d155ae4a06dc00 inherit pub_methods_classmillicast_1_1_audio_renderer"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_audio_renderer.html#a4775c9948362770f30d155ae4a06dc00">on_frame</a> (const <a class="el" href="structmillicast_1_1_audio_frame.html">AudioFrame</a> &amp;frame)=0</td></tr>
-<tr class="memdesc:a4775c9948362770f30d155ae4a06dc00 inherit pub_methods_classmillicast_1_1_audio_renderer"><td class="mdescLeft">&#160;</td><td class="mdescRight">on_frame is called when a new audio frame is available.  <br /></td></tr>
+<tr class="memdesc:a4775c9948362770f30d155ae4a06dc00 inherit pub_methods_classmillicast_1_1_audio_renderer"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new audio frame becomes available.  <br /></td></tr>
 <tr class="separator:a4775c9948362770f30d155ae4a06dc00 inherit pub_methods_classmillicast_1_1_audio_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="class_private_audio_renderer.html" title="The PrivateAudioRenderer class is responsible for handling and rendering audio data in a private mann...">PrivateAudioRenderer</a> class is responsible for handling and rendering audio data in a private manner. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a668b7fd8f453cc95611b22a743f62c22" name="a668b7fd8f453cc95611b22a743f62c22"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a668b7fd8f453cc95611b22a743f62c22">&#9670;&#160;</a></span>PrivateAudioRenderer()</h2>
 
@@ -193,7 +198,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>on_frame is called when a new audio frame is available. </p>
+<p>Called when a new audio frame becomes available. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">frame</td><td>The audio frame. </td></tr>

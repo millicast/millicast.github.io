@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,46 +76,41 @@ $(function() {
   <div class="headertitle"><div class="title">renderer.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="objc_2_millicast_s_d_k_2renderer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#import &lt;AVFoundation/AVFoundation.h&gt;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2capabilities_8h.html">MillicastSDK/capabilities.h</a>&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#import &lt;MillicastSDK/exports.h&gt;</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2frames_8h.html">MillicastSDK/frames.h</a>&gt;</span></div>
+<a href="objc_2_millicast_s_d_k_2renderer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#import &lt;AVFoundation/AVFoundation.h&gt;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2capabilities_8h.html">MillicastSDK/capabilities.h</a>&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#import &lt;MillicastSDK/exports.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2frames_8h.html">MillicastSDK/frames.h</a>&gt;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="protocol_m_c_video_renderer-p.html">   10</a></span><span class="keyword">@protocol </span>MCVideoRenderer &lt;NSObject&gt;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// Video //////////////////////////////////////////////////////////////////////</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="protocol_m_c_video_renderer-p.html">   20</a></span><span class="keyword">@protocol </span>MCVideoRenderer &lt;NSObject&gt;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>- (void) didReceiveFrame:(<span class="keywordtype">id</span>&lt;MCVideoFrame&gt;)frame;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">// Audio //////////////////////////////////////////////////////////////////////</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>- (void) didReceiveFrame:(<span class="keywordtype">id</span>&lt;MCVideoFrame&gt;)frame;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="protocol_m_c_audio_renderer-p.html">   25</a></span><span class="keyword">@protocol </span>MCAudioRenderer &lt;NSObject&gt;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>- (void) didReceiveFrame:(<a class="code hl_interface" href="interface_m_c_audio_frame.html">MCAudioFrame</a>*) frame;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="comment">// Audio //////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="protocol_m_c_audio_renderer-p.html">   41</a></span><span class="keyword">@protocol </span>MCAudioRenderer &lt;NSObject&gt;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>- (void) didReceiveFrame:(<a class="code hl_interface" href="interface_m_c_audio_frame.html">MCAudioFrame</a>*) frame;</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span><span class="comment">// ndi ////////////////////////////////////////////////////////////////////////</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9">   60</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_ndi_renderer.html">MCNdiRenderer</a> : NSObject &lt;<a class="code hl_protocol" href="protocol_m_c_video_renderer-p.html">MCVideoRenderer</a>&gt;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>- (void) setName: (NSString*) name;</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>+ (<a class="code hl_interface" href="interface_m_c_ndi_renderer.html">MCNdiRenderer</a>*) <a class="code hl_function" href="interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9">create</a>;</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9">   36</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_ndi_renderer.html">MCNdiRenderer</a> : NSObject &lt;<a class="code hl_protocol" href="protocol_m_c_video_renderer-p.html">MCVideoRenderer</a>&gt;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>- (void) setName: (NSString*) name;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>+ (<a class="code hl_interface" href="interface_m_c_ndi_renderer.html">MCNdiRenderer</a>*) <a class="code hl_function" href="interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9">create</a>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span><span class="keyword">@end</span></div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition</b> exports.h:51</div></div>
-<div class="ttc" id="ainterface_m_c_audio_frame_html"><div class="ttname"><a href="interface_m_c_audio_frame.html">MCAudioFrame</a></div><div class="ttdoc">The AudioFrame interface used to described audio data.</div><div class="ttdef"><b>Definition</b> frames.h:54</div></div>
-<div class="ttc" id="ainterface_m_c_ndi_renderer_html"><div class="ttname"><a href="interface_m_c_ndi_renderer.html">MCNdiRenderer</a></div><div class="ttdoc">The NdiRenderer interface is used to render video as an ndi source.</div><div class="ttdef"><b>Definition</b> renderer.h:60</div></div>
-<div class="ttc" id="ainterface_m_c_ndi_renderer_html_a82e1979d6ef57b6fc38ca69537f4b9f9"><div class="ttname"><a href="interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9">+[MCNdiRenderer create]</a></div><div class="ttdeci">MCNdiRenderer * create()</div><div class="ttdoc">Create an Ndi renderer.</div></div>
+<div class="ttc" id="ainterface_m_c_audio_frame_html"><div class="ttname"><a href="interface_m_c_audio_frame.html">MCAudioFrame</a></div><div class="ttdef"><b>Definition</b> frames.h:68</div></div>
+<div class="ttc" id="ainterface_m_c_ndi_renderer_html"><div class="ttname"><a href="interface_m_c_ndi_renderer.html">MCNdiRenderer</a></div><div class="ttdef"><b>Definition</b> renderer.h:36</div></div>
+<div class="ttc" id="ainterface_m_c_ndi_renderer_html_a82e1979d6ef57b6fc38ca69537f4b9f9"><div class="ttname"><a href="interface_m_c_ndi_renderer.html#a82e1979d6ef57b6fc38ca69537f4b9f9">+[MCNdiRenderer create]</a></div><div class="ttdeci">MCNdiRenderer * create()</div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2capabilities_8h_html"><div class="ttname"><a href="objc_2_millicast_s_d_k_2capabilities_8h.html">capabilities.h</a></div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2frames_8h_html"><div class="ttname"><a href="objc_2_millicast_s_d_k_2frames_8h.html">frames.h</a></div></div>
-<div class="ttc" id="aprotocol_m_c_video_renderer-p_html"><div class="ttname"><a href="protocol_m_c_video_renderer-p.html">MCVideoRenderer-p</a></div><div class="ttdoc">The VideoRenderer protocol Inherits this class to receive video frames and render them in your applic...</div><div class="ttdef"><b>Definition</b> renderer.h:20</div></div>
+<div class="ttc" id="aprotocol_m_c_video_renderer-p_html"><div class="ttname"><a href="protocol_m_c_video_renderer-p.html">MCVideoRenderer-p</a></div><div class="ttdef"><b>Definition</b> renderer.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

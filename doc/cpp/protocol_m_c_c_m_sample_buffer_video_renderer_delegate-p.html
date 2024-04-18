@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,7 +76,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>a CMSampleBuffer receiving delegate.  
+<p>Delegate for receiving raw video <code>CMSampleBufferRef</code> ready for rendering.  
  <a href="protocol_m_c_c_m_sample_buffer_video_renderer_delegate-p.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="cm__sample__buffer__renderer_8h_source.html">cm_sample_buffer_renderer.h</a>&gt;</code></p>
@@ -84,7 +84,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a54c34126acea58c782d6f5278b231004"><td class="memItemLeft" align="right" valign="top">(bool)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_c_m_sample_buffer_video_renderer_delegate-p.html#a54c34126acea58c782d6f5278b231004">canHandleMoreFrames</a></td></tr>
-<tr class="memdesc:a54c34126acea58c782d6f5278b231004"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true to accept a sample buffer, otherwise, the frame will be dropped.  <br /></td></tr>
+<tr class="memdesc:a54c34126acea58c782d6f5278b231004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement this method and return true to accept a sample buffer. Otherwise, the frame is dropped.  <br /></td></tr>
 <tr class="separator:a54c34126acea58c782d6f5278b231004"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4817fa76cd432e5d46cf3443623a862"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_c_m_sample_buffer_video_renderer_delegate-p.html#aa4817fa76cd432e5d46cf3443623a862">didReceiveSampleBuffer:</a></td></tr>
 <tr class="separator:aa4817fa76cd432e5d46cf3443623a862"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -92,7 +92,7 @@ Instance Methods</h2></td></tr>
 <tr class="separator:a0ff7b6289cc236f88782b59c195e56fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>a CMSampleBuffer receiving delegate. </p>
+<div class="textblock"><p>Delegate for receiving raw video <code>CMSampleBufferRef</code> ready for rendering. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="a54c34126acea58c782d6f5278b231004" name="a54c34126acea58c782d6f5278b231004"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54c34126acea58c782d6f5278b231004">&#9670;&#160;</a></span>canHandleMoreFrames</h2>
@@ -109,7 +109,7 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>return true to accept a sample buffer, otherwise, the frame will be dropped. </p>
+<p>Implement this method and return true to accept a sample buffer. Otherwise, the frame is dropped. </p>
 
 </div>
 </div>
@@ -128,6 +128,12 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A delegate method that will be called when the size of the incoming video frames has changed.</p><ul>
+<li>Parameters:<ul>
+<li>size: The new video frame size. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -146,6 +152,12 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>A delegate method that will receive CMSampleBufferRef that contain raw video ready for rendering.</p><ul>
+<li>Parameters:<ul>
+<li>buffer: A reference to a CMSampleBuffer. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>

@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structmillicast_1_1_viewer_projection_data.html" title="The projection data is used to project a video/audio track into a specific transceiver...." alt="" coords="5,5,209,31"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,5,138,31"/>
+<area shape="rect" id="Node000001" href="$classmillicast_1_1_error.html" title="The errors reported by the Millicast SDK." alt="" coords="186,5,291,31"/>
+<area shape="poly" id="edge119_Node000000_Node000001" title=" " alt="" coords="153,16,185,16,185,21,153,21"/>
 </map>

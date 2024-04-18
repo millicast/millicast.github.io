@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,121 +76,133 @@ $(function() {
   <div class="headertitle"><div class="title">viewer.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="objc_2_millicast_s_d_k_2viewer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2client_8h.html">MillicastSDK/client.h</a>&gt;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#import &lt;MillicastSDK/exports.h&gt;</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>NS_ASSUME_NONNULL_BEGIN</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">// Forward declarations ///////////////////////////////////////////////////////</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">@class</span> <a class="code hl_interface" href="interface_m_c_video_track.html">MCVideoTrack</a>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">@class</span> <a class="code hl_interface" href="interface_m_c_audio_track.html">MCAudioTrack</a>;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="comment">// Viewer /////////////////////////////////////////////////////////////////////</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="interface_m_c_layer_resolution.html">   20</a></span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_layer_resolution.html">MCLayerResolution</a> : NSObject</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="interface_m_c_layer_resolution.html#a8242a3df4943b9db81eb9b63d41c705a">   21</a></span><span class="keyword">@property</span> <span class="keywordtype">int</span> <a class="code hl_property" href="interface_m_c_layer_resolution.html#a8242a3df4943b9db81eb9b63d41c705a">height</a>;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="interface_m_c_layer_resolution.html#a9fc44b0ebc060a8ba20f29db44231867">   22</a></span><span class="keyword">@property</span> <span class="keywordtype">int</span> <a class="code hl_property" href="interface_m_c_layer_resolution.html#a9fc44b0ebc060a8ba20f29db44231867">width</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keyword">@end</span></div>
+<a href="objc_2_millicast_s_d_k_2viewer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2client_8h.html">MillicastSDK/client.h</a>&gt;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#import &lt;MillicastSDK/exports.h&gt;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span>NS_ASSUME_NONNULL_BEGIN</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// Forward declarations ///////////////////////////////////////////////////////</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">@class</span> <a class="code hl_interface" href="interface_m_c_video_track.html">MCVideoTrack</a>;</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">@class</span> <a class="code hl_interface" href="interface_m_c_audio_track.html">MCAudioTrack</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// Viewer /////////////////////////////////////////////////////////////////////</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="interface_m_c_layer_resolution.html">   14</a></span><span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_layer_resolution.html">MCLayerResolution</a> : NSObject</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="interface_m_c_layer_resolution.html#a8242a3df4943b9db81eb9b63d41c705a">   16</a></span><span class="keyword">@property</span> <span class="keywordtype">int</span> <a class="code hl_property" href="interface_m_c_layer_resolution.html#a8242a3df4943b9db81eb9b63d41c705a">height</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="interface_m_c_layer_resolution.html#a9fc44b0ebc060a8ba20f29db44231867">   18</a></span><span class="keyword">@property</span> <span class="keywordtype">int</span> <a class="code hl_property" href="interface_m_c_layer_resolution.html#a9fc44b0ebc060a8ba20f29db44231867">width</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html">   23</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a> : NSObject</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html">   29</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a> : NSObject</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#a8d16fdf7d167d4f1ab5f5e2fdd2a6b78">   26</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* encodingId;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49">   29</a></span><span class="keyword">@property</span> <span class="keywordtype">int</span> <a class="code hl_property" href="interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49">bitrate</a>;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#a8d16fdf7d167d4f1ab5f5e2fdd2a6b78">   32</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* encodingId;</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49">   34</a></span><span class="keyword">@property</span> <span class="keywordtype">int</span> <a class="code hl_property" href="interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49">bitrate</a>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#a0edc8dc77f8d5f7938879a363f4c6bf2">   36</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *spatialLayerId;</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#a42b394291823408c0115b064758081be">   38</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *temporalLayerId;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#ad230b7ce27eccc15647a441f2f5d09f3">   40</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *maxTemporalLayerId;</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#adc719caa2c2183df1e15ff1840a91902">   42</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *maxSpatialLayerId;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#a0edc8dc77f8d5f7938879a363f4c6bf2">   32</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *spatialLayerId;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#a42b394291823408c0115b064758081be">   35</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *temporalLayerId;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#ad230b7ce27eccc15647a441f2f5d09f3">   38</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *maxTemporalLayerId;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#adc719caa2c2183df1e15ff1840a91902">   41</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) NSNumber *maxSpatialLayerId;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="interface_m_c_layer_data.html#a9984623a8ab0aa3f74afdc20fbe8abf1">   44</a></span><span class="keyword">@property</span>(nonatomic, assign, nullable) <a class="code hl_interface" href="interface_m_c_layer_resolution.html">MCLayerResolution</a>* layerResolution;</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html">   52</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface  </span><a class="code hl_interface" href="interface_m_c_projection_data.html">MCProjectionData</a> : NSObject</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html#a37a5c57fb8b8d178dc57cb55d5fc4887">   55</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* trackId;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html#a59469572613ec50f75db267fa84ea642">   57</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* media;</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html">   50</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface  </span><a class="code hl_interface" href="interface_m_c_projection_data.html">MCProjectionData</a> : NSObject</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html#a37a5c57fb8b8d178dc57cb55d5fc4887">   53</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* trackId;</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html#a59469572613ec50f75db267fa84ea642">   56</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* media;</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html#a5dca09e2c9166936f07f4efa0b7115a5">   59</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* mid;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html#a078c3db7875f446538238f4e317e2a9b">   61</a></span><span class="keyword">@property</span> (nonatomic, strong, nullable) <a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a>*  layer;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="protocol_m_c_subscriber_listener-p.html">   72</a></span><span class="keyword">@protocol </span>MCSubscriberListener &lt;MCListener&gt;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="interface_m_c_projection_data.html#a078c3db7875f446538238f4e317e2a9b">   62</a></span><span class="keyword">@property</span> (nonatomic, strong, nullable) <a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a>*  layer;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="protocol_m_c_subscriber_delegate-p.html">   68</a></span><span class="keyword">@protocol </span>MCSubscriberDelegate &lt;MCDelegate&gt;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>- (void) onSubscribed;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>- (void) onSubscribed;</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>- (void) onSubscribedError:(nonnull NSString*) reason;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>- (void) onVideoTrack:(nonnull <a class="code hl_interface" href="interface_m_c_video_track.html">MCVideoTrack</a>*) track withMid:(nonnull NSString*) mid;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>- (void) onVideoTrack:(nonnull <a class="code hl_interface" href="interface_m_c_video_track.html">MCVideoTrack</a>*) track withMid:(nonnull NSString*) mid;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>- (void) onAudioTrack:(nonnull <a class="code hl_interface" href="interface_m_c_audio_track.html">MCAudioTrack</a>*) track withMid:(nonnull NSString*) mid;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>- (void) onActive: (nonnull NSString*) streamId tracks: (nonnull NSArray&lt;NSString*&gt; *)tracks sourceId:(nonnull NSString*) sourceId;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span> </div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>- (void) onAudioTrack:(nonnull <a class="code hl_interface" href="interface_m_c_audio_track.html">MCAudioTrack</a>*) track withMid:(nonnull NSString*) mid;</div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
-<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>- (void) onActive: (nonnull NSString*) streamId tracks: (nonnull NSArray&lt;NSString*&gt; *)tracks sourceId:(nonnull NSString*) sourceId;</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>- (void) onInactive: (nonnull NSString*) streamId sourceId:(nonnull NSString*) sourceId;</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span> </div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>- (void) onStopped;</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>- (void) onVad: (nonnull NSString*) mid sourceId:(nonnull NSString*) sourceId;</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span> </div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>- (void) onLayers: (nonnull NSString*) mid activeLayers:(nonnull NSArray&lt;<a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a>*&gt;*) activeLayers inactiveLayers:(nonnull NSArray&lt;NSString*&gt;*) inactiveLayers;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>- (void) onInactive: (nonnull NSString*) streamId sourceId:(nonnull NSString*) sourceId;</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>- (void) onStopped;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>- (void) onVad: (nonnull NSString*) mid sourceId:(nonnull NSString*) sourceId;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>- (void) onLayers: (nonnull NSString*) mid activeLayers:(nonnull NSArray&lt;<a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a>*&gt;*) activeLayers inactiveLayers:(nonnull NSArray&lt;NSString*&gt;*) inactiveLayers;</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span><span class="keyword">@optional</span></div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>- (void) onFrameMetadata:(nonnull const <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)data withLength:(<span class="keywordtype">int</span>)length withSsrc:(<span class="keywordtype">int</span>) ssrc withTimestamp:(<span class="keywordtype">int</span>) timestamp;</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html">  131</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a> : NSObject</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html#afcb637baedf4918ab3f4ab5068334390">  134</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* streamName;</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span><span class="keyword">@optional</span></div>
-<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>- (void) onFrameMetadata:(nonnull const <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)data withLength:(<span class="keywordtype">int</span>)length withSsrc:(<span class="keywordtype">int</span>) ssrc withTimestamp:(<span class="keywordtype">int</span>) timestamp;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html#a31a7297ccd215818e32f6b369d481311">  137</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* token;</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html#a783372751e6b5c585c5a3d285d3af3a6">  140</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* accountId;</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html#a375ecab3924b9b0ac41f476f217857f3">  143</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* apiUrl;</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span><span class="keyword">@end</span></div>
 <div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html">  155</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a> : NSObject</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html#afcb637baedf4918ab3f4ab5068334390">  157</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* streamName;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html#a31a7297ccd215818e32f6b369d481311">  159</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* token;</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber_credentials.html#a783372751e6b5c585c5a3d285d3af3a6">  161</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* accountId;</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber.html#af4f26bf8d201b047c031d393fed13f9d">  163</a></span><span class="keyword">@property</span> (nonatomic, strong, nonnull) NSString* apiUrl;</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span> </div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber.html">  148</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_subscriber.html">MCSubscriber</a> : NSObject &lt;<a class="code hl_protocol" href="protocol_m_c_client-p.html">MCClient</a>&gt;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber.html#a04e86c4ded58df710dba873af2eaad14">  150</a></span><span class="keyword">@property</span>(nonatomic, weak) id&lt;MCSubscriberDelegate&gt; delegate;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>- (instancetype)initWithDelegate: (id&lt;MCSubscriberDelegate&gt;) delegate;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span> </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>- (void)subscribeWithCompletionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span> </div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="interface_m_c_subscriber.html">  174</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_subscriber.html">MCSubscriber</a> : NSObject &lt;<a class="code hl_protocol" href="protocol_m_c_client-p.html">MCClient</a>&gt;</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>- (BOOL) subscribe;</div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>- (void)subscribeWithOptions: (<a class="code hl_interface" href="interface_m_c_client_options.html">MCClientOptions</a> *) opts completionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>- (void) isSubscribedWithCompletionHandler:(nonnull void (^)(BOOL subscribed)) completionHandler;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>- (void)unsubscribeWithCompletionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
 <div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>- (BOOL) subscribeWithOptions: (nonnull <a class="code hl_interface" href="interface_m_c_client_options.html">MCClientOptions</a> *) opts;</div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span> </div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>- (BOOL)unsubscribe;</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>- (void) project:(NSString*) sourceId withData:(NSArray&lt;MCProjectionData*&gt;*) projectionData completionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span> </div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>- (void) unproject:(NSArray&lt;NSString*&gt;*) mids completionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span> </div>
+<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>- (void) select:(<a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a>* _Nullable)layer completionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span> </div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>- (BOOL) isSubscribed;</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>- (void) addRemoteTrack: (NSString*) kind completionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
 <div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span> </div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>- (BOOL) project:(nullable NSString*) sourceId withData:(nonnull NSArray&lt;<a class="code hl_interface" href="interface_m_c_projection_data.html">MCProjectionData</a>*&gt;*) projectionData;</div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>- (BOOL) unproject:(nonnull NSArray&lt;NSString*&gt;*) mids;</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>- (void) getMid:(NSString*) trackId completionHandler:(nonnull void (^)(NSString *, NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span> </div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>- (void) setCredentials: (nonnull <a class="code hl_interface" href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a>*) credentials completionHandler:(nonnull void (^)(NSError * _Nullable)) completionHandler;</div>
+<div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>- (void) getCredentialsWithCompletionHandler:(nonnull void (^)(<a class="code hl_interface" href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a> * _Nonnull)) completionHandler;</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
-<div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>- (BOOL) select:(nullable <a class="code hl_interface" href="interface_m_c_layer_data.html">MCLayerData</a>*)layer;</div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span>- (BOOL) addRemoteTrack: (nonnull NSString*) kind;</div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
-<div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>- (nullable NSString*) getMid:(nonnull NSString*) trackId;</div>
-<div class="line"><a id="l00253" name="l00253"></a><span class="lineno">  253</span> </div>
-<div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>- (BOOL) setCredentials: (nonnull <a class="code hl_interface" href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a>*) credentials;</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span> </div>
-<div class="line"><a id="l00267" name="l00267"></a><span class="lineno">  267</span>- (nonnull <a class="code hl_interface" href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a>*) getCredentials;</div>
-<div class="line"><a id="l00268" name="l00268"></a><span class="lineno">  268</span> </div>
-<div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>+ (nullable <a class="code hl_interface" href="interface_m_c_subscriber.html">MCSubscriber</a>*) create;</div>
-<div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
-<div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="keyword">@end</span></div>
-<div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span>NS_ASSUME_NONNULL_END</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>NS_ASSUME_NONNULL_END</div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition</b> exports.h:51</div></div>
-<div class="ttc" id="ainterface_m_c_audio_track_html"><div class="ttname"><a href="interface_m_c_audio_track.html">MCAudioTrack</a></div><div class="ttdoc">The AudioTrack class.</div><div class="ttdef"><b>Definition</b> track.h:90</div></div>
-<div class="ttc" id="ainterface_m_c_client_options_html"><div class="ttname"><a href="interface_m_c_client_options.html">MCClientOptions</a></div><div class="ttdef"><b>Definition</b> client.h:141</div></div>
-<div class="ttc" id="ainterface_m_c_layer_data_html"><div class="ttname"><a href="interface_m_c_layer_data.html">MCLayerData</a></div><div class="ttdoc">The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ...</div><div class="ttdef"><b>Definition</b> viewer.h:30</div></div>
-<div class="ttc" id="ainterface_m_c_layer_data_html_ab6d4db1c31d5cca7c09fbf596e797c49"><div class="ttname"><a href="interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49">MCLayerData::bitrate</a></div><div class="ttdeci">int bitrate</div><div class="ttdoc">The bitrate of the layer.</div><div class="ttdef"><b>Definition</b> viewer.h:34</div></div>
-<div class="ttc" id="ainterface_m_c_layer_resolution_html"><div class="ttname"><a href="interface_m_c_layer_resolution.html">MCLayerResolution</a></div><div class="ttdef"><b>Definition</b> viewer.h:21</div></div>
-<div class="ttc" id="ainterface_m_c_layer_resolution_html_a8242a3df4943b9db81eb9b63d41c705a"><div class="ttname"><a href="interface_m_c_layer_resolution.html#a8242a3df4943b9db81eb9b63d41c705a">MCLayerResolution::height</a></div><div class="ttdeci">int height</div><div class="ttdef"><b>Definition</b> viewer.h:21</div></div>
-<div class="ttc" id="ainterface_m_c_layer_resolution_html_a9fc44b0ebc060a8ba20f29db44231867"><div class="ttname"><a href="interface_m_c_layer_resolution.html#a9fc44b0ebc060a8ba20f29db44231867">MCLayerResolution::width</a></div><div class="ttdeci">int width</div><div class="ttdef"><b>Definition</b> viewer.h:22</div></div>
-<div class="ttc" id="ainterface_m_c_projection_data_html"><div class="ttname"><a href="interface_m_c_projection_data.html">MCProjectionData</a></div><div class="ttdoc">The projection data is used to project a video/audio track into a specific transceiver....</div><div class="ttdef"><b>Definition</b> viewer.h:53</div></div>
-<div class="ttc" id="ainterface_m_c_subscriber_credentials_html"><div class="ttname"><a href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a></div><div class="ttdoc">The Credentials interface represent the credentials need to be able to connect and subscribe to a Mil...</div><div class="ttdef"><b>Definition</b> viewer.h:156</div></div>
-<div class="ttc" id="ainterface_m_c_subscriber_html"><div class="ttname"><a href="interface_m_c_subscriber.html">MCSubscriber</a></div><div class="ttdoc">The Subscriber class. Its purpose is to receive media by subscribing to a millicast stream....</div><div class="ttdef"><b>Definition</b> viewer.h:174</div></div>
-<div class="ttc" id="ainterface_m_c_video_track_html"><div class="ttname"><a href="interface_m_c_video_track.html">MCVideoTrack</a></div><div class="ttdoc">The VideoTrack class.</div><div class="ttdef"><b>Definition</b> track.h:63</div></div>
+<div class="ttc" id="ainterface_m_c_audio_track_html"><div class="ttname"><a href="interface_m_c_audio_track.html">MCAudioTrack</a></div><div class="ttdoc">Manages and plays a single audio resource.</div><div class="ttdef"><b>Definition</b> track.h:51</div></div>
+<div class="ttc" id="ainterface_m_c_client_options_html"><div class="ttname"><a href="interface_m_c_client_options.html">MCClientOptions</a></div><div class="ttdoc">The MCClientOptions class gathers options for the client.</div><div class="ttdef"><b>Definition</b> client.h:126</div></div>
+<div class="ttc" id="ainterface_m_c_layer_data_html"><div class="ttname"><a href="interface_m_c_layer_data.html">MCLayerData</a></div><div class="ttdef"><b>Definition</b> viewer.h:24</div></div>
+<div class="ttc" id="ainterface_m_c_layer_data_html_ab6d4db1c31d5cca7c09fbf596e797c49"><div class="ttname"><a href="interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49">MCLayerData::bitrate</a></div><div class="ttdeci">int bitrate</div><div class="ttdoc">The bitrate of the SVC layer.</div><div class="ttdef"><b>Definition</b> viewer.h:29</div></div>
+<div class="ttc" id="ainterface_m_c_layer_resolution_html"><div class="ttname"><a href="interface_m_c_layer_resolution.html">MCLayerResolution</a></div><div class="ttdef"><b>Definition</b> viewer.h:15</div></div>
+<div class="ttc" id="ainterface_m_c_layer_resolution_html_a8242a3df4943b9db81eb9b63d41c705a"><div class="ttname"><a href="interface_m_c_layer_resolution.html#a8242a3df4943b9db81eb9b63d41c705a">MCLayerResolution::height</a></div><div class="ttdeci">int height</div><div class="ttdoc">The height of the layer.</div><div class="ttdef"><b>Definition</b> viewer.h:16</div></div>
+<div class="ttc" id="ainterface_m_c_layer_resolution_html_a9fc44b0ebc060a8ba20f29db44231867"><div class="ttname"><a href="interface_m_c_layer_resolution.html#a9fc44b0ebc060a8ba20f29db44231867">MCLayerResolution::width</a></div><div class="ttdeci">int width</div><div class="ttdoc">The width of the layer.</div><div class="ttdef"><b>Definition</b> viewer.h:18</div></div>
+<div class="ttc" id="ainterface_m_c_projection_data_html"><div class="ttname"><a href="interface_m_c_projection_data.html">MCProjectionData</a></div><div class="ttdef"><b>Definition</b> viewer.h:51</div></div>
+<div class="ttc" id="ainterface_m_c_subscriber_credentials_html"><div class="ttname"><a href="interface_m_c_subscriber_credentials.html">MCSubscriberCredentials</a></div><div class="ttdef"><b>Definition</b> viewer.h:132</div></div>
+<div class="ttc" id="ainterface_m_c_subscriber_html"><div class="ttname"><a href="interface_m_c_subscriber.html">MCSubscriber</a></div><div class="ttdoc">The Subscriber class manages the subscription to audio and video tracks from the Millicast platform.</div><div class="ttdef"><b>Definition</b> viewer.h:148</div></div>
+<div class="ttc" id="ainterface_m_c_video_track_html"><div class="ttname"><a href="interface_m_c_video_track.html">MCVideoTrack</a></div><div class="ttdoc">Responsible for managing video capture session from a video source.</div><div class="ttdef"><b>Definition</b> track.h:33</div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2client_8h_html"><div class="ttname"><a href="objc_2_millicast_s_d_k_2client_8h.html">client.h</a></div></div>
-<div class="ttc" id="aprotocol_m_c_client-p_html"><div class="ttname"><a href="protocol_m_c_client-p.html">MCClient-p</a></div><div class="ttdoc">The Client base class.</div><div class="ttdef"><b>Definition</b> client.h:253</div></div>
+<div class="ttc" id="aprotocol_m_c_client-p_html"><div class="ttname"><a href="protocol_m_c_client-p.html">MCClient-p</a></div><div class="ttdoc">The Client base that contains common methods between MCPublisher and MCSubscriber.</div><div class="ttdef"><b>Definition</b> client.h:191</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

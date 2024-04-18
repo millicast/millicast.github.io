@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,14 +76,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Class responsible for initializing a <code><a class="el" href="interface_m_c_audio_frame.html">MCAudioFrame</a></code> from a <code>CMSampleBuffer</code>  
+ <a href="interface_m_c_c_m_sample_buffer_frame.html#details">More...</a></p>
+
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2frames_8h_source.html">frames.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MCCMSampleBufferFrame:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_c_m_sample_buffer_frame__inherit__graph.png" border="0" usemap="#a_m_c_c_m_sample_buffer_frame_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_c_m_sample_buffer_frame_inherit__map" id="a_m_c_c_m_sample_buffer_frame_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,153,185,178"/>
-<area shape="rect" href="interface_m_c_audio_frame.html" title="The AudioFrame interface used to described audio data." alt="" coords="39,79,151,105"/>
+<area shape="rect" title="Class responsible for initializing a MCAudioFrame from a CMSampleBuffer" alt="" coords="5,153,185,178"/>
+<area shape="rect" href="interface_m_c_audio_frame.html" title=" " alt="" coords="39,79,151,105"/>
 <area shape="poly" title=" " alt="" coords="98,120,98,152,92,152,92,120"/>
 <area shape="rect" title=" " alt="" coords="56,5,134,31"/>
 <area shape="poly" title=" " alt="" coords="98,46,98,79,92,79,92,46"/>
@@ -94,8 +97,8 @@ Collaboration diagram for MCCMSampleBufferFrame:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_c_m_sample_buffer_frame__coll__graph.png" border="0" usemap="#a_m_c_c_m_sample_buffer_frame_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_c_m_sample_buffer_frame_coll__map" id="a_m_c_c_m_sample_buffer_frame_coll__map">
-<area shape="rect" title=" " alt="" coords="5,153,185,178"/>
-<area shape="rect" href="interface_m_c_audio_frame.html" title="The AudioFrame interface used to described audio data." alt="" coords="39,79,151,105"/>
+<area shape="rect" title="Class responsible for initializing a MCAudioFrame from a CMSampleBuffer" alt="" coords="5,153,185,178"/>
+<area shape="rect" href="interface_m_c_audio_frame.html" title=" " alt="" coords="39,79,151,105"/>
 <area shape="poly" title=" " alt="" coords="98,120,98,152,92,152,92,120"/>
 <area shape="rect" title=" " alt="" coords="56,5,134,31"/>
 <area shape="poly" title=" " alt="" coords="98,46,98,79,92,79,92,46"/>
@@ -116,17 +119,24 @@ Instance Methods</h2></td></tr>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header properties_interface_m_c_audio_frame"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_c_audio_frame')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_m_c_audio_frame.html">MCAudioFrame</a></td></tr>
 <tr class="memitem:a68cc9fefcf5265981be9ccec784dcba4 inherit properties_interface_m_c_audio_frame"><td class="memItemLeft" align="right" valign="top">const void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_frame.html#a68cc9fefcf5265981be9ccec784dcba4">data</a></td></tr>
+<tr class="memdesc:a68cc9fefcf5265981be9ccec784dcba4 inherit properties_interface_m_c_audio_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The audio data containing raw audio samples.  <br /></td></tr>
 <tr class="separator:a68cc9fefcf5265981be9ccec784dcba4 inherit properties_interface_m_c_audio_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a052cb55c1a7bd5f64655700bcac581cc inherit properties_interface_m_c_audio_frame"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_frame.html#a052cb55c1a7bd5f64655700bcac581cc">bitsPerSample</a></td></tr>
+<tr class="memdesc:a052cb55c1a7bd5f64655700bcac581cc inherit properties_interface_m_c_audio_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of bits per audio sample.  <br /></td></tr>
 <tr class="separator:a052cb55c1a7bd5f64655700bcac581cc inherit properties_interface_m_c_audio_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af214f1affbdc5cbd4e809e4c2145a649 inherit properties_interface_m_c_audio_frame"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_frame.html#af214f1affbdc5cbd4e809e4c2145a649">sampleRate</a></td></tr>
+<tr class="memdesc:af214f1affbdc5cbd4e809e4c2145a649 inherit properties_interface_m_c_audio_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sample rate of the audio data, which is either 48kHz or 44.1kHz.  <br /></td></tr>
 <tr class="separator:af214f1affbdc5cbd4e809e4c2145a649 inherit properties_interface_m_c_audio_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0c319997207c9fbdd165e1feef81616 inherit properties_interface_m_c_audio_frame"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_frame.html#af0c319997207c9fbdd165e1feef81616">channelNumber</a></td></tr>
+<tr class="memdesc:af0c319997207c9fbdd165e1feef81616 inherit properties_interface_m_c_audio_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of audio channels defining whether the audio is mono, stereo, or has more complex channel configurations.  <br /></td></tr>
 <tr class="separator:af0c319997207c9fbdd165e1feef81616 inherit properties_interface_m_c_audio_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a097e0355d996d5d0bb5e45e62cf0c66b inherit properties_interface_m_c_audio_frame"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_audio_frame.html#a097e0355d996d5d0bb5e45e62cf0c66b">frameNumber</a></td></tr>
+<tr class="memdesc:a097e0355d996d5d0bb5e45e62cf0c66b inherit properties_interface_m_c_audio_frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of frames in the data array. The number of frames is dependent on the sample rate and chunk time.  <br /></td></tr>
 <tr class="separator:a097e0355d996d5d0bb5e45e62cf0c66b inherit properties_interface_m_c_audio_frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Method Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class responsible for initializing a <code><a class="el" href="interface_m_c_audio_frame.html">MCAudioFrame</a></code> from a <code>CMSampleBuffer</code> </p>
+</div><h2 class="groupheader">Method Documentation</h2>
 <a id="a74061d7ec362d232898f352ae5ce94a2" name="a74061d7ec362d232898f352ae5ce94a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74061d7ec362d232898f352ae5ce94a2">&#9670;&#160;</a></span>initWithSampleBuffer:</h2>
 
@@ -142,8 +152,13 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>initialize <a class="el" href="interface_m_c_audio_frame.html" title="The AudioFrame interface used to described audio data.">MCAudioFrame</a> with CMSampleBuffer. </p>
-
+<p>Initialize with a <code>CMSampleBuffer</code> </p><div class="fragment"><div class="line">let sampleBuffer: CMSampleBuffer = ...</div>
+<div class="line">let source = <a class="code hl_interface" href="interface_m_c_custom_audio_source_builder.html">MCCustomAudioSourceBuilder</a>().<a class="code hl_function" href="interface_m_c_custom_audio_source_builder.html#a77f3df34848cb957c08c8411621ec611">build</a>()</div>
+<div class="line">source.onAudioFrame(<a class="code hl_interface" href="interface_m_c_c_m_sample_buffer_frame.html">MCCMSampleBufferFrame</a>(sampleBuffer))</div>
+<div class="ttc" id="ainterface_m_c_c_m_sample_buffer_frame_html"><div class="ttname"><a href="interface_m_c_c_m_sample_buffer_frame.html">MCCMSampleBufferFrame</a></div><div class="ttdoc">Class responsible for initializing a MCAudioFrame from a CMSampleBuffer</div><div class="ttdef"><b>Definition</b> frames.h:88</div></div>
+<div class="ttc" id="ainterface_m_c_custom_audio_source_builder_html"><div class="ttname"><a href="interface_m_c_custom_audio_source_builder.html">MCCustomAudioSourceBuilder</a></div><div class="ttdoc">Responsible for building MCCustomAudioSource.</div><div class="ttdef"><b>Definition</b> source.h:275</div></div>
+<div class="ttc" id="ainterface_m_c_custom_audio_source_builder_html_a77f3df34848cb957c08c8411621ec611"><div class="ttname"><a href="interface_m_c_custom_audio_source_builder.html#a77f3df34848cb957c08c8411621ec611">-[MCCustomAudioSourceBuilder build]</a></div><div class="ttdeci">MCCustomAudioSource * build()</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

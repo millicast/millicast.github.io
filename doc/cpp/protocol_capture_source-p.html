@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,16 +76,19 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Manages the process of capturing the source by input sources, such as a microphone or a camera.  
+ <a href="protocol_capture_source-p.html#details">More...</a></p>
+
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2source_8h_source.html">source.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for &lt;CaptureSource&gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="protocol_capture_source-p__inherit__graph.png" border="0" usemap="#a_3_capture_source_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_3_capture_source_4_inherit__map" id="a_3_capture_source_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="71,79,195,105"/>
-<area shape="rect" href="interface_m_c_audio_source.html" title="The AudioSource class." alt="" coords="5,153,122,178"/>
+<area shape="rect" title="Manages the process of capturing the source by input sources, such as a microphone or a camera." alt="" coords="71,79,195,105"/>
+<area shape="rect" href="interface_m_c_audio_source.html" title="Manages the audio capture functionality." alt="" coords="5,153,122,178"/>
 <area shape="poly" title=" " alt="" coords="113,117,77,154,73,150,109,114"/>
-<area shape="rect" href="interface_m_c_video_source.html" title="The VideoSource class." alt="" coords="145,153,262,178"/>
+<area shape="rect" href="interface_m_c_video_source.html" title="Responsible for managing video sources." alt="" coords="145,153,262,178"/>
 <area shape="poly" title=" " alt="" coords="157,114,193,150,190,154,153,117"/>
 <area shape="rect" title=" " alt="" coords="57,5,209,31"/>
 <area shape="poly" title=" " alt="" coords="136,46,136,79,130,79,130,46"/>
@@ -96,7 +99,7 @@ Collaboration diagram for &lt;CaptureSource&gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="protocol_capture_source-p__coll__graph.png" border="0" usemap="#a_3_capture_source_4_coll__map" alt="Collaboration graph"/></div>
 <map name="a_3_capture_source_4_coll__map" id="a_3_capture_source_4_coll__map">
-<area shape="rect" title=" " alt="" coords="19,79,143,105"/>
+<area shape="rect" title="Manages the process of capturing the source by input sources, such as a microphone or a camera." alt="" coords="19,79,143,105"/>
 <area shape="rect" title=" " alt="" coords="5,5,157,31"/>
 <area shape="poly" title=" " alt="" coords="84,46,84,79,78,79,78,46"/>
 </map>
@@ -105,16 +108,16 @@ Collaboration diagram for &lt;CaptureSource&gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:abc18d838383389401191c9cbc3145d9f"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interface_m_c_track.html">MCTrack</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_capture_source-p.html#abc18d838383389401191c9cbc3145d9f">startCapture</a></td></tr>
-<tr class="memdesc:abc18d838383389401191c9cbc3145d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a capture from this source, this will init and start the capture device and create the corresponding track.  <br /></td></tr>
 <tr class="separator:abc18d838383389401191c9cbc3145d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a0ed6c182aecbc5e0a5840d69e5fa27"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_capture_source-p.html#a6a0ed6c182aecbc5e0a5840d69e5fa27">stopCapture</a></td></tr>
-<tr class="memdesc:a6a0ed6c182aecbc5e0a5840d69e5fa27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop a capture adn release the track and the underlying devices.  <br /></td></tr>
+<tr class="memdesc:a6a0ed6c182aecbc5e0a5840d69e5fa27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops a capture and releases the track and the underlying devices.  <br /></td></tr>
 <tr class="separator:a6a0ed6c182aecbc5e0a5840d69e5fa27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5950e516e75fa83486f9d431ea7533b3"><td class="memItemLeft" align="right" valign="top">(bool)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_capture_source-p.html#a5950e516e75fa83486f9d431ea7533b3">isCapturing</a></td></tr>
-<tr class="memdesc:a5950e516e75fa83486f9d431ea7533b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell is the source is currently capturing.  <br /></td></tr>
 <tr class="separator:a5950e516e75fa83486f9d431ea7533b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Method Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Manages the process of capturing the source by input sources, such as a microphone or a camera. </p>
+</div><h2 class="groupheader">Method Documentation</h2>
 <a id="a5950e516e75fa83486f9d431ea7533b3" name="a5950e516e75fa83486f9d431ea7533b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5950e516e75fa83486f9d431ea7533b3">&#9670;&#160;</a></span>isCapturing</h2>
 
@@ -129,9 +132,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Tell is the source is currently capturing. </p>
-<dl class="section return"><dt>Returns</dt><dd>true is the source is capturing, false otherwise. </dd></dl>
+<p>Checks the current state of the capture process.</p><ul>
+<li>Returns: A boolean value indicating whether the source is currently capturing (true) or not (false). </li>
+</ul>
 
 <p>Reimplemented in <a class="el" href="interface_m_c_audio_source.html#a362e772f0a54456fc969801f41995cee">MCAudioSource</a>.</p>
 
@@ -151,9 +154,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Start a capture from this source, this will init and start the capture device and create the corresponding track. </p>
-<dl class="section return"><dt>Returns</dt><dd>The track corresponding to this source. </dd></dl>
+<p>Initiates and starts the capture device and creates the corresponding track. You should not call start capture twice in a row.</p><ul>
+<li>Returns: The track corresponding to this source. </li>
+</ul>
 
 <p>Reimplemented in <a class="el" href="interface_m_c_audio_source.html#ad8f05d42cf43f2e9b8f450bd0e32f37b">MCAudioSource</a>.</p>
 
@@ -174,8 +177,7 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Stop a capture adn release the track and the underlying devices. </p>
-<dl class="section return"><dt>Returns</dt><dd>The track corresponding to this source. </dd></dl>
+<p>Stops a capture and releases the track and the underlying devices. </p>
 
 <p>Reimplemented in <a class="el" href="interface_m_c_audio_source.html#ae5aedc601e7983c093d2fc5c0d62a8b2">MCAudioSource</a>.</p>
 

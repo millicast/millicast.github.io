@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,14 +76,17 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Responsible for managing playback devices.  
+ <a href="protocol_playback_source-p.html#details">More...</a></p>
+
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2source_8h_source.html">source.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for &lt;PlaybackSource&gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="protocol_playback_source-p__inherit__graph.png" border="0" usemap="#a_3_playback_source_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_3_playback_source_4_inherit__map" id="a_3_playback_source_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,79,138,105"/>
-<area shape="rect" href="interface_m_c_audio_playback.html" title="The AudioPlayback class." alt="" coords="7,153,136,178"/>
+<area shape="rect" title="Responsible for managing playback devices." alt="" coords="5,79,138,105"/>
+<area shape="rect" href="interface_m_c_audio_playback.html" title=" " alt="" coords="7,153,136,178"/>
 <area shape="poly" title=" " alt="" coords="74,120,74,152,69,152,69,120"/>
 <area shape="rect" title=" " alt="" coords="24,5,119,31"/>
 <area shape="poly" title=" " alt="" coords="74,46,74,79,69,79,69,46"/>
@@ -94,7 +97,7 @@ Collaboration diagram for &lt;PlaybackSource&gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="protocol_playback_source-p__coll__graph.png" border="0" usemap="#a_3_playback_source_4_coll__map" alt="Collaboration graph"/></div>
 <map name="a_3_playback_source_4_coll__map" id="a_3_playback_source_4_coll__map">
-<area shape="rect" title=" " alt="" coords="5,79,138,105"/>
+<area shape="rect" title="Responsible for managing playback devices." alt="" coords="5,79,138,105"/>
 <area shape="rect" title=" " alt="" coords="24,5,119,31"/>
 <area shape="poly" title=" " alt="" coords="74,46,74,79,69,79,69,46"/>
 </map>
@@ -103,12 +106,14 @@ Collaboration diagram for &lt;PlaybackSource&gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a841362d75cd0264d81bf443f1a05f3a0"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_playback_source-p.html#a841362d75cd0264d81bf443f1a05f3a0">initPlayback</a></td></tr>
-<tr class="memdesc:a841362d75cd0264d81bf443f1a05f3a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init the playback device.  <br /></td></tr>
+<tr class="memdesc:a841362d75cd0264d81bf443f1a05f3a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the playback device.  <br /></td></tr>
 <tr class="separator:a841362d75cd0264d81bf443f1a05f3a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a370d9a1a64a302294d2367c56268ec31"><td class="memItemLeft" align="right" valign="top">(bool)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_playback_source-p.html#a370d9a1a64a302294d2367c56268ec31">isPlaying</a></td></tr>
 <tr class="separator:a370d9a1a64a302294d2367c56268ec31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Method Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Responsible for managing playback devices. </p>
+</div><h2 class="groupheader">Method Documentation</h2>
 <a id="a841362d75cd0264d81bf443f1a05f3a0" name="a841362d75cd0264d81bf443f1a05f3a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a841362d75cd0264d81bf443f1a05f3a0">&#9670;&#160;</a></span>initPlayback</h2>
 
@@ -124,7 +129,7 @@ Instance Methods</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Init the playback device. </p>
+<p>Initializes the playback device. </p>
 
 <p>Reimplemented in <a class="el" href="interface_m_c_audio_playback.html#ab4c4ece4729c974caffbb34d87e6b9d8">MCAudioPlayback</a>.</p>
 
@@ -144,7 +149,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>true if something is played on the device, false otherwise </dd></dl>
+<p>Checks whether the playback device is currently playing media (true) or not (false).</p><ul>
+<li>Returns: True if playing. False otherwise. </li>
+</ul>
 
 <p>Reimplemented in <a class="el" href="interface_m_c_audio_playback.html#a2defa47fd88b2568855420cd2f3b2d12">MCAudioPlayback</a>.</p>
 

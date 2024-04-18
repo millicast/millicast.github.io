@@ -1,5 +1,5 @@
 <map id="MCVideoCapabilities" name="MCVideoCapabilities">
-<area shape="rect" id="Node000001" title="The VideoCapabilities struct." alt="" coords="5,79,149,105"/>
+<area shape="rect" id="Node000001" title="This VideoCapabilities class represents the video capabilities of a video track." alt="" coords="5,79,149,105"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="38,5,116,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,46,80,79,74,79,74,46"/>
 </map>

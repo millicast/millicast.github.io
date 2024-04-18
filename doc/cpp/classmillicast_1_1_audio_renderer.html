@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -80,7 +80,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class inherits this if you want to render audio in a specific way in your applicati...">AudioRenderer</a> class inherits this if you want to render audio in a specific way in your application.  
+<p>The <a class="el" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class is responsible for rendering audio in a specific way in your application.">AudioRenderer</a> class is responsible for rendering audio in a specific way in your application.  
  <a href="classmillicast_1_1_audio_renderer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="api_2millicast-sdk_2renderer_8h_source.html">renderer.h</a>&gt;</code></p>
@@ -89,8 +89,8 @@ Inheritance diagram for millicast::AudioRenderer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmillicast_1_1_audio_renderer__inherit__graph.png" border="0" usemap="#amillicast_1_1_audio_renderer_inherit__map" alt="Inheritance graph"/></div>
 <map name="amillicast_1_1_audio_renderer_inherit__map" id="amillicast_1_1_audio_renderer_inherit__map">
-<area shape="rect" title="The AudioRenderer class inherits this if you want to render audio in a specific way in your applicati..." alt="" coords="5,5,169,31"/>
-<area shape="rect" href="class_private_audio_renderer.html" title=" " alt="" coords="13,79,161,105"/>
+<area shape="rect" title="The AudioRenderer class is responsible for rendering audio in a specific way in your application." alt="" coords="5,5,169,31"/>
+<area shape="rect" href="class_private_audio_renderer.html" title="The PrivateAudioRenderer class is responsible for handling and rendering audio data in a private mann..." alt="" coords="13,79,161,105"/>
 <area shape="poly" title=" " alt="" coords="90,46,90,79,84,79,84,46"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -102,12 +102,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbb914ad57c01d16ec94d4877a52d8b0"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_audio_renderer.html#adbb914ad57c01d16ec94d4877a52d8b0">~AudioRenderer</a> ()=default</td></tr>
 <tr class="separator:adbb914ad57c01d16ec94d4877a52d8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4775c9948362770f30d155ae4a06dc00"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmillicast_1_1_audio_renderer.html#a4775c9948362770f30d155ae4a06dc00">on_frame</a> (const <a class="el" href="structmillicast_1_1_audio_frame.html">AudioFrame</a> &amp;frame)=0</td></tr>
-<tr class="memdesc:a4775c9948362770f30d155ae4a06dc00"><td class="mdescLeft">&#160;</td><td class="mdescRight">on_frame is called when a new audio frame is available.  <br /></td></tr>
+<tr class="memdesc:a4775c9948362770f30d155ae4a06dc00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a new audio frame becomes available.  <br /></td></tr>
 <tr class="separator:a4775c9948362770f30d155ae4a06dc00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class inherits this if you want to render audio in a specific way in your applicati...">AudioRenderer</a> class inherits this if you want to render audio in a specific way in your application. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>The recommended method to render audio is to use <a class="el" href="classmillicast_1_1_audio_playback.html" title="The AudioPlayback class.">AudioPlayback</a> </dd></dl>
+<div class="textblock"><p>The <a class="el" href="classmillicast_1_1_audio_renderer.html" title="The AudioRenderer class is responsible for rendering audio in a specific way in your application.">AudioRenderer</a> class is responsible for rendering audio in a specific way in your application. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>We recommend using <a class="el" href="classmillicast_1_1_audio_playback.html" title="The AudioPlayback class.">AudioPlayback</a> for rendering audio. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classmillicast_1_1_audio_playback.html" title="The AudioPlayback class.">AudioPlayback</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a078696660516cb00b0437a1bdd61fcd1" name="a078696660516cb00b0437a1bdd61fcd1"></a>
@@ -185,7 +185,7 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>on_frame is called when a new audio frame is available. </p>
+<p>Called when a new audio frame becomes available. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">frame</td><td>The audio frame. </td></tr>

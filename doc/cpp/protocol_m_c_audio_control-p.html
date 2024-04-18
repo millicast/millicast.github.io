@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,7 +76,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The AudioControl class.  
+<p>Manages audio settings.  
  <a href="protocol_m_c_audio_control-p.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2source_8h_source.html">source.h</a>&gt;</code></p>
@@ -85,10 +85,10 @@ Inheritance diagram for &lt;MCAudioControl&gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="protocol_m_c_audio_control-p__inherit__graph.png" border="0" usemap="#a_3_m_c_audio_control_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_3_m_c_audio_control_4_inherit__map" id="a_3_m_c_audio_control_4_inherit__map">
-<area shape="rect" title="The AudioControl class." alt="" coords="77,79,210,105"/>
-<area shape="rect" href="interface_m_c_audio_playback.html" title="The AudioPlayback class." alt="" coords="5,153,135,178"/>
+<area shape="rect" title="Manages audio settings." alt="" coords="77,79,210,105"/>
+<area shape="rect" href="interface_m_c_audio_playback.html" title=" " alt="" coords="5,153,135,178"/>
 <area shape="poly" title=" " alt="" coords="122,117,84,154,81,150,118,114"/>
-<area shape="rect" href="interface_m_c_audio_source.html" title="The AudioSource class." alt="" coords="159,153,275,178"/>
+<area shape="rect" href="interface_m_c_audio_source.html" title="Manages the audio capture functionality." alt="" coords="159,153,275,178"/>
 <area shape="poly" title=" " alt="" coords="168,114,206,150,202,154,165,117"/>
 <area shape="rect" title=" " alt="" coords="45,5,242,31"/>
 <area shape="poly" title=" " alt="" coords="146,46,146,79,141,79,141,46"/>
@@ -99,7 +99,7 @@ Collaboration diagram for &lt;MCAudioControl&gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="protocol_m_c_audio_control-p__coll__graph.png" border="0" usemap="#a_3_m_c_audio_control_4_coll__map" alt="Collaboration graph"/></div>
 <map name="a_3_m_c_audio_control_4_coll__map" id="a_3_m_c_audio_control_4_coll__map">
-<area shape="rect" title="The AudioControl class." alt="" coords="37,79,170,105"/>
+<area shape="rect" title="Manages audio settings." alt="" coords="37,79,170,105"/>
 <area shape="rect" title=" " alt="" coords="5,5,202,31"/>
 <area shape="poly" title=" " alt="" coords="106,46,106,79,101,79,101,46"/>
 </map>
@@ -108,23 +108,18 @@ Collaboration diagram for &lt;MCAudioControl&gt;:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:a6d6eb97fb2601561e89b05a5f655bd8a"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_audio_control-p.html#a6d6eb97fb2601561e89b05a5f655bd8a">setVolume:</a></td></tr>
-<tr class="memdesc:a6d6eb97fb2601561e89b05a5f655bd8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the microphone / speaker volume.  <br /></td></tr>
 <tr class="separator:a6d6eb97fb2601561e89b05a5f655bd8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51b10fadf2e4519e88e603eb4a48d507"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_audio_control-p.html#a51b10fadf2e4519e88e603eb4a48d507">setNumChannel:</a></td></tr>
-<tr class="memdesc:a51b10fadf2e4519e88e603eb4a48d507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the number of channels to use.  <br /></td></tr>
 <tr class="separator:a51b10fadf2e4519e88e603eb4a48d507"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10b84fc2eb4ff28da69ff94092d08ab8"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_audio_control-p.html#a10b84fc2eb4ff28da69ff94092d08ab8">mute:</a></td></tr>
-<tr class="memdesc:a10b84fc2eb4ff28da69ff94092d08ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mute the microphone or the speakers.  <br /></td></tr>
 <tr class="separator:a10b84fc2eb4ff28da69ff94092d08ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ba209bde5ae7e5e948306c93faad226"><td class="memItemLeft" align="right" valign="top">(uint32_t)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_audio_control-p.html#a8ba209bde5ae7e5e948306c93faad226">getVolume</a></td></tr>
-<tr class="memdesc:a8ba209bde5ae7e5e948306c93faad226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current volume.  <br /></td></tr>
 <tr class="separator:a8ba209bde5ae7e5e948306c93faad226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a560989b50d1e58123972bcf633fef"><td class="memItemLeft" align="right" valign="top">(bool)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="protocol_m_c_audio_control-p.html#a54a560989b50d1e58123972bcf633fef">isMuted</a></td></tr>
-<tr class="memdesc:a54a560989b50d1e58123972bcf633fef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tell whether the mic / speaker is muted or not.  <br /></td></tr>
 <tr class="separator:a54a560989b50d1e58123972bcf633fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The AudioControl class. </p>
+<div class="textblock"><p>Manages audio settings. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="a8ba209bde5ae7e5e948306c93faad226" name="a8ba209bde5ae7e5e948306c93faad226"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ba209bde5ae7e5e948306c93faad226">&#9670;&#160;</a></span>getVolume</h2>
@@ -140,9 +135,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Get the current volume. </p>
-<dl class="section return"><dt>Returns</dt><dd>The current volume. </dd></dl>
+<p>Gets the current volume.</p><ul>
+<li>Returns: The current volume level. </li>
+</ul>
 
 </div>
 </div>
@@ -160,9 +155,9 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Tell whether the mic / speaker is muted or not. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if muted, false otherwise. </dd></dl>
+<p>Checks whether the microphone or speaker is muted or not.</p><ul>
+<li>Returns: A boolean indicating whether the audio source is muted (true) or not (false). </li>
+</ul>
 
 </div>
 </div>
@@ -181,14 +176,12 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Mute the microphone or the speakers. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">m</td><td>true if you want to mute, false if you want to unmute </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Mutes the microphone or the speakers.</p><ul>
+<li>Parameters:<ul>
+<li>m: A boolean indicating whether the audio source should be muted (true) or not (false). </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -207,14 +200,12 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Set the number of channels to use. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">n</td><td>The number of channels. Possible values are 1 or 2. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Sets the number of channels to use.</p><ul>
+<li>Parameters:<ul>
+<li>channel: The number of channels to use. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -233,14 +224,12 @@ Instance Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Set the microphone / speaker volume. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">v</td><td>The volume as an integer. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Adjusts the microphone or speaker volume.</p><ul>
+<li>Parameters:<ul>
+<li>v: The volume level between 0 (mute) and 1 (full volume). </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>

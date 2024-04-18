@@ -1,8 +1,8 @@
 <map id="MCVideoFrameImpl" name="MCVideoFrameImpl">
-<area shape="rect" id="Node000001" title=" " alt="" coords="104,169,241,195"/>
+<area shape="rect" id="Node000001" title="The MCVideoFrameImpl interface provides capabilities for handling and processing video frame data." alt="" coords="104,169,241,195"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,80,84,106"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,113,156,166,153,171,73,117"/>
-<area shape="rect" id="Node000003" href="$protocol_m_c_video_frame-p.html" title="The VideoFrame interface used to described a VideoFrame." alt="" coords="108,80,237,106"/>
+<area shape="rect" id="Node000003" href="$protocol_m_c_video_frame-p.html" title=" " alt="" coords="108,80,237,106"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,122,175,169,170,169,170,122"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="125,5,220,31"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="175,46,175,80,170,80,170,46"/>

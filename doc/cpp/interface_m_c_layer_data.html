@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,16 +76,13 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The layer data is used to select a simulcast/svc layer. by sending a command to the server using the select or project method.  
- <a href="interface_m_c_layer_data.html#details">More...</a></p>
-
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2viewer_8h_source.html">viewer.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for MCLayerData:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_layer_data__inherit__graph.png" border="0" usemap="#a_m_c_layer_data_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_layer_data_inherit__map" id="a_m_c_layer_data_inherit__map">
-<area shape="rect" title="The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ..." alt="" coords="5,79,108,105"/>
+<area shape="rect" title=" " alt="" coords="5,79,108,105"/>
 <area shape="rect" title=" " alt="" coords="17,5,96,31"/>
 <area shape="poly" title=" " alt="" coords="59,46,59,79,54,79,54,46"/>
 </map>
@@ -95,7 +92,7 @@ Collaboration diagram for MCLayerData:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_layer_data__coll__graph.png" border="0" usemap="#a_m_c_layer_data_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_layer_data_coll__map" id="a_m_c_layer_data_coll__map">
-<area shape="rect" title="The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ..." alt="" coords="5,169,108,195"/>
+<area shape="rect" title=" " alt="" coords="5,169,108,195"/>
 <area shape="rect" title=" " alt="" coords="12,5,90,31"/>
 <area shape="poly" title=" " alt="" coords="55,47,59,169,53,169,49,47"/>
 <area shape="rect" href="interface_m_c_layer_resolution.html" title=" " alt="" coords="72,80,209,106"/>
@@ -110,19 +107,19 @@ Properties</h2></td></tr>
 <tr class="memdesc:a8d16fdf7d167d4f1ab5f5e2fdd2a6b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">The encoding id of the simulcast/SVC layer.  <br /></td></tr>
 <tr class="separator:a8d16fdf7d167d4f1ab5f5e2fdd2a6b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6d4db1c31d5cca7c09fbf596e797c49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_layer_data.html#ab6d4db1c31d5cca7c09fbf596e797c49">bitrate</a></td></tr>
-<tr class="memdesc:ab6d4db1c31d5cca7c09fbf596e797c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bitrate of the layer.  <br /></td></tr>
+<tr class="memdesc:ab6d4db1c31d5cca7c09fbf596e797c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bitrate of the SVC layer.  <br /></td></tr>
 <tr class="separator:ab6d4db1c31d5cca7c09fbf596e797c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0edc8dc77f8d5f7938879a363f4c6bf2"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_layer_data.html#a0edc8dc77f8d5f7938879a363f4c6bf2">spatialLayerId</a></td></tr>
-<tr class="memdesc:a0edc8dc77f8d5f7938879a363f4c6bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The spatial layer id.  <br /></td></tr>
+<tr class="memdesc:a0edc8dc77f8d5f7938879a363f4c6bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The spatial layer id of a SVC layer.  <br /></td></tr>
 <tr class="separator:a0edc8dc77f8d5f7938879a363f4c6bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42b394291823408c0115b064758081be"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_layer_data.html#a42b394291823408c0115b064758081be">temporalLayerId</a></td></tr>
-<tr class="memdesc:a42b394291823408c0115b064758081be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The temporal layer id.  <br /></td></tr>
+<tr class="memdesc:a42b394291823408c0115b064758081be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The temporal layer id of the SVC layer.  <br /></td></tr>
 <tr class="separator:a42b394291823408c0115b064758081be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad230b7ce27eccc15647a441f2f5d09f3"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_layer_data.html#ad230b7ce27eccc15647a441f2f5d09f3">maxTemporalLayerId</a></td></tr>
-<tr class="memdesc:ad230b7ce27eccc15647a441f2f5d09f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum temporal layer to be used. Set by app.  <br /></td></tr>
+<tr class="memdesc:ad230b7ce27eccc15647a441f2f5d09f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum temporal layer to be used. Set by app.  <br /></td></tr>
 <tr class="separator:ad230b7ce27eccc15647a441f2f5d09f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc719caa2c2183df1e15ff1840a91902"><td class="memItemLeft" align="right" valign="top">NSNumber *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_layer_data.html#adc719caa2c2183df1e15ff1840a91902">maxSpatialLayerId</a></td></tr>
-<tr class="memdesc:adc719caa2c2183df1e15ff1840a91902"><td class="mdescLeft">&#160;</td><td class="mdescRight">the maximum spatial layer to be used. Set by app.  <br /></td></tr>
+<tr class="memdesc:adc719caa2c2183df1e15ff1840a91902"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum spatial layer to be used. Set by app.  <br /></td></tr>
 <tr class="separator:adc719caa2c2183df1e15ff1840a91902"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9984623a8ab0aa3f74afdc20fbe8abf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_c_layer_resolution.html">MCLayerResolution</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_layer_data.html#a9984623a8ab0aa3f74afdc20fbe8abf1">layerResolution</a></td></tr>
 <tr class="memdesc:a9984623a8ab0aa3f74afdc20fbe8abf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The resolution of frames in the layer.  <br /></td></tr>
@@ -151,7 +148,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The bitrate of the layer. </p>
+<p>The bitrate of the SVC layer. </p>
 
 </div>
 </div>
@@ -223,7 +220,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the maximum spatial layer to be used. Set by app. </p>
+<p>The maximum spatial layer to be used. Set by app. </p>
 
 </div>
 </div>
@@ -247,7 +244,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>the maximum temporal layer to be used. Set by app. </p>
+<p>The maximum temporal layer to be used. Set by app. </p>
 
 </div>
 </div>
@@ -271,7 +268,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The spatial layer id. </p>
+<p>The spatial layer id of a SVC layer. </p>
 
 </div>
 </div>
@@ -295,7 +292,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The temporal layer id. </p>
+<p>The temporal layer id of the SVC layer. </p>
 
 </div>
 </div>

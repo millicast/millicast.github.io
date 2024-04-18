@@ -1,5 +1,0 @@
-<map id="MCLayerData" name="MCLayerData">
-<area shape="rect" id="node1" title="The layer data is used to select a simulcast/svc layer. by sending a command to the server using the ..." alt="" coords="5,169,108,195"/>
-<area shape="rect" id="node2" title=" " alt="" coords="12,5,90,31"/>
-<area shape="rect" id="node3" href="$interface_m_c_layer_resolution.html" title=" " alt="" coords="72,80,209,106"/>
-</map>

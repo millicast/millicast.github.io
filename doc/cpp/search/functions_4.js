@@ -9,5 +9,7 @@ var searchData=
   ['disable_5frtc_5flogs_6',['disable_rtc_logs',['../classmillicast_1_1_logger.html#ac86daafa5d4e382ae20e1e33e6b62880',1,'millicast::Logger']]],
   ['disable_5fwebsocket_5flogs_7',['disable_websocket_logs',['../classmillicast_1_1_logger.html#a3ee2135ec208cfdd2a469e5fa798f815',1,'millicast::Logger']]],
   ['disablewebsocketlogs_3a_8',['disableWebsocketLogs:',['../interface_m_c_logger.html#aaf8a98e9c568edc744847ee4ace63010',1,'MCLogger']]],
-  ['disconnect_9',['disconnect',['../classmillicast_1_1compat_1_1_client.html#ac3a281efd7be2f5b623f1cb56b2e4dde',1,'millicast::compat::Client::disconnect()'],['../classmillicast_1_1promises_1_1_client.html#a07accb7642021b08541c0083af9bfc0d',1,'millicast::promises::Client::disconnect()'],['../protocol_m_c_client-p.html#a4db7b35579349bbcc460e7f1889a0554',1,'MCClient-p::disconnect()']]]
+  ['disconnect_9',['disconnect',['../classmillicast_1_1compat_1_1_client.html#ac3a281efd7be2f5b623f1cb56b2e4dde',1,'millicast::compat::Client::disconnect()'],['../classmillicast_1_1promises_1_1_client.html#a07accb7642021b08541c0083af9bfc0d',1,'millicast::promises::Client::disconnect()']]],
+  ['disconnectwithcompletionhandler_3a_10',['disconnectWithCompletionHandler:',['../protocol_m_c_client-p.html#ad80491ba8f7840518a50c37160d4e3db',1,'MCClient-p']]],
+  ['done_11',['done',['../classmillicast_1_1_promise.html#ada30618e691291950f85681d7f2b4d1f',1,'millicast::Promise']]]
 ];

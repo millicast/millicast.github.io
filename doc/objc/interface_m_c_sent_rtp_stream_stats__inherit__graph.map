@@ -1,8 +1,0 @@
-<map id="MCSentRtpStreamStats" name="MCSentRtpStreamStats">
-<area shape="rect" id="node1" title=" " alt="" coords="132,226,295,252"/>
-<area shape="rect" id="node5" href="$interface_m_c_outbound_rtp_stream_stats.html" title=" " alt="" coords="5,308,198,333"/>
-<area shape="rect" id="node6" href="$interface_m_c_remote_outbound_rtp_stream_stats.html" title=" " alt="" coords="222,300,429,341"/>
-<area shape="rect" id="node2" href="$interface_m_c_rtp_stream_stats.html" title=" " alt="" coords="145,153,282,178"/>
-<area shape="rect" id="node3" href="$interface_m_c_stats.html" title=" " alt="" coords="177,79,250,105"/>
-<area shape="rect" id="node4" title=" " alt="" coords="174,5,253,31"/>
-</map>

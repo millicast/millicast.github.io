@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,7 +76,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The Media class is used to manage media sources.  
+<p>Class used for managing media sources.  
  <a href="interface_m_c_media.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2media_8h_source.html">media.h</a>&gt;</code></p>
@@ -85,7 +85,7 @@ Inheritance diagram for MCMedia:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_media__inherit__graph.png" border="0" usemap="#a_m_c_media_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_media_inherit__map" id="a_m_c_media_inherit__map">
-<area shape="rect" title="The Media class is used to manage media sources." alt="" coords="6,79,83,105"/>
+<area shape="rect" title="Class used for managing media sources." alt="" coords="6,79,83,105"/>
 <area shape="rect" title=" " alt="" coords="5,5,84,31"/>
 <area shape="poly" title=" " alt="" coords="47,46,47,79,42,79,42,46"/>
 </map>
@@ -95,7 +95,7 @@ Collaboration diagram for MCMedia:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_media__coll__graph.png" border="0" usemap="#a_m_c_media_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_media_coll__map" id="a_m_c_media_coll__map">
-<area shape="rect" title="The Media class is used to manage media sources." alt="" coords="6,79,83,105"/>
+<area shape="rect" title="Class used for managing media sources." alt="" coords="6,79,83,105"/>
 <area shape="rect" title=" " alt="" coords="5,5,84,31"/>
 <area shape="poly" title=" " alt="" coords="47,46,47,79,42,79,42,46"/>
 </map>
@@ -104,26 +104,20 @@ Collaboration diagram for MCMedia:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Class Methods</h2></td></tr>
 <tr class="memitem:a4fe8bb0ab6ff1947285e270e55d48572"><td class="memItemLeft" align="right" valign="top">(NSArray&lt; <a class="el" href="interface_m_c_video_source.html">MCVideoSource</a> * &gt; *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_media.html#a4fe8bb0ab6ff1947285e270e55d48572">getVideoSources</a></td></tr>
-<tr class="memdesc:a4fe8bb0ab6ff1947285e270e55d48572"><td class="mdescLeft">&#160;</td><td class="mdescRight">getVideoSources get all the available video source (device, desktop, ...)  <br /></td></tr>
 <tr class="separator:a4fe8bb0ab6ff1947285e270e55d48572"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac10ecd46c58eba023aa26279c7e48cc3"><td class="memItemLeft" align="right" valign="top">(NSArray&lt; <a class="el" href="interface_m_c_audio_source.html">MCAudioSource</a> * &gt; *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_media.html#ac10ecd46c58eba023aa26279c7e48cc3">getAudioSources</a></td></tr>
-<tr class="memdesc:ac10ecd46c58eba023aa26279c7e48cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">getAudioSources get all the available audio source (device, ndi, ...)  <br /></td></tr>
 <tr class="separator:ac10ecd46c58eba023aa26279c7e48cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c0b09930a9288d8d1c929e0a871b390"><td class="memItemLeft" align="right" valign="top">(NSArray&lt; <a class="el" href="interface_m_c_audio_playback.html">MCAudioPlayback</a> * &gt; *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_media.html#a1c0b09930a9288d8d1c929e0a871b390">getPlaybackDevices</a></td></tr>
-<tr class="memdesc:a1c0b09930a9288d8d1c929e0a871b390"><td class="mdescLeft">&#160;</td><td class="mdescRight">getPlaybackDevices, get all the available audio playback (device, ndi, ...)  <br /></td></tr>
 <tr class="separator:a1c0b09930a9288d8d1c929e0a871b390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8508d464f77a6ff706707ce53ce9a76"><td class="memItemLeft" align="right" valign="top">(NSArray&lt; NSString * &gt; *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_media.html#ad8508d464f77a6ff706707ce53ce9a76">getSupportedVideoCodecs</a></td></tr>
-<tr class="memdesc:ad8508d464f77a6ff706707ce53ce9a76"><td class="mdescLeft">&#160;</td><td class="mdescRight">getSupportedVideoCodecs returns the list of the supported video codecs.  <br /></td></tr>
 <tr class="separator:ad8508d464f77a6ff706707ce53ce9a76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a433140f93adf5148c1d9168e10e8884f"><td class="memItemLeft" align="right" valign="top">(NSArray&lt; NSString * &gt; *)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_media.html#a433140f93adf5148c1d9168e10e8884f">getSupportedAudioCodecs</a></td></tr>
-<tr class="memdesc:a433140f93adf5148c1d9168e10e8884f"><td class="mdescLeft">&#160;</td><td class="mdescRight">getSupportedAudioCodecs returns the list of the supported audio codecs.  <br /></td></tr>
 <tr class="separator:a433140f93adf5148c1d9168e10e8884f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac8f46bcfc38c1aa2999a156ec22d37d"><td class="memItemLeft" align="right" valign="top">(bool)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_media.html#aac8f46bcfc38c1aa2999a156ec22d37d">isNdiAvailable</a></td></tr>
-<tr class="memdesc:aac8f46bcfc38c1aa2999a156ec22d37d"><td class="mdescLeft">&#160;</td><td class="mdescRight">isNdiAvailable, check if ndi support is enabled in the sdk  <br /></td></tr>
 <tr class="separator:aac8f46bcfc38c1aa2999a156ec22d37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The Media class is used to manage media sources. </p>
+<div class="textblock"><p>Class used for managing media sources. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="ac10ecd46c58eba023aa26279c7e48cc3" name="ac10ecd46c58eba023aa26279c7e48cc3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac10ecd46c58eba023aa26279c7e48cc3">&#9670;&#160;</a></span>getAudioSources</h2>
@@ -139,10 +133,9 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>getAudioSources get all the available audio source (device, ndi, ...) </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="interface_m_c_audio_source.html" title="The AudioSource class.">MCAudioSource</a> </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>An array of all found audio source </dd></dl>
+<p>Query all available audio sources.</p><ul>
+<li>Returns: An array of all available <code><a class="el" href="interface_m_c_audio_source.html" title="Manages the audio capture functionality.">MCAudioSource</a></code> </li>
+</ul>
 
 </div>
 </div>
@@ -160,10 +153,9 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>getPlaybackDevices, get all the available audio playback (device, ndi, ...) </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="interface_m_c_audio_playback.html" title="The AudioPlayback class.">MCAudioPlayback</a> </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>An array of all found audio playback devices </dd></dl>
+<p>Query available audio playback devices and plugins.</p><ul>
+<li>Returns: An array of all available <code><a class="el" href="interface_m_c_audio_playback.html">MCAudioPlayback</a></code> devices. </li>
+</ul>
 
 </div>
 </div>
@@ -181,9 +173,9 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>getSupportedAudioCodecs returns the list of the supported audio codecs. </p>
-<dl class="section return"><dt>Returns</dt><dd>The list of the supported audio codecs. </dd></dl>
+<p>Query a list of all the supported audio codecs</p><ul>
+<li>Returns: An array of all available audio codecs. </li>
+</ul>
 
 </div>
 </div>
@@ -201,9 +193,9 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>getSupportedVideoCodecs returns the list of the supported video codecs. </p>
-<dl class="section return"><dt>Returns</dt><dd>The list of the supported video codecs. </dd></dl>
+<p>Query a list of the supported video codecs.</p><ul>
+<li>Returns: An array of all available video codecs on the platforms. </li>
+</ul>
 
 </div>
 </div>
@@ -221,10 +213,9 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>getVideoSources get all the available video source (device, desktop, ...) </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="interface_m_c_video_source.html" title="The VideoSource class.">MCVideoSource</a> </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>An array of all found video source </dd></dl>
+<p>Query all available video sources.</p><ul>
+<li>Returns: An array of all available <code><a class="el" href="interface_m_c_video_source.html" title="Responsible for managing video sources.">MCVideoSource</a></code> </li>
+</ul>
 
 </div>
 </div>
@@ -242,9 +233,9 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>isNdiAvailable, check if ndi support is enabled in the sdk </p>
-<dl class="section return"><dt>Returns</dt><dd>true if ndi is available false otherwise. </dd></dl>
+<p>Checks whether NDI support is enabled in the SDK.</p><ul>
+<li>Returns: Whether NDI is available (true) or not (false). </li>
+</ul>
 
 </div>
 </div>

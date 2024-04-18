@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -81,18 +81,24 @@ $(function() {
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2source_8h.html">MillicastSDK/source.h</a>&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#import &lt;<a class="code" href="objc_2_millicast_s_d_k_2track_8h.html">MillicastSDK/track.h</a>&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="interface_m_c_app_share_source.html">   10</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_app_share_source.html">MCAppShareSource</a>: NSObject</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="interface_m_c_app_share_source.html#a20739cb0b81a46821b374cd6cff11e69">   11</a></span><span class="keyword">@property</span>(nonatomic, readonly) NSString * _Nonnull <a class="code hl_property" href="interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221">name</a>;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>-(nonnull instancetype) initWithRecorder:(RPScreenRecorder  * _Nonnull) recorder;</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>-(nonnull instancetype) initWithName: (NSString  * _Nonnull ) <a class="code hl_property" href="interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221">name</a> recorder: (RPScreenRecorder * _Nonnull) recorder;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>-(void) startCaptureWithCompletionHandler: (nonnull void (^)(<a class="code hl_interface" href="interface_m_c_audio_track.html">MCAudioTrack</a> * _Nullable audioTrack, <a class="code hl_interface" href="interface_m_c_video_track.html">MCVideoTrack</a> * _Nullable videoTrack, NSError * _Nullable))completionHandler;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>-(void) stopCaptureWithCompletionHandler: (nonnull void (^)(NSError * _Nullable))completionHandler;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="interface_m_c_app_share_source.html">    7</a></span><a class="code hl_define" href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a> <span class="keyword">@interface </span><a class="code hl_interface" href="interface_m_c_app_share_source.html">MCAppShareSource</a>: NSObject</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="interface_m_c_app_share_source.html#a20739cb0b81a46821b374cd6cff11e69">    8</a></span><span class="keyword">@property</span>(nonatomic, readonly) NSString * _Nonnull <a class="code hl_property" href="interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221">name</a>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>-(nonnull instancetype) initWithRecorder:(RPScreenRecorder  * _Nonnull) recorder;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>-(nonnull instancetype) initWithName: (NSString  * _Nonnull ) <a class="code hl_property" href="interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221">name</a> recorder: (RPScreenRecorder * _Nonnull) recorder;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>-(void) startCaptureWithCompletionHandler: (nonnull void (^)(<a class="code hl_interface" href="interface_m_c_audio_track.html">MCAudioTrack</a> * _Nullable audioTrack, <a class="code hl_interface" href="interface_m_c_video_track.html">MCVideoTrack</a> * _Nullable videoTrack, NSError * _Nullable))completionHandler;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>-(void) stopCaptureWithCompletionHandler: (nonnull void (^)(NSError * _Nullable))completionHandler;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="keyword">@end</span></div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition</b> exports.h:51</div></div>
-<div class="ttc" id="ainterface_m_c_app_share_source_html"><div class="ttname"><a href="interface_m_c_app_share_source.html">MCAppShareSource</a></div><div class="ttdoc">a Millicast App Screen Capture Source. It internally uses ReplayKit to capture the screen of the appl...</div><div class="ttdef"><b>Definition</b> screen_share_source.h:11</div></div>
-<div class="ttc" id="ainterface_m_c_app_share_source_html_aab33bf277b48225980f6c442ad338221"><div class="ttname"><a href="interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221">MCAppShareSource::name</a></div><div class="ttdeci">NSString *_Nonnull name</div><div class="ttdef"><b>Definition</b> screen_share_source.h:11</div></div>
-<div class="ttc" id="ainterface_m_c_audio_track_html"><div class="ttname"><a href="interface_m_c_audio_track.html">MCAudioTrack</a></div><div class="ttdoc">The AudioTrack class.</div><div class="ttdef"><b>Definition</b> track.h:90</div></div>
-<div class="ttc" id="ainterface_m_c_video_track_html"><div class="ttname"><a href="interface_m_c_video_track.html">MCVideoTrack</a></div><div class="ttdoc">The VideoTrack class.</div><div class="ttdef"><b>Definition</b> track.h:63</div></div>
+<div class="ttc" id="ainterface_m_c_app_share_source_html"><div class="ttname"><a href="interface_m_c_app_share_source.html">MCAppShareSource</a></div><div class="ttdoc">Uses Replaykit to capture the screen of the application.</div><div class="ttdef"><b>Definition</b> screen_share_source.h:8</div></div>
+<div class="ttc" id="ainterface_m_c_app_share_source_html_aab33bf277b48225980f6c442ad338221"><div class="ttname"><a href="interface_m_c_app_share_source.html#aab33bf277b48225980f6c442ad338221">MCAppShareSource::name</a></div><div class="ttdeci">NSString *_Nonnull name</div><div class="ttdef"><b>Definition</b> screen_share_source.h:8</div></div>
+<div class="ttc" id="ainterface_m_c_audio_track_html"><div class="ttname"><a href="interface_m_c_audio_track.html">MCAudioTrack</a></div><div class="ttdoc">Manages and plays a single audio resource.</div><div class="ttdef"><b>Definition</b> track.h:51</div></div>
+<div class="ttc" id="ainterface_m_c_video_track_html"><div class="ttname"><a href="interface_m_c_video_track.html">MCVideoTrack</a></div><div class="ttdoc">Responsible for managing video capture session from a video source.</div><div class="ttdef"><b>Definition</b> track.h:33</div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2source_8h_html"><div class="ttname"><a href="objc_2_millicast_s_d_k_2source_8h.html">source.h</a></div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2track_8h_html"><div class="ttname"><a href="objc_2_millicast_s_d_k_2track_8h.html">track.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

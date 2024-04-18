@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_5f_5fattribute_5f_5f_0',['__attribute__',['../interface_m_c_publisher.html#a16b95888b4c14c554dc134a4173beaf1',1,'MCPublisher']]],
-  ['_5f_5fdeprecated_5fmsg_1',['__deprecated_msg',['../objc_2_millicast_s_d_k_2source_8h.html#a440424626559970a071017ae829c719b',1,'source.h']]]
+  ['_5f_5fattribute_5f_5f_0',['__attribute__',['../protocol_m_c_delegate-p.html#a70ca55890de9d6cb67e59843f9d98795',1,'MCDelegate-p::__attribute__()'],['../protocol_m_c_delegate-p.html#a70ca55890de9d6cb67e59843f9d98795',1,'MCDelegate-p::__attribute__()']]]
 ];

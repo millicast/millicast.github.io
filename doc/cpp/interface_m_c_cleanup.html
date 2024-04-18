@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -76,7 +76,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Clean and free the memory of dynamic objects.  
+<p>The Cleanup class is responsible for cleaning the memory of dynamic objects.  
  <a href="interface_m_c_cleanup.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2client_8h_source.html">client.h</a>&gt;</code></p>
@@ -85,7 +85,7 @@ Inheritance diagram for MCCleanup:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_cleanup__inherit__graph.png" border="0" usemap="#a_m_c_cleanup_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_cleanup_inherit__map" id="a_m_c_cleanup_inherit__map">
-<area shape="rect" title="Clean and free the memory of dynamic objects." alt="" coords="5,79,96,105"/>
+<area shape="rect" title="The Cleanup class is responsible for cleaning the memory of dynamic objects." alt="" coords="5,79,96,105"/>
 <area shape="rect" title=" " alt="" coords="11,5,90,31"/>
 <area shape="poly" title=" " alt="" coords="53,46,53,79,48,79,48,46"/>
 </map>
@@ -95,7 +95,7 @@ Collaboration diagram for MCCleanup:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_cleanup__coll__graph.png" border="0" usemap="#a_m_c_cleanup_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_cleanup_coll__map" id="a_m_c_cleanup_coll__map">
-<area shape="rect" title="Clean and free the memory of dynamic objects." alt="" coords="5,79,96,105"/>
+<area shape="rect" title="The Cleanup class is responsible for cleaning the memory of dynamic objects." alt="" coords="5,79,96,105"/>
 <area shape="rect" title=" " alt="" coords="11,5,90,31"/>
 <area shape="poly" title=" " alt="" coords="53,46,53,79,48,79,48,46"/>
 </map>
@@ -104,11 +104,11 @@ Collaboration diagram for MCCleanup:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Class Methods</h2></td></tr>
 <tr class="memitem:aae88e64afb5c780e6d6addec9274b4c5"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_cleanup.html#aae88e64afb5c780e6d6addec9274b4c5">cleanup</a></td></tr>
+<tr class="memdesc:aae88e64afb5c780e6d6addec9274b4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans and frees the memory of dynamic objects. Call this method after all SDK objects have been destroyed. You would likely call this function just before the application exit.  <br /></td></tr>
 <tr class="separator:aae88e64afb5c780e6d6addec9274b4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Clean and free the memory of dynamic objects. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>Call this after all sdk objects have been destroyed. You would likely call this function just before the app exit. </dd></dl>
+<div class="textblock"><p>The Cleanup class is responsible for cleaning the memory of dynamic objects. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="aae88e64afb5c780e6d6addec9274b4c5" name="aae88e64afb5c780e6d6addec9274b4c5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae88e64afb5c780e6d6addec9274b4c5">&#9670;&#160;</a></span>cleanup</h2>
@@ -124,6 +124,8 @@ Class Methods</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Cleans and frees the memory of dynamic objects. Call this method after all SDK objects have been destroyed. You would likely call this function just before the application exit. </p>
 
 </div>
 </div>

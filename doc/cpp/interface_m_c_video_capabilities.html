@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -77,7 +77,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>The VideoCapabilities struct.  
+<p>This VideoCapabilities class represents the video capabilities of a video track.  
  <a href="interface_m_c_video_capabilities.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="objc_2_millicast_s_d_k_2capabilities_8h_source.html">capabilities.h</a>&gt;</code></p>
@@ -86,7 +86,7 @@ Inheritance diagram for MCVideoCapabilities:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_video_capabilities__inherit__graph.png" border="0" usemap="#a_m_c_video_capabilities_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_video_capabilities_inherit__map" id="a_m_c_video_capabilities_inherit__map">
-<area shape="rect" title="The VideoCapabilities struct." alt="" coords="5,79,149,105"/>
+<area shape="rect" title="This VideoCapabilities class represents the video capabilities of a video track." alt="" coords="5,79,149,105"/>
 <area shape="rect" title=" " alt="" coords="38,5,116,31"/>
 <area shape="poly" title=" " alt="" coords="80,46,80,79,74,79,74,46"/>
 </map>
@@ -96,7 +96,7 @@ Collaboration diagram for MCVideoCapabilities:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_video_capabilities__coll__graph.png" border="0" usemap="#a_m_c_video_capabilities_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_video_capabilities_coll__map" id="a_m_c_video_capabilities_coll__map">
-<area shape="rect" title="The VideoCapabilities struct." alt="" coords="5,79,149,105"/>
+<area shape="rect" title="This VideoCapabilities class represents the video capabilities of a video track." alt="" coords="5,79,149,105"/>
 <area shape="rect" title=" " alt="" coords="38,5,116,31"/>
 <area shape="poly" title=" " alt="" coords="80,46,80,79,74,79,74,46"/>
 </map>
@@ -105,21 +105,26 @@ Collaboration diagram for MCVideoCapabilities:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
 <tr class="memitem:aa89f24317cf5e3490d704430be56b860"><td class="memItemLeft" align="right" valign="top">(NSString *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interface_m_c_video_capabilities.html#aa89f24317cf5e3490d704430be56b860">formatAsString</a></td></tr>
+<tr class="memdesc:aa89f24317cf5e3490d704430be56b860"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pixel format as a string.  <br /></td></tr>
 <tr class="separator:aa89f24317cf5e3490d704430be56b860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:aec3d16192b5869c26f238a255c61656b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_capabilities.html#aec3d16192b5869c26f238a255c61656b">width</a></td></tr>
+<tr class="memdesc:aec3d16192b5869c26f238a255c61656b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The width of the captured video frame.  <br /></td></tr>
 <tr class="separator:aec3d16192b5869c26f238a255c61656b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a978e99e230653c67839e214d9a54da97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_capabilities.html#a978e99e230653c67839e214d9a54da97">height</a></td></tr>
+<tr class="memdesc:a978e99e230653c67839e214d9a54da97"><td class="mdescLeft">&#160;</td><td class="mdescRight">The height of the captured video frame.  <br /></td></tr>
 <tr class="separator:a978e99e230653c67839e214d9a54da97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab81df20c5179205f62e7323fa3fe137f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_capabilities.html#ab81df20c5179205f62e7323fa3fe137f">fps</a></td></tr>
+<tr class="memdesc:ab81df20c5179205f62e7323fa3fe137f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The frame rate that defines the number of frames per second that the video track should be capable of delivering or receiving.  <br /></td></tr>
 <tr class="separator:ab81df20c5179205f62e7323fa3fe137f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac526e6f4ff7e6ab8c346db487208d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="objc_2_millicast_s_d_k_2capabilities_8h.html#ac37bb3c55eced5c69ad84759f23e6c90">MCVideoType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_c_video_capabilities.html#afac526e6f4ff7e6ab8c346db487208d9">format</a></td></tr>
+<tr class="memdesc:afac526e6f4ff7e6ab8c346db487208d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pixel format to use for the capture.  <br /></td></tr>
 <tr class="separator:afac526e6f4ff7e6ab8c346db487208d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The VideoCapabilities struct. </p>
+<div class="textblock"><p>This VideoCapabilities class represents the video capabilities of a video track. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="aa89f24317cf5e3490d704430be56b860" name="aa89f24317cf5e3490d704430be56b860"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa89f24317cf5e3490d704430be56b860">&#9670;&#160;</a></span>formatAsString</h2>
@@ -135,7 +140,8 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get the pixel format as a std::string </p>
+
+<p>Gets the pixel format as a string. </p>
 
 </div>
 </div>
@@ -159,7 +165,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The pixel format to use for the capture </p>
+
+<p>The pixel format to use for the capture. </p>
 
 </div>
 </div>
@@ -182,7 +189,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The frame rate at which the capture device shall capture </p>
+
+<p>The frame rate that defines the number of frames per second that the video track should be capable of delivering or receiving. </p>
 
 </div>
 </div>
@@ -205,7 +213,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The height of the captured video frame </p>
+
+<p>The height of the captured video frame. </p>
 
 </div>
 </div>
@@ -228,7 +237,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>The width of the captured video frame </p>
+
+<p>The width of the captured video frame. </p>
 
 </div>
 </div>

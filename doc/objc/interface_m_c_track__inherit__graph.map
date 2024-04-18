@@ -1,6 +1,0 @@
-<map id="MCTrack" name="MCTrack">
-<area shape="rect" id="node1" title="The Track class represent a media sources." alt="" coords="87,79,163,105"/>
-<area shape="rect" id="node3" href="$interface_m_c_audio_track.html" title="The AudioTrack class." alt="" coords="5,153,114,178"/>
-<area shape="rect" id="node4" href="$interface_m_c_video_track.html" title="The VideoTrack class." alt="" coords="137,153,246,178"/>
-<area shape="rect" id="node2" title=" " alt="" coords="86,5,164,31"/>
-</map>

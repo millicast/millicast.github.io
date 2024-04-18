@@ -1,3 +1,17 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$structmillicast_1_1_viewer_layer_data_1_1_resolution.html" title="Represents resolution of a video frame." alt="" coords="5,5,183,46"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,112,136,137"/>
+<area shape="rect" id="Node000001" href="$structmillicast_1_1_error_category_base.html" title=" " alt="" coords="184,5,409,46"/>
+<area shape="poly" id="edge112_Node000000_Node000001" title=" " alt="" coords="102,101,140,78,183,57,216,44,218,49,185,61,143,83,105,105"/>
+<area shape="rect" id="Node000003" href="$structmillicast_1_1_error_category_base.html" title=" " alt="" coords="217,71,376,111"/>
+<area shape="poly" id="edge114_Node000000_Node000003" title=" " alt="" coords="150,110,216,100,217,105,151,115"/>
+<area shape="rect" id="Node000005" href="$structmillicast_1_1_error_category_base.html" title=" " alt="" coords="217,136,376,177"/>
+<area shape="poly" id="edge116_Node000000_Node000005" title=" " alt="" coords="151,133,217,142,216,148,150,138"/>
+<area shape="rect" id="Node000007" href="$structmillicast_1_1_error_category_base.html" title="Helper for defining error categories in the Millicast SDK." alt="" coords="217,201,376,242"/>
+<area shape="poly" id="edge118_Node000000_Node000007" title=" " alt="" coords="106,143,143,165,185,186,218,198,216,203,183,191,140,170,103,148"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_async_operation_cancelled.html" title="Error category for errors triggered when the operation failed because it was abandoned for various re..." alt="" coords="457,5,627,46"/>
+<area shape="poly" id="edge113_Node000001_Node000002" title=" " alt="" coords="425,23,456,23,456,28,425,28"/>
+<area shape="rect" id="Node000004" href="$classmillicast_1_1_generic_error.html" title="Error category for other errors." alt="" coords="467,78,617,104"/>
+<area shape="poly" id="edge115_Node000003_Node000004" title=" " alt="" coords="391,88,466,88,466,94,391,94"/>
+<area shape="rect" id="Node000006" href="$classmillicast_1_1_http_error.html" title=" " alt="" coords="477,144,607,169"/>
+<area shape="poly" id="edge117_Node000005_Node000006" title=" " alt="" coords="391,154,477,154,477,159,391,159"/>
 </map>

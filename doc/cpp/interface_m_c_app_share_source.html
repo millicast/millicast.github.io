@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.7.5</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
    </div>
   </td>
  </tr>
@@ -77,7 +77,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>a Millicast App Screen Capture Source. It internally uses ReplayKit to capture the screen of the application.  
+<p>Uses Replaykit to capture the screen of the application.  
  <a href="interface_m_c_app_share_source.html#details">More...</a></p>
 
 <p><code>#import &lt;<a class="el" href="screen__share__source_8h_source.html">screen_share_source.h</a>&gt;</code></p>
@@ -86,7 +86,7 @@ Inheritance diagram for MCAppShareSource:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_app_share_source__inherit__graph.png" border="0" usemap="#a_m_c_app_share_source_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_m_c_app_share_source_inherit__map" id="a_m_c_app_share_source_inherit__map">
-<area shape="rect" title="a Millicast App Screen Capture Source. It internally uses ReplayKit to capture the screen of the appl..." alt="" coords="5,79,146,105"/>
+<area shape="rect" title="Uses Replaykit to capture the screen of the application." alt="" coords="5,79,146,105"/>
 <area shape="rect" title=" " alt="" coords="36,5,115,31"/>
 <area shape="poly" title=" " alt="" coords="78,46,78,79,73,79,73,46"/>
 </map>
@@ -96,7 +96,7 @@ Collaboration diagram for MCAppShareSource:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_m_c_app_share_source__coll__graph.png" border="0" usemap="#a_m_c_app_share_source_coll__map" alt="Collaboration graph"/></div>
 <map name="a_m_c_app_share_source_coll__map" id="a_m_c_app_share_source_coll__map">
-<area shape="rect" title="a Millicast App Screen Capture Source. It internally uses ReplayKit to capture the screen of the appl..." alt="" coords="5,79,146,105"/>
+<area shape="rect" title="Uses Replaykit to capture the screen of the application." alt="" coords="5,79,146,105"/>
 <area shape="rect" title=" " alt="" coords="36,5,115,31"/>
 <area shape="poly" title=" " alt="" coords="78,46,78,79,73,79,73,46"/>
 </map>
@@ -119,7 +119,7 @@ Properties</h2></td></tr>
 <tr class="separator:aab33bf277b48225980f6c442ad338221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>a Millicast App Screen Capture Source. It internally uses ReplayKit to capture the screen of the application. </p>
+<div class="textblock"><p>Uses Replaykit to capture the screen of the application. </p>
 </div><h2 class="groupheader">Method Documentation</h2>
 <a id="a20739cb0b81a46821b374cd6cff11e69" name="a20739cb0b81a46821b374cd6cff11e69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a20739cb0b81a46821b374cd6cff11e69">&#9670;&#160;</a></span>initWithName:recorder:</h2>
@@ -146,6 +146,13 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Initializes the source with a name to identify the source.</p><ul>
+<li>Parameters:<ul>
+<li>recorder: A ReplayKit recorder.</li>
+<li>name: The source name </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -164,6 +171,12 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Initializes the source with a recorder.</p><ul>
+<li>Parameters:<ul>
+<li>recorder: A ReplayKit recorder. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -182,6 +195,12 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Start capturing the application screen.</p><ul>
+<li>Parameters:<ul>
+<li>completionHandler: handler that is invoked when the result is ready. The capture process produces an audio track and a video track if successful. See <code>MCPublisher/addTrackWithAudioTrack:completionHandler:</code> and <code>MCPublisher/addTrackWithVideoTrack:completionHandler:</code> to attach those tracks to a publisher. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>
@@ -200,6 +219,12 @@ Properties</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Stops capturing the application screen.</p><ul>
+<li>Parameters:<ul>
+<li>completionHandler: handler that is invoked when the result is ready. </li>
+</ul>
+</li>
+</ul>
 
 </div>
 </div>

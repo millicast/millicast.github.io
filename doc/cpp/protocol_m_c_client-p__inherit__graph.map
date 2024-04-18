@@ -1,7 +1,7 @@
 <map id="&lt;MCClient&gt;" name="&lt;MCClient&gt;">
-<area shape="rect" id="Node000001" title="The Client base class." alt="" coords="69,5,161,31"/>
-<area shape="rect" id="Node000002" href="$interface_m_c_publisher.html" title="The Publisher interface. Its purpose is to publish media to a Millicast stream." alt="" coords="5,79,102,105"/>
+<area shape="rect" id="Node000001" title="The Client base that contains common methods between MCPublisher and MCSubscriber." alt="" coords="69,5,161,31"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_publisher.html" title="The Publisher interface is responsible for publishing media to a Millicast stream." alt="" coords="5,79,102,105"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,44,66,80,62,77,93,41"/>
-<area shape="rect" id="Node000003" href="$interface_m_c_subscriber.html" title="The Subscriber class. Its purpose is to receive media by subscribing to a millicast stream...." alt="" coords="125,79,230,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_subscriber.html" title="The Subscriber class manages the subscription to audio and video tracks from the Millicast platform." alt="" coords="125,79,230,105"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,41,169,77,165,80,133,44"/>
 </map>
