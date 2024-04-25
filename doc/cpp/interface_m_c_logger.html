@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.4</span>
    </div>
   </td>
  </tr>
@@ -105,6 +105,8 @@ Collaboration diagram for MCLogger:</div>
 Class Methods</h2></td></tr>
 <tr class="memitem:adb3b13e317309e5b42b911c7222088f6"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_logger.html#adb3b13e317309e5b42b911c7222088f6">setDelegate:</a></td></tr>
 <tr class="separator:adb3b13e317309e5b42b911c7222088f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf248d4acea746aa830e559c4113e038"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_logger.html#adf248d4acea746aa830e559c4113e038">setLogLevelWithSdk:Webrtc:Websocket:</a></td></tr>
+<tr class="separator:adf248d4acea746aa830e559c4113e038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf8a98e9c568edc744847ee4ace63010"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="interface_m_c_logger.html#aaf8a98e9c568edc744847ee4ace63010">disableWebsocketLogs:</a></td></tr>
 <tr class="separator:aaf8a98e9c568edc744847ee4ace63010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -153,6 +155,48 @@ Class Methods</h2></td></tr>
 <p>Set a delegate that receives log messages.</p><ul>
 <li>Parameters:<ul>
 <li>delegate: <code><a class="el" href="protocol_m_c_logger_delegate-p.html" title="Delegate that receives events from MCLogger">MCLoggerDelegate</a></code> that receives log messages. </li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+<a id="adf248d4acea746aa830e559c4113e038" name="adf248d4acea746aa830e559c4113e038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf248d4acea746aa830e559c4113e038">&#9670;&#160;</a></span>setLogLevelWithSdk:Webrtc:Websocket:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) setLogLevelWithSdk: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="objc_2_millicast_s_d_k_2mc__logging_8h.html#a576097e37ff8d675cace377e17b32cea">MCLogLevel</a>)&#160;</td>
+          <td class="paramname"><em>sdkLogLevel</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">Webrtc:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="objc_2_millicast_s_d_k_2mc__logging_8h.html#a576097e37ff8d675cace377e17b32cea">MCLogLevel</a>)&#160;</td>
+          <td class="paramname"><em>webrtcLogLevel</em></td>
+        </tr>
+        <tr>
+          <td class="paramkey">Websocket:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="objc_2_millicast_s_d_k_2mc__logging_8h.html#a576097e37ff8d675cace377e17b32cea">MCLogLevel</a>)&#160;</td>
+          <td class="paramname"><em>websocketLogLevel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the LogLevel for the SDK/Webrtc/Websocket modules</p><ul>
+<li>Parameters:<ul>
+<li>Sdk: <code>MCLogLevel</code> sets the log level for the SDK.</li>
+<li>Webrtc: <code>MCLogLevel</code> sets the log level for Webrtc.</li>
+<li>Websocket: <code>MCLogLevel</code> sets the log level for Websocket. </li>
 </ul>
 </li>
 </ul>

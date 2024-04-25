@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.3</span>
+   <div id="projectname">MillicastSDK<span id="projectnumber">&#160;1.8.4</span>
    </div>
   </td>
  </tr>
@@ -109,8 +109,12 @@ $(function() {
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>+ (void) setDelegate:(<span class="keywordtype">id</span>&lt;MCLoggerDelegate&gt;) delegate;</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>+ (void) disableWebsocketLogs:(BOOL) disable;</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keyword">@end</span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>+ (void)setLogLevelWithSdk:(<a class="code hl_enumeration" href="objc_2_millicast_s_d_k_2mc__logging_8h.html#a576097e37ff8d675cace377e17b32cea">MCLogLevel</a>)sdkLogLevel </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                    Webrtc:(<a class="code hl_enumeration" href="objc_2_millicast_s_d_k_2mc__logging_8h.html#a576097e37ff8d675cace377e17b32cea">MCLogLevel</a>)webrtcLogLevel </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                 Websocket:(<a class="code hl_enumeration" href="objc_2_millicast_s_d_k_2mc__logging_8h.html#a576097e37ff8d675cace377e17b32cea">MCLogLevel</a>)websocketLogLevel;</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>+ (void) disableWebsocketLogs:(BOOL) disable;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keyword">@end</span></div>
 <div class="ttc" id="aexports_8h_html_aa97c98cff55858c98aa2585e225b1158"><div class="ttname"><a href="exports_8h.html#aa97c98cff55858c98aa2585e225b1158">MILLICAST_API</a></div><div class="ttdeci">#define MILLICAST_API</div><div class="ttdef"><b>Definition</b> exports.h:51</div></div>
 <div class="ttc" id="ainterface_m_c_logger_html"><div class="ttname"><a href="interface_m_c_logger.html">MCLogger</a></div><div class="ttdoc">Class that is responsible for managing SDK logs.</div><div class="ttdef"><b>Definition</b> mc_logging.h:51</div></div>
 <div class="ttc" id="aobjc_2_millicast_s_d_k_2mc__logging_8h_html_a576097e37ff8d675cace377e17b32cea"><div class="ttname"><a href="objc_2_millicast_s_d_k_2mc__logging_8h.html#a576097e37ff8d675cace377e17b32cea">MCLogLevel</a></div><div class="ttdeci">MCLogLevel</div><div class="ttdoc">Enum to specify the severity of a log message.</div><div class="ttdef"><b>Definition</b> mc_logging.h:22</div></div>
