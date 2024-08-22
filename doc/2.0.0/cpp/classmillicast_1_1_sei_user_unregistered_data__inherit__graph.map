@@ -1,0 +1,5 @@
+<map id="millicast::SeiUserUnregisteredData" name="millicast::SeiUserUnregisteredData">
+<area shape="rect" id="Node000001" title="Holds a User Data Unregistered Sei message." alt="" coords="5,79,232,105"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_sei_message.html" title="A common interface class that can be used as a container for Sei Messages." alt="" coords="44,5,193,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,46,121,79,116,79,116,46"/>
+</map>

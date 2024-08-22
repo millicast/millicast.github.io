@@ -1,0 +1,7 @@
+<map id="millicast::SeiMessage" name="millicast::SeiMessage">
+<area shape="rect" id="Node000001" title="A common interface class that can be used as a container for Sei Messages." alt="" coords="115,5,264,31"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_sei_pic_timing.html" title="This class is just a shell, it is currently not functional. It represents SEI Pic timing timecode mes..." alt="" coords="5,79,160,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,42,102,81,99,76,157,38"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_sei_user_unregistered_data.html" title="Holds a User Data Unregistered Sei message." alt="" coords="184,79,410,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,38,280,76,277,81,219,42"/>
+</map>

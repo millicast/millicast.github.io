@@ -1,0 +1,27 @@
+<map id="millicast::rtcstats::Stats" name="millicast::rtcstats::Stats">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,127,145"/>
+<area shape="rect" id="Node000002" href="$structmillicast_1_1rtcstats_1_1_codecs.html" title=" " alt="" coords="193,5,314,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,93,173,57,200,44,202,49,176,61,113,98"/>
+<area shape="rect" id="Node000003" href="$structmillicast_1_1rtcstats_1_1_media_source.html" title=" " alt="" coords="193,71,314,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,108,192,99,193,104,143,113"/>
+<area shape="rect" id="Node000006" href="$structmillicast_1_1rtcstats_1_1_r_t_c_ice_candidate_pair.html" title=" " alt="" coords="175,136,332,177"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="143,135,175,140,174,145,142,140"/>
+<area shape="rect" id="Node000007" href="$structmillicast_1_1rtcstats_1_1_rtp_stream.html" title=" " alt="" coords="193,201,314,242"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="114,151,176,186,202,198,200,203,173,191,111,155"/>
+<area shape="rect" id="Node000004" href="$structmillicast_1_1rtcstats_1_1_audio_source.html" title=" " alt="" coords="393,21,514,62"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="329,70,392,54,393,59,330,75"/>
+<area shape="rect" id="Node000005" href="$structmillicast_1_1rtcstats_1_1_video_source.html" title=" " alt="" coords="393,87,514,127"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="330,94,393,99,392,105,329,100"/>
+<area shape="rect" id="Node000008" href="$structmillicast_1_1rtcstats_1_1_received_rtp_stream.html" title=" " alt="" coords="380,184,527,225"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="330,212,379,208,380,213,330,218"/>
+<area shape="rect" id="Node000011" href="$structmillicast_1_1rtcstats_1_1_sent_rtp_stream.html" title=" " alt="" coords="393,249,514,290"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="330,237,393,253,392,258,329,242"/>
+<area shape="rect" id="Node000009" href="$structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html" title=" " alt="" coords="603,119,742,159"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="538,177,602,157,604,162,539,182"/>
+<area shape="rect" id="Node000010" href="$structmillicast_1_1rtcstats_1_1_remote_inbound_rtp_stream.html" title=" " alt="" coords="580,184,765,225"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="543,202,580,202,580,207,543,207"/>
+<area shape="rect" id="Node000012" href="$structmillicast_1_1rtcstats_1_1_outbound_rtp_stream.html" title=" " alt="" coords="598,249,747,290"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="530,267,598,267,598,272,530,272"/>
+<area shape="rect" id="Node000013" href="$structmillicast_1_1rtcstats_1_1_remote_outbound_rtp_stream.html" title=" " alt="" coords="575,315,770,355"/>
+<area shape="poly" id="edge12_Node000011_Node000013" title=" " alt="" coords="530,290,603,311,601,317,529,295"/>
+</map>

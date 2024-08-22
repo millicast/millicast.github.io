@@ -1,0 +1,11 @@
+<map id="&lt;MCVideoRenderer&gt;" name="&lt;MCVideoRenderer&gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="269,79,414,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_accelerated_video_renderer.html" title=" " alt="" coords="5,153,203,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="287,112,145,155,144,150,286,107"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_c_m_sample_buffer_video_renderer.html" title=" " alt="" coords="227,153,456,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="344,120,344,152,339,152,339,120"/>
+<area shape="rect" id="Node000005" href="$interface_m_c_ndi_renderer.html" title=" " alt="" coords="480,153,595,178"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="390,108,505,150,503,155,388,113"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="294,5,389,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="344,46,344,79,339,79,339,46"/>
+</map>

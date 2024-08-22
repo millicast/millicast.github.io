@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['range_0',['range',['../classmillicast_1_1_video_frame.html#ac4cc897da12ad714dece882e006c5ab9',1,'millicast::VideoFrame']]],
+  ['record_1',['record',['../classmillicast_1_1_publisher.html#a134b1010ca1c18095ebfb8f5556d8aaf',1,'millicast::Publisher']]],
+  ['recordwithcompletionhandler_3a_2',['recordWithCompletionHandler:',['../interface_m_c_publisher.html#a2c5c318a53b2b06e44bb65bffaa08824',1,'MCPublisher']]],
+  ['remove_5frenderer_3',['remove_renderer',['../classmillicast_1_1_video_track.html#a6aadf783aa158b419d11ce58377235f5',1,'millicast::VideoTrack::remove_renderer()'],['../classmillicast_1_1_audio_track.html#aea25a1c2e135d278553dd29eede832a6',1,'millicast::AudioTrack::remove_renderer()'],['../classmillicast_1_1_webrtc_remote_video_track.html#a41ce626b477b6be6e06864547cc252d5',1,'millicast::WebrtcRemoteVideoTrack::remove_renderer()']]],
+  ['removedelegate_3a_4',['removeDelegate:',['../interface_m_c_c_m_sample_buffer_video_renderer.html#ab12438a3f886e4eb653e39cefb8000a5',1,'MCCMSampleBufferVideoRenderer']]],
+  ['removerenderer_3a_5',['removeRenderer:',['../interface_m_c_video_track.html#ac328d59a900f45ba698c1dc7410f232e',1,'MCVideoTrack::removeRenderer:()'],['../interface_m_c_audio_track.html#a9c617b15e5bafbb0b65329f44d3da5ec',1,'MCAudioTrack::removeRenderer:()']]],
+  ['removerenderer_3acompletionhandler_3a_6',['removeRenderer:completionHandler:',['../interface_m_c_webrtc_remote_video_track.html#a3471288c79b8db33050a8bf39ecb3bc8',1,'MCWebrtcRemoteVideoTrack']]],
+  ['renderer_7',['Renderer',['../classmillicast_1_1_renderer.html#a438262f38936c2f61940332e53536874',1,'millicast::Renderer']]],
+  ['resetmaxspatiallayerid_3a_8',['resetMaxSpatialLayerId:',['../interface_m_c_r_t_s_remote_video_track_layer.html#a17ecbe0378186299f7e16d9fb103a7b1',1,'MCRTSRemoteVideoTrackLayer']]],
+  ['resetmaxtemporallayerid_9',['resetMaxTemporalLayerId',['../interface_m_c_r_t_s_remote_video_track_layer.html#a5f8be4f802494a0f4213cf9afbea1826',1,'MCRTSRemoteVideoTrackLayer']]],
+  ['resetspatiallayerid_10',['resetSpatialLayerId',['../interface_m_c_r_t_s_remote_video_track_layer.html#a4001170d0e8f508ea2fba731a51a8b93',1,'MCRTSRemoteVideoTrackLayer']]],
+  ['resettemporallayerid_11',['resetTemporalLayerId',['../interface_m_c_r_t_s_remote_video_track_layer.html#ae7d9c741ba151c6177a518eb1b458d42',1,'MCRTSRemoteVideoTrackLayer']]],
+  ['rtsremoteaudiotrack_12',['RtsRemoteAudioTrack',['../classmillicast_1_1_rts_remote_audio_track.html#a5b77f39933f70da7f0d32ad9fd8ef438',1,'millicast::RtsRemoteAudioTrack']]],
+  ['rtsremotetrack_13',['RtsRemoteTrack',['../classmillicast_1_1_rts_remote_track.html#a4b20158d1ae6d511e8ca9f24b3b09cf8',1,'millicast::RtsRemoteTrack']]],
+  ['rtsremotetrack_3adidupdatelayers_3a_14',['rtsRemoteTrack:didUpdateLayers:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#a64e97524dd049b3e05ce99678198acb0',1,'MCRTSRemoteTrackDelegate-p']]],
+  ['rtsremotetrack_3adidupdatemid_3a_15',['rtsRemoteTrack:didUpdateMID:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#acc6d8206918509f43527d326aae8d1fa',1,'MCRTSRemoteTrackDelegate-p']]],
+  ['rtsremotetrackactive_3a_16',['rtsRemoteTrackActive:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#ac983d24f8591ab548fe784f5d21d7fed',1,'MCRTSRemoteTrackDelegate-p']]],
+  ['rtsremotetrackinactive_3a_17',['rtsRemoteTrackInactive:',['../protocol_m_c_r_t_s_remote_track_delegate-p.html#a51e4d484f6db06a9e15705c3c352558a',1,'MCRTSRemoteTrackDelegate-p']]],
+  ['rtsremotevideotrack_18',['RtsRemoteVideoTrack',['../classmillicast_1_1_rts_remote_video_track.html#ae03b74d7301f55794a4e015fe814a6da',1,'millicast::RtsRemoteVideoTrack']]]
+];

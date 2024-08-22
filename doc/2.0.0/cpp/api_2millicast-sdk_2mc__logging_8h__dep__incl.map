@@ -1,0 +1,24 @@
+<map id="api/millicast&#45;sdk/mc_logging.h" name="api/millicast&#45;sdk/mc_logging.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="611,5,749,46"/>
+<area shape="rect" id="Node000002" href="$api_2millicast-sdk_2client_8h.html" title=" " alt="" coords="311,94,473,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="597,52,437,96,436,91,596,47"/>
+<area shape="rect" id="Node000006" href="$api_2millicast-sdk_2media_8h.html" title=" " alt="" coords="597,175,763,201"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="683,62,683,175,677,175,677,62"/>
+<area shape="rect" id="Node000007" href="$api_2millicast-sdk_2source_8h.html" title=" " alt="" coords="754,94,923,120"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="734,51,816,91,813,96,732,56"/>
+<area shape="rect" id="Node000003" href="$api_2millicast-sdk_2publisher_8h.html" title=" " alt="" coords="5,175,187,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,127,142,177,141,172,331,122"/>
+<area shape="rect" id="Node000004" href="$api_2millicast-sdk_2viewer_8h.html" title=" " alt="" coords="211,175,378,201"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="367,131,311,177,308,173,364,127"/>
+<area shape="rect" id="Node000005" href="$_private_09client_8h.html" title=" " alt="" coords="403,168,573,208"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="420,128,466,165,463,169,417,132"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="802,129,705,177,703,172,799,125"/>
+<area shape="rect" id="Node000008" href="$api_2millicast-sdk_2renderer_8h.html" title=" " alt="" coords="787,175,963,201"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="853,133,872,174,867,176,848,135"/>
+<area shape="rect" id="Node000011" href="$_private_09_source_8h.html" title=" " alt="" coords="987,168,1157,208"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="890,123,1015,165,1013,170,888,128"/>
+<area shape="rect" id="Node000009" href="$_private_09_renderer_8h.html" title=" " alt="" coords="790,256,960,297"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="877,217,877,256,872,256,872,217"/>
+<area shape="rect" id="Node000010" href="$_private_09_track_8h.html" title=" " alt="" coords="790,345,960,386"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="877,313,877,345,872,345,872,313"/>
+</map>

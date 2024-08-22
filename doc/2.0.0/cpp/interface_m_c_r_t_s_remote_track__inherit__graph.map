@@ -1,0 +1,9 @@
+<map id="MCRTSRemoteTrack" name="MCRTSRemoteTrack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="125,79,273,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_r_t_s_remote_audio_track.html" title="The RTS logical track&#39;s audio interface." alt="" coords="5,153,187,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="171,116,115,154,112,150,168,111"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_r_t_s_remote_video_track.html" title="The RTS logical track&#39;s video interface." alt="" coords="211,153,392,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="230,111,285,150,282,154,227,116"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="160,5,238,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,46,201,79,196,79,196,46"/>
+</map>
