@@ -1,0 +1,9 @@
+<map id="&lt;CaptureSource&gt;" name="&lt;CaptureSource&gt;">
+<area shape="rect" id="Node000001" title="Manages the process of capturing the source by input sources, such as a microphone or a camera." alt="" coords="71,79,195,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_audio_source.html" title="Manages the audio capture functionality." alt="" coords="5,153,122,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,117,77,154,73,150,109,114"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_video_source.html" title="Responsible for managing video sources." alt="" coords="145,153,262,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="157,114,193,150,190,154,153,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="57,5,209,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,46,136,79,130,79,130,46"/>
+</map>

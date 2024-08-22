@@ -1,0 +1,9 @@
+<map id="&lt;MCAudioControl&gt;" name="&lt;MCAudioControl&gt;">
+<area shape="rect" id="Node000001" title="Manages audio settings." alt="" coords="77,79,210,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_audio_playback.html" title=" " alt="" coords="5,153,135,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="122,117,84,154,81,150,118,114"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_audio_source.html" title="Manages the audio capture functionality." alt="" coords="159,153,275,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="168,114,206,150,202,154,165,117"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="45,5,242,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,46,146,79,141,79,141,46"/>
+</map>
