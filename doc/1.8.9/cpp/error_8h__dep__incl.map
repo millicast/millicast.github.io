@@ -1,0 +1,11 @@
+<map id="api/millicast&#45;sdk/error.h" name="api/millicast&#45;sdk/error.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="117,5,272,31"/>
+<area shape="rect" id="Node000002" href="$promise_8h.html" title=" " alt="" coords="107,79,283,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,46,197,79,192,79,192,46"/>
+<area shape="rect" id="Node000003" href="$api_2millicast-sdk_2client_8h.html" title=" " alt="" coords="114,153,275,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="197,120,197,152,192,152,192,120"/>
+<area shape="rect" id="Node000004" href="$api_2millicast-sdk_2publisher_8h.html" title=" " alt="" coords="5,226,187,252"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="167,190,114,228,111,224,164,186"/>
+<area shape="rect" id="Node000005" href="$api_2millicast-sdk_2viewer_8h.html" title=" " alt="" coords="211,226,378,252"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="226,185,279,224,276,228,222,190"/>
+</map>
