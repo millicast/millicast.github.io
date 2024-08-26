@@ -1,0 +1,8 @@
+<map id="MCLayerData" name="MCLayerData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,169,108,195"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="12,5,90,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,47,59,169,53,169,49,47"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_layer_resolution.html" title=" " alt="" coords="72,80,209,106"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="79,39,128,78,124,82,76,43"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,119,70,171,66,167,116,116"/>
+</map>

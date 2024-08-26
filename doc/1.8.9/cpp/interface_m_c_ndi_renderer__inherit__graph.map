@@ -1,0 +1,9 @@
+<map id="MCNdiRenderer" name="MCNdiRenderer">
+<area shape="rect" id="Node000001" title=" " alt="" coords="55,153,170,178"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,84,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,114,103,150,99,154,64,118"/>
+<area shape="rect" id="Node000003" href="$protocol_m_c_video_renderer-p.html" title=" " alt="" coords="108,79,253,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,118,126,154,122,150,157,114"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="133,5,228,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="183,46,183,79,178,79,178,46"/>
+</map>

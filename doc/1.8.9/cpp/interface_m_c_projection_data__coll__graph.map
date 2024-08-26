@@ -1,0 +1,11 @@
+<map id="MCProjectionData" name="MCProjectionData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,258,134,283"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="60,5,138,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,47,76,169,72,258,67,257,71,169,91,46"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_layer_data.html" title=" " alt="" coords="85,169,187,195"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="108,46,136,168,131,169,102,47"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_layer_resolution.html" title=" " alt="" coords="136,80,272,106"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="130,38,188,78,185,82,127,42"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="120,209,81,259,77,256,116,205"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="187,120,148,170,143,167,183,117"/>
+</map>

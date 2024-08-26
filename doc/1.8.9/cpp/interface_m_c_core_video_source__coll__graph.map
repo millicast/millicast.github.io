@@ -1,0 +1,7 @@
+<map id="MCCoreVideoSource" name="MCCoreVideoSource">
+<area shape="rect" id="Node000001" title="A Source that allows applications to feed their own raw CVPixelBuffers for publishing." alt="" coords="5,153,150,178"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_source.html" title="Gathers information about the source." alt="" coords="36,79,119,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,120,80,152,75,152,75,120"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="38,5,117,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="80,46,80,79,75,79,75,46"/>
+</map>

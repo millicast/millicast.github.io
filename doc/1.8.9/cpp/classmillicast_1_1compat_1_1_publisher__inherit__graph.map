@@ -1,0 +1,7 @@
+<map id="millicast::compat::Publisher" name="millicast::compat::Publisher">
+<area shape="rect" id="Node000001" title="The Publisher class. Its purpose is to publish media to a Millicast stream." alt="" coords="12,168,140,208"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1compat_1_1_client.html" title="The Client base class." alt="" coords="12,79,140,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,135,79,167,73,167,73,135"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_client_base.html" title=" " alt="" coords="5,5,147,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="79,46,79,79,73,79,73,46"/>
+</map>
