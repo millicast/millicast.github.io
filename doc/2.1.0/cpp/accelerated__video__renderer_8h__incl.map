@@ -1,0 +1,19 @@
+<map id="objc/MillicastSDK/accelerated_video_renderer.h" name="objc/MillicastSDK/accelerated_video_renderer.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="167,5,363,46"/>
+<area shape="rect" id="Node000002" href="$objc_2_millicast_s_d_k_2renderer_8h.html" title=" " alt="" coords="186,94,344,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,46,268,78,262,78,262,46"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,168,202,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,123,146,163,144,159,236,118"/>
+<area shape="rect" id="Node000004" href="$objc_2_millicast_s_d_k_2capabilities_8h.html" title=" " alt="" coords="278,241,455,267"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="273,119,318,192,347,228,343,231,313,195,269,122"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="162,315,317,341"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="266,120,245,300,240,299,261,120"/>
+<area shape="rect" id="Node000007" href="$objc_2_millicast_s_d_k_2frames_8h.html" title=" " alt="" coords="327,168,480,193"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="290,118,367,158,365,162,287,123"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="341,315,506,341"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="378,266,406,301,402,304,374,269"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="346,270,275,309,273,305,343,265"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="400,195,382,229,377,226,395,192"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="478,241,641,267"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="431,191,520,232,518,237,429,196"/>
+</map>
