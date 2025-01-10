@@ -1,0 +1,15 @@
+<map id="api/millicast&#45;sdk/diagnostics.h" name="api/millicast&#45;sdk/diagnostics.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="291,5,488,31"/>
+<area shape="rect" id="Node000002" href="$api_2millicast-sdk_2stats_8h.html" title=" " alt="" coords="215,86,374,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="365,43,311,88,307,84,362,39"/>
+<area shape="rect" id="Node000007" href="$_private_09_diagnostics_8h.html" title=" " alt="" coords="399,79,569,120"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="417,39,462,77,459,81,413,43"/>
+<area shape="rect" id="Node000003" href="$api_2millicast-sdk_2client_8h.html" title=" " alt="" coords="214,168,375,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,128,297,167,292,167,292,128"/>
+<area shape="rect" id="Node000004" href="$api_2millicast-sdk_2publisher_8h.html" title=" " alt="" coords="5,249,187,274"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="251,202,127,251,125,246,249,197"/>
+<area shape="rect" id="Node000005" href="$api_2millicast-sdk_2viewer_8h.html" title=" " alt="" coords="211,249,378,274"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="297,209,297,248,292,248,292,209"/>
+<area shape="rect" id="Node000006" href="$_private_09client_8h.html" title=" " alt="" coords="403,241,573,282"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="339,197,441,238,439,243,337,202"/>
+</map>
