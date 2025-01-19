@@ -1,0 +1,5 @@
+<map id="millicast::SeiPicTiming" name="millicast::SeiPicTiming">
+<area shape="rect" id="Node000001" title="This class is just a shell, it is currently not functional. It represents SEI Pic timing timecode mes..." alt="" coords="5,79,160,105"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_sei_message.html" title="A common interface class that can be used as a container for Sei Messages." alt="" coords="8,5,157,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,46,85,79,80,79,80,46"/>
+</map>

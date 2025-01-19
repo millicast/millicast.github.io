@@ -1,0 +1,7 @@
+<map id="MCIceCandidatePairStats" name="MCIceCandidatePairStats">
+<area shape="rect" id="Node000001" title="Stastistics representing an ice candidate pair." alt="" coords="5,153,179,178"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_stats.html" title="A container of various different stats. To make sense of such statistics, please refer to the WebRTC ..." alt="" coords="55,79,129,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,120,95,152,89,152,89,120"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="53,5,131,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,46,95,79,89,79,89,46"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classmillicast_1_1_sei_message.html" title="A common interface class that can be used as a container for Sei Messages." alt="" coords="5,31,155,56"/>
+<area shape="rect" id="Node000001" href="$classmillicast_1_1_sei_pic_timing.html" title="This class is just a shell, it is currently not functional. It represents SEI Pic timing timecode mes..." alt="" coords="239,5,393,31"/>
+<area shape="poly" id="edge86_Node000000_Node000001" title=" " alt="" coords="170,31,238,24,239,29,171,36"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_sei_user_unregistered_data.html" title="Holds a User Data Unregistered Sei message." alt="" coords="203,55,429,80"/>
+<area shape="poly" id="edge87_Node000000_Node000002" title=" " alt="" coords="170,50,202,53,202,59,170,55"/>
+</map>

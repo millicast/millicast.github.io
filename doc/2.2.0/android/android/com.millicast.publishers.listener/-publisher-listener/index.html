@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>PublisherListener</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            android
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":millicast-sdk-android-tests:dokkaHtml/release">Android</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="android::com.millicast.publishers.listener/PublisherListener///PointingToDeclaration//851067820">
+  <div class="breadcrumbs"><a href="../../../index.html">android</a><span class="delimiter">/</span><a href="../index.html">com.millicast.publishers.listener</a><span class="delimiter">/</span><span class="current">PublisherListener</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Publisher</span><wbr></wbr><span><span>Listener</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">PublisherListener</a> : <a href="../../com.millicast.clients/-listener/index.html">Listener</a></div><p class="paragraph">The PublisherListener interface provides a set of callback methods to handle various events and states during the publishing process. The interface is replaced with publisher.state.collect().</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-403141082%2FFunctions%2F851067820" anchor-label="onActive" id="-403141082%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-active.html"><span>on</span><wbr></wbr><span><span>Active</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-403141082%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-active.html"><span class="token function">onActive</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the first viewer starts viewing the stream.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1314575199%2FFunctions%2F851067820" anchor-label="onInactive" id="-1314575199%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-inactive.html"><span>on</span><wbr></wbr><span><span>Inactive</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1314575199%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-inactive.html"><span class="token function">onInactive</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the last viewer stops viewing the stream.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1197115943%2FFunctions%2F851067820" anchor-label="onPublishing" id="-1197115943%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-publishing.html"><span>on</span><wbr></wbr><span><span>Publishing</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1197115943%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-publishing.html"><span class="token function">onPublishing</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the publisher starts publishing content.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-813652776%2FFunctions%2F851067820" anchor-label="onPublishingError" id="-813652776%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-publishing-error.html"><span>on</span><wbr></wbr><span>Publishing</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-813652776%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="on-publishing-error.html"><span class="token function">onPublishingError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">reason<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called in the event of an error during the peer connection process.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-520725189%2FFunctions%2F851067820" anchor-label="onReleaseRequired" id="-520725189%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.millicast.clients/-listener/on-release-required.html"><span>on</span><wbr></wbr><span>Release</span><wbr></wbr><span><span>Required</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-520725189%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="../../com.millicast.clients/-listener/on-release-required.html"><span class="token function">onReleaseRequired</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Event telling that the current instance needs to release any ressources it holds and reset itself.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="926055769%2FFunctions%2F851067820" anchor-label="onSignalingError" id="926055769%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.millicast.subscribers/-subscriber-listener/index.html#926055769%2FFunctions%2F851067820"><span>on</span><wbr></wbr><span>Signaling</span><wbr></wbr><span><span>Error</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="926055769%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="../../com.millicast.subscribers/-subscriber-listener/index.html#926055769%2FFunctions%2F851067820"><span class="token function">onSignalingError</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>reason<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the Millicast platform sends back an error message in response to a connection request.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1035104083%2FFunctions%2F851067820" anchor-label="onStatsReport" id="1035104083%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.millicast.subscribers/-subscriber-listener/index.html#1035104083%2FFunctions%2F851067820"><span>on</span><wbr></wbr><span>Stats</span><wbr></wbr><span><span>Report</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1035104083%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="../../com.millicast.subscribers/-subscriber-listener/index.html#1035104083%2FFunctions%2F851067820"><span class="token function">onStatsReport</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/annotation/NonNull.html"><span class="token annotation builtin">NonNull</span></a> </span>report<span class="token operator">: </span><span data-unresolved-link="com.millicast.clients.stats/RtsReport///PointingToDeclaration/">RtsReport</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the client receives a report containing statistics related to the streaming session. The stats parameter holds the statistical information, offering insights into aspects such as connection quality and other performance metrics. Reports are available only to clients who enabled statistics.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="794939449%2FFunctions%2F851067820" anchor-label="onTransformableFrame" id="794939449%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-transformable-frame.html"><span>on</span><wbr></wbr><span>Transformable</span><wbr></wbr><span><span>Frame</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="794939449%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-transformable-frame.html"><span class="token function">onTransformableFrame</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">ssrc<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">timestamp<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">data<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html">ArrayList</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html">Byte</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called after the frame has been encoded and is ready to gather metadata.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="707971682%2FFunctions%2F851067820" anchor-label="onViewerCount" id="707971682%2FFunctions%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../../com.millicast.subscribers/-subscriber-listener/index.html#707971682%2FFunctions%2F851067820"><span>on</span><wbr></wbr><span>Viewer</span><wbr></wbr><span><span>Count</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="707971682%2FFunctions%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="../../com.millicast.subscribers/-subscriber-listener/index.html#707971682%2FFunctions%2F851067820"><span class="token function">onViewerCount</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">count<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called when the number of viewers in the streaming session changes.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
