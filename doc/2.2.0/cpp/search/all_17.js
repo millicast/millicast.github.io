@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['webrtc_0',['WEBRTC',['../classmillicast_1_1_logger.html#a7dfeac931f4a47495b4cf874e347b333a9555a18a745bf1414d3ce50a51ebc248',1,'millicast::Logger']]],
+  ['webrtc_5faudio_5ftracks_1',['webrtc_audio_tracks',['../classmillicast_1_1_viewer.html#a1ba2ecb80bee55b1610be9be71cbf45d',1,'millicast::Viewer']]],
+  ['webrtc_5fremote_5ftrack_2eh_2',['webrtc_remote_track.h',['../webrtc__remote__track_8h.html',1,'']]],
+  ['webrtc_5fvideo_5ftracks_3',['webrtc_video_tracks',['../classmillicast_1_1_viewer.html#a98bd1d9615772a5e2159adfb7219fb9b',1,'millicast::Viewer']]],
+  ['webrtcaudiotrackswithcompletionhandler_4',['webrtcAudioTracksWithCompletionHandler',['../objc_2_millicast_s_d_k_2viewer_8h.html#a861f9a008a7d65d4cc8972baa91187e0',1,'viewer.h']]],
+  ['webrtcremoteaudiotrack_5',['WebrtcRemoteAudioTrack',['../classmillicast_1_1_webrtc_remote_audio_track.html',1,'millicast::WebrtcRemoteAudioTrack'],['../classmillicast_1_1_webrtc_remote_audio_track.html#aca1cc8a5a1538066ed3df9a051f9a4b2',1,'millicast::WebrtcRemoteAudioTrack::WebrtcRemoteAudioTrack()']]],
+  ['webrtcremotetrack_6',['WebrtcRemoteTrack',['../classmillicast_1_1_webrtc_remote_track.html',1,'millicast::WebrtcRemoteTrack'],['../classmillicast_1_1_webrtc_remote_track.html#ad4eac48db126b483452973cce75095f2',1,'millicast::WebrtcRemoteTrack::WebrtcRemoteTrack()']]],
+  ['webrtcremotetrack_3adidupdatemid_3a_7',['webrtcRemoteTrack:didUpdateMID:',['../protocol_m_c_webrtc_remote_track_delegate-p.html#a32f76610e9f7c00b90fabbbc41c53cc1',1,'MCWebrtcRemoteTrackDelegate-p']]],
+  ['webrtcremotetrackdisabled_3a_8',['webrtcRemoteTrackDisabled:',['../protocol_m_c_webrtc_remote_track_delegate-p.html#acf53a3a6f5b55389c982740881716e32',1,'MCWebrtcRemoteTrackDelegate-p']]],
+  ['webrtcremotetrackwithnativetrack_3a_9',['webrtcRemoteTrackWithNativeTrack:',['../interface_m_c_webrtc_remote_track.html#a00a1981f60559cfc4eb427b52e33f096',1,'MCWebrtcRemoteTrack']]],
+  ['webrtcremotevideotrack_10',['WebrtcRemoteVideoTrack',['../classmillicast_1_1_webrtc_remote_video_track.html',1,'millicast::WebrtcRemoteVideoTrack'],['../classmillicast_1_1_webrtc_remote_video_track.html#aac9a4a19da6298baf866cef02a72d8f4',1,'millicast::WebrtcRemoteVideoTrack::WebrtcRemoteVideoTrack()']]],
+  ['webrtcvideotrackswithcompletionhandler_11',['webrtcVideoTracksWithCompletionHandler',['../objc_2_millicast_s_d_k_2viewer_8h.html#a30bc3aa81c9def1917a0ddaf6b82d7ea',1,'viewer.h']]],
+  ['websocket_12',['WEBSOCKET',['../classmillicast_1_1_logger.html#a7dfeac931f4a47495b4cf874e347b333afc07a52f432282cead75b799ea8ab8b0',1,'millicast::Logger']]],
+  ['websocket_5fhs_5ffailed_13',['WEBSOCKET_HS_FAILED',['../classmillicast_1_1_generic_error.html#afd6529e5c290eaef9718463b845c4faca1ffdd27f9ef841ebe91efc24d60d5b0f',1,'millicast::GenericError']]],
+  ['websocketstate_14',['WebsocketState',['../structmillicast_1_1_client_1_1_websocket_state.html',1,'millicast::Client']]],
+  ['width_15',['width',['../classmillicast_1_1_video_capabilities.html#acc8a786ffba27b78c83b9cecd4a65831',1,'millicast::VideoCapabilities::width'],['../structmillicast_1_1rtcstats_1_1_video_source.html#a55e0aee4c4ca6f3b892099ce00b08bc3',1,'millicast::rtcstats::VideoSource::width'],['../structmillicast_1_1_rts_remote_track_1_1_layers_1_1_resolution.html#a0c1221025454e3f456b1a31f658320e0',1,'millicast::RtsRemoteTrack::Layers::Resolution::width'],['../interface_m_c_video_capabilities.html#aec3d16192b5869c26f238a255c61656b',1,'MCVideoCapabilities::width'],['../interface_m_c_r_t_s_remote_video_track_layer_resolution.html#a1124a38c83d040a444a54a796a1608bb',1,'MCRTSRemoteVideoTrackLayerResolution::width'],['../interface_m_c_video_source_stats.html#a56b73d3323117072576e4f941b4a49c2',1,'MCVideoSourceStats::width'],['../classmillicast_1_1_encoded_video_frame.html#a1a933ac7710bf90066019d2f3b58734d',1,'millicast::EncodedVideoFrame::width()'],['../classmillicast_1_1_video_frame.html#ae7c808555d014f73bddcf809b82534cc',1,'millicast::VideoFrame::width()']]],
+  ['ws_5furl_16',['ws_url',['../structmillicast_1_1_client_json_data.html#a973fefc68b4e8755e9c9b389fd70b19e',1,'millicast::ClientJsonData']]]
+];

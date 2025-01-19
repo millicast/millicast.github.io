@@ -1,0 +1,7 @@
+<map id="millicast::EncodedFrame" name="millicast::EncodedFrame">
+<area shape="rect" id="Node000001" title=" " alt="" coords="132,5,298,31"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_encoded_audio_frame.html" title=" " alt="" coords="5,79,204,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,42,125,81,122,76,182,37"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_encoded_video_frame.html" title=" " alt="" coords="228,79,426,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,37,310,76,307,81,245,42"/>
+</map>
