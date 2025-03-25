@@ -1,0 +1,9 @@
+<map id="MCWebrtcRemoteTrack" name="MCWebrtcRemoteTrack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="131,79,294,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_webrtc_remote_audio_track.html" title="The webrtc logical track&#39;s audio interface." alt="" coords="5,153,201,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,115,123,154,120,150,180,111"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_webrtc_remote_video_track.html" title="The webrtc logical track&#39;s video interface." alt="" coords="225,153,421,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,111,306,150,303,154,242,116"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="173,5,252,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,46,215,79,210,79,210,46"/>
+</map>

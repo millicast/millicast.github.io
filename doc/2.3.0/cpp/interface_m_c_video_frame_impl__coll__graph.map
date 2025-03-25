@@ -1,0 +1,9 @@
+<map id="MCVideoFrameImpl" name="MCVideoFrameImpl">
+<area shape="rect" id="Node000001" title="The MCVideoFrameImpl interface provides capabilities for handling and processing video frame data." alt="" coords="104,94,241,120"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,84,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,38,156,91,153,96,73,42"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="108,5,237,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,47,175,94,170,94,170,47"/>
+<area shape="rect" id="Node000004" href="$classmillicast_1_1_video_frame.html" title="The VideoFrame class used to described a VideoFrame." alt="" coords="260,5,408,31"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="299,41,196,96,194,91,296,36"/>
+</map>

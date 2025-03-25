@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,70,100,96"/>
+<area shape="rect" id="Node000001" href="$protocol_m_c_accelerated_video_renderer_delegate-p.html" title="Protocol that allows subscribing to callbacks that inform about rendering video frame size changes." alt="" coords="160,5,366,46"/>
+<area shape="poly" id="edge49_Node000000_Node000001" title=" " alt="" coords="113,64,185,44,186,49,115,69"/>
+<area shape="rect" id="Node000002" href="$protocol_m_c_logger_delegate-p.html" title="Delegate that receives events from MCLogger" alt="" coords="188,70,338,96"/>
+<area shape="poly" id="edge50_Node000000_Node000002" title=" " alt="" coords="115,80,188,80,188,86,115,86"/>
+<area shape="rect" id="Node000003" href="$protocol_m_c_webrtc_remote_track_delegate-p.html" title="A delegate to receive remote track related events." alt="" coords="148,120,378,145"/>
+<area shape="poly" id="edge51_Node000000_Node000003" title=" " alt="" coords="115,97,148,106,195,116,194,121,147,111,114,103"/>
+</map>

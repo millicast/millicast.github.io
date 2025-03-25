@@ -1,0 +1,16 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classmillicast_1_1_audio_control.html" title="The AudioControl class." alt="" coords="5,31,158,56"/>
+<area shape="rect" id="Node000001" href="$classmillicast_1_1_audio_playback.html" title="The AudioPlayback class." alt="" coords="222,55,386,80"/>
+<area shape="poly" id="edge54_Node000000_Node000001" title=" " alt="" coords="173,51,222,56,221,61,173,56"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_audio_source.html" title="The AudioSource class." alt="" coords="229,5,380,31"/>
+<area shape="poly" id="edge55_Node000000_Node000003" title=" " alt="" coords="173,30,228,24,228,29,173,36"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_source.html" title="The Source base class." alt="" coords="22,104,141,130"/>
+<area shape="poly" id="edge56_Node000002_Node000001" title=" " alt="" coords="155,98,242,78,243,84,157,103"/>
+<area shape="poly" id="edge57_Node000002_Node000003" title=" " alt="" coords="114,93,164,62,205,40,236,29,238,34,207,45,166,67,117,98"/>
+<area shape="rect" id="Node000004" href="$classmillicast_1_1_custom_audio_source.html" title=" " alt="" coords="206,104,403,130"/>
+<area shape="poly" id="edge58_Node000002_Node000004" title=" " alt="" coords="156,114,205,114,205,120,156,120"/>
+<area shape="rect" id="Node000005" href="$classmillicast_1_1_custom_video_source.html" title=" " alt="" coords="206,153,403,179"/>
+<area shape="poly" id="edge59_Node000002_Node000005" title=" " alt="" coords="157,131,243,150,242,155,155,136"/>
+<area shape="rect" id="Node000006" href="$classmillicast_1_1_video_source.html" title="The VideoSource class." alt="" coords="229,203,380,228"/>
+<area shape="poly" id="edge60_Node000002_Node000006" title=" " alt="" coords="115,137,157,164,207,189,238,200,236,205,205,194,155,168,112,141"/>
+</map>

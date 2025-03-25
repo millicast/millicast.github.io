@@ -1,0 +1,11 @@
+<map id="objc/MillicastSDK/track.h" name="objc/MillicastSDK/track.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="120,5,289,31"/>
+<area shape="rect" id="Node000002" href="$_millicast_s_d_k-_mac_8h.html" title=" " alt="" coords="5,168,183,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,40,132,57,111,80,101,102,96,125,95,167,89,167,91,124,96,100,106,78,129,53,156,36"/>
+<area shape="rect" id="Node000003" href="$_millicast_s_d_k-i_o_s_8h.html" title=" " alt="" coords="227,168,404,208"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="253,36,280,53,303,78,313,100,319,124,320,167,315,167,313,125,308,102,298,80,277,57,250,40"/>
+<area shape="rect" id="Node000004" href="$screen__share__source_8h.html" title=" " alt="" coords="120,79,289,120"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="207,46,207,79,202,79,202,46"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="169,131,121,169,117,165,166,127"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="243,127,292,165,289,169,240,131"/>
+</map>

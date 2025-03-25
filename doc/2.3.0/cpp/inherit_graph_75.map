@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structmillicast_1_1_source_1_1_source_information.html" title=" " alt="" coords="5,136,133,177"/>
+<area shape="rect" id="Node000001" href="$structmillicast_1_1_audio_playback_1_1_builder.html" title="The Builder struct to build an AudioPlayback." alt="" coords="197,5,362,46"/>
+<area shape="poly" id="edge89_Node000000_Node000001" title=" " alt="" coords="98,122,135,88,179,57,205,44,208,49,182,61,138,93,102,126"/>
+<area shape="rect" id="Node000002" href="$structmillicast_1_1_audio_source_1_1_builder.html" title="The Builder struct to build an audio source." alt="" coords="204,71,355,111"/>
+<area shape="poly" id="edge90_Node000000_Node000002" title=" " alt="" coords="147,130,211,109,212,115,148,135"/>
+<area shape="rect" id="Node000003" href="$structmillicast_1_1_custom_audio_source_1_1_builder.html" title="Builder struct to create a CustomSource." alt="" coords="181,136,378,177"/>
+<area shape="poly" id="edge91_Node000000_Node000003" title=" " alt="" coords="149,154,180,154,180,159,149,159"/>
+<area shape="rect" id="Node000004" href="$structmillicast_1_1_custom_video_source_1_1_builder.html" title="Builder struct to create a CustomVideoSource." alt="" coords="181,201,378,242"/>
+<area shape="poly" id="edge92_Node000000_Node000004" title=" " alt="" coords="148,178,212,198,211,203,147,183"/>
+<area shape="rect" id="Node000005" href="$structmillicast_1_1_video_source_1_1_builder.html" title="The Builder struct to build a video source." alt="" coords="204,267,355,307"/>
+<area shape="poly" id="edge93_Node000000_Node000005" title=" " alt="" coords="102,186,138,220,182,251,208,264,205,269,179,256,135,224,98,190"/>
+</map>

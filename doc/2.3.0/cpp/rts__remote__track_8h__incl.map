@@ -1,0 +1,10 @@
+<map id="objc/MillicastSDK/rts_remote_track.h" name="objc/MillicastSDK/rts_remote_track.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="70,5,214,46"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,183,170,208"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,49,81,69,62,95,57,114,59,133,74,169,69,171,54,134,52,113,57,93,78,65,104,44"/>
+<area shape="rect" id="Node000003" href="$remote__track_8h.html" title=" " alt="" coords="72,94,213,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,47,145,78,140,78,140,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="236,102,392,127"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="182,44,278,92,275,97,180,49"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="131,137,107,171,102,168,126,134"/>
+</map>
