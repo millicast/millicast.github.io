@@ -1,0 +1,23 @@
+<map id="objc/MillicastSDK/remote_track.h" name="objc/MillicastSDK/remote_track.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="334,5,503,46"/>
+<area shape="rect" id="Node000002" href="$_millicast_s_d_k-_mac_8h.html" title=" " alt="" coords="211,183,389,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="319,39,260,48,203,60,156,76,139,85,127,96,120,110,120,122,126,134,137,145,172,164,216,180,214,185,170,169,134,149,121,137,115,123,115,108,123,92,136,81,154,71,202,55,259,43,318,34"/>
+<area shape="rect" id="Node000003" href="$_millicast_s_d_k-i_o_s_8h.html" title=" " alt="" coords="413,183,590,223"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="482,52,504,70,522,93,529,116,528,141,514,183,509,181,523,140,524,117,518,95,501,73,478,56"/>
+<area shape="rect" id="Node000004" href="$rts__remote__track_8h.html" title=" " alt="" coords="582,94,727,135"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="487,49,602,91,600,96,485,54"/>
+<area shape="rect" id="Node000006" href="$objc_2_millicast_s_d_k_2viewer_8h.html" title=" " alt="" coords="330,102,507,127"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="421,62,421,101,416,101,416,62"/>
+<area shape="rect" id="Node000007" href="$webrtc__remote__track_8h.html" title=" " alt="" coords="137,94,306,135"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="361,55,267,96,265,91,359,50"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="568,139,381,185,380,180,567,134"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="608,145,537,185,535,180,606,140"/>
+<area shape="rect" id="Node000005" href="$_private_09_m_c_r_t_s_remote_track_8h.html" title=" " alt="" coords="614,183,784,223"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="674,148,691,181,686,183,669,150"/>
+<area shape="poly" id="edge8_Node000006_Node000002" title=" " alt="" coords="392,139,328,184,325,180,388,134"/>
+<area shape="poly" id="edge9_Node000006_Node000003" title=" " alt="" coords="443,137,485,181,481,184,439,140"/>
+<area shape="poly" id="edge11_Node000007_Node000002" title=" " alt="" coords="251,145,284,180,280,184,248,148"/>
+<area shape="poly" id="edge12_Node000007_Node000003" title=" " alt="" coords="300,137,439,180,437,185,299,142"/>
+<area shape="rect" id="Node000008" href="$_private_09_m_c_webrtc_remote_track_8h.html" title=" " alt="" coords="5,183,187,223"/>
+<area shape="poly" id="edge13_Node000007_Node000008" title=" " alt="" coords="182,146,126,184,123,180,179,141"/>
+</map>

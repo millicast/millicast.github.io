@@ -1,0 +1,9 @@
+<map id="&lt;MCVideoRenderer&gt;" name="&lt;MCVideoRenderer&gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="269,5,414,31"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_accelerated_video_renderer.html" title=" " alt="" coords="5,79,203,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="287,38,145,81,144,76,286,33"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_c_m_sample_buffer_video_renderer.html" title="This class is responsible for converting MCVideoFrame into renderable CMSampleBufferRef frames." alt="" coords="227,79,456,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="344,46,344,79,339,79,339,46"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_ndi_renderer.html" title=" " alt="" coords="480,79,595,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="390,34,505,76,503,81,388,39"/>
+</map>

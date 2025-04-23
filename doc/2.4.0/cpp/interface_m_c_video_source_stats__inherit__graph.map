@@ -1,0 +1,9 @@
+<map id="MCVideoSourceStats" name="MCVideoSourceStats">
+<area shape="rect" id="Node000001" title="Statistics representing a video track that is attached to one or more senders." alt="" coords="6,226,154,252"/>
+<area shape="rect" id="Node000002" href="$interface_m_c_media_source_stats.html" title="The MCMediaSourceStats class gathers statistics details." alt="" coords="5,153,155,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,194,83,226,77,226,77,194"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_stats.html" title="A container of various different stats. To make sense of such statistics, please refer to the WebRTC ..." alt="" coords="43,79,117,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,120,83,152,77,152,77,120"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="41,5,119,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="83,46,83,79,77,79,77,46"/>
+</map>

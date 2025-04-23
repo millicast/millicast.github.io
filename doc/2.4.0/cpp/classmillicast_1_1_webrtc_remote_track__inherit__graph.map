@@ -1,0 +1,7 @@
+<map id="millicast::WebrtcRemoteTrack" name="millicast::WebrtcRemoteTrack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="116,5,313,31"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_webrtc_remote_audio_track.html" title=" " alt="" coords="5,79,203,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,42,133,81,130,76,184,38"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_webrtc_remote_video_track.html" title=" " alt="" coords="227,79,424,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="245,38,300,76,296,81,242,42"/>
+</map>

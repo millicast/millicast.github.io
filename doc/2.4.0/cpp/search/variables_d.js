@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['matrix_0',['matrix',['../classmillicast_1_1_video_capabilities.html#aaacbe0787773500b75779b9535cf2994',1,'millicast::VideoCapabilities']]],
+  ['max_1',['max',['../structmillicast_1_1_viewer_option_1_1_force_playout_delay.html#ad7100a817ba4cf893102c5fef3714108',1,'millicast::ViewerOption::ForcePlayoutDelay']]],
+  ['max_5fbitrate_5fkbps_2',['max_bitrate_kbps',['../structmillicast_1_1_bitrate_settings.html#a6f7e6f0d55d3152edfb54f845ac7c0a5',1,'millicast::BitrateSettings']]],
+  ['max_5fspatial_5flayer_5fid_3',['max_spatial_layer_id',['../structmillicast_1_1_rts_remote_track_1_1_layers_1_1_layer.html#a944d996cf9bf311937850c705304c303',1,'millicast::RtsRemoteTrack::Layers::Layer']]],
+  ['max_5ftemporal_5flayer_5fid_4',['max_temporal_layer_id',['../structmillicast_1_1_rts_remote_track_1_1_layers_1_1_layer.html#acc12762f188286044f6a4b5880912435',1,'millicast::RtsRemoteTrack::Layers::Layer']]],
+  ['maximum_5fbitrate_5',['maximum_bitrate',['../structmillicast_1_1_viewer_option.html#ab0370cb365fcd08af40087fb82c56d55',1,'millicast::ViewerOption']]],
+  ['maxspatiallayerid_6',['maxSpatialLayerId',['../structmillicast_1_1_rts_remote_video_track_1_1_layer.html#ae6bc440b54cf0e9d33c01b1056fad304',1,'millicast::RtsRemoteVideoTrack::Layer']]],
+  ['maxtemporallayerid_7',['maxTemporalLayerId',['../structmillicast_1_1_rts_remote_video_track_1_1_layer.html#a05814512ac46d0f8e43f297cf4f63476',1,'millicast::RtsRemoteVideoTrack::Layer']]],
+  ['mcasyncoperationcancellederrordomain_8',['MCAsyncOperationCancelledErrorDomain',['../obj__c__errors_8h.html#a10f7639b0496f283cc45863a4247f0c6',1,'obj_c_errors.h']]],
+  ['mcaudioerrordomain_9',['MCAudioErrorDomain',['../obj__c__errors_8h.html#a589115cdc6b630352d56df851563c6d8',1,'obj_c_errors.h']]],
+  ['mcgenericerrordomain_10',['MCGenericErrorDomain',['../obj__c__errors_8h.html#a59f702bc424dcd12b48004845aa14221',1,'obj_c_errors.h']]],
+  ['mcinternalsdkerrordomain_11',['MCInternalSDKErrorDomain',['../obj__c__errors_8h.html#ad49e0e7f02c273c06ee2863dd1c192f3',1,'obj_c_errors.h']]],
+  ['media_12',['media',['../structmillicast_1_1_track_info.html#aa061ae865edcf42e2319f353659e0799',1,'millicast::TrackInfo']]],
+  ['mid_13',['mid',['../structmillicast_1_1_rts_track_stats.html#ad6dba668570c1a23c1bb4f651900e631',1,'millicast::RtsTrackStats::mid'],['../structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html#a7b84de7269be4ab32c680a88b310e76e',1,'millicast::rtcstats::InboundRtpStream::mid'],['../structmillicast_1_1_webrtc_remote_track_1_1_mid_updated.html#a920b5b0a58a390061cf94381a605573d',1,'millicast::WebrtcRemoteTrack::MidUpdated::mid']]],
+  ['mime_5ftype_14',['mime_type',['../structmillicast_1_1_rts_track_stats.html#abb1103a2c08a4da73b7178ca45ae2afa',1,'millicast::RtsTrackStats::mime_type'],['../structmillicast_1_1rtcstats_1_1_codecs.html#a5cd961e87b8827c22ccccc128c1fae48',1,'millicast::rtcstats::Codecs::mime_type']]],
+  ['min_15',['min',['../structmillicast_1_1_viewer_option_1_1_force_playout_delay.html#aa2609d49e6fab67f8225d184b5f7f49f',1,'millicast::ViewerOption::ForcePlayoutDelay']]],
+  ['min_5fbitrate_5fkbps_16',['min_bitrate_kbps',['../structmillicast_1_1_bitrate_settings.html#afe250e925ab2eecad970421786c6ad3b',1,'millicast::BitrateSettings']]],
+  ['min_5fplayout_5fdelay_17',['min_playout_delay',['../structmillicast_1_1rtcstats_1_1_inbound_rtp_stream.html#acf7d33a08ce4644824ce1b98aec364d5',1,'millicast::rtcstats::InboundRtpStream']]],
+  ['minutes_18',['minutes',['../structmillicast_1_1_sei_pic_timing_1_1_time_code.html#a885c442c75a2b8b3851e91a719f22658',1,'millicast::SeiPicTiming::TimeCode']]],
+  ['multiopus_5fcodec_5fname_19',['MULTIOPUS_CODEC_NAME',['../namespacemillicast_1_1codec.html#aa3cd4fc76345c06ced1449e0e5f26bf6',1,'millicast::codec']]],
+  ['multiplexed_5faudio_5ftrack_20',['multiplexed_audio_track',['../structmillicast_1_1_viewer_option.html#a3a3bc138ec59180ee7015f1282532b00',1,'millicast::ViewerOption']]],
+  ['multisource_21',['multisource',['../structmillicast_1_1_publisher_option.html#abe244fc4b9578b49b46b6c864c44f933',1,'millicast::PublisherOption::multisource'],['../structmillicast_1_1_viewer_option.html#aa26667bd1c263b37360340a767f20f61',1,'millicast::ViewerOption::multisource']]]
+];

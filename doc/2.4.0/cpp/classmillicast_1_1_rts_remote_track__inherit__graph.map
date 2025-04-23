@@ -1,0 +1,7 @@
+<map id="millicast::RtsRemoteTrack" name="millicast::RtsRemoteTrack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="105,5,283,31"/>
+<area shape="rect" id="Node000002" href="$classmillicast_1_1_rts_remote_audio_track.html" title=" " alt="" coords="5,79,183,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="169,43,120,81,117,77,166,38"/>
+<area shape="rect" id="Node000003" href="$classmillicast_1_1_rts_remote_video_track.html" title=" " alt="" coords="207,79,384,120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,38,272,77,269,81,220,43"/>
+</map>

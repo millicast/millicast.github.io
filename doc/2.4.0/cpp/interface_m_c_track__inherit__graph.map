@@ -1,0 +1,9 @@
+<map id="MCTrack" name="MCTrack">
+<area shape="rect" id="Node000001" title="Represents a captured instance of a media source." alt="" coords="87,79,162,105"/>
+<area shape="rect" id="Node000003" href="$interface_m_c_audio_track.html" title="Manages and plays a single audio resource." alt="" coords="5,153,114,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,118,72,154,69,150,102,114"/>
+<area shape="rect" id="Node000004" href="$interface_m_c_video_track.html" title="Responsible for managing video capture session from a video source." alt="" coords="137,153,246,178"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,114,182,150,178,154,144,118"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="86,5,164,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,46,128,79,122,79,122,46"/>
+</map>
