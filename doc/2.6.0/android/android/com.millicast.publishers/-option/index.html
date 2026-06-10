@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Option</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            android
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":millicast-sdk-android-tests:dokkaHtml/release">Android</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="android::com.millicast.publishers/Option///PointingToDeclaration//851067820">
+  <div class="breadcrumbs"><a href="../../../index.html">android</a><span class="delimiter">/</span><a href="../index.html">com.millicast.publishers</a><span class="delimiter">/</span><span class="current">Option</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Option</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">data </span><span class="token keyword">class </span><a href="index.html">Option</a></div><p class="paragraph">The Option class gathers customizable options for a stream.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1687578668%2FProperties%2F851067820" anchor-label="audioCodec" id="1687578668%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="audio-codec.html"><span>audio</span><wbr></wbr><span><span>Codec</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1687578668%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="audio-codec.html">audioCodec</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">The audio codec to use. By default, the SDK uses Opus.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-516070882%2FProperties%2F851067820" anchor-label="bitrateSettings" id="-516070882%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="bitrate-settings.html"><span>bitrate</span><wbr></wbr><span><span>Settings</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-516070882%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="bitrate-settings.html">bitrateSettings</a><span class="token operator">: </span><a href="../-bitrate-settings/index.html">BitrateSettings</a></div><div class="brief "><p class="paragraph">The bitrate settings for publishing streams.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1149714758%2FProperties%2F851067820" anchor-label="degradationPreferences" id="-1149714758%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="degradation-preferences.html"><span>degradation</span><wbr></wbr><span><span>Preferences</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1149714758%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="degradation-preferences.html">degradationPreferences</a><span class="token operator">: </span><a href="../../com.millicast.clients/-degradation-preferences/index.html">DegradationPreferences</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">A boolean indicating which strategy the use in order to limit the bandwidth usage.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="508697446%2FProperties%2F851067820" anchor-label="dtx" id="508697446%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="dtx.html"><span><span>dtx</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="508697446%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="dtx.html">dtx</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></div><div class="brief "><p class="paragraph">Enables discontinuous transmission on the publishing side, so audio data is sent only when a user’s voice is detected.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2104308904%2FProperties%2F851067820" anchor-label="priority" id="2104308904%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="priority.html"><span><span>priority</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2104308904%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="priority.html">priority</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">The priority of redundant streams that indicates the order in which backup streams should be broadcasted in the case of any problems with the primary stream. The higher the priority, the greater the chance of publishing the stream. The priority has to be an integer between -2,147,483,648 and 2,147,483,647 (inclusive).</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="118689851%2FProperties%2F851067820" anchor-label="recordStream" id="118689851%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="record-stream.html"><span>record</span><wbr></wbr><span><span>Stream</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="118689851%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="record-stream.html">recordStream</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">false</span></div><div class="brief "><p class="paragraph">A boolean indicating whether the SDK should enable stream recording. Recording streams is possible only when recording is enabled in the publish token.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="981172285%2FProperties%2F851067820" anchor-label="rtcEventLogOutputPath" id="981172285%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="rtc-event-log-output-path.html"><span>rtc</span><wbr></wbr><span>Event</span><wbr></wbr><span>Log</span><wbr></wbr><span>Output</span><wbr></wbr><span><span>Path</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="981172285%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="rtc-event-log-output-path.html">rtcEventLogOutputPath</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">A custom file path output for the RTC events. The current calling application must have the rights upon the destination file path.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1693379574%2FProperties%2F851067820" anchor-label="sourceId" id="1693379574%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="source-id.html"><span>source</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1693379574%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="source-id.html">sourceId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">A unique identifier of a source that is required to distinguish multiple quality layers of video sources.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-605157214%2FProperties%2F851067820" anchor-label="statsDelayMs" id="-605157214%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="stats-delay-ms.html"><span>stats</span><wbr></wbr><span>Delay</span><wbr></wbr><span><span>Ms</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-605157214%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="stats-delay-ms.html">statsDelayMs</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a><span class="token operator"> = </span><span class="token constant">1000</span></div><div class="brief "><p class="paragraph">The rate at which you want to receive reports with statistics.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1585163116%2FProperties%2F851067820" anchor-label="stereo" id="-1585163116%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="stereo.html"><span><span>stereo</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1585163116%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="stereo.html">stereo</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-boolean/index.html">Boolean</a><span class="token operator"> = </span><span class="token boolean">true</span></div><div class="brief "><p class="paragraph">A boolean indicating whether the SDK should enable stereo audio. True enables stereo, false disables it.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-702549487%2FProperties%2F851067820" anchor-label="videoCodec" id="-702549487%2FProperties%2F851067820" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":millicast-sdk-android-tests:dokkaHtml/release" data-filterable-set=":millicast-sdk-android-tests:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="video-codec.html"><span>video</span><wbr></wbr><span><span>Codec</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-702549487%2FProperties%2F851067820"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":millicast-sdk-android-tests:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="video-codec.html">videoCodec</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span><span class="token operator"> = </span>null</div><div class="brief "><p class="paragraph">The video codec to use. By default, the SDK uses VP8.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2026 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
